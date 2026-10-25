@@ -201,8 +201,8 @@ export default function Hero() {
         </div>
       )}
 
-      {/* blends the banner's light bottom edge into the page canvas (no visible seam) */}
-      <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 z-raised h-6 bg-gradient-to-b from-transparent to-surface-page sm:h-1/4" />
+      {/* fades the banner into the page; taller and whiter than before (owner request, 25 Oct) so the exam cards over it stand out */}
+      <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 z-raised h-28 bg-gradient-to-b from-transparent via-surface-page/80 to-surface-page sm:h-1/3" />
 
       {showSlides &&
         count > 1 &&

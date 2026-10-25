@@ -532,6 +532,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "reduce the hero image on mobile to 400px"):** below 600px the hero banner is **400px tall** (spacing token `hero-mobile` 25rem; `object-cover`, centred crop); from 600px it still follows the picture's shape. CMS phone picture size changed to **1170 × 1200** (390 × 400 at 3x; aspect token `hero-mobile` 1170 / 1200; hint updated). The current phone picture (1170 × 1500) is centre-cropped: its top label "AGNIVEER SELECTIONS" is cut slightly at 390px; headline, button and people stay visible. Measured 320 / 390 / 599 → 400px tall, 768 → 280, 1440 → 525, no overflow.
 
+- **2026-10-25 (owner request: "move the gradient slightly upward so the cards appear clearly on a white background"):** the hero's bottom fade is taller and whiter: `h-28` on phones (was 24px), a third of the banner from 600px (was a quarter), `from-transparent via-surface-page/80 to-surface-page`, so the exam cards that overlap the banner sit on near-white. Checked 390 / 768 / 1440: headline, button and faces stay clear.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
