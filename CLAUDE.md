@@ -525,6 +525,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "add that black button on tablet and desktop, not on mobile"):** the home exam category cards show the black arrow circle (`ChevronCircle className="hidden sm:grid"`) **from 600px**; phones keep the cards without it. Supersedes the removal above. Checked 360 (none), 768 / 1024 / 1440 (one per card), no overflow.
 
+- **2026-10-25 (owner: `npm install @microsoft/clarity`):** **Microsoft Clarity** 1.0.2 added (runtime audit still 0 vulnerabilities). `src/lib/analytics.ts` → `startAnalytics()` (called in main.tsx): loads Clarity on demand only in the production build, only when `VITE_CLARITY_PROJECT_ID` is set (`.env.example`, deploy workflow reads the Actions variable), and **never on /admin** (the CMS Leads screen shows phone numbers). Clarity masks form input by default. **Waiting for the owner's Clarity project id** (then: `gh variable set VITE_CLARITY_PROJECT_ID`). Note: a cookie / tracking notice is advisable under India's DPDP Act once real tracking runs.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
