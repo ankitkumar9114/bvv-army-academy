@@ -202,7 +202,7 @@ export default function Hero() {
       )}
 
       {/* fades the banner into the page; taller and whiter than before (owner request, 25 Oct) so the exam cards over it stand out */}
-      <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 z-raised h-20 bg-gradient-to-b from-transparent via-surface-page/80 to-surface-page sm:h-1/4" />
+      <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 z-raised h-14 bg-gradient-to-b from-transparent via-surface-page/80 to-surface-page sm:h-1/5" />
 
       {showSlides &&
         count > 1 &&
