@@ -3,7 +3,7 @@ import type { User } from 'firebase/auth';
 import type { MediaPurpose } from '../types/firestore';
 
 /**
- * CMS data access (owner request, 23 Oct 2026: "anyone can update it from the CMS"): the CMS at /#/admin works on the
+ * CMS data access (owner request, 23 Oct 2026: "anyone can update it from the CMS"): the CMS at /admin works on the
  * live site and locally. Editors sign in with Firebase Auth (email + password); reads and writes go straight to
  * Firestore with the web SDK, and the security rules (firestore.rules) only let accounts with the `admin: true` claim
  * read drafts or write. Give someone access with `node scripts/set-admin.mjs <email>`.

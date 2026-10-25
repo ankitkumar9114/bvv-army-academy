@@ -19,7 +19,7 @@ export default function Layout() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Skip link: a button, because HashRouter owns the URL hash. */}
+      {/* Skip link: a button that scrolls to the main content (keeps the URL clean). */}
       <button
         type="button"
         onClick={() => mainRef.current?.focus()}

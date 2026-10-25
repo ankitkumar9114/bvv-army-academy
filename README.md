@@ -4,7 +4,7 @@ Mobile-first, 3-language (English / हिन्दी / Hinglish) marketing sit
 Vite + React + TypeScript + Tailwind CSS, deployed to GitHub Pages.
 
 - Project rules and status: [CLAUDE.md](CLAUDE.md)
-- Design system reference: [DESIGN.md](DESIGN.md); visual review page at `/#/design-system`
+- Design system reference: [DESIGN.md](DESIGN.md); visual review page at `/design-system`
 
 ## Run locally
 
@@ -74,4 +74,6 @@ Edit `firestore.rules`, then publish with `node scripts/deploy-rules.mjs` (uses 
 The site is built for the root of its domain (`/`). To publish without the custom domain
 (`https://<username>.github.io/<repo>/`), set the repository variable `BASE_PATH` to `/<repo>/`.
 
-Routes use a hash (`/#/courses`), so no extra 404 handling is needed on Pages.
+URLs are clean (`/courses`, `/courses/sscGd`, `/admin`). GitHub Pages has no server routing, so `npm run build` ends with
+`scripts/spa-fallback.mjs`: it writes the app as `404.html` and as `<route>.html` for each page and each live course
+(listed from Firestore at build time). Old `/#/…` links are redirected to the clean URL.

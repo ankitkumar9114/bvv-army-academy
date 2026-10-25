@@ -1,5 +1,5 @@
 import { lazy, Suspense, type ReactNode } from 'react';
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './layout/Layout';
 import { CatalogProvider } from './lib/catalog';
 import Home from './pages/Home';
@@ -21,8 +21,9 @@ const page = (node: ReactNode) => <Suspense fallback={null}>{node}</Suspense>;
 
 export default function App() {
   return (
-    // HashRouter: GitHub Pages has no server-side routing, so /#/courses etc. always resolve.
-    <HashRouter>
+    // Clean URLs (owner request, 25 Oct: bvvarmyacademy.in/courses, no "#/"). GitHub Pages has no server-side routing,
+    // so the build also writes the page as 404.html and as <route>/index.html (scripts/spa-fallback.mjs).
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       {/* Courses + exams from Firestore (bundled courses until they load). */}
       <CatalogProvider>
       <Routes>
@@ -40,6 +41,6 @@ export default function App() {
         </Route>
       </Routes>
       </CatalogProvider>
-    </HashRouter>
+    </BrowserRouter>
   );
 }

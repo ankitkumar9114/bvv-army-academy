@@ -17,7 +17,7 @@ export type ClassMode = 'online' | 'offline' | 'hybrid';
 
 /**
  * A course as the site uses it. Courses come only from Firestore (`courses` collection, loaded by
- * src/lib/catalog.tsx); edit them in the CMS at /#/admin. Seed copy: firestore-seed/courses.json.
+ * src/lib/catalog.tsx); edit them in the CMS at /admin. Seed copy: firestore-seed/courses.json.
  */
 export interface Course {
   id: string;

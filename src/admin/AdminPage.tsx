@@ -35,7 +35,7 @@ import { dateValue, ObjectFields, OptionLabelsContext, type OptionSources } from
 import { courseSpec, examSpec, groupSpec, heroSlideSpec, LEAD_STATUSES, leadSpec, liveClassSpec, missingRequired, offerSpec, resultSpec, subjectSpec, testimonialSpec, trainerSpec, type Spec } from './specs';
 
 /**
- * CMS at /#/admin (not linked from the site). Works on the live site and locally (owner request, 23 Oct 2026): editors
+ * CMS at /admin (not linked from the site). Works on the live site and locally (owner request, 23 Oct 2026): editors
  * sign in with email + password (Firebase Auth) and it reads / writes Firestore directly; only accounts with the
  * `admin` claim can (scripts/set-admin.mjs). Pick a course, exam, exam group, trainer, selected student or review,
  * edit it on the left and see the real site components update on the right. Nothing is written until Save.
@@ -1661,7 +1661,7 @@ function Cms({ email }: { email: string }) {
                     {collection === 'courses' &&
                       (original && draft.status === 'published' ? (
                         <Button
-                          href={`#/courses/${draft.id}`}
+                          href={`${import.meta.env.BASE_URL}courses/${draft.id}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           variant="secondary"

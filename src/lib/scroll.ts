@@ -17,8 +17,8 @@ export function scrollToId(id: string) {
 }
 
 /**
- * Smooth-scrolls to a landing-page section by id. HashRouter owns the URL hash,
- * so section links are buttons that call this instead of href="#id".
+ * Smooth-scrolls to a landing-page section by id. Section links are buttons that call this instead of href="#id",
+ * so the URL stays clean.
  * From another route it first returns to the home page.
  */
 export function useScrollToSection() {

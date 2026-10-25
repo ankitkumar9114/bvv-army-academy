@@ -62,7 +62,7 @@ Single source of truth for this project. **Read this file and DESIGN.md before e
 ├── public/favicon-*.png, apple-touch-icon.png  academy badge favicons
 ├── .github/workflows/deploy.yml  build + deploy to Pages on push to main
 └── src/
-    ├── main.tsx / App.tsx    entry; HashRouter routes: / · /courses · /courses/:id · /jobs · /blogs · /blogs/:slug · /about · hidden /design-system (inner pages lazy-loaded)
+    ├── main.tsx / App.tsx    entry; HashRouter routes: / · /courses · /courses/:id · /jobs · /blogs · /blogs/:slug · /about · hidden /design-system (inner pages lazy-loaded; **BrowserRouter**, clean URLs since 25 Oct)
     ├── index.css             Tailwind layers, Hindi font switch, small utilities
     ├── components/           reusable UI + illustrations.tsx (SVG icon drawings) (Button, Card, Badge, SectionHeading, Container, Section, Tabs, Accordion, Carousel, Input/Select, ImagePlaceholder, Logo, LanguageSwitcher, CourseCard)
     ├── sections/             one section per file: landing sections at top level; page bodies in courses/, jobs/, blog/, about/
@@ -78,7 +78,7 @@ Single source of truth for this project. **Read this file and DESIGN.md before e
 
 ## d) Design system summary
 
-Full reference: **[DESIGN.md](DESIGN.md)**. Visual review: **`/#/design-system`** (not linked in the navbar).
+Full reference: **[DESIGN.md](DESIGN.md)**. Visual review: **`/design-system`** (not linked in the navbar).
 Structure and patterns are inspired by allen.in; **all branding, text and images are original.**
 
 **Colours** (`src/styles/tokens.ts → colors`)
@@ -170,7 +170,7 @@ Structure and patterns are inspired by allen.in; **all branding, text and images
 - Mock data lives **only** in `src/data/`.
 - **Tailwind only, using design tokens.** No inline `style`, no arbitrary values (`w-[123px]`) and no arbitrary variants (`has-[...]`). Need a value? Add it to `tokens.ts` first.
 - Use `cn()` from `src/lib/cn.ts` to join classes; use `textStyles.*` and `focusRing` from tokens.
-- Section links: HashRouter owns the URL hash, so navigation to a section uses `useScrollToSection()` (buttons), never `href="#id"`. Each `Section` has `scroll-mt` to clear the sticky header.
+- Section links: navigation to a section uses `useScrollToSection()` (buttons), never `href="#id"` (keeps URLs clean). Each `Section` has `scroll-mt` to clear the sticky header.
 - Positioned children: `Card` is `relative`. Any new scroller item containing `absolute`/`sr-only` content must have a positioned ancestor inside the scroller, or it widens the page.
 - **Accessibility:** alt text on every image (ImagePlaceholder requires `alt`); one `h1` per page, then h2 per section, h3/h4 inside; visible focus ring (`focusRing`) on all interactive elements; `aria-labelledby` on sections; respect `prefers-reduced-motion`.
 - **Images:** placeholders until real ones are provided. Put files in `src/assets/images/` and pass them via `src`:
@@ -508,6 +508,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 - **2026-10-25 (owner: "bvvarmyacademy.in, bought at GoDaddy"):** the site is built for the **root of bvvarmyacademy.in** (`base: '/'` in vite.config.ts; workflow `BASE_PATH` = repository variable or `/`; `REPO_NAME` removed); `<link rel="canonical" href="https://bvvarmyacademy.in/">`. README "Deploy" lists the GitHub Pages custom-domain steps: verify the domain (TXT), GoDaddy DNS (4 A records 185.199.108–111.153, optional AAAA 2606:50c0:8000–8003::153, CNAME `www` → `<user>.github.io`, remove parking / forwarding), Pages custom domain + Enforce HTTPS, Firebase authorized domains `bvvarmyacademy.in` + `www.`, API key website restriction.
 
 - **2026-10-25: first deploy.** Repo **github.com/ankitkumar9114/bvv-army-academy** (public; pushed `main`). Through the GitHub API (owner's token, used once, not stored): the 7 `VITE_FIREBASE_*` Actions variables (from `.env.local`), Pages source = GitHub Actions, custom domain `bvvarmyacademy.in`; workflow run #2 build + deploy succeeded (run #1 failed: variables not set yet). Later the same day: GoDaddy DNS set (4 A records 185.199.108–111.153, `www` CNAME → ankitkumar9114.github.io; the domain first had to be validated by email before GoDaddy allowed edits), Let's Encrypt certificate for bvvarmyacademy.in issued (valid to 23 Jan 2027, renews automatically), Firebase authorized domains added, token revoked (API answers 401). **https://bvvarmyacademy.in is live**: home, courses, about, SSC GD and the CMS sign-in load with no failed requests or console errors. Left: tick **Enforce HTTPS** in Pages settings (http still answered 200 without redirect).
+
+- **2026-10-25 (owner request: "links should not have #", e.g. bvvarmyacademy.in/courses):** **BrowserRouter replaces HashRouter** (supersedes the 21 Oct HashRouter decision). URLs: `/`, `/courses`, `/courses/<id>`, `/about`, `/admin` (CMS), `/design-system`. GitHub Pages fallback: `npm run build` now ends with `scripts/spa-fallback.mjs`, which copies `dist/index.html` to `404.html`, `courses.html`, `about.html`, `admin.html`, `design-system.html` and `courses/<id>.html` for every live course (ids from the Firestore REST API with the public web config; if that fails, e.g. quota 429, course URLs still open through 404.html but with HTTP status 404 until the next deploy). A course made live in the CMS after a deploy works the same way (404 status) until the next push. `main.tsx` rewrites old `/#/…` links to the clean URL. Favicons use absolute paths (`/favicon-32.png`). CMS "View course page" opens `/courses/<id>`. Checked with `vite preview`: all routes, old hash links → clean URLs, header links, no console errors. Not yet live: needs a push.
 
 ## i) Changelog
 
