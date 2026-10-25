@@ -521,6 +521,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: instead of "Retd. Army trainer" write "Retd. JCO Sandeep Tiwari"):** the "Need Help?" card (`SupportMini`: course page sticky column + phone menu) shows **"Retd. JCO Sandeep Tiwari"** / "सेवानिवृत्त जेसीओ संदीप तिवारी" (new key `pages.courseDetail.supportByline`); `supportBody` is now **"Retd. JCO, Indian Army"** / "सेवानिवृत्त जेसीओ, भारतीय सेना", used under the name in the landing phone contact bar and in the callback card ("Sandeep Tiwari (Retd. JCO, Indian Army) khud aapko call karenge."). 802 keys.
 
+- **2026-10-25 (owner request: "remove Retd. JCO"):** no rank / "Retd." text for the counsellor anywhere: "Need Help?" card shows just **"Sandeep Tiwari"** / "संदीप तिवारी" (`supportByline`); the landing phone contact bar shows the name only (second line removed); callback card reads "Sandeep Tiwari khud aapko call karenge." (`supportFormBody` without `{{role}}`). Key `supportBody` deleted (801 keys). Supersedes the Retd. JCO entry above.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5

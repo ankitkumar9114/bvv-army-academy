@@ -40,9 +40,9 @@ export function StickyContact({ message }: { message?: string }) {
     >
       <div className="flex items-center gap-3">
         <CounsellorAvatar className="size-12" />
+        {/* name only, no rank or "Retd." line (owner request, 25 Oct) */}
         <div className="min-w-0 flex-1">
           <p className="truncate text-base font-bold leading-5 text-ink">{t('pages.courseDetail.counsellor')}</p>
-          <p className="truncate text-sm text-ink-muted">{t('pages.courseDetail.supportBody')}</p>
         </div>
         <a
           href={whatsappLink(message ?? t('enquiry.whatsappMessage'))}

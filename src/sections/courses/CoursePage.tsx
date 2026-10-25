@@ -486,10 +486,8 @@ function SupportCard({
             {t(`${P}.supportTitle`)}
           </p>
           <p className="text-sm text-ink-body md:text-base">
-            {t(`${P}.supportFormBody`, {
-              name: t(`${P}.counsellor`),
-              role: t(`${P}.supportBody`),
-            })}
+            {/* name only, no rank or "Retd." line (owner request, 25 Oct) */}
+            {t(`${P}.supportFormBody`, { name: t(`${P}.counsellor`) })}
           </p>
         </div>
       </div>

@@ -40,7 +40,7 @@ export function SupportMini({
             <p className="text-lg font-bold leading-6 text-ink">
               {t(`${P}.needHelp`)}
             </p>
-            {/* under "Need help?": who answers (owner request, 25 Oct: "Retd. JCO Sandeep Tiwari") */}
+            {/* under "Need help?": who answers, name only (owner request, 25 Oct) */}
             <p className="text-sm text-ink-muted">{t(`${P}.supportByline`)}</p>
           </div>
           {/* phones: icon only; from 600px: icon + label */}

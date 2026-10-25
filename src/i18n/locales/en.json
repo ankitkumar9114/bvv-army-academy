@@ -857,8 +857,7 @@
       "reviewsTitle": "What Our Students Say",
       "rating": "Rated {{value}} out of 5",
       "supportTitle": "Still Not Sure? Need Help?",
-      "supportBody": "Retd. JCO, Indian Army",
-      "supportFormBody": "{{name}} ({{role}}) will call you personally.",
+      "supportFormBody": "{{name}} will call you personally.",
       "counsellor": "Sandeep Tiwari",
       "supportWhatsapp": "Chat on WhatsApp",
       "supportCallback": "Request a callback",
@@ -976,7 +975,7 @@
       "pricingOptions": "Pricing Options",
       "supportWhatsappShort": "WhatsApp",
       "perMonth": "{{value}}/m",
-      "supportByline": "Retd. JCO Sandeep Tiwari"
+      "supportByline": "Sandeep Tiwari"
     }
   },
   "blog": {
