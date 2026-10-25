@@ -523,6 +523,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "remove Retd. JCO"):** no rank / "Retd." text for the counsellor anywhere: "Need Help?" card shows just **"Sandeep Tiwari"** / "संदीप तिवारी" (`supportByline`); the landing phone contact bar shows the name only (second line removed); callback card reads "Sandeep Tiwari khud aapko call karenge." (`supportFormBody` without `{{role}}`). Key `supportBody` deleted (801 keys). Supersedes the Retd. JCO entry above.
 
+- **2026-10-25 (owner request: "add that black button on tablet and desktop, not on mobile"):** the home exam category cards show the black arrow circle (`ChevronCircle className="hidden sm:grid"`) **from 600px**; phones keep the cards without it. Supersedes the removal above. Checked 360 (none), 768 / 1024 / 1440 (one per card), no overflow.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
