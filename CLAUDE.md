@@ -34,7 +34,7 @@ Single source of truth for this project. **Read this file and DESIGN.md before e
 | Deploy | push to `main`; `.github/workflows/deploy.yml` builds and publishes |
 | Firebase config | `.env.local` (copy `.env.example`); CI uses repo Actions variables `VITE_FIREBASE_*` |
 | Course content (schema v2) | `node scripts/populate-course-content.mjs` (dry run) / `--write` (overwrites the v2 fields of all courses) |
-| CMS (login, live site + local) | `<site>/#/admin` (or http://localhost:5173/#/admin). Give someone access: `node scripts/set-admin.mjs <email>` (asks a password) or `--generate` (random password, printed once); `--remove` takes it away |
+| CMS (login, live site + local) | `<site>/admin` (or http://localhost:5173/admin). Give someone access: `node scripts/set-admin.mjs <email>` (asks a password) or `--generate` (random password, printed once); `--remove` takes it away |
 | Firebase admin key (data upload, scripts) | `~/.config/bvv-army-academy/firebase-admin-key.json`, outside the repo, mode 600. **Never copy it into the project or commit it.** |
 
 **Domain / base path:** live at **https://bvvarmyacademy.in** (GoDaddy domain → GitHub Pages custom domain), so every build uses base `/`. Without the custom domain set the `BASE_PATH` env / repository variable to `/<repo>/`. DNS + Pages steps: README "Deploy".
