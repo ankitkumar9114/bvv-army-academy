@@ -507,6 +507,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner: "bvvarmyacademy.in, bought at GoDaddy"):** the site is built for the **root of bvvarmyacademy.in** (`base: '/'` in vite.config.ts; workflow `BASE_PATH` = repository variable or `/`; `REPO_NAME` removed); `<link rel="canonical" href="https://bvvarmyacademy.in/">`. README "Deploy" lists the GitHub Pages custom-domain steps: verify the domain (TXT), GoDaddy DNS (4 A records 185.199.108–111.153, optional AAAA 2606:50c0:8000–8003::153, CNAME `www` → `<user>.github.io`, remove parking / forwarding), Pages custom domain + Enforce HTTPS, Firebase authorized domains `bvvarmyacademy.in` + `www.`, API key website restriction.
 
+- **2026-10-25: first deploy.** Repo **github.com/ankitkumar9114/bvv-army-academy** (public; pushed `main`). Through the GitHub API (owner's token, used once, not stored): the 7 `VITE_FIREBASE_*` Actions variables (from `.env.local`), Pages source = GitHub Actions, custom domain `bvvarmyacademy.in`; workflow run #2 build + deploy succeeded (run #1 failed: variables not set yet). **Waiting on the owner:** GoDaddy DNS (no A / CNAME records yet), Enforce HTTPS once the certificate exists, Firebase authorized domains, and revoking the token that was pasted in chat.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
