@@ -1541,7 +1541,8 @@ export default function CoursePage({ course }: { course: Course }) {
                   className="-mx-4 px-4 sm:-mx-8 sm:px-8 md:mx-0 md:px-0"
                   render={(s) => (
                     <figure className="flex flex-col gap-2">
-                      <div className="relative overflow-hidden rounded-2xl">
+                      {/* thin grey frame around every photo (owner request, 25 Oct) */}
+                      <div className="relative overflow-hidden rounded-2xl border border-line">
                         <MediaImage
                           imageId={s.imageId}
                           alt={t("results.photoAlt", { name: s.name })}

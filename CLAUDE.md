@@ -517,6 +517,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "remove those black buttons from the chips; the bottom bar should not go out of the screen"):** home exam category cards have **no black arrow circle** (`ChevronCircle` removed from ExamCategories.tsx; the whole card is still the button; component kept for the design-system page). The landing phone contact bar (Sandeep Tiwari + WhatsApp + call) was cut off by the same too-wide footer pill fixed above; measured with mobile emulation it now ends inside the screen (call button right edge 344 / 360px, 304 / 320px; also at 115 % text). Not deployed.
 
+- **2026-10-25 (owner request: "add a grey border around the image" in Selected Students, landing + course page):** student photos have a 1px `line` (#DCDCDC) border inside the 16px rounded frame (`border border-line` on the photo wrapper in Results.tsx and CoursePage.tsx), so white-background photos no longer blend into the page. Checked home and SSC GD at 1440.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5

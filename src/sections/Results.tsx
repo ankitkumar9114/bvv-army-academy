@@ -37,7 +37,8 @@ export default function Results() {
         className="-mx-4 px-4 sm:-mx-8 sm:px-8 md:mx-0 md:px-0"
         render={(student) => (
           <figure className="flex flex-col gap-2">
-            <div className="relative overflow-hidden rounded-2xl">
+            {/* thin grey frame around every photo (owner request, 25 Oct) */}
+            <div className="relative overflow-hidden rounded-2xl border border-line">
               {/* photo uploaded in the CMS (`media`), else the bundled one, else an illustration */}
               <MediaImage imageId={student.imageId} alt={t('results.photoAlt', { name: student.name })} src={student.src} icon="person" tone="olive" aspect="square" />
               {/* no "Selected" badge on the photo (owner request, 25 Oct) */}
