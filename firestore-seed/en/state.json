@@ -1,0 +1,965 @@
+{
+  "group": {
+    "id": "state",
+    "name": "State Government (Madhya Pradesh & Other States)",
+    "intro": "MP jobs are filled by MPPSC for officer posts and by MP Employees Selection Board (MPESB), formerly Vyapam, for Group C and D posts. Reservation and age relaxation apply only to MP domicile holders. Fees, age limits, pay and physical standards differ by recruitment, post, category and domicile; confirm each one in that recruitment's MPESB or MPPSC rulebook.",
+    "officialWebsite": "https://esb.mp.gov.in",
+    "status": "published",
+    "order": 5,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "Set per rulebook (usually a reserved upper limit of 45 for non-uniform posts)"
+        },
+        {
+          "category": "scSt",
+          "rule": "Set per rulebook"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "As per state rules"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "As per state rules"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "As per state rules"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "As per state rules"
+        },
+        {
+          "category": "widows",
+          "rule": "Women get the reserved-category upper limit for most posts"
+        },
+        {
+          "category": "exAgniveer",
+          "rule": "As per state police rules"
+        },
+        {
+          "category": "otherState",
+          "rule": "Open seats only, no relaxation"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "Other MP relaxations (as per rulebook): MP government employees, Nagar Sainik, Home Guard volunteers and ex-servicemen get extra years; working Anganwadi workers get relaxation for the Supervisor post.",
+        "Age is counted on the date given in each rulebook (6 October 2026 for the Police Constable test)."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "mp-police-constable",
+      "groupId": "state",
+      "guideRef": "5.1",
+      "siteCategories": [
+        "state",
+        "police"
+      ],
+      "name": "MP Police Constable (GD & SAF)",
+      "shortName": "MP Constable",
+      "overview": "MPESB recruitment of constables for MP district police and the Special Armed Force (SAF).",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "tenthPass",
+        "highVacancy",
+        "womenReservation"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "eighth",
+          "tenth"
+        ],
+        "qualification": "10th pass; 8th pass for MP ST candidates in some posts",
+        "ageMin": 18,
+        "ageMax": 38,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final. Age as on 6 October 2026. MP government employees and Nagar Sainik: up to 38.",
+        "extraRequirement": "Physical standards",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 33,
+            "obc": 38,
+            "scSt": 38,
+            "women": 38,
+            "otherState": 33
+          }
+        ]
+      },
+      "fee": {
+        "general": 700,
+        "reserved": 350,
+        "note": "UR ₹700 (₹500 ESB + ₹200 dept.); MP SC/ST/OBC/EWS ₹350"
+      },
+      "selectionSteps": [
+        "Written CBT (100 marks)",
+        "Physical Proficiency Test and Measurement",
+        "Final merit = written + physical marks",
+        "Document verification and medical"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Written CBT",
+          "rows": [
+            {
+              "subject": "General Knowledge & Reasoning",
+              "marks": 40
+            },
+            {
+              "subject": "Intelligence Test",
+              "marks": 30
+            },
+            {
+              "subject": "Science & Simple Arithmetic",
+              "marks": 30
+            }
+          ],
+          "totals": {
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "No negative marking"
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "General Knowledge",
+          "topics": "MP history, geography, culture, tribes, rivers, national parks, MP government schemes, polity, current affairs"
+        },
+        {
+          "subject": "Reasoning",
+          "topics": "Reasoning"
+        },
+        {
+          "subject": "Science & Maths",
+          "topics": "10th-level science and maths"
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "168 cm (ST 160 cm)",
+            "women": "155 cm"
+          },
+          {
+            "test": "Chest",
+            "men": "81 + 5 cm"
+          },
+          {
+            "test": "Physical events",
+            "value": "800 m run, long jump, shot put — all scored"
+          }
+        ],
+        "note": "Exact qualifying times, distances and score bands are in the 2026 MPESB rulebook. Physical marks add to the final merit."
+      },
+      "salary": {
+        "certainty": "official",
+        "note": "₹19,500 – 62,000 pay scale"
+      },
+      "tips": [
+        "MP GK carries significant weight.",
+        "Physical marks add to merit, so aim for top scores in the 800 m and long jump."
+      ],
+      "currentCycle": {
+        "label": "2026",
+        "vacancies": 7500,
+        "examDate": "2026-11-19",
+        "certainty": "reported",
+        "note": "MPESB's official site lists the Police Constable (G.D.) Recruitment Test 2026, with the CBT starting 19 November 2026 (official). News reports give 7,500 posts — about 6,800 district police and 700 SAF; treat the vacancy count and its category split as reported until you check the official 2026 rulebook."
+      },
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [
+        {
+          "label": "Global Drishti",
+          "url": "https://globaldrishti.in/?p=11094"
+        },
+        {
+          "label": "CareerIndia",
+          "url": "https://www.careerindia.com/news/mp-police-constable-recruitment-2026-apply-for-7-500-posts-066003.html"
+        },
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "mp-police-si-subedar",
+      "groupId": "state",
+      "guideRef": "5.2",
+      "siteCategories": [
+        "state",
+        "police"
+      ],
+      "name": "MP Police Sub-Inspector / Subedar",
+      "shortName": "MP SI / Subedar",
+      "overview": "Combined MPESB recruitment for MP Police Sub-Inspector, Subedar and Platoon Commander posts.",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "womenReservation",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Sub-Inspector (GD)",
+          "qualification": "Graduate; physical tests"
+        },
+        {
+          "name": "Subedar (Ministerial / Steno)",
+          "qualification": "Graduate; CPCT typing; steno skill for steno posts; no running test in recent cycles"
+        },
+        {
+          "name": "SI (Radio, Fingerprint, Computer)",
+          "qualification": "Graduate in the relevant stream; post-specific technical requirement"
+        },
+        {
+          "name": "Platoon Commander (SAF)",
+          "qualification": "Graduate; physical tests"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree (SI Radio, Fingerprint, Computer: graduate in the relevant science, computer or electronics stream)",
+        "ageMin": 21,
+        "ageMax": 33,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "qualificationByPost": [
+          {
+            "post": "SI (GD) / Platoon Commander",
+            "qualification": "Bachelor's degree",
+            "extraRequirement": "Physical standards"
+          },
+          {
+            "post": "Subedar (Ministerial / Steno)",
+            "qualification": "Bachelor's degree",
+            "extraRequirement": "CPCT typing; steno skill for steno posts"
+          },
+          {
+            "post": "SI (Radio, Fingerprint, Computer)",
+            "qualification": "Graduate in the relevant science, computer or electronics stream",
+            "extraRequirement": "Post-specific"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 33,
+            "note": "MP SC / ST / OBC men and women: higher limit as per the rulebook. Other-state candidates: open seats only."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Physical tests (SI GD and Platoon Commander)",
+        "CPCT typing, plus steno skill for steno posts (Subedar)",
+        "Post-specific technical requirement (SI Radio, Fingerprint, Computer)"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam (MPESB)",
+          "rows": [
+            {
+              "subject": "General Knowledge & Current Affairs (incl. MP)"
+            },
+            {
+              "subject": "Hindi"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Computer Knowledge"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Mathematics"
+            },
+            {
+              "subject": "General Science"
+            }
+          ]
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [],
+        "note": "Physical tests for Sub-Inspector (GD) and Platoon Commander (SAF). No running test for Subedar (Ministerial / Steno) posts in recent cycles."
+      },
+      "salary": {
+        "certainty": "estimate",
+        "note": "About ₹36,200 – 1,14,800"
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "mppsc-state-service",
+      "groupId": "state",
+      "guideRef": "5.3",
+      "siteCategories": [
+        "state"
+      ],
+      "name": "MPPSC State Service Examination",
+      "shortName": "MPPSC SSE",
+      "overview": "MPPSC exam for MP officer posts such as Deputy Collector, DSP and Naib Tehsildar.",
+      "conductingBody": "MP Public Service Commission (MPPSC)",
+      "tags": [
+        "highSalary",
+        "womenReservation",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Deputy Collector"
+        },
+        {
+          "name": "DSP"
+        },
+        {
+          "name": "Commercial Tax Officer"
+        },
+        {
+          "name": "Naib Tehsildar"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 21,
+        "ageMax": 45,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 40,
+            "obc": 45,
+            "scSt": 45,
+            "women": 45,
+            "otherState": 40,
+            "verify": true,
+            "note": "MP EWS: 45 (only MP UR men are capped at 40). Verify in the official notice: based on recent notices, not the 2026 official PDF."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "General Studies",
+              "questions": 100,
+              "marks": 200
+            },
+            {
+              "subject": "General Aptitude Test (qualifying at 40%)"
+            }
+          ],
+          "note": "General Aptitude Test is qualifying at 40%."
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "History, culture & geography",
+              "marks": 300
+            },
+            {
+              "subject": "Constitution, governance & economy",
+              "marks": 300
+            },
+            {
+              "subject": "Science & environment",
+              "marks": 300
+            },
+            {
+              "subject": "Philosophy, psychology & ethics",
+              "marks": 200
+            },
+            {
+              "subject": "General Hindi",
+              "marks": 200
+            },
+            {
+              "subject": "Hindi essay & drafting",
+              "marks": 100
+            }
+          ],
+          "totals": {
+            "marks": 1400
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 175
+          }
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "certainty": "official",
+        "note": "Up to ₹56,100 – 1,77,500 for top posts"
+      },
+      "tips": [
+        "MP-specific topics appear across several papers.",
+        "The exam is Hindi-friendly."
+      ],
+      "officialWebsite": "https://mppsc.mp.gov.in",
+      "sources": [
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "mp-patwari-group-4",
+      "groupId": "state",
+      "guideRef": "5.4",
+      "siteCategories": [
+        "state"
+      ],
+      "name": "MP Patwari & Group 4 Combined",
+      "shortName": "Patwari / Group 4",
+      "overview": "Combined MPESB exam for Patwari and Group 4 posts (Assistant Grade-3, Steno-typist, Typist).",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "womenReservation",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Patwari",
+          "qualification": "Graduate + CPCT",
+          "ageMin": 18,
+          "ageMax": 40
+        },
+        {
+          "name": "Group 4 (Assistant Grade-3, Steno-typist, Typist)",
+          "qualification": "12th + CPCT",
+          "ageMin": 18,
+          "ageMax": 40
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "graduate"
+        ],
+        "qualification": "Patwari: bachelor's degree. Group 4: 12th pass. CPCT score for both",
+        "ageMin": 18,
+        "ageMax": 45,
+        "qualificationByPost": [
+          {
+            "post": "Patwari",
+            "qualification": "Bachelor's degree",
+            "extraRequirement": "CPCT score"
+          },
+          {
+            "post": "Group 4 (Assistant Grade-3, Steno-typist, Typist)",
+            "qualification": "12th pass",
+            "extraRequirement": "CPCT score; steno skill for steno posts"
+          }
+        ],
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 40,
+            "obc": 45,
+            "scSt": 45,
+            "women": 45,
+            "otherState": 40
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Written exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "GK"
+            },
+            {
+              "subject": "Hindi"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Computer"
+            },
+            {
+              "subject": "MP GK"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 180
+          },
+          "note": "No negative marking. Same exam for Patwari and Group 4."
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "certainty": "official",
+        "note": "₹19,500 – 62,000 (Patwari and Group 4)"
+      },
+      "career": {
+        "profile": "Patwari: village land records (khasra, khatauni), mutations and crop surveys."
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "mp-jail-prahari",
+      "groupId": "state",
+      "guideRef": "5.5",
+      "siteCategories": [
+        "state",
+        "police"
+      ],
+      "name": "MP Jail Prahari",
+      "shortName": "Jail Prahari",
+      "overview": "MP recruitment of Jail Prahari through a written exam and physical test.",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "tenthPass",
+        "womenReservation"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass",
+        "ageMin": 18,
+        "ageMax": 33,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "extraRequirement": "Physical standards",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 33,
+            "note": "MP SC / ST / OBC men and women: higher limit as per the rulebook. Other-state candidates: open seats only."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Written exam",
+        "Physical test"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "GK"
+            },
+            {
+              "subject": "Hindi"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Science"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 120
+          }
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "168 cm",
+            "women": "155 cm"
+          },
+          {
+            "test": "Physical events",
+            "value": "800 m run, long jump, shot put"
+          }
+        ]
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "mp-vanrakshak-excise",
+      "groupId": "state",
+      "guideRef": "5.6",
+      "siteCategories": [
+        "state"
+      ],
+      "name": "MP Vanrakshak (Forest Guard) & Excise Constable",
+      "shortName": "Vanrakshak / Excise",
+      "overview": "MP recruitment for Vanrakshak (Forest Guard) and Excise Constable posts, both with physical tests.",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "tenthPass",
+        "womenReservation"
+      ],
+      "posts": [
+        {
+          "name": "Vanrakshak (Forest Guard)",
+          "department": "Forest Department",
+          "qualification": "12th pass",
+          "ageMin": 18,
+          "ageMax": 33
+        },
+        {
+          "name": "Excise Constable",
+          "qualification": "10th pass",
+          "ageMin": 18,
+          "ageMax": 33
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth"
+        ],
+        "qualification": "Vanrakshak: 12th pass. Excise Constable: 10th pass",
+        "ageMin": 18,
+        "ageMax": 33,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "qualificationByPost": [
+          {
+            "post": "Vanrakshak (Forest Guard)",
+            "qualification": "12th pass",
+            "extraRequirement": "Walking test and physical standards"
+          },
+          {
+            "post": "Excise Constable",
+            "qualification": "10th pass",
+            "extraRequirement": "Physical standards"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 33,
+            "note": "MP SC / ST / OBC men and women: higher limit as per the rulebook. Other-state candidates: open seats only."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Physical test and height measurement"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam (MPESB)",
+          "rows": [
+            {
+              "subject": "General Knowledge & MP GK"
+            },
+            {
+              "subject": "General Hindi"
+            },
+            {
+              "subject": "Mathematics"
+            },
+            {
+              "subject": "General Science"
+            },
+            {
+              "subject": "Reasoning"
+            }
+          ]
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Walk (Vanrakshak)",
+            "men": "25 km in 4 hours",
+            "women": "14 km"
+          },
+          {
+            "test": "Height (Vanrakshak)",
+            "men": "163 cm",
+            "women": "150 cm"
+          },
+          {
+            "test": "Physical events (Excise Constable)",
+            "value": "800 m run, long jump, shot put"
+          },
+          {
+            "test": "Height (Excise Constable)",
+            "men": "168 cm",
+            "women": "155 cm"
+          }
+        ]
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [
+        {
+          "label": "Careers360",
+          "url": "https://news.careers360.com/mp-cabinet-raises-quota-for-women-in-state-government-jobs-35-percent/amp"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "mp-teacher",
+      "groupId": "state",
+      "guideRef": "5.7",
+      "siteCategories": [
+        "state"
+      ],
+      "name": "MP Teacher Recruitment",
+      "shortName": "MP Teacher",
+      "overview": "MP hires Primary, Middle School and Higher Secondary teachers through MP TET and a selection test.",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "highVacancy",
+        "womenReservation",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Primary Teacher (Class 1–5)",
+          "qualification": "12th (50%) + D.El.Ed"
+        },
+        {
+          "name": "Middle School Teacher (Class 6–8)",
+          "qualification": "Graduate + B.Ed / D.El.Ed"
+        },
+        {
+          "name": "Higher Secondary Teacher (Class 9–12)",
+          "qualification": "PG (50%) + B.Ed"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "Primary: 12th (50%) + D.El.Ed, or graduate + B.El.Ed. Middle: graduate + B.Ed or D.El.Ed. Higher Secondary: PG (50%) + B.Ed. MP TET for each level",
+        "ageMin": 21,
+        "ageMax": 45,
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final.",
+        "qualificationByPost": [
+          {
+            "post": "Primary Teacher",
+            "qualification": "12th (50%) + D.El.Ed; or Graduate + B.El.Ed",
+            "extraRequirement": "MP TET (Varg 3)"
+          },
+          {
+            "post": "Middle School Teacher",
+            "qualification": "Graduate + B.Ed or D.El.Ed",
+            "extraRequirement": "MP TET (Varg 2)"
+          },
+          {
+            "post": "Higher Secondary Teacher",
+            "qualification": "PG (50%) in the subject + B.Ed",
+            "extraRequirement": "MP TET (Varg 1)"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 40,
+            "obc": 45,
+            "scSt": 45,
+            "women": 45,
+            "otherState": 40
+          }
+        ]
+      },
+      "selectionSteps": [
+        "MP TET (eligibility)",
+        "Selection test"
+      ],
+      "stages": [],
+      "syllabus": [
+        {
+          "subject": "Child development & pedagogy",
+          "topics": "Child development & pedagogy"
+        },
+        {
+          "subject": "Languages",
+          "topics": "Languages"
+        },
+        {
+          "subject": "Subject paper",
+          "topics": "Subject paper"
+        },
+        {
+          "subject": "MP GK",
+          "topics": "MP GK"
+        }
+      ],
+      "salary": {
+        "certainty": "official",
+        "note": "Primary and Middle School: ₹32,800 – 1,03,600. Higher Secondary: ₹36,200 – 1,14,800."
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "mp-anganwadi-supervisor",
+      "groupId": "state",
+      "guideRef": "5.8",
+      "siteCategories": [
+        "state"
+      ],
+      "name": "MP Anganwadi Supervisor",
+      "shortName": "Anganwadi Supervisor",
+      "overview": "Women-only MP recruitment of Anganwadi Supervisors for graduates.",
+      "conductingBody": "MP Employees Selection Board (MPESB), formerly Vyapam",
+      "tags": [
+        "womenReservation",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 18,
+        "ageMax": 40,
+        "gender": "women",
+        "extraRequirement": "Women only",
+        "ageNote": "Relaxation applies only to MP domicile candidates; other-state candidates can apply only to open seats, with no relaxation. Each MPESB / MPPSC rulebook is final. Working Anganwadi workers get relaxation for this post.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "women": 40,
+            "note": "Women only. Other-state candidates: open seats only."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Written exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "GK"
+            },
+            {
+              "subject": "Hindi"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Computer"
+            },
+            {
+              "subject": "Women & child development topics"
+            }
+          ]
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "certainty": "official",
+        "note": "₹25,300 – 80,500"
+      },
+      "tips": [],
+      "officialWebsite": "https://esb.mp.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    }
+  ]
+}

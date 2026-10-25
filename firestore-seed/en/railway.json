@@ -1,0 +1,1487 @@
+{
+  "group": {
+    "id": "railway",
+    "name": "Railway (RRB / RRC / RPF)",
+    "intro": "Most RRB exams cost ₹500, of which ₹400 is refunded after you appear in CBT 1; SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1. Apply on one regional RRB website only; exams are held in 15 languages. Recent RRB CBTs deduct 1/3 mark per wrong answer.",
+    "officialWebsite": "https://www.rrbcdg.gov.in",
+    "status": "published",
+    "order": 2,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "+3 years"
+        },
+        {
+          "category": "scSt",
+          "rule": "+5 years"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "+10 years"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "+13 years"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "+15 years"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "Age minus military service + 3 years"
+        },
+        {
+          "category": "widows",
+          "rule": "Group C posts: up to 35 (UR), 38 (OBC), 40 (SC/ST)"
+        },
+        {
+          "category": "exAgniveer",
+          "rule": "CAPF and Railway: up to 5 years for the first batch, 3 years after"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "EWS gets reservation but no age relaxation in central exams.",
+        "OBC relaxation applies only to the Non-Creamy Layer, with a valid central-format certificate.",
+        "Ex-servicemen: as per central rules.",
+        "Ex-Agniveers: relaxation in some Level 1 and RPF posts as per the notice.",
+        "Course Completed Act Apprentices: 20% reservation in Level 1.",
+        "Women (widowed, divorced, judicially separated): up to 35 (UR), 38 (OBC), 40 (SC/ST).",
+        "Do not assume a one-time relaxation carries over: check each CEN notice."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "rrb-ntpc",
+      "groupId": "railway",
+      "guideRef": "2.1",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB NTPC (Non-Technical Popular Categories)",
+      "shortName": "NTPC",
+      "overview": "Railway station, commercial and clerical posts at Level 2 to 6 for 12th-pass and graduate candidates.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "frequency": "Every 1–2 years",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Station Master",
+          "qualification": "Graduate",
+          "payLevel": 6
+        },
+        {
+          "name": "Chief Commercial cum Ticket Supervisor",
+          "qualification": "Graduate",
+          "payLevel": 6
+        },
+        {
+          "name": "Goods Train Manager",
+          "qualification": "Graduate",
+          "payLevel": 5
+        },
+        {
+          "name": "Junior Accounts Assistant cum Typist",
+          "qualification": "Graduate",
+          "payLevel": 5
+        },
+        {
+          "name": "Senior Clerk cum Typist",
+          "qualification": "Graduate",
+          "payLevel": 5
+        },
+        {
+          "name": "Commercial cum Ticket Clerk",
+          "qualification": "12th pass",
+          "payLevel": 3
+        },
+        {
+          "name": "Accounts Clerk cum Typist",
+          "qualification": "12th pass",
+          "payLevel": 2
+        },
+        {
+          "name": "Junior Clerk cum Typist",
+          "qualification": "12th pass",
+          "payLevel": 2
+        },
+        {
+          "name": "Trains Clerk",
+          "qualification": "12th pass",
+          "payLevel": 2
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "graduate"
+        ],
+        "qualification": "Graduate posts: bachelor's degree. Undergraduate posts: 12th pass with 50% (no minimum % for SC, ST, PwBD, ex-servicemen)",
+        "ageMin": 18,
+        "ageMax": 36,
+        "ageNote": "Do not assume a one-time relaxation carries over: check each CEN notice.",
+        "extraRequirement": "Typing proficiency for typist posts",
+        "qualificationByPost": [
+          {
+            "post": "Graduate posts",
+            "qualification": "Bachelor's degree",
+            "extraRequirement": "Typing proficiency for typist posts"
+          },
+          {
+            "post": "Undergraduate posts",
+            "qualification": "12th pass with 50% (no minimum % for SC, ST, PwBD, ex-servicemen)",
+            "extraRequirement": "Typing proficiency for typist posts"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Graduate (CEN 06/2025, one-time relaxation)",
+            "lower": 18,
+            "ur": 36,
+            "obc": 39,
+            "scSt": 41,
+            "pwbd": {
+              "ur": 46,
+              "obc": 49,
+              "scSt": 51
+            }
+          },
+          {
+            "post": "Graduate (normal cycles)",
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            }
+          },
+          {
+            "post": "Undergraduate (CEN 07/2025)",
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            }
+          },
+          {
+            "post": "Undergraduate (normal cycles)",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT 1",
+        "CBT 2",
+        "Typing test or CBAT",
+        "Document verification",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "cbt1",
+          "name": "CBT 1",
+          "rows": [
+            {
+              "subject": "Maths",
+              "questions": 30
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 30
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 40
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "cbt2",
+          "name": "CBT 2",
+          "rows": [
+            {
+              "subject": "Maths",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 50
+            }
+          ],
+          "totals": {
+            "questions": 120,
+            "minutes": 90
+          },
+          "qualifyingOnly": false,
+          "negativeMarking": 0.3333,
+          "note": "Merit stage."
+        },
+        {
+          "id": "typing",
+          "name": "Typing Skill Test",
+          "rows": [],
+          "qualifyingOnly": true,
+          "note": "30 wpm English / 25 wpm Hindi, for clerk / typist posts."
+        },
+        {
+          "id": "cbat",
+          "name": "CBAT (psychometric aptitude test)",
+          "rows": [],
+          "note": "For Station Master and Train Manager. Minimum 42 in each test. Final merit = 70% CBT 2 + 30% CBAT."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Maths",
+          "topics": "Number system, decimals, fractions, LCM/HCF, ratio, percentage, mensuration, time & work, time & distance, interest, profit & loss, algebra, geometry, trigonometry, elementary statistics"
+        },
+        {
+          "subject": "Reasoning",
+          "topics": "Analogies, series, coding-decoding, mathematical operations, relationships, syllogism, Venn diagram, data sufficiency, puzzles, statement-conclusion, decision making"
+        },
+        {
+          "subject": "General Awareness",
+          "topics": "Current affairs, sports, art & culture, general science (up to 10th CBSE), history, geography, polity, economy, government schemes, computers"
+        }
+      ],
+      "salary": {
+        "grossMin": 35000,
+        "grossMax": 73000,
+        "certainty": "estimate",
+        "note": "Gross about ₹35,000 (Level 2) to ₹73,000 (Level 6) a month, plus free railway passes, railway quarters and hospitals."
+      },
+      "career": {
+        "profile": "Station Master controls train movement; Ticket Clerk issues tickets; Goods Train Manager runs freight trains.",
+        "promotion": "Clerk → Senior Clerk → Head Clerk → Office Superintendent; Station Master → Station Superintendent."
+      },
+      "tips": [
+        "GA carries the most marks, especially science and current affairs.",
+        "Station Master aspirants should practise CBAT-style memory and visual tests."
+      ],
+      "currentCycle": {
+        "label": "CEN 06/2026 & CEN 07/2026",
+        "certainty": "reported",
+        "note": "Applications reported from 8 October 2026 (graduate) and 15 October 2026 (undergraduate); confirm the CEN notices on your regional RRB website. The 2025–26 cycle (CEN 06/2025 graduate, CEN 07/2025 undergraduate) had 8,868 posts."
+      },
+      "officialWebsite": "https://www.rrbcdg.gov.in",
+      "sources": [
+        {
+          "label": "Sreedhar's CCE",
+          "url": "https://www.sreedharscce.com/blogs/rrb-ntpc-eligibility-age-limit/"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "rrb-group-d",
+      "groupId": "railway",
+      "guideRef": "2.2",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB Group D (Level 1)",
+      "shortName": "Group D",
+      "overview": "The largest 10th-pass railway exam, recruiting Level 1 track, assistant, pointsman and hospital posts.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "tenthPass",
+        "highVacancy"
+      ],
+      "posts": [
+        {
+          "name": "Track Maintainer Grade IV",
+          "payLevel": 1
+        },
+        {
+          "name": "Assistant (Bridge, Track Machine, Loco Shed, Workshop, S&T)",
+          "payLevel": 1
+        },
+        {
+          "name": "Assistant Pointsman",
+          "payLevel": 1
+        },
+        {
+          "name": "Hospital Assistant",
+          "payLevel": 1
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "iti"
+        ],
+        "qualification": "10th pass, or ITI, or National Apprenticeship Certificate (NAC)",
+        "ageMin": 18,
+        "ageMax": 33,
+        "ageNote": "UR 18–33 (some cycles 18–36). Course Completed Act Apprentices get 20% reservation.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            },
+            "note": "UR / EWS limit is 36 in relaxation cycles."
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT",
+        "PET (qualifying)",
+        "Document verification",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "General Science (10th level)",
+              "questions": 25
+            },
+            {
+              "subject": "Mathematics",
+              "questions": 25
+            },
+            {
+              "subject": "General Intelligence & Reasoning",
+              "questions": 30
+            },
+            {
+              "subject": "General Awareness & Current Affairs",
+              "questions": 20
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Weight carry",
+            "men": "35 kg for 100 m in 2 min",
+            "women": "20 kg for 100 m in 2 min"
+          },
+          {
+            "test": "Run",
+            "men": "1,000 m in 4 min 15 s",
+            "women": "1,000 m in 5 min 40 s"
+          }
+        ],
+        "note": "PET is qualifying."
+      },
+      "salary": {
+        "payLevel": 1,
+        "basic": 18000,
+        "grossMin": 32000,
+        "grossMax": 36000,
+        "certainty": "estimate"
+      },
+      "tips": [
+        "General Science and Reasoning carry 55 of 100 marks — revise NCERT Class 9–10 science.",
+        "Practise the weight carry early."
+      ],
+      "currentCycle": {
+        "label": "2026",
+        "certainty": "reported",
+        "note": "Over 22,000 posts in the 2026 cycle."
+      },
+      "sources": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "rrb-alp",
+      "groupId": "railway",
+      "guideRef": "2.3",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB ALP (Assistant Loco Pilot)",
+      "shortName": "ALP",
+      "overview": "Recruits ITI and diploma holders as Assistant Loco Pilots who are trained to drive trains.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "iti",
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "10th + ITI in a listed trade; or 10th + Act Apprenticeship; or Diploma / B.Tech in Mechanical, Electrical, Electronics, Automobile",
+        "ageMin": 18,
+        "ageMax": 30,
+        "extraRequirement": "A-1 medical standard",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT 1",
+        "CBT 2",
+        "CBAT"
+      ],
+      "stages": [
+        {
+          "id": "cbt1",
+          "name": "CBT 1",
+          "rows": [
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "General Science"
+            },
+            {
+              "subject": "GA"
+            }
+          ],
+          "totals": {
+            "questions": 75,
+            "minutes": 60
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "cbt2a",
+          "name": "CBT 2 Part A",
+          "rows": [
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Basic Science & Engineering"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "qualifyingOnly": false,
+          "negativeMarking": 0.3333,
+          "note": "Merit stage."
+        },
+        {
+          "id": "cbt2b",
+          "name": "CBT 2 Part B",
+          "rows": [
+            {
+              "subject": "Relevant ITI trade"
+            }
+          ],
+          "totals": {
+            "questions": 75,
+            "minutes": 60
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.3333,
+          "note": "Qualifying at 35%."
+        },
+        {
+          "id": "cbat",
+          "name": "CBAT (aptitude test)",
+          "rows": [],
+          "note": "Minimum 42 per test. Final merit = 70% CBT 2 Part A + 30% CBAT."
+        }
+      ],
+      "medical": "A-1 (6/6 without glasses, normal colour vision)",
+      "salary": {
+        "payLevel": 2,
+        "basic": 19900,
+        "certainty": "official",
+        "note": "Plus running allowance."
+      },
+      "career": {
+        "promotion": "ALP → Senior ALP → Loco Pilot (Goods / Passenger / Mail-Express) → Loco Inspector"
+      },
+      "currentCycle": {
+        "label": "2026",
+        "vacancies": 11127,
+        "certainty": "reported"
+      },
+      "sources": [
+        {
+          "label": "SSC Drishti",
+          "url": "https://www.sscdrishti.com/blog/rrb-alp-2026-notification-11127-vacancies"
+        }
+      ],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "rrb-technician",
+      "groupId": "railway",
+      "guideRef": "2.4",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB Technician",
+      "shortName": "Technician",
+      "overview": "Recruits Technician Grade I Signal (science graduates, diploma) and Grade III (ITI) for the railways.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Technician Grade I Signal",
+          "qualification": "B.Sc (Physics / Electronics / CS / IT) or Diploma / B.Tech",
+          "payLevel": 5,
+          "ageMin": 18,
+          "ageMax": 33
+        },
+        {
+          "name": "Technician Grade III",
+          "qualification": "10th + ITI, or Act Apprenticeship",
+          "payLevel": 2,
+          "ageMin": 18,
+          "ageMax": 30
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "iti",
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "Grade I Signal: B.Sc or Diploma / B.Tech in Physics, Electronics, Computer Science, IT or Instrumentation. Grade III: 10th + ITI in the relevant trade, or 10th + Act Apprenticeship",
+        "ageMin": 18,
+        "ageMax": 33,
+        "ageNote": "UR: Grade I Signal 18–33; Grade III 18–30.",
+        "qualificationByPost": [
+          {
+            "post": "Grade I Signal",
+            "qualification": "B.Sc in Physics / Electronics / Computer Science / IT / Instrumentation; or Diploma / B.Tech in those branches"
+          },
+          {
+            "post": "Grade III",
+            "qualification": "10th + ITI in the relevant trade; or 10th + Act Apprenticeship"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Grade I",
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            },
+            "note": "PwBD limits apply to identified posts."
+          },
+          {
+            "post": "Grade III",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "note": "PwBD limits apply to identified posts."
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT"
+      ],
+      "stages": [
+        {
+          "id": "grade1",
+          "name": "CBT: Grade I Signal",
+          "rows": [
+            {
+              "subject": "GA",
+              "questions": 10
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 15
+            },
+            {
+              "subject": "Computers",
+              "questions": 20
+            },
+            {
+              "subject": "Maths",
+              "questions": 20
+            },
+            {
+              "subject": "Basic Science & Engineering",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "grade3",
+          "name": "CBT: Grade III",
+          "rows": [
+            {
+              "subject": "Maths",
+              "questions": 25
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 25
+            },
+            {
+              "subject": "General Science",
+              "questions": 40
+            },
+            {
+              "subject": "GA",
+              "questions": 10
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        }
+      ],
+      "salary": {
+        "certainty": "official",
+        "note": "Grade I Signal: Level 5 (₹29,200 basic). Grade III: Level 2 (₹19,900 basic)."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "rrb-je-dms-cma",
+      "groupId": "railway",
+      "guideRef": "2.5",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB JE / DMS / CMA",
+      "shortName": "JE",
+      "overview": "Recruits Junior Engineers, DMS and CMA at Level 6 from diploma, B.Tech and B.Sc holders.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "JE / DMS: Diploma or B.Tech in the relevant engineering branch. CMA: B.Sc with Physics and Chemistry (50%)",
+        "ageMin": 18,
+        "ageMax": 33,
+        "qualificationByPost": [
+          {
+            "post": "JE / DMS",
+            "qualification": "Diploma or B.Tech in the relevant engineering branch"
+          },
+          {
+            "post": "CMA",
+            "qualification": "B.Sc with Physics and Chemistry (50%)"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            },
+            "note": "PwBD limits apply to identified posts."
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT 1",
+        "CBT 2"
+      ],
+      "stages": [
+        {
+          "id": "cbt1",
+          "name": "CBT 1",
+          "rows": [
+            {
+              "subject": "Maths",
+              "questions": 30
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 25
+            },
+            {
+              "subject": "GA",
+              "questions": 15
+            },
+            {
+              "subject": "General Science",
+              "questions": 30
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "cbt2",
+          "name": "CBT 2",
+          "rows": [
+            {
+              "subject": "Technical",
+              "questions": 100
+            },
+            {
+              "subject": "GA",
+              "questions": 15
+            },
+            {
+              "subject": "Physics & Chemistry",
+              "questions": 15
+            },
+            {
+              "subject": "Computers",
+              "questions": 10
+            },
+            {
+              "subject": "Environment",
+              "questions": 10
+            }
+          ],
+          "totals": {
+            "questions": 150,
+            "minutes": 120
+          },
+          "negativeMarking": 0.3333
+        }
+      ],
+      "salary": {
+        "payLevel": 6,
+        "grossMin": 63000,
+        "grossMax": 73000,
+        "certainty": "estimate"
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "rpf-constable",
+      "groupId": "railway",
+      "guideRef": "2.6",
+      "siteCategories": [
+        "railway",
+        "police"
+      ],
+      "name": "RPF Constable",
+      "shortName": "RPF Constable",
+      "overview": "Recruits 10th-pass constables for the Railway Protection Force, with 15% of posts for women.",
+      "conductingBody": "Railway Protection Force (RPF)",
+      "tags": [
+        "tenthPass",
+        "womenReservation"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass",
+        "ageMin": 18,
+        "ageMax": 28,
+        "extraRequirement": "Physical standards",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CBT",
+        "Physical test and measurement"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "GA",
+              "questions": 50
+            },
+            {
+              "subject": "Arithmetic",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 120,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Run",
+            "men": "1,600 m in 5 min 45 s",
+            "women": "800 m in 3 min 40 s"
+          },
+          {
+            "test": "Long jump",
+            "men": "14 ft",
+            "women": "9 ft"
+          },
+          {
+            "test": "High jump",
+            "men": "4 ft",
+            "women": "3 ft"
+          },
+          {
+            "test": "Height",
+            "men": "165 cm (SC/ST 160)",
+            "women": "157 cm (SC/ST 152)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          }
+        ]
+      },
+      "salary": {
+        "payLevel": 3,
+        "grossMin": 40000,
+        "grossMax": 47000,
+        "certainty": "estimate"
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "rpf-si",
+      "groupId": "railway",
+      "guideRef": "2.7",
+      "siteCategories": [
+        "railway",
+        "police"
+      ],
+      "name": "RPF Sub-Inspector",
+      "shortName": "RPF SI",
+      "overview": "Recruits graduate Sub-Inspectors for the Railway Protection Force at Level 6.",
+      "conductingBody": "Railway Protection Force (RPF)",
+      "tags": [
+        "womenReservation"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 20,
+        "ageMax": 28,
+        "extraRequirement": "Physical standards",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Physical test (other stages: check the CEN notice)"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "General Awareness",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "Arithmetic",
+              "questions": 35,
+              "marks": 35
+            },
+            {
+              "subject": "General Intelligence & Reasoning",
+              "questions": 35,
+              "marks": 35
+            }
+          ]
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Run",
+            "men": "1,600 m in 6 min 30 s",
+            "women": "800 m in 4 min"
+          },
+          {
+            "test": "Long jump",
+            "men": "12 ft",
+            "women": "9 ft"
+          },
+          {
+            "test": "High jump",
+            "men": "3 ft 9 in",
+            "women": "3 ft"
+          }
+        ]
+      },
+      "salary": {
+        "payLevel": 6,
+        "certainty": "official"
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "rrb-paramedical",
+      "groupId": "railway",
+      "guideRef": "2.8",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB Paramedical Categories",
+      "shortName": "Paramedical",
+      "overview": "Recruits nurses, pharmacists, radiographers, lab and ECG staff and dieticians for railway hospitals.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Nursing Superintendent",
+          "qualification": "GNM or B.Sc Nursing",
+          "ageMin": 20,
+          "ageMax": 40,
+          "payLevel": 7
+        },
+        {
+          "name": "Dietician",
+          "qualification": "B.Sc Home Science + PG diploma in Dietetics",
+          "ageMin": 18,
+          "ageMax": 36,
+          "payLevel": 7
+        },
+        {
+          "name": "Pharmacist",
+          "qualification": "12th Science + D.Pharm",
+          "ageMin": 20,
+          "ageMax": 35,
+          "payLevel": 5
+        },
+        {
+          "name": "Radiographer",
+          "qualification": "12th Science + Radiography diploma",
+          "ageMin": 19,
+          "ageMax": 36,
+          "payLevel": 5
+        },
+        {
+          "name": "Lab Superintendent",
+          "qualification": "B.Sc + DMLT",
+          "ageMin": 18,
+          "ageMax": 36,
+          "payLevel": 6
+        },
+        {
+          "name": "ECG Technician",
+          "qualification": "12th / graduate + ECG certificate",
+          "ageMin": 18,
+          "ageMax": 36,
+          "payLevel": 4
+        },
+        {
+          "name": "Lab Assistant Gr II",
+          "qualification": "12th Science + DMLT",
+          "ageMin": 18,
+          "ageMax": 36,
+          "payLevel": 3
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "Post-wise: GNM / B.Sc Nursing; 12th Science + D.Pharm; 12th Science + Radiography diploma; B.Sc + DMLT; etc.",
+        "ageMin": 18,
+        "ageMax": 40,
+        "ageNote": "UR age limits vary by post, from 18–36 to 20–40.",
+        "extraRequirement": "Registration with the council where required",
+        "ageLimits": [
+          {
+            "post": "Nursing Superintendent",
+            "lower": 20,
+            "ur": 40,
+            "obc": 43,
+            "scSt": 45,
+            "note": "PwBD limits as per post."
+          },
+          {
+            "post": "Pharmacist",
+            "lower": 20,
+            "ur": 35,
+            "obc": 38,
+            "scSt": 40,
+            "note": "PwBD limits as per post."
+          },
+          {
+            "post": "Radiographer",
+            "lower": 19,
+            "ur": 36,
+            "obc": 39,
+            "scSt": 41,
+            "note": "PwBD limits as per post."
+          },
+          {
+            "post": "Lab, ECG, Dietician, Health Inspector",
+            "lower": 18,
+            "ur": 36,
+            "obc": 39,
+            "scSt": 41,
+            "note": "PwBD limits as per post."
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "Professional ability"
+            },
+            {
+              "subject": "GA"
+            },
+            {
+              "subject": "Arithmetic"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "General Science"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 90
+          },
+          "negativeMarking": 0.3333
+        }
+      ],
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    },
+    {
+      "id": "rrb-ministerial-isolated",
+      "groupId": "railway",
+      "guideRef": "2.9",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRB Ministerial & Isolated Categories",
+      "shortName": "Ministerial",
+      "overview": "Recruits railway teachers, translators, law assistants and stenographers at Level 4 to 8.",
+      "conductingBody": "Railway Recruitment Board (RRB)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Post Graduate Teacher",
+          "qualification": "Master's + B.Ed",
+          "ageMin": 18,
+          "ageMax": 48,
+          "payLevel": 8
+        },
+        {
+          "name": "Trained Graduate Teacher",
+          "qualification": "Graduate + B.Ed + CTET",
+          "ageMin": 18,
+          "ageMax": 45,
+          "payLevel": 7
+        },
+        {
+          "name": "Primary Railway Teacher",
+          "qualification": "12th + D.El.Ed + CTET",
+          "ageMin": 18,
+          "ageMax": 45,
+          "payLevel": 6
+        },
+        {
+          "name": "Junior Translator (Hindi)",
+          "qualification": "PG Hindi with English",
+          "ageMin": 18,
+          "ageMax": 33,
+          "payLevel": 6
+        },
+        {
+          "name": "Chief Law Assistant",
+          "qualification": "Law degree + 3 years' practice",
+          "ageMin": 18,
+          "ageMax": 40,
+          "payLevel": 7
+        },
+        {
+          "name": "Stenographer",
+          "qualification": "12th + steno skill",
+          "ageMin": 18,
+          "ageMax": 30,
+          "payLevel": 4
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "graduate",
+          "postGraduate",
+          "professional"
+        ],
+        "qualification": "Post-wise: Master's + B.Ed (PGT); Graduate + B.Ed + CTET (TGT); 12th + D.El.Ed + CTET (Primary); PG Hindi + English (Translator); Law degree + practice (legal posts); 12th + steno (Stenographer)",
+        "ageMin": 18,
+        "ageMax": 48,
+        "ageNote": "UR upper age varies by post, from 30 to 48.",
+        "extraRequirement": "Skill or teaching test for some posts",
+        "ageLimits": [
+          {
+            "post": "PGT",
+            "lower": 18,
+            "ur": 48,
+            "obc": 51,
+            "scSt": 53,
+            "pwbd": {
+              "ur": 58,
+              "obc": 61,
+              "scSt": 63
+            }
+          },
+          {
+            "post": "TGT, Primary Teacher",
+            "lower": 18,
+            "ur": 45,
+            "obc": 48,
+            "scSt": 50,
+            "pwbd": {
+              "ur": 55,
+              "obc": 58,
+              "scSt": 60
+            }
+          },
+          {
+            "post": "Chief Law Assistant",
+            "lower": 18,
+            "ur": 40,
+            "obc": 43,
+            "scSt": 45,
+            "pwbd": {
+              "ur": 50,
+              "obc": 53,
+              "scSt": 55
+            }
+          },
+          {
+            "post": "Junior Translator",
+            "lower": 18,
+            "ur": 33,
+            "obc": 36,
+            "scSt": 38,
+            "pwbd": {
+              "ur": 43,
+              "obc": 46,
+              "scSt": 48
+            }
+          },
+          {
+            "post": "Stenographer",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 500,
+        "reserved": 250,
+        "note": "₹400 of the ₹500 fee is refunded after you appear in CBT 1. SC, ST, ex-servicemen, PwBD, women, transgender, minorities and economically backward classes pay ₹250, fully refunded after CBT 1."
+      },
+      "selectionSteps": [
+        "CBT",
+        "Skill / translation / teaching test where applicable",
+        "Document verification",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "Professional ability (post subject)",
+              "questions": 50
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 15
+            },
+            {
+              "subject": "General Intelligence & Reasoning",
+              "questions": 15
+            },
+            {
+              "subject": "Mathematics",
+              "questions": 10
+            },
+            {
+              "subject": "General Science",
+              "questions": 10
+            }
+          ]
+        }
+      ],
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9
+    },
+    {
+      "id": "rrc-act-apprentice",
+      "groupId": "railway",
+      "guideRef": "2.10",
+      "siteCategories": [
+        "railway"
+      ],
+      "name": "RRC Act Apprentice",
+      "shortName": "Act Apprentice",
+      "overview": "A 1-year paid training in railway workshops for 10th + ITI holders, not a permanent job.",
+      "conductingBody": "Railway Recruitment Cell (RRC)",
+      "tags": [
+        "noWrittenExam",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "iti"
+        ],
+        "qualification": "10th with 50% + ITI in the notified trade",
+        "ageMin": 15,
+        "ageMax": 24,
+        "ageLimits": [
+          {
+            "lower": 15,
+            "ur": 24,
+            "obc": 27,
+            "scSt": 29,
+            "pwbd": {
+              "ur": 34,
+              "obc": 37,
+              "scSt": 39
+            }
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Merit list of 10th and ITI marks (no written exam, no interview)"
+      ],
+      "stages": [
+        {
+          "id": "coursework",
+          "name": "What the course covers (selection is on 10th + ITI marks)",
+          "rows": [
+            {
+              "subject": "ITI trade theory"
+            },
+            {
+              "subject": "Workshop calculation & science"
+            },
+            {
+              "subject": "Engineering drawing"
+            },
+            {
+              "subject": "Workshop safety & practice"
+            }
+          ]
+        }
+      ],
+      "salary": {
+        "grossMin": 7000,
+        "grossMax": 9000,
+        "certainty": "estimate",
+        "note": "Stipend of about ₹7,000–9,000 a month."
+      },
+      "career": {
+        "profile": "1-year paid training in railway workshops, not a permanent job.",
+        "promotion": "20% reservation in Railway Level 1 posts after completion."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-surface-page font-sans text-ink antialiased;
+  }
+
+  /* Hindi: switch to the Devanagari font automatically (set by src/i18n/index.ts). */
+  html[data-script='devanagari'] body {
+    font-family: theme('fontFamily.hindi');
+  }
+}
+
+@layer utilities {
+  /* Horizontal scrollers keep native swipe but hide the bar (allen.in pattern). */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Google Material Symbols (Rounded) glyph, rendered by <Icon>. Box is 1em square so it lines up like an SVG icon. */
+  .material-symbol {
+    font-family: 'Material Symbols Rounded';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'liga';
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .icon-filled {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .icon-12 { font-size: 0.75rem; }
+  .icon-14 { font-size: 0.875rem; }
+  .icon-16 { font-size: 1rem; }
+  .icon-18 { font-size: 1.125rem; }
+  .icon-20 { font-size: 1.25rem; }
+  .icon-24 { font-size: 1.5rem; }
+  .icon-48 { font-size: 3rem; }
+
+  /* Pauses the ticker; used with group-hover / group-focus-within variants. */
+  .animation-paused {
+    animation-play-state: paused;
+  }
+
+  /*
+   * Soft fade at the left and right edges of a horizontal row (owner request: cards dissolve into the white page
+   * instead of being cut off). A mask fades the content itself, so it blends into any background.
+   * 40px fade on phones, 120px from 1024px.
+   */
+  .fade-edges-x {
+    --fade: 2.5rem;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+    mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+  }
+  @media (min-width: 1024px) {
+    .fade-edges-x {
+      --fade: 7.5rem;
+    }
+  }
+
+  /* Course page hero (owner reference): deep navy with soft diagonal blue bands from the top right and a blue glow. */
+  .bg-hero-pattern {
+    background-color: theme('colors.navy.900');
+    background-image:
+      linear-gradient(118deg, transparent 58%, theme('colors.primary.600 / 16%') 58%, theme('colors.primary.600 / 16%') 66%, transparent 66%),
+      linear-gradient(118deg, transparent 70%, theme('colors.primary.600 / 10%') 70%, theme('colors.primary.600 / 10%') 80%, transparent 80%),
+      linear-gradient(118deg, transparent 84%, theme('colors.primary.600 / 7%') 84%, theme('colors.primary.600 / 7%') 90%, transparent 90%),
+      radial-gradient(ellipse at 85% 0%, theme('colors.primary.600 / 35%'), transparent 60%),
+      linear-gradient(180deg, theme('colors.navy.800'), theme('colors.navy.900'));
+  }
+
+  /* Faint graph-paper grid that fades out to the right (enquiry card, owner reference). Line colour = line token. */
+  .bg-grid-fade {
+    background-image: linear-gradient(to right, #ececec 1px, transparent 1px), linear-gradient(to bottom, #ececec 1px, transparent 1px);
+    background-size: 2rem 2rem;
+    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 70%);
+    mask-image: linear-gradient(to right, #000 0%, #000 35%, transparent 70%);
+  }
+}

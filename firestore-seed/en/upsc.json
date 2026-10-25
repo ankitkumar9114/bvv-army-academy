@@ -1,0 +1,1231 @@
+{
+  "group": {
+    "id": "upsc",
+    "name": "UPSC (Union Public Service Commission)",
+    "intro": "Most exams in this part lead to Group A posts at Level 10, but not all: EPFO Enforcement / Accounts Officer is a Group B post at Level 8, and NDA and CDS lead to commissioned ranks only after training. In recent notices the fee is ₹100 (CSE, NDA) or ₹200 (CDS, CAPF, ESE, CMS and others); women, SC, ST and PwBD are exempt. Apply on upsc.gov.in through one-time registration. Negative marking is 1/3 of the question's marks.",
+    "officialWebsite": "https://upsc.gov.in",
+    "status": "published",
+    "order": 4,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "+3 years"
+        },
+        {
+          "category": "scSt",
+          "rule": "+5 years"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "+10 years"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "+13 years"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "+15 years"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "Age minus military service + 3 years"
+        },
+        {
+          "category": "widows",
+          "rule": "Group C posts: up to 35 (UR), 38 (OBC), 40 (SC/ST)"
+        },
+        {
+          "category": "exAgniveer",
+          "rule": "CAPF and Railway: up to 5 years for the first batch, 3 years after"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "EWS gets reservation but no age relaxation in central exams.",
+        "OBC relaxation applies only to the Non-Creamy Layer, with a valid central-format certificate."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "upsc-cse",
+      "groupId": "upsc",
+      "guideRef": "4.1",
+      "siteCategories": [],
+      "name": "Civil Services Examination (IAS, IPS, IFS, IRS and others)",
+      "shortName": "CSE",
+      "overview": "UPSC exam for graduates that recruits to IAS, IPS, IFS, IRS and other Group A services.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "frequency": "Once a year (typical: notification February, Prelims May–June, Mains September, Interview January–April)",
+      "posts": [
+        {
+          "name": "IAS"
+        },
+        {
+          "name": "IPS"
+        },
+        {
+          "name": "IFS (Foreign)"
+        },
+        {
+          "name": "IRS (Income Tax, Customs)"
+        },
+        {
+          "name": "IAAS"
+        },
+        {
+          "name": "IRMS"
+        },
+        {
+          "name": "IDAS"
+        },
+        {
+          "name": "IPoS"
+        },
+        {
+          "name": "DANICS"
+        },
+        {
+          "name": "DANIPS"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree (final-year students can sit Prelims)",
+        "ageMin": 21,
+        "ageMax": 32,
+        "attempts": "UR / EWS: 6. OBC: 9. SC / ST: unlimited within the age limit. PwBD (UR / EWS / OBC): 9. PwBD (SC / ST): unlimited within the age limit.",
+        "extraRequirement": "Police services have physical standards",
+        "ageNote": "Ex-servicemen: +5 years.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Prelims (screening)",
+        "Mains (descriptive)",
+        "Personality Test"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "GS Paper I",
+              "questions": 100,
+              "marks": 200
+            },
+            {
+              "subject": "GS Paper II (CSAT)",
+              "questions": 80,
+              "marks": 200
+            }
+          ],
+          "qualifyingOnly": true,
+          "negativeMarking": 0.3333,
+          "note": "Screening stage. GS Paper I counts for the cut-off; CSAT is qualifying at 33%."
+        },
+        {
+          "id": "mains",
+          "name": "Mains (descriptive)",
+          "rows": [
+            {
+              "subject": "Paper A: Indian language (qualifying)",
+              "marks": 300
+            },
+            {
+              "subject": "Paper B: English (qualifying)",
+              "marks": 300
+            },
+            {
+              "subject": "Paper I: Essay",
+              "marks": 250
+            },
+            {
+              "subject": "Paper II: GS I",
+              "marks": 250
+            },
+            {
+              "subject": "Paper III: GS II",
+              "marks": 250
+            },
+            {
+              "subject": "Paper IV: GS III",
+              "marks": 250
+            },
+            {
+              "subject": "Paper V: GS IV",
+              "marks": 250
+            },
+            {
+              "subject": "Paper VI: Optional subject",
+              "marks": 250
+            },
+            {
+              "subject": "Paper VII: Optional subject",
+              "marks": 250
+            }
+          ],
+          "totals": {
+            "marks": 1750
+          },
+          "note": "Papers A and B are qualifying; the other papers count for merit (1,750)."
+        },
+        {
+          "id": "interview",
+          "name": "Personality Test",
+          "rows": [],
+          "totals": {
+            "marks": 275
+          },
+          "note": "Final merit = Mains (1,750) + Interview (275) = 2,025."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Essay",
+          "topics": "Essay writing"
+        },
+        {
+          "subject": "GS I",
+          "topics": "Heritage, culture, history, geography, society"
+        },
+        {
+          "subject": "GS II",
+          "topics": "Polity, governance, constitution, social justice, international relations"
+        },
+        {
+          "subject": "GS III",
+          "topics": "Economy, technology, environment, security, disaster management"
+        },
+        {
+          "subject": "GS IV",
+          "topics": "Ethics, integrity and aptitude"
+        }
+      ],
+      "medical": "IPS and other police services, and some technical services, have their own physical and medical standards, set out service by service in the CSE notification's appendix. Check them before listing those services in your preferences.",
+      "salary": {
+        "payLevel": 10,
+        "basic": 56100,
+        "grossMin": 101000,
+        "grossMax": 118000,
+        "certainty": "estimate",
+        "note": "Gross about ₹1,01,000–1,18,000 at start, rising to Level 18 as Cabinet Secretary."
+      },
+      "career": {
+        "profile": "IFS officers serve in embassies and the Ministry of External Affairs.",
+        "promotion": "IAS: SDM → District Collector → Secretary. IPS: ASP → SP → DIG → IG → DGP."
+      },
+      "tips": [
+        "Base: NCERT Class 6–12 books, then standard books (Laxmikanth for Polity, Spectrum for Modern History, Ramesh Singh for Economy)",
+        "Daily newspaper + monthly current-affairs compilation; answer-writing practice from the first year",
+        "Many candidates prepare for 1–2 years, though this varies widely; choose an optional subject you enjoy"
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "upsc-ifos",
+      "groupId": "upsc",
+      "guideRef": "4.2",
+      "siteCategories": [],
+      "name": "Indian Forest Service (IFoS)",
+      "shortName": "IFoS",
+      "overview": "UPSC exam for science, agriculture, forestry and engineering graduates to join the Indian Forest Service.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree with at least one of Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology; or a degree in Agriculture, Forestry or Engineering",
+        "extraRequirement": "Walking test",
+        "attempts": "UR / EWS: 6. OBC: 9. SC / ST: unlimited within the age limit. PwBD (UR / EWS / OBC): 9. PwBD (SC / ST): unlimited within the age limit.",
+        "ageNote": "Ex-servicemen: +5 years.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            }
+          }
+        ],
+        "ageMin": 21,
+        "ageMax": 32
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "CSE Prelims (higher cut-off for IFoS)",
+        "IFoS Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "CSE Prelims",
+          "rows": [
+            {
+              "subject": "General Studies Paper I",
+              "questions": 100,
+              "marks": 200
+            },
+            {
+              "subject": "CSAT Paper II (qualifying)",
+              "questions": 80,
+              "marks": 200
+            }
+          ],
+          "qualifyingOnly": true,
+          "negativeMarking": 0.3333,
+          "note": "Common with the Civil Services Prelims, with a higher cut-off for IFoS."
+        },
+        {
+          "id": "mains",
+          "name": "IFoS Mains",
+          "rows": [
+            {
+              "subject": "General English",
+              "marks": 300
+            },
+            {
+              "subject": "General Knowledge",
+              "marks": 300
+            },
+            {
+              "subject": "Optional subject 1 (2 papers)",
+              "marks": 400
+            },
+            {
+              "subject": "Optional subject 2 (2 papers)",
+              "marks": 400
+            }
+          ],
+          "totals": {
+            "marks": 1400
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 300
+          }
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Walking test",
+            "men": "25 km in 4 hours",
+            "women": "14 km in 4 hours"
+          }
+        ]
+      },
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-nda",
+      "groupId": "upsc",
+      "guideRef": "4.3",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "NDA & NA (National Defence Academy)",
+      "shortName": "NDA",
+      "overview": "UPSC exam for 12th-pass unmarried men and women to train as officers at the National Defence Academy.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary"
+      ],
+      "frequency": "Twice a year (NDA I and NDA II)",
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th pass or appearing (Air Force, Navy and Naval Academy: 12th with Physics and Mathematics)",
+        "ageMin": 16.5,
+        "ageMax": 19.5,
+        "ageNote": "NDA's age is counted against the course start date and is the same for every category.",
+        "gender": "any",
+        "extraRequirement": "Unmarried; physical and medical standards",
+        "qualificationByPost": [
+          {
+            "post": "Army wing",
+            "qualification": "12th pass (any stream) or appearing",
+            "extraRequirement": "Unmarried; physical and medical standards"
+          },
+          {
+            "post": "Air Force, Navy, Naval Academy (10+2 Cadet Entry)",
+            "qualification": "12th with Physics and Mathematics, or appearing",
+            "extraRequirement": "Unmarried; physical and medical standards"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 16.5,
+            "ur": 19.5,
+            "pwbdEligible": false,
+            "note": "Same limit for every category: No OBC or SC / ST relaxation."
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Written exam (Mathematics + General Ability Test)",
+        "SSB interview (5 days)",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "Mathematics",
+              "marks": 300,
+              "minutes": 150
+            },
+            {
+              "subject": "General Ability Test (English 200 + General Knowledge 400)",
+              "marks": 600,
+              "minutes": 150
+            }
+          ],
+          "totals": {
+            "marks": 900,
+            "minutes": 300
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "ssb",
+          "name": "SSB interview",
+          "rows": [],
+          "totals": {
+            "marks": 900
+          },
+          "note": "5 days; final merit out of 1,800; then medical."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Mathematics",
+          "topics": "Algebra, matrices, trigonometry, analytical geometry, calculus, vectors, statistics & probability"
+        }
+      ],
+      "salary": {
+        "payLevel": 10,
+        "certainty": "official",
+        "note": "Stipend ₹56,100 in the final training year; Lieutenant at Level 10 + MSP ₹15,500."
+      },
+      "career": {
+        "profile": "Training: 3 years at NDA Khadakwasla (Pune) + 1 year at IMA / INA / AFA, leading to a commissioned rank."
+      },
+      "tips": [
+        "Maths needs NCERT Class 11–12",
+        "SSB rewards confidence, group behaviour and officer-like qualities"
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "upsc-cds",
+      "groupId": "upsc",
+      "guideRef": "4.4",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "CDS (Combined Defence Services)",
+      "shortName": "CDS",
+      "overview": "UPSC exam for graduates to train as officers at IMA, INA, AFA or OTA Chennai.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary"
+      ],
+      "posts": [
+        {
+          "name": "IMA Dehradun",
+          "qualification": "Graduate",
+          "ageMin": 20,
+          "ageMax": 24
+        },
+        {
+          "name": "Indian Naval Academy",
+          "qualification": "B.Tech / BE",
+          "ageMin": 20,
+          "ageMax": 24
+        },
+        {
+          "name": "Air Force Academy",
+          "qualification": "Graduate with Physics & Maths at 12th, or B.Tech",
+          "ageMin": 20,
+          "ageMax": 24
+        },
+        {
+          "name": "OTA Chennai",
+          "qualification": "Graduate",
+          "ageMin": 20,
+          "ageMax": 25
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree (INA: engineering degree; AFA: bachelor's with Physics and Maths at 12th, or engineering degree)",
+        "ageMin": 20,
+        "ageMax": 25,
+        "ageNote": "IMA and Naval Academy: unmarried men, 20–24, permanent commission. Air Force Academy: unmarried men and women, 20–24 (26 with CPL), permanent commission. OTA Chennai: unmarried men and women, 20–25, short service commission.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "IMA, OTA",
+            "qualification": "Bachelor's degree",
+            "extraRequirement": "Unmarried (OTA women: unmarried, or issueless widows / divorcees)"
+          },
+          {
+            "post": "Indian Naval Academy",
+            "qualification": "Engineering degree",
+            "extraRequirement": "Unmarried men"
+          },
+          {
+            "post": "Air Force Academy",
+            "qualification": "Bachelor's degree with Physics and Maths at 12th, or engineering degree",
+            "extraRequirement": "Unmarried"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "IMA, INA, AFA",
+            "lower": 20,
+            "ur": 24,
+            "pwbdEligible": false,
+            "note": "AFA: 26 with a Commercial Pilot Licence. No OBC or SC / ST relaxation."
+          },
+          {
+            "post": "OTA",
+            "lower": 20,
+            "ur": 25,
+            "pwbdEligible": false,
+            "note": "No OBC or SC / ST relaxation."
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Written exam",
+        "SSB interview",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "English",
+              "marks": 100
+            },
+            {
+              "subject": "General Knowledge",
+              "marks": 100
+            },
+            {
+              "subject": "Elementary Maths",
+              "marks": 100
+            }
+          ],
+          "totals": {
+            "marks": 300
+          },
+          "negativeMarking": 0.3333,
+          "note": "OTA has no Maths paper."
+        },
+        {
+          "id": "ssb",
+          "name": "SSB interview",
+          "rows": [],
+          "note": "Followed by medical."
+        }
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-capf-ac",
+      "groupId": "upsc",
+      "guideRef": "4.5",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "CAPF Assistant Commandant",
+      "shortName": "CAPF AC",
+      "overview": "UPSC exam for graduates to join BSF, CRPF, CISF, ITBP or SSB as Assistant Commandant.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary"
+      ],
+      "posts": [
+        {
+          "name": "Assistant Commandant",
+          "department": "BSF"
+        },
+        {
+          "name": "Assistant Commandant",
+          "department": "CRPF"
+        },
+        {
+          "name": "Assistant Commandant",
+          "department": "CISF"
+        },
+        {
+          "name": "Assistant Commandant",
+          "department": "ITBP"
+        },
+        {
+          "name": "Assistant Commandant",
+          "department": "SSB"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 20,
+        "ageMax": 25,
+        "extraRequirement": "Physical standards",
+        "ageNote": "Ex-servicemen: +5 years. Central civil employees: up to 30.",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Paper 1 and Paper 2",
+        "Physical test (qualifying)",
+        "Medical",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "paper1",
+          "name": "Paper 1: General Ability & Intelligence",
+          "rows": [],
+          "totals": {
+            "marks": 250
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "paper2",
+          "name": "Paper 2: General Studies, Essay & Comprehension",
+          "rows": [],
+          "totals": {
+            "marks": 200
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 150
+          }
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "100 m race",
+            "men": "16 s",
+            "women": "18 s"
+          },
+          {
+            "test": "800 m race",
+            "men": "3 min 45 s",
+            "women": "4 min 45 s"
+          },
+          {
+            "test": "Long jump",
+            "men": "3.5 m",
+            "women": "3 m"
+          },
+          {
+            "test": "Shot put",
+            "men": "4.5 m"
+          }
+        ],
+        "note": "Qualifying."
+      },
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-ese",
+      "groupId": "upsc",
+      "guideRef": "4.6",
+      "siteCategories": [],
+      "name": "Engineering Services Examination (ESE)",
+      "shortName": "ESE",
+      "overview": "UPSC exam for BE / B.Tech graduates in Civil, Mechanical, Electrical and E&T engineering services.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "Engineering degree; or AMIE (Section A & B); or Grad IETE; or M.Sc in Wireless Communication, Electronics, Radio Physics etc. for some services",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: +5 years. Some services allow extra relaxation for central government employees; check the notice.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Personality Test"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "GS & Engineering Aptitude",
+              "marks": 200
+            },
+            {
+              "subject": "Engineering discipline",
+              "marks": 300
+            }
+          ],
+          "totals": {
+            "marks": 500
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Engineering paper I (descriptive)",
+              "marks": 300
+            },
+            {
+              "subject": "Engineering paper II (descriptive)",
+              "marks": 300
+            }
+          ],
+          "totals": {
+            "marks": 600
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Personality Test",
+          "rows": [],
+          "totals": {
+            "marks": 200
+          }
+        }
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-cms",
+      "groupId": "upsc",
+      "guideRef": "4.7",
+      "siteCategories": [],
+      "name": "Combined Medical Services (CMS)",
+      "shortName": "CMS",
+      "overview": "UPSC exam for MBBS doctors to join central government medical services.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "professional"
+        ],
+        "qualification": "MBBS (final-year students allowed; internship before appointment)",
+        "ageMax": 32,
+        "ageNote": "Ex-servicemen: +5 years. Some services allow extra relaxation for central government employees; check the notice.",
+        "ageLimits": [
+          {
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Written exam (Paper I + Paper II)",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written exam",
+          "rows": [
+            {
+              "subject": "Paper I: General Medicine & Paediatrics",
+              "marks": 250
+            },
+            {
+              "subject": "Paper II: Surgery, Gynaecology, Preventive & Social Medicine",
+              "marks": 250
+            }
+          ],
+          "totals": {
+            "marks": 500
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 100
+          }
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Paper I",
+          "topics": "General Medicine & Paediatrics"
+        },
+        {
+          "subject": "Paper II",
+          "topics": "Surgery, Gynaecology, Preventive & Social Medicine"
+        }
+      ],
+      "salary": {
+        "payLevel": 10,
+        "certainty": "official",
+        "note": "Level 10 + Non-Practising Allowance."
+      },
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7,
+      "tips": []
+    },
+    {
+      "id": "upsc-geo-scientist",
+      "groupId": "upsc",
+      "guideRef": "4.8",
+      "siteCategories": [],
+      "name": "Combined Geo-Scientist",
+      "shortName": "Geo-Scientist",
+      "overview": "UPSC exam for postgraduates in geology, geophysics, chemistry or hydrogeology.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "postGraduate"
+        ],
+        "qualification": "Master's in Geology, Applied Geology, Geo-Exploration, Mineral Exploration, Geophysics, Chemistry, Hydrogeology, Marine Geology etc. (post-wise)",
+        "ageMin": 21,
+        "ageMax": 32,
+        "ageNote": "Ex-servicemen: +5 years.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "General Studies",
+              "marks": 100
+            },
+            {
+              "subject": "Geology / Geophysics / Chemistry / Hydrogeology",
+              "marks": 300
+            }
+          ],
+          "totals": {
+            "marks": 400
+          },
+          "negativeMarking": 0.3333
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Specialist subject (3 descriptive papers)",
+              "marks": 600
+            }
+          ],
+          "totals": {
+            "marks": 600
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 200
+          }
+        }
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-ies-iss",
+      "groupId": "upsc",
+      "guideRef": "4.9",
+      "siteCategories": [],
+      "name": "Indian Economic / Statistical Service",
+      "shortName": "IES / ISS",
+      "overview": "UPSC exam for postgraduates in Economics (IES) or Statistics (ISS).",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "IES: PG in Economics, Applied Economics, Business Economics or Econometrics. ISS: bachelor's with Statistics / Mathematical Statistics / Applied Statistics, or PG in those subjects",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: +5 years.",
+        "qualificationByPost": [
+          {
+            "post": "Indian Economic Service",
+            "qualification": "PG in Economics, Applied Economics, Business Economics or Econometrics"
+          },
+          {
+            "post": "Indian Statistical Service",
+            "qualification": "Bachelor's with Statistics / Mathematical Statistics / Applied Statistics as a subject, or PG in those subjects"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Descriptive papers",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Descriptive papers",
+          "rows": [
+            {
+              "subject": "General English",
+              "marks": 100
+            },
+            {
+              "subject": "General Studies",
+              "marks": 100
+            },
+            {
+              "subject": "Economics (IES) / Statistics (ISS) papers",
+              "marks": 800
+            }
+          ],
+          "totals": {
+            "marks": 1000
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 200
+          }
+        }
+      ],
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9,
+      "tips": [],
+      "syllabus": []
+    },
+    {
+      "id": "upsc-epfo",
+      "groupId": "upsc",
+      "guideRef": "4.10",
+      "siteCategories": [],
+      "name": "EPFO (EO/AO and APFC)",
+      "shortName": "EPFO",
+      "overview": "UPSC exam for graduates to become EPFO Enforcement / Accounts Officer or Assistant PF Commissioner.",
+      "conductingBody": "Union Public Service Commission (UPSC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Enforcement Officer / Accounts Officer",
+          "department": "EPFO",
+          "payLevel": 8,
+          "qualification": "Graduate",
+          "ageMin": 21,
+          "ageMax": 30
+        },
+        {
+          "name": "Assistant Provident Fund Commissioner",
+          "department": "EPFO",
+          "payLevel": 10,
+          "qualification": "Graduate",
+          "ageMin": 21,
+          "ageMax": 35
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 21,
+        "ageNote": "Ex-servicemen: +5 years. Some services allow extra relaxation for central government employees; check the notice.",
+        "ageLimits": [
+          {
+            "post": "EO / AO",
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          },
+          {
+            "post": "APFC",
+            "lower": 21,
+            "ur": 35,
+            "obc": 38,
+            "scSt": 40,
+            "pwbd": {
+              "ur": 45,
+              "obc": 48,
+              "scSt": 50
+            }
+          }
+        ],
+        "ageMax": 35
+      },
+      "fee": {
+        "general": 200,
+        "reserved": 0,
+        "note": "Fee as in recent notices; women, SC, ST and PwBD candidates are exempt."
+      },
+      "selectionSteps": [
+        "Recruitment Test",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Recruitment Test",
+          "rows": [],
+          "negativeMarking": 0.3333,
+          "note": "Recruitment Test and Interview are weighted 75 : 25."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Recruitment Test",
+          "topics": "English, freedom struggle, current events, polity & economy, accounting, industrial relations & labour laws, general science & computers, quantitative aptitude, social security in India"
+        }
+      ],
+      "salary": {
+        "payLevel": 8,
+        "certainty": "official",
+        "note": "EO/AO: Level 8 (Group B); APFC: Level 10."
+      },
+      "officialWebsite": "https://upsc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10,
+      "tips": []
+    }
+  ]
+}

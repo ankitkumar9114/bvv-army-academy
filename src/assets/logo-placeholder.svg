@@ -1,0 +1,5 @@
+<!-- Logo placeholder mark (shield). Replace with the academy's real logo and update src/components/Logo.tsx. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <rect width="40" height="40" rx="8" fill="#0366D9"/>
+  <path d="M20 8l10 3.75v8.1c0 6.25-4.25 11.1-10 13.15-5.75-2.05-10-6.9-10-13.15v-8.1L20 8z" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,1589 @@
+{
+  "group": {
+    "id": "defence",
+    "name": "Defence (Army, Navy, Air Force, Coast Guard)",
+    "intro": "Defence jobs have two routes: Agniveer (4-year service for soldiers, sailors and airmen) and officer entries. Caste-based age relaxation generally does not apply. NDA and CDS are covered in Part 4. Army, Navy and Air Force run separate Agniveer recruitments with their own eligibility, exams and physical standards. Under the Agnipath scheme, each Agniveer gets a Seva Nidhi of about ₹10.04 lakh (tax-free) at exit, and up to 25% of a batch can be selected for regular service.",
+    "officialWebsite": "https://joinindianarmy.nic.in",
+    "status": "published",
+    "order": 6,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "No relaxation (except Coast Guard: +3 years)"
+        },
+        {
+          "category": "scSt",
+          "rule": "No relaxation (except Coast Guard: +5 years)"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "Not eligible"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "Not eligible"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "Not eligible"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "Defence entries generally give no caste-based age relaxation: the same limit applies to every category. The Coast Guard is the exception and follows central relaxation rules.",
+        "PwBD candidates are not eligible for any defence entry.",
+        "Agniveer age is counted on the cut-off date in each service's notice; some Army specialist trades allow a higher upper age."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "army-agniveer",
+      "groupId": "defence",
+      "guideRef": "6.1",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Army Agniveer (GD, Technical, Clerk / Store Keeper, Tradesman, Women Military Police)",
+      "shortName": "Army Agniveer",
+      "overview": "The main route for 10th and 12th pass students to join the Army as Agniveers for 4 years.",
+      "conductingBody": "Indian Army",
+      "tags": [
+        "tenthPass",
+        "highVacancy",
+        "womenReservation"
+      ],
+      "posts": [
+        {
+          "name": "Agniveer General Duty",
+          "qualification": "10th pass with 45% overall and 33% in each subject",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Agniveer Technical",
+          "qualification": "12th Science (PCM + English) with 50%, or 10th + ITI / diploma",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Agniveer Clerk / Store Keeper",
+          "qualification": "12th in any stream with 60% overall and 50% in each subject",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Agniveer Tradesman",
+          "qualification": "10th pass (8th pass for some trades)",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Agniveer Women Military Police",
+          "qualification": "Women, 10th pass with 45%",
+          "ageMin": 17.5,
+          "ageMax": 21
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "eighth",
+          "tenth",
+          "iti",
+          "twelfth",
+          "diploma"
+        ],
+        "qualification": "GD and Women Military Police: 10th (45% overall, 33% each). Technical: 12th Science or 10th + ITI / diploma. Clerk / Store Keeper: 12th (60%). Tradesman: 8th or 10th pass",
+        "ageMin": 17.5,
+        "ageMax": 21,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice. Some specialist trades (e.g. Soldier Nursing Assistant, Religious Teacher) allow a higher upper age; check the notice.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "General Duty",
+            "qualification": "10th pass with 45% overall and 33% in each subject (grading: D grade in each subject, C2 overall)",
+            "extraRequirement": "Men"
+          },
+          {
+            "post": "Technical",
+            "qualification": "12th Science (PCM + English) with 50% overall and 40% in each; or 10th + 2-year ITI; or 10th + 3-year diploma",
+            "extraRequirement": "Men"
+          },
+          {
+            "post": "Clerk / Store Keeper",
+            "qualification": "12th in any stream with 60% overall and 50% in each subject; 50% in English and Maths / Accounts / Book-keeping",
+            "extraRequirement": "Men"
+          },
+          {
+            "post": "Tradesman (10th pass)",
+            "qualification": "10th pass with 33% in each subject",
+            "extraRequirement": "Men"
+          },
+          {
+            "post": "Tradesman (8th pass)",
+            "qualification": "8th pass with 33% in each subject",
+            "extraRequirement": "Men"
+          },
+          {
+            "post": "Women Military Police",
+            "qualification": "10th pass with 45% overall and 33% in each subject",
+            "extraRequirement": "Women only"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 17.5,
+            "ur": 21,
+            "obc": 21,
+            "scSt": 21,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 250
+      },
+      "selectionSteps": [
+        "Online CEE",
+        "Recruitment Rally (PFT, measurement, adaptability test)",
+        "Medical",
+        "Final merit (CEE + bonus marks)"
+      ],
+      "stages": [
+        {
+          "id": "cee-gd",
+          "name": "CEE: GD and Tradesman",
+          "rows": [],
+          "totals": {
+            "questions": 50,
+            "marks": 100,
+            "minutes": 60
+          },
+          "negativeMarking": 0.5
+        },
+        {
+          "id": "cee-technical",
+          "name": "CEE: Technical and Clerk",
+          "rows": [],
+          "totals": {
+            "questions": 50,
+            "marks": 200,
+            "minutes": 60
+          },
+          "negativeMarking": 1
+        },
+        {
+          "id": "merit",
+          "name": "Final merit",
+          "rows": [],
+          "note": "CEE marks plus bonus marks for NCC 'A' / 'B' / 'C' certificate holders, sportspersons and sons of servicemen. The marks and conditions are listed in that year's Army notice."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "General Duty",
+          "topics": "GK, General Science, Maths, Reasoning (10th level)"
+        },
+        {
+          "subject": "Technical",
+          "topics": "Physics, Chemistry, Maths, GK"
+        },
+        {
+          "subject": "Clerk",
+          "topics": "GK, Science, Maths, Computer, English"
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "1.6 km run",
+            "value": "Up to 5 min 30 s (60 marks) or 5 min 45 s (48 marks)"
+          },
+          {
+            "test": "Pull-ups",
+            "value": "6–10 (scored)"
+          },
+          {
+            "test": "Ditch",
+            "value": "9 ft"
+          },
+          {
+            "test": "Zig-zag balance"
+          },
+          {
+            "test": "Height",
+            "value": "160–170 cm by region (Central / MP GD 170 cm)"
+          },
+          {
+            "test": "Chest",
+            "value": "77 + 5 cm"
+          }
+        ],
+        "note": "The Army notice lists region, category and trade-wise standards."
+      },
+      "salary": {
+        "grossMin": 30000,
+        "grossMax": 40000,
+        "certainty": "estimate",
+        "note": "Monthly Agniveer package rises from ₹30,000 in year 1 to ₹40,000 in year 4 (part goes to the corpus fund). At exit each Agniveer gets a Seva Nidhi of about ₹10.04 lakh (tax-free)."
+      },
+      "payTable": [
+        {
+          "year": 1,
+          "monthly": 30000,
+          "inHand": 21000,
+          "corpus": 9000
+        },
+        {
+          "year": 2,
+          "monthly": 33000,
+          "inHand": 23100,
+          "corpus": 9900
+        },
+        {
+          "year": 3,
+          "monthly": 36500,
+          "inHand": 25550,
+          "corpus": 10950
+        },
+        {
+          "year": 4,
+          "monthly": 40000,
+          "inHand": 28000,
+          "corpus": 12000
+        }
+      ],
+      "career": {
+        "profile": "4-year service under the Agnipath scheme.",
+        "promotion": "Up to 25% of a batch can be selected for regular service. After-service benefits are set by each recruiting organisation: for example, MHA has announced reservation, age relaxation and PET exemption for ex-Agniveers in CAPF constable recruitment, and several states have announced police quotas. Check the specific notice for the percentage and conditions."
+      },
+      "currentCycle": {
+        "label": "2026",
+        "certainty": "reported",
+        "note": "The 2026 CEE was held in June 2026."
+      },
+      "officialWebsite": "https://joinindianarmy.nic.in",
+      "sources": [],
+      "tips": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "navy-agniveer",
+      "groupId": "defence",
+      "guideRef": "6.2",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Navy Agniveer (SSR & MR)",
+      "shortName": "Navy Agniveer",
+      "overview": "Agniveer entry into the Navy: SSR for 12th pass (Maths & Physics) and MR for 10th pass.",
+      "conductingBody": "Indian Navy",
+      "tags": [
+        "tenthPass"
+      ],
+      "posts": [
+        {
+          "name": "Agniveer SSR",
+          "qualification": "12th with Maths & Physics + Chemistry / Biology / Computer Science",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Agniveer MR",
+          "qualification": "10th pass",
+          "ageMin": 17.5,
+          "ageMax": 21
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth"
+        ],
+        "qualification": "SSR: 12th with Maths and Physics plus Chemistry / Biology / Computer Science. MR: 10th pass",
+        "ageMin": 17.5,
+        "ageMax": 21,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "Agniveer SSR",
+            "qualification": "12th with Maths and Physics plus Chemistry / Biology / Computer Science",
+            "extraRequirement": "Men and women"
+          },
+          {
+            "post": "Agniveer MR",
+            "qualification": "10th pass",
+            "extraRequirement": "Men and women"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 17.5,
+            "ur": 21,
+            "obc": 21,
+            "scSt": 21,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CBT",
+        "PFT"
+      ],
+      "stages": [
+        {
+          "id": "cbt-ssr",
+          "name": "CBT: Agniveer SSR",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Science"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "General Awareness"
+            }
+          ]
+        },
+        {
+          "id": "cbt-mr",
+          "name": "CBT: Agniveer MR",
+          "rows": [
+            {
+              "subject": "Science"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "General Awareness"
+            }
+          ]
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "1.6 km run",
+            "men": "6 min 30 s",
+            "women": "8 min"
+          },
+          {
+            "test": "Squats",
+            "men": "20",
+            "women": "15"
+          },
+          {
+            "test": "Push-ups",
+            "men": "15"
+          },
+          {
+            "test": "Sit-ups",
+            "men": "15",
+            "women": "10"
+          },
+          {
+            "test": "Height",
+            "men": "157 cm",
+            "women": "152 cm"
+          }
+        ]
+      },
+      "salary": {
+        "grossMin": 30000,
+        "grossMax": 40000,
+        "certainty": "estimate",
+        "note": "Monthly Agniveer package rises from ₹30,000 in year 1 to ₹40,000 in year 4 (part goes to the corpus fund). At exit each Agniveer gets a Seva Nidhi of about ₹10.04 lakh (tax-free)."
+      },
+      "payTable": [
+        {
+          "year": 1,
+          "monthly": 30000,
+          "inHand": 21000,
+          "corpus": 9000
+        },
+        {
+          "year": 2,
+          "monthly": 33000,
+          "inHand": 23100,
+          "corpus": 9900
+        },
+        {
+          "year": 3,
+          "monthly": 36500,
+          "inHand": 25550,
+          "corpus": 10950
+        },
+        {
+          "year": 4,
+          "monthly": 40000,
+          "inHand": 28000,
+          "corpus": 12000
+        }
+      ],
+      "career": {
+        "profile": "4-year service under the Agnipath scheme. Training at INS Chilka (Odisha).",
+        "promotion": "Up to 25% of a batch can be selected for regular service. After-service benefits are set by each recruiting organisation: for example, MHA has announced reservation, age relaxation and PET exemption for ex-Agniveers in CAPF constable recruitment, and several states have announced police quotas. Check the specific notice for the percentage and conditions."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "airforce-agniveer-vayu",
+      "groupId": "defence",
+      "guideRef": "6.3",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Air Force Agniveer Vayu",
+      "shortName": "Agniveer Vayu",
+      "overview": "Agniveer entry into the Air Force for 12th pass (any stream) or diploma holders.",
+      "conductingBody": "Indian Air Force",
+      "tags": [],
+      "posts": [
+        {
+          "name": "Science subjects",
+          "qualification": "12th with Physics, Maths, English (50% overall, 50% in English) or 3-year diploma",
+          "ageMin": 17.5,
+          "ageMax": 21
+        },
+        {
+          "name": "Other than Science subjects",
+          "qualification": "12th in any stream with 50%",
+          "ageMin": 17.5,
+          "ageMax": 21
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "diploma"
+        ],
+        "qualification": "Science: 12th with Physics, Maths, English (50%), or 3-year engineering diploma (50%), or 2-year vocational course with Physics & Maths. Other than Science: 12th in any stream (50%, 50% in English)",
+        "ageMin": 17.5,
+        "ageMax": 21,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "Science subjects",
+            "qualification": "12th with Physics, Maths, English (50% overall, 50% in English); or 3-year engineering diploma (50%); or 2-year vocational course with Physics & Maths",
+            "extraRequirement": "Men and women"
+          },
+          {
+            "post": "Other than Science",
+            "qualification": "12th in any stream with 50% overall and 50% in English",
+            "extraRequirement": "Men and women"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 17.5,
+            "ur": 21,
+            "obc": 21,
+            "scSt": 21,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Online test",
+        "Phase 2: physical fitness test",
+        "Adaptability Tests",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "online-science",
+          "name": "Online test: Science",
+          "rows": [
+            {
+              "subject": "Physics"
+            },
+            {
+              "subject": "Maths"
+            },
+            {
+              "subject": "English"
+            }
+          ],
+          "totals": {
+            "minutes": 60
+          },
+          "negativeMarking": 0.25,
+          "note": "+1 for each correct answer."
+        },
+        {
+          "id": "online-other",
+          "name": "Online test: Other than Science",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Reasoning & GA"
+            }
+          ],
+          "totals": {
+            "minutes": 45
+          },
+          "negativeMarking": 0.25,
+          "note": "+1 for each correct answer."
+        },
+        {
+          "id": "phase2",
+          "name": "Phase 2",
+          "rows": [],
+          "note": "Physical fitness test, then Adaptability Tests, then Medical."
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "1.6 km run",
+            "men": "7 min",
+            "women": "8 min"
+          },
+          {
+            "test": "Push-ups, sit-ups, squats"
+          },
+          {
+            "test": "Height",
+            "men": "152.5 cm",
+            "women": "152 cm"
+          }
+        ]
+      },
+      "salary": {
+        "grossMin": 30000,
+        "grossMax": 40000,
+        "certainty": "estimate",
+        "note": "Monthly Agniveer package rises from ₹30,000 in year 1 to ₹40,000 in year 4 (part goes to the corpus fund). At exit each Agniveer gets a Seva Nidhi of about ₹10.04 lakh (tax-free)."
+      },
+      "payTable": [
+        {
+          "year": 1,
+          "monthly": 30000,
+          "inHand": 21000,
+          "corpus": 9000
+        },
+        {
+          "year": 2,
+          "monthly": 33000,
+          "inHand": 23100,
+          "corpus": 9900
+        },
+        {
+          "year": 3,
+          "monthly": 36500,
+          "inHand": 25550,
+          "corpus": 10950
+        },
+        {
+          "year": 4,
+          "monthly": 40000,
+          "inHand": 28000,
+          "corpus": 12000
+        }
+      ],
+      "career": {
+        "profile": "4-year service under the Agnipath scheme.",
+        "promotion": "Up to 25% of a batch can be selected for regular service. After-service benefits are set by each recruiting organisation: for example, MHA has announced reservation, age relaxation and PET exemption for ex-Agniveers in CAPF constable recruitment, and several states have announced police quotas. Check the specific notice for the percentage and conditions."
+      },
+      "officialWebsite": "https://agnipathvayu.cdac.in",
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "afcat",
+      "groupId": "defence",
+      "guideRef": "6.4",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "AFCAT (Air Force Common Admission Test)",
+      "shortName": "AFCAT",
+      "overview": "Officer entry into the Air Force for graduates in Flying and Ground Duty branches.",
+      "conductingBody": "Indian Air Force",
+      "tags": [
+        "highSalary"
+      ],
+      "posts": [
+        {
+          "name": "Flying",
+          "qualification": "Graduate (60%) with Physics & Maths in 12th, or B.Tech (60%)",
+          "ageMin": 20,
+          "ageMax": 24
+        },
+        {
+          "name": "Ground Duty Technical",
+          "qualification": "B.Tech / BE (60%) in relevant branch",
+          "ageMin": 20,
+          "ageMax": 26
+        },
+        {
+          "name": "Ground Duty Non-Technical (Admin, Logistics, Accounts, Education, Meteorology, Weapon Systems)",
+          "qualification": "Graduate (60%) / B.Com / PG",
+          "ageMin": 20,
+          "ageMax": 26
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "Flying: graduate (60%) with Physics & Maths at 12th, or B.Tech (60%). Ground Duty Technical: B.Tech / BE (60%). Ground Duty Non-Technical: graduate (60%) / B.Com / PG",
+        "ageMin": 20,
+        "ageMax": 26,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "Flying",
+            "qualification": "Graduate (60%) with Physics & Maths at 12th (50% each); or B.Tech (60%)",
+            "extraRequirement": "Men and women"
+          },
+          {
+            "post": "Ground Duty Technical",
+            "qualification": "B.Tech / BE (60%) in the relevant branch, with Physics & Maths at 12th",
+            "extraRequirement": "Men and women"
+          },
+          {
+            "post": "Ground Duty Non-Technical",
+            "qualification": "Graduate (60%) / B.Com / PG (Education, Meteorology)",
+            "extraRequirement": "Men and women"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Flying",
+            "lower": 20,
+            "ur": 24,
+            "obc": 24,
+            "scSt": 24,
+            "pwbdEligible": false,
+            "note": "26 with a Commercial Pilot Licence."
+          },
+          {
+            "post": "Ground Duty Technical",
+            "lower": 20,
+            "ur": 26,
+            "obc": 26,
+            "scSt": 26,
+            "pwbdEligible": false
+          },
+          {
+            "post": "Ground Duty Non-Technical",
+            "lower": 20,
+            "ur": 26,
+            "obc": 26,
+            "scSt": 26,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Written test (AFCAT)",
+        "EKT (Ground Duty Technical)",
+        "AFSB interview (5 days); CPSS for Flying branch"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test (AFCAT)",
+          "rows": [
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "Verbal Ability"
+            },
+            {
+              "subject": "Numerical Ability"
+            },
+            {
+              "subject": "Reasoning & Military Aptitude"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 300,
+            "minutes": 120
+          },
+          "negativeMarking": 1,
+          "note": "+3 for each correct answer."
+        },
+        {
+          "id": "ekt",
+          "name": "Engineering Knowledge Test (EKT)",
+          "rows": [],
+          "totals": {
+            "questions": 50,
+            "marks": 150,
+            "minutes": 45
+          },
+          "note": "For Ground Duty (Technical), as in recent notices including AFCAT 02/2026. A GATE-score route also exists for Ground Duty (Technical). Confirm both in the current notice at afcat.cdac.in."
+        },
+        {
+          "id": "ssb",
+          "name": "AFSB interview",
+          "rows": [],
+          "note": "5-day board interview. Flying branch also takes the CPSS (one attempt in a lifetime)."
+        }
+      ],
+      "salary": {
+        "payLevel": 10,
+        "certainty": "estimate",
+        "note": "Flying Officer, Level 10 + MSP ₹15,500 + flying allowance."
+      },
+      "officialWebsite": "https://afcat.cdac.in",
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "army-tes",
+      "groupId": "defence",
+      "guideRef": "6.5",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Army 10+2 Technical Entry Scheme (TES)",
+      "shortName": "Army TES",
+      "overview": "Army officer entry for 12th PCM students with JEE Main, leading to a B.Tech and Permanent Commission.",
+      "conductingBody": "Indian Army",
+      "tags": [
+        "highSalary",
+        "noWrittenExam"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th PCM with 60% aggregate + JEE Main of that year",
+        "ageMin": 16.5,
+        "ageMax": 19.5,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "extraRequirement": "Unmarried men",
+        "ageLimits": [
+          {
+            "lower": 16.5,
+            "ur": 19.5,
+            "obc": 19.5,
+            "scSt": 19.5,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Shortlisting on PCM % / JEE Main",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "ssb",
+          "name": "SSB interview (5 days)",
+          "rows": [
+            {
+              "subject": "Screening: OIR test + PPDT"
+            },
+            {
+              "subject": "Psychology tests: TAT, WAT, SRT, Self Description"
+            },
+            {
+              "subject": "Group Testing (GTO) tasks"
+            },
+            {
+              "subject": "Personal interview"
+            },
+            {
+              "subject": "Conference"
+            }
+          ]
+        }
+      ],
+      "career": {
+        "profile": "Training: 4 years (1 year military + 3 years engineering), then B.Tech and Permanent Commission."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "navy-btech-entry",
+      "groupId": "defence",
+      "guideRef": "6.6",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Navy 10+2 B.Tech Cadet Entry",
+      "shortName": "Navy B.Tech",
+      "overview": "Navy officer entry for 12th PCM students with a JEE Main rank, with a 4-year B.Tech at Ezhimala.",
+      "conductingBody": "Indian Navy",
+      "tags": [
+        "highSalary",
+        "noWrittenExam"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th PCM with 70% aggregate (50% English in 10th or 12th) + JEE Main rank",
+        "ageMin": 16.5,
+        "ageMax": 19.5,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "extraRequirement": "Unmarried men and women",
+        "ageLimits": [
+          {
+            "lower": 16.5,
+            "ur": 19.5,
+            "obc": 19.5,
+            "scSt": 19.5,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Shortlist by JEE Main rank",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "ssb",
+          "name": "SSB interview (5 days)",
+          "rows": [
+            {
+              "subject": "Screening: OIR test + PPDT"
+            },
+            {
+              "subject": "Psychology tests: TAT, WAT, SRT, Self Description"
+            },
+            {
+              "subject": "Group Testing (GTO) tasks"
+            },
+            {
+              "subject": "Personal interview"
+            },
+            {
+              "subject": "Conference"
+            }
+          ]
+        }
+      ],
+      "career": {
+        "profile": "4-year B.Tech at Indian Naval Academy, Ezhimala."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "army-tgc-ssc-tech",
+      "groupId": "defence",
+      "guideRef": "6.7",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Army TGC & SSC (Tech)",
+      "shortName": "TGC / SSC Tech",
+      "overview": "Army officer entries for engineering graduates, selected on engineering marks and SSB.",
+      "conductingBody": "Indian Army",
+      "tags": [
+        "highSalary",
+        "noWrittenExam"
+      ],
+      "posts": [
+        {
+          "name": "Technical Graduate Course (TGC)",
+          "qualification": "B.Tech / BE (final year allowed); unmarried men",
+          "ageMin": 20,
+          "ageMax": 27
+        },
+        {
+          "name": "Short Service Commission (Tech)",
+          "qualification": "B.Tech / BE; men and women",
+          "ageMin": 20,
+          "ageMax": 27
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "B.Tech / BE in notified branches (final year allowed for TGC)",
+        "ageMin": 20,
+        "ageMax": 27,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "qualificationByPost": [
+          {
+            "post": "Technical Graduate Course (TGC)",
+            "qualification": "B.Tech / BE in notified branches (final year allowed)",
+            "extraRequirement": "Unmarried men"
+          },
+          {
+            "post": "Short Service Commission (Tech)",
+            "qualification": "B.Tech / BE in notified branches",
+            "extraRequirement": "Unmarried men and women; widows of defence personnel"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "TGC",
+            "lower": 20,
+            "ur": 27,
+            "obc": 27,
+            "scSt": 27,
+            "pwbdEligible": false
+          },
+          {
+            "post": "SSC (Tech)",
+            "lower": 20,
+            "ur": 27,
+            "obc": 27,
+            "scSt": 27,
+            "pwbdEligible": false,
+            "note": "Widows of defence personnel: up to 35."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Shortlisting on engineering marks",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "ssb",
+          "name": "SSB interview (5 days)",
+          "rows": [
+            {
+              "subject": "Screening: OIR test + PPDT"
+            },
+            {
+              "subject": "Psychology tests: TAT, WAT, SRT, Self Description"
+            },
+            {
+              "subject": "Group Testing (GTO) tasks"
+            },
+            {
+              "subject": "Personal interview"
+            },
+            {
+              "subject": "Conference"
+            }
+          ]
+        }
+      ],
+      "career": {
+        "profile": "TGC: training at IMA Dehradun, Permanent Commission. SSC (Tech): training at OTA Chennai, Short Service Commission."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "ncc-special-entry",
+      "groupId": "defence",
+      "guideRef": "6.8",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "NCC Special Entry",
+      "shortName": "NCC Entry",
+      "overview": "Army officer entry for graduates holding an NCC 'C' certificate, with no written exam.",
+      "conductingBody": "Indian Army",
+      "tags": [
+        "highSalary",
+        "noWrittenExam"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "ncc"
+        ],
+        "qualification": "Graduate with 50% + NCC 'C' certificate (min. B grade) + 2–3 years in NCC Senior Division",
+        "ageMin": 19,
+        "ageMax": 25,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "extraRequirement": "Unmarried men and women",
+        "ageLimits": [
+          {
+            "lower": 19,
+            "ur": 25,
+            "obc": 25,
+            "scSt": 25,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Shortlisting",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "ssb",
+          "name": "SSB interview (5 days)",
+          "rows": [
+            {
+              "subject": "Screening: OIR test + PPDT"
+            },
+            {
+              "subject": "Psychology tests: TAT, WAT, SRT, Self Description"
+            },
+            {
+              "subject": "Group Testing (GTO) tasks"
+            },
+            {
+              "subject": "Personal interview"
+            },
+            {
+              "subject": "Conference"
+            }
+          ]
+        }
+      ],
+      "career": {
+        "profile": "Training: 49 weeks at OTA Chennai."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    },
+    {
+      "id": "army-jag",
+      "groupId": "defence",
+      "guideRef": "6.9",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Army JAG Entry (Judge Advocate General)",
+      "shortName": "Army JAG",
+      "overview": "Army legal officer entry for law graduates, shortlisted on CLAT PG score.",
+      "conductingBody": "Indian Army",
+      "tags": [
+        "highSalary",
+        "noWrittenExam"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "professional"
+        ],
+        "qualification": "LLB (3 or 5 year) with 55% + eligible for Bar Council + CLAT PG score",
+        "ageMin": 21,
+        "ageMax": 27,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "gender": "any",
+        "extraRequirement": "Unmarried men and women",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 27,
+            "obc": 27,
+            "scSt": 27,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Shortlisting by CLAT PG score",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "ssb",
+          "name": "SSB interview (5 days)",
+          "rows": [
+            {
+              "subject": "Screening: OIR test + PPDT"
+            },
+            {
+              "subject": "Psychology tests: TAT, WAT, SRT, Self Description"
+            },
+            {
+              "subject": "Group Testing (GTO) tasks"
+            },
+            {
+              "subject": "Personal interview"
+            },
+            {
+              "subject": "Conference"
+            }
+          ]
+        }
+      ],
+      "career": {
+        "profile": "Legal officer for court martials, military law and legal advice to commanders."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9
+    },
+    {
+      "id": "navy-inet",
+      "groupId": "defence",
+      "guideRef": "6.10",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Navy INET (Officer Entry)",
+      "shortName": "Navy INET",
+      "overview": "Indian Navy Entrance Test: the online test for several graduate officer entries.",
+      "conductingBody": "Indian Navy",
+      "tags": [
+        "highSalary"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate",
+          "professional"
+        ],
+        "qualification": "Branch-wise: Graduate / B.Tech / B.Sc / MBA / MCA / LLB (usually 60%)",
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "extraRequirement": "Men and women (most branches)",
+        "ageLimits": [
+          {
+            "lower": 19,
+            "ur": 25,
+            "obc": 25,
+            "scSt": 25,
+            "pwbdEligible": false,
+            "note": "Branch-wise, roughly 19–25. Check the notice for your branch."
+          }
+        ],
+        "ageMin": 19,
+        "ageMax": 25
+      },
+      "selectionSteps": [
+        "INET (online test)",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "inet",
+          "name": "INET (online test)",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Reasoning & Numerical Ability"
+            },
+            {
+              "subject": "General Science & Maths"
+            },
+            {
+              "subject": "GK"
+            }
+          ]
+        }
+      ],
+      "officialWebsite": "https://www.joinindiannavy.gov.in",
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10
+    },
+    {
+      "id": "territorial-army",
+      "groupId": "defence",
+      "guideRef": "6.11",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Territorial Army Officer",
+      "shortName": "Territorial Army",
+      "overview": "Part-time Army officer service for employed graduates, serving at least 2 months a year.",
+      "conductingBody": "Territorial Army",
+      "tags": [
+        "highSalary"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree + gainfully employed or self-employed",
+        "ageMin": 18,
+        "ageMax": 42,
+        "ageNote": "Same age limit for every category; PwBD candidates are not eligible. Age is counted on the cut-off date in the notice.",
+        "extraRequirement": "Men and women",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 42,
+            "obc": 42,
+            "scSt": 42,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Written test",
+        "Preliminary interview",
+        "SSB",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "Elementary Mathematics",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "General Knowledge",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "English",
+              "questions": 50,
+              "marks": 50
+            }
+          ]
+        },
+        {
+          "id": "interview",
+          "name": "Preliminary interview",
+          "rows": []
+        }
+      ],
+      "salary": {
+        "certainty": "estimate",
+        "note": "Officer-level pay for days on duty only."
+      },
+      "career": {
+        "profile": "Part-time officer service: keep your civilian job and serve at least 2 months a year."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 11
+    },
+    {
+      "id": "coast-guard-navik-yantrik",
+      "groupId": "defence",
+      "guideRef": "6.12",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Coast Guard Navik & Yantrik",
+      "shortName": "Navik / Yantrik",
+      "overview": "Coast Guard sailor posts for 10th / 12th pass and diploma holders, selected through a CBT and PFT.",
+      "conductingBody": "Indian Coast Guard",
+      "tags": [
+        "tenthPass"
+      ],
+      "posts": [
+        {
+          "name": "Navik (General Duty)",
+          "payLevel": 3,
+          "qualification": "12th with Maths & Physics",
+          "ageMin": 18,
+          "ageMax": 22
+        },
+        {
+          "name": "Navik (Domestic Branch)",
+          "payLevel": 3,
+          "qualification": "10th pass",
+          "ageMin": 18,
+          "ageMax": 22
+        },
+        {
+          "name": "Yantrik",
+          "payLevel": 5,
+          "qualification": "10th / 12th + engineering diploma",
+          "ageMin": 18,
+          "ageMax": 22
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth",
+          "diploma"
+        ],
+        "qualification": "Navik (GD): 12th with Maths & Physics. Navik (DB): 10th pass. Yantrik: 10th / 12th + 3-year engineering diploma",
+        "ageMin": 18,
+        "ageMax": 22,
+        "ageNote": "The Coast Guard follows central relaxation rules (OBC +3, SC / ST +5). PwBD candidates are not eligible.",
+        "qualificationByPost": [
+          {
+            "post": "Navik (General Duty)",
+            "qualification": "12th with Maths & Physics"
+          },
+          {
+            "post": "Navik (Domestic Branch)",
+            "qualification": "10th pass"
+          },
+          {
+            "post": "Yantrik",
+            "qualification": "10th / 12th + 3-year engineering diploma (Electrical, Mechanical, Electronics / Telecom)"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Navik (GD, DB), Yantrik",
+            "lower": 18,
+            "ur": 22,
+            "obc": 25,
+            "scSt": 27,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Stage 1: CBT",
+        "Stage 2: Assessment + PFT",
+        "Stage 3: Medical",
+        "Stage 4: Training at INS Chilka"
+      ],
+      "stages": [
+        {
+          "id": "stage1",
+          "name": "Stage 1: CBT",
+          "rows": [
+            {
+              "subject": "Mathematics",
+              "questions": 20
+            },
+            {
+              "subject": "General Science",
+              "questions": 10
+            },
+            {
+              "subject": "English",
+              "questions": 15
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 5
+            },
+            {
+              "subject": "General Knowledge",
+              "questions": 10
+            },
+            {
+              "subject": "Maths & Physics (Navik GD, Section II)",
+              "questions": 50
+            },
+            {
+              "subject": "Electrical / Mechanical / Electronics engineering (Yantrik)",
+              "questions": 50
+            }
+          ]
+        },
+        {
+          "id": "stage2",
+          "name": "Stage 2: Assessment + PFT",
+          "rows": []
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "1.6 km run",
+            "value": "7 min"
+          },
+          {
+            "test": "Squats",
+            "value": "20"
+          },
+          {
+            "test": "Push-ups",
+            "value": "10"
+          }
+        ]
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "estimate",
+        "note": "Navik: Level 3. Yantrik: Level 5 + Yantrik pay."
+      },
+      "career": {
+        "profile": "Coast Guard is not part of the Agniveer scheme: these are regular service posts. Check the notice for the retirement-benefit scheme that applies to new recruits, and do not assume the old-style pension. Training at INS Chilka."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 12
+    },
+    {
+      "id": "coast-guard-ac",
+      "groupId": "defence",
+      "guideRef": "6.13",
+      "siteCategories": [
+        "defence"
+      ],
+      "name": "Coast Guard Assistant Commandant",
+      "shortName": "Coast Guard AC",
+      "overview": "Coast Guard officer entry in General Duty, Technical and Law branches.",
+      "conductingBody": "Indian Coast Guard",
+      "tags": [
+        "highSalary"
+      ],
+      "posts": [
+        {
+          "name": "General Duty",
+          "qualification": "Graduate (60%) with Maths & Physics up to 12th",
+          "ageMin": 21,
+          "ageMax": 25
+        },
+        {
+          "name": "Technical",
+          "qualification": "B.Tech",
+          "ageMin": 21,
+          "ageMax": 25
+        },
+        {
+          "name": "Law",
+          "qualification": "LLB"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "professional"
+        ],
+        "qualification": "GD: graduate (60%) with Maths & Physics up to 12th. Technical: B.Tech. Law: LLB (60%)",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "The Coast Guard follows central relaxation rules (OBC +3, SC / ST +5). PwBD candidates are not eligible.",
+        "qualificationByPost": [
+          {
+            "post": "General Duty",
+            "qualification": "Graduate (60%) with Maths & Physics up to 12th"
+          },
+          {
+            "post": "Technical",
+            "qualification": "B.Tech"
+          },
+          {
+            "post": "Law",
+            "qualification": "LLB (60%)"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "GD, Technical",
+            "lower": 21,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          },
+          {
+            "post": "Law",
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CGCAT",
+        "Preliminary Selection Board",
+        "Final Selection Board",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "cgcat",
+          "name": "CGCAT",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 25
+            },
+            {
+              "subject": "Reasoning & Numerical Ability",
+              "questions": 25
+            },
+            {
+              "subject": "General Science & Mathematics",
+              "questions": 25
+            },
+            {
+              "subject": "General Knowledge",
+              "questions": 25
+            }
+          ]
+        }
+      ],
+      "salary": {
+        "payLevel": 10,
+        "certainty": "estimate",
+        "note": "Level 10."
+      },
+      "sources": [],
+      "tips": [],
+      "syllabus": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 13
+    }
+  ]
+}

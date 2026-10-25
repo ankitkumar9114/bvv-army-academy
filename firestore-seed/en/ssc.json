@@ -1,0 +1,1861 @@
+{
+  "group": {
+    "id": "ssc",
+    "name": "SSC (Staff Selection Commission)",
+    "intro": "Fees and fee exemptions vary by exam, so check each notice. In recent notices most SSC exams charge ₹100, with women, SC, ST, PwBD and ex-servicemen exempt. Apply only on ssc.gov.in after One-Time Registration (OTR). Aadhaar authentication is optional for CGL 2026, and other identity documents are accepted. Aadhaar checks do apply to the scribe rules.",
+    "officialWebsite": "https://ssc.gov.in",
+    "status": "published",
+    "order": 1,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "+3 years"
+        },
+        {
+          "category": "scSt",
+          "rule": "+5 years"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "+10 years"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "+13 years"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "+15 years"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "Age minus military service + 3 years"
+        },
+        {
+          "category": "widows",
+          "rule": "Group C posts: up to 35 (UR), 38 (OBC), 40 (SC/ST)"
+        },
+        {
+          "category": "exAgniveer",
+          "rule": "CAPF and Railway: up to 5 years for the first batch, 3 years after"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "EWS gets reservation but no age relaxation in central exams.",
+        "OBC relaxation applies only to the Non-Creamy Layer, with a valid central-format certificate.",
+        "Widows and divorced women (not remarried), Group C posts: up to 35 (UR), 38 (OBC), 40 (SC/ST).",
+        "Central government civilian employees with 3 years' service: up to 40 (UR), 43 (OBC), 45 (SC/ST) for some posts.",
+        "Cut-off date: CGL uses 1 August of the exam year; check each notice for the others."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "ssc-cgl",
+      "groupId": "ssc",
+      "guideRef": "1.1",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC CGL (Combined Graduate Level)",
+      "shortName": "CGL",
+      "overview": "The biggest graduate-level central exam, for Group B and Group C posts at Pay Level 4 to 8.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "frequency": "Once a year (typical: notification around April–June)",
+      "tags": [
+        "highSalary",
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Assistant Audit Officer (Central and State Cadre)",
+          "department": "C&AG — Indian Audit & Accounts Department (Group B Gazetted)",
+          "payLevel": 8
+        },
+        {
+          "name": "Assistant Accounts Officer",
+          "department": "C&AG / CGA (Group B Gazetted)",
+          "payLevel": 8
+        },
+        {
+          "name": "Assistant Section Officer",
+          "department": "Central Secretariat, MEA, Railways, IB, AFHQ",
+          "payLevel": 7
+        },
+        {
+          "name": "Assistant Enforcement Officer",
+          "department": "Enforcement Directorate",
+          "payLevel": 7
+        },
+        {
+          "name": "Inspector (Central Excise, GST, Preventive Officer, Examiner)",
+          "department": "CBIC",
+          "payLevel": 7
+        },
+        {
+          "name": "Inspector of Income Tax",
+          "department": "CBDT",
+          "payLevel": 7
+        },
+        {
+          "name": "Sub-Inspector (Level 7 / 6)",
+          "department": "CBI, NIA"
+        },
+        {
+          "name": "Divisional Accountant",
+          "department": "C&AG",
+          "payLevel": 6
+        },
+        {
+          "name": "Junior Statistical Officer / Statistical Investigator",
+          "department": "MoSPI, RGI",
+          "payLevel": 6
+        },
+        {
+          "name": "Auditor, Accountant, Junior Accountant",
+          "department": "C&AG, CGDA, CGA",
+          "payLevel": 5
+        },
+        {
+          "name": "Senior Secretariat Assistant / UDC",
+          "department": "Central offices",
+          "payLevel": 4
+        },
+        {
+          "name": "Tax Assistant",
+          "department": "CBDT, CBIC",
+          "payLevel": 4
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree in any subject",
+        "ageMin": 18,
+        "ageMax": 32,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Cut-off date: 1 August of the exam year.",
+        "extraRequirement": "JSO: 12th with Maths (60%) or graduation with Statistics; Statistical Investigator: graduation with Statistics; final-year students can apply if they have the degree by the cut-off date",
+        "ageLimits": [
+          {
+            "post": "18–27 posts (Auditor, Accountant, Tax Assistant, UDC etc.)",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbd": {
+              "ur": 37,
+              "obc": 40,
+              "scSt": 42
+            }
+          },
+          {
+            "post": "20–30 / 18–30 posts (ASO, Inspector, AEO, AAO etc.)",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "note": "Lower age is 20 for some of these posts."
+          },
+          {
+            "post": "18–32 posts (JSO and some others)",
+            "lower": 18,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            }
+          },
+          {
+            "post": "CBI Sub-Inspector",
+            "lower": 20,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Tier 1 — qualifying screening (marks not counted in final merit)",
+        "Tier 2 — merit exam (Paper I for all; Paper II for JSO; Paper III for AAO and Assistant Accounts Officer)",
+        "Skill tests inside Tier 2 — Computer Knowledge module and Data Entry Speed Test (DEST)",
+        "Physical / medical test for CBI SI, Inspector (CBIC, Narcotics) posts",
+        "Document verification and post allotment by merit and preference"
+      ],
+      "stages": [
+        {
+          "id": "tier1",
+          "name": "Tier 1",
+          "rows": [
+            {
+              "subject": "General Intelligence & Reasoning",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "English Comprehension",
+              "questions": 25,
+              "marks": 50
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 200,
+            "minutes": 60
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.5,
+          "note": "The 2026 notice introduced sectional timing in Tier 1."
+        },
+        {
+          "id": "tier2Paper1",
+          "name": "Tier 2 Paper I",
+          "rows": [
+            {
+              "subject": "Section I: Mathematical Abilities + Reasoning (30 + 30)",
+              "questions": 60,
+              "marks": 180,
+              "minutes": 60
+            },
+            {
+              "subject": "Section II: English + General Awareness (45 + 25)",
+              "questions": 70,
+              "marks": 210,
+              "minutes": 60
+            },
+            {
+              "subject": "Section III: Computer Knowledge (qualifying)",
+              "questions": 20,
+              "marks": 60,
+              "minutes": 15
+            },
+            {
+              "subject": "Session II: Data Entry Speed Test (qualifying), 2,000 key depressions",
+              "minutes": 15
+            }
+          ],
+          "note": "Negative marking in Tier 2 differs by paper and section, so check the 2026 notice for the exact values."
+        },
+        {
+          "id": "tier2Paper2",
+          "name": "Tier 2 Paper II (Statistics)",
+          "rows": [
+            {
+              "subject": "Statistics",
+              "questions": 100,
+              "marks": 200,
+              "minutes": 120
+            }
+          ],
+          "note": "Only for candidates shortlisted for JSO / Statistical Investigator."
+        },
+        {
+          "id": "tier2Paper3",
+          "name": "Tier 2 Paper III (General Studies – Finance & Economics)",
+          "rows": [
+            {
+              "subject": "General Studies (Finance & Economics)",
+              "questions": 100,
+              "marks": 200
+            }
+          ],
+          "note": "New in 2026. Only for candidates shortlisted for Assistant Audit Officer / Assistant Accounts Officer. For AAO posts, merit is based on Paper I plus Paper III."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Quantitative Aptitude",
+          "topics": "Number system, percentage, ratio, average, interest, profit & loss, time & work, speed & distance, mensuration, algebra, geometry, trigonometry, data interpretation, statistics"
+        },
+        {
+          "subject": "Reasoning",
+          "topics": "Analogy, classification, series, coding-decoding, blood relations, direction, syllogism, Venn diagram, matrix, paper folding, embedded figures, puzzles"
+        },
+        {
+          "subject": "English",
+          "topics": "Vocabulary, synonyms & antonyms, idioms, one-word substitution, spelling, error spotting, sentence improvement, active/passive, narration, cloze test, reading comprehension"
+        },
+        {
+          "subject": "General Awareness",
+          "topics": "History, geography, polity, economy, general science, static GK, current affairs, sports, awards, books"
+        },
+        {
+          "subject": "Computer",
+          "topics": "Computer basics, MS Office, internet, email, networking, cyber security"
+        },
+        {
+          "subject": "Statistics (JSO)",
+          "topics": "Collection & presentation of data, central tendency, dispersion, correlation & regression, probability, sampling, index numbers, time series"
+        },
+        {
+          "subject": "Paper III (AAO / Assistant Accounts Officer)",
+          "topics": "Finance (financial accounting, auditing basics, Finance Commission, budgeting) and Economics (micro and macro economics, growth and development, money and banking, Indian economy)"
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "CBI Sub-Inspector",
+            "men": "Height 165 cm, chest 76 + 5 cm, vision 6/6",
+            "women": "Height 150 cm"
+          },
+          {
+            "test": "Inspector (CBIC, Narcotics)",
+            "men": "157.5 cm; walk 1,600 m in 15 min, cycle 8 km in 30 min",
+            "women": "152 cm; walk 1 km in 20 min, cycle 3 km in 25 min"
+          }
+        ],
+        "note": "Physical standards apply only to some posts."
+      },
+      "salary": {
+        "grossMin": 46000,
+        "grossMax": 96000,
+        "certainty": "estimate",
+        "note": "Level 4 (₹25,500 basic) to Level 8 (₹47,600 basic, AAO / Assistant Accounts Officer); estimated gross with 60% DA, HRA and transport allowance. Perks: pension (NPS/UPS), medical (CGHS), LTC, government quarters, children education allowance."
+      },
+      "career": {
+        "profile": "ASO handles files and policy notes in ministries; Inspectors do tax assessment, raids and customs duty; Auditors check government accounts.",
+        "promotion": "Typical growth: ASO → Section Officer → Under Secretary; Inspector → Superintendent → Assistant Commissioner."
+      },
+      "tips": [
+        "Maths and English carry a large share of Tier 2 Paper I marks; AAO aspirants must also prepare Finance & Economics for Paper III; practise advanced maths (geometry, trigonometry, algebra) early.",
+        "Read one newspaper daily and revise static GK monthly.",
+        "Take full-length mocks with sectional timing; practise typing for DEST (about 30 wpm)."
+      ],
+      "currentCycle": {
+        "label": "2026",
+        "vacancies": 12256,
+        "certainty": "reported",
+        "note": "AAO and Assistant Accounts Officer posts returned in CGL 2026 with a Central and State Cadre structure at Level 8. The final post list and vacancies are in the official notice on ssc.gov.in."
+      },
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [
+        {
+          "label": "SSC Drishti",
+          "url": "https://www.sscdrishti.com/blog/ssc-cgl-aao-2026-key-dates-level-8-salary-new-exam-pattern"
+        },
+        {
+          "label": "Business Today",
+          "url": "https://www.businesstoday.in/amp/education/exams/story/new-changes-introduced-in-ssc-cgl-2026-recruitment-heres-what-aspirants-should-know-533333-2026-05-28"
+        },
+        {
+          "label": "Taiyarho",
+          "url": "https://www.taiyarho.in/exams/ssc-cgl/"
+        },
+        {
+          "label": "PW Live",
+          "url": "https://www.pw.live/ssc/exams/new-changes-in-ssc-cgl-2026-recruitment"
+        },
+        {
+          "label": "Mahendras",
+          "url": "https://www.mahendras.org/blogs/ssc-cgl-2026-exam-date-eligibility-and-age-limit-explained-complete-guide"
+        },
+        {
+          "label": "PW Live (news)",
+          "url": "https://www.pw.live/news/ssc-cgl-2026-major-update-exam-pattern-vacancies"
+        }
+      ],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "ssc-chsl",
+      "groupId": "ssc",
+      "guideRef": "1.2",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC CHSL (Combined Higher Secondary Level)",
+      "shortName": "CHSL",
+      "overview": "The main 12th-pass central clerk exam, for LDC, Postal Assistant and Data Entry Operator jobs at Level 2 to 4.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "frequency": "Once a year",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Lower Division Clerk / Junior Secretariat Assistant",
+          "payLevel": 2
+        },
+        {
+          "name": "Postal Assistant / Sorting Assistant",
+          "payLevel": 4
+        },
+        {
+          "name": "Data Entry Operator (Level 4 / 5)"
+        },
+        {
+          "name": "DEO Grade A",
+          "payLevel": 4
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th pass",
+        "ageMin": 18,
+        "ageMax": 27,
+        "extraRequirement": "DEO in C&AG: 12th Science with Maths",
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbd": {
+              "ur": 37,
+              "obc": 40,
+              "scSt": 42
+            }
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Tier 1 — qualifying CBT",
+        "Tier 2 — merit CBT with computer module",
+        "Skill Test (typing or DEST) — qualifying",
+        "Document verification"
+      ],
+      "stages": [
+        {
+          "id": "tier1",
+          "name": "Tier 1",
+          "rows": [
+            {
+              "subject": "English Language",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "General Intelligence",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 25,
+              "marks": 50
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 25,
+              "marks": 50
+            }
+          ],
+          "totals": {
+            "minutes": 60
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.5
+        },
+        {
+          "id": "tier2",
+          "name": "Tier 2",
+          "rows": [
+            {
+              "subject": "Section I: Maths 30 + Reasoning 30",
+              "questions": 60,
+              "marks": 180,
+              "minutes": 60
+            },
+            {
+              "subject": "Section II: English 40 + GA 20",
+              "questions": 60,
+              "marks": 180,
+              "minutes": 60
+            },
+            {
+              "subject": "Section III: Computer Knowledge (qualifying)",
+              "questions": 15,
+              "marks": 45,
+              "minutes": 15
+            },
+            {
+              "subject": "Session II: Skill / Typing Test (qualifying)"
+            }
+          ],
+          "negativeMarking": 1
+        },
+        {
+          "id": "skillTest",
+          "name": "Skill test",
+          "rows": [
+            {
+              "subject": "LDC / JSA / PA / SA: typing 35 wpm English or 30 wpm Hindi on computer",
+              "minutes": 10
+            },
+            {
+              "subject": "DEO: 8,000 key depressions per hour"
+            },
+            {
+              "subject": "DEO (C&AG): 15,000 key depressions per hour"
+            }
+          ],
+          "qualifyingOnly": true
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Maths",
+          "topics": "Number system, percentage, ratio, average, interest, profit & loss, time & work, time & distance, mensuration, algebra, geometry, trigonometry, DI"
+        },
+        {
+          "subject": "Reasoning",
+          "topics": "Analogy, series, coding-decoding, puzzle, blood relation, direction, Venn diagram, mirror & water image, paper cutting"
+        },
+        {
+          "subject": "English",
+          "topics": "Spotting errors, fill in the blanks, synonyms, antonyms, idioms, one-word substitution, active/passive, narration, cloze, comprehension"
+        },
+        {
+          "subject": "General Awareness",
+          "topics": "History, geography, polity, economy, science, current affairs, static GK"
+        },
+        {
+          "subject": "Computer",
+          "topics": "Basics, Windows, MS Office, internet, email, security"
+        }
+      ],
+      "salary": {
+        "grossMin": 35000,
+        "grossMax": 54000,
+        "certainty": "estimate",
+        "note": "Gross about ₹35,000 (LDC) to ₹54,000 (PA/DEO) a month, plus pension, CGHS, LTC. Basic: Level 2 ₹19,900; Level 4 ₹25,500; Level 5 ₹29,200."
+      },
+      "career": {
+        "profile": "LDC handles office records, typing and file movement; PA handles post office counters and accounts.",
+        "promotion": "LDC → UDC → Assistant → Section Officer through departmental exams."
+      },
+      "tips": [
+        "Same core syllabus as CGL at an easier level; CHSL and CGL can be prepared together.",
+        "Start typing practice 3 months before the skill test.",
+        "English in Tier 2 rewards vocabulary and grammar rules."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "ssc-mts-havaldar",
+      "groupId": "ssc",
+      "guideRef": "1.3",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC MTS (Multi-Tasking Staff) & Havaldar (CBIC, CBN)",
+      "shortName": "MTS & Havaldar",
+      "overview": "The largest 10th-pass central office exam, at Pay Level 1 with no interview and no skill test.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "frequency": "Once a year",
+      "tags": [
+        "tenthPass",
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "MTS (peon, daftary, jamadar, junior gestetner operator, chowkidar, safaiwala, mali)",
+          "department": "Central ministries"
+        },
+        {
+          "name": "Havaldar",
+          "department": "Customs (CBIC) and Narcotics (CBN)",
+          "ageMin": 18,
+          "ageMax": 27
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass",
+        "ageMin": 18,
+        "ageMax": 27,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "qualificationByPost": [
+          {
+            "post": "MTS",
+            "qualification": "10th pass"
+          },
+          {
+            "post": "Havaldar (CBIC, CBN)",
+            "qualification": "10th pass",
+            "extraRequirement": "Physical standards"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "MTS: 18–25 posts",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbd": {
+              "ur": 35,
+              "obc": 38,
+              "scSt": 40
+            }
+          },
+          {
+            "post": "MTS: 18–27 posts",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbd": {
+              "ur": 37,
+              "obc": 40,
+              "scSt": 42
+            }
+          },
+          {
+            "post": "Havaldar (CBIC, CBN)",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Single CBT in two sessions",
+        "PET / PST (Havaldar only)",
+        "Document verification"
+      ],
+      "stages": [
+        {
+          "id": "session1",
+          "name": "CBT Session I",
+          "rows": [
+            {
+              "subject": "Numerical & Mathematical Ability",
+              "questions": 20,
+              "marks": 60
+            },
+            {
+              "subject": "Reasoning & Problem Solving",
+              "questions": 20,
+              "marks": 60
+            }
+          ],
+          "totals": {
+            "minutes": 45
+          },
+          "note": "No negative marking. Session I is qualifying-plus-merit. The full CBT is 90 minutes and 270 marks."
+        },
+        {
+          "id": "session2",
+          "name": "CBT Session II",
+          "rows": [
+            {
+              "subject": "General Awareness",
+              "questions": 25,
+              "marks": 75
+            },
+            {
+              "subject": "English Language & Comprehension",
+              "questions": 25,
+              "marks": 75
+            }
+          ],
+          "totals": {
+            "minutes": 45
+          },
+          "negativeMarking": 1,
+          "note": "Session II is evaluated only if the candidate clears Session I."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Maths",
+          "topics": "Number system, HCF/LCM, decimals & fractions, percentage, ratio, average, interest, profit & loss, time & work, speed, mensuration (basic), DI (simple charts)"
+        },
+        {
+          "subject": "Reasoning",
+          "topics": "Alphanumeric series, analogy, coding-decoding, odd one out, direction, Venn diagram, blood relation, puzzle, mirror image"
+        },
+        {
+          "subject": "GA",
+          "topics": "History, geography, polity, economy, science, culture, sports, current affairs"
+        },
+        {
+          "subject": "English",
+          "topics": "Vocabulary, grammar, sentence structure, synonyms, antonyms, comprehension"
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Walking",
+            "men": "1,600 m in 15 min",
+            "women": "1 km in 20 min"
+          },
+          {
+            "test": "Height",
+            "men": "157.5 cm",
+            "women": "152 cm"
+          },
+          {
+            "test": "Chest",
+            "men": "76 cm + 5 cm"
+          },
+          {
+            "test": "Weight",
+            "women": "48 kg"
+          }
+        ],
+        "note": "Havaldar only. MTS posts have no physical test."
+      },
+      "salary": {
+        "payLevel": 1,
+        "basic": 18000,
+        "grossMin": 32000,
+        "grossMax": 36000,
+        "certainty": "estimate"
+      },
+      "career": {
+        "profile": "Office support, file movement, record keeping; Havaldars assist customs officers.",
+        "promotion": "MTS can become LDC through a departmental exam."
+      },
+      "tips": [
+        "Session I has no negative marking, so attempt every question.",
+        "Focus on basic Maths and NCERT-level GK."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "ssc-gd",
+      "groupId": "ssc",
+      "guideRef": "1.4",
+      "siteCategories": [
+        "ssc",
+        "police"
+      ],
+      "name": "SSC GD Constable",
+      "shortName": "GD Constable",
+      "overview": "Recruits constables for all central armed police forces, with tens of thousands of posts each year at Level 3.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "frequency": "Once a year",
+      "tags": [
+        "tenthPass",
+        "highVacancy",
+        "womenReservation"
+      ],
+      "posts": [
+        {
+          "name": "Constable (GD)",
+          "department": "BSF, CISF, CRPF, ITBP, SSB, SSF"
+        },
+        {
+          "name": "Rifleman (GD)",
+          "department": "Assam Rifles"
+        },
+        {
+          "name": "Sepoy",
+          "department": "NCB"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass",
+        "ageMin": 18,
+        "ageMax": 23,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the notice.",
+        "extraRequirement": "Physical standards; an NCC certificate gives bonus marks",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 23,
+            "obc": 26,
+            "scSt": 28,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CBT (bonus marks for NCC 'A', 'B', 'C' certificate holders: 2%, 3%, 5%)",
+        "PET and PST",
+        "Detailed Medical Exam and document verification",
+        "Merit list force-wise and state-wise (vacancies are allotted by state/district domicile)"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "General Intelligence & Reasoning",
+              "questions": 20,
+              "marks": 40
+            },
+            {
+              "subject": "General Knowledge & Awareness",
+              "questions": 20,
+              "marks": 40
+            },
+            {
+              "subject": "Elementary Mathematics",
+              "questions": 20,
+              "marks": 40
+            },
+            {
+              "subject": "English / Hindi",
+              "questions": 20,
+              "marks": 40
+            }
+          ],
+          "totals": {
+            "questions": 80,
+            "marks": 160,
+            "minutes": 60
+          },
+          "negativeMarking": 0.25
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "Reasoning",
+          "topics": "Analogy, similarities, spatial visualisation, coding-decoding, number series, figure series, Venn diagram, arithmetic reasoning"
+        },
+        {
+          "subject": "GK",
+          "topics": "India and neighbours, history, culture, geography, economy, polity, sports, science, current affairs"
+        },
+        {
+          "subject": "Maths",
+          "topics": "Number system, percentage, ratio, average, interest, profit & loss, discount, mensuration, time & distance, time & work"
+        },
+        {
+          "subject": "English / Hindi",
+          "topics": "Basic grammar, vocabulary, comprehension"
+        }
+      ],
+      "physical": {
+        "rows": [
+          {
+            "test": "Running",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          },
+          {
+            "test": "Height (UR/OBC/SC)",
+            "men": "170 cm",
+            "women": "157 cm"
+          },
+          {
+            "test": "Height (ST)",
+            "men": "162.5 cm",
+            "women": "150 cm"
+          },
+          {
+            "test": "Chest (men)",
+            "men": "80 cm + 5 cm expansion (ST 76 + 5)"
+          },
+          {
+            "test": "Running (Ladakh region)",
+            "men": "1.6 km in 7 min",
+            "women": "800 m in 5 min"
+          }
+        ],
+        "note": "Height relaxations also apply for hill areas, North-East states, Garhwalis, Kumaonis, Gorkhas and others."
+      },
+      "medical": "Vision 6/6 and 6/9 without glasses; no knock-knee, flat foot, varicose veins or squint; tattoos only in allowed places.",
+      "salary": {
+        "payLevel": 3,
+        "basic": 21700,
+        "grossMin": 40000,
+        "grossMax": 47000,
+        "certainty": "estimate",
+        "note": "Plus ration money, risk allowance and free accommodation at postings."
+      },
+      "career": {
+        "profile": "Border guarding (BSF, ITBP, SSB), internal security (CRPF), airport and industrial security (CISF).",
+        "promotion": "Constable → Head Constable → ASI → SI."
+      },
+      "tips": [
+        "The physical test is a major elimination stage; start the 5 km running routine at least 4 months before.",
+        "The written cut-off is high in popular states, so practise speed with 15–20 mocks.",
+        "Get an NCC certificate if possible for bonus marks."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "ssc-cpo",
+      "groupId": "ssc",
+      "guideRef": "1.5",
+      "siteCategories": [
+        "ssc",
+        "police"
+      ],
+      "name": "SSC CPO (Sub-Inspector in Delhi Police & CAPFs)",
+      "shortName": "CPO (SI)",
+      "overview": "The graduate entry to Sub-Inspector rank in Delhi Police and the five CAPFs, at Level 6.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "womenReservation"
+      ],
+      "posts": [
+        {
+          "name": "SI (Executive)",
+          "department": "Delhi Police",
+          "payLevel": 6
+        },
+        {
+          "name": "SI (GD)",
+          "department": "BSF, CRPF, CISF, ITBP, SSB",
+          "payLevel": 6
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 20,
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "extraRequirement": "Men applying for Delhi Police: valid LMV (car) licence by the PET date",
+        "ageLimits": [
+          {
+            "post": "Sub-Inspector",
+            "lower": 20,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          },
+          {
+            "post": "Departmental Delhi Police candidates",
+            "lower": 20,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbdEligible": false,
+            "note": "No ex-servicemen relaxation in this row."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Paper 1 (CBT)",
+        "PST and PET",
+        "Paper 2 (English)",
+        "Detailed Medical Exam and document verification"
+      ],
+      "stages": [
+        {
+          "id": "paper1",
+          "name": "Paper 1 (CBT)",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 50
+            },
+            {
+              "subject": "GK",
+              "questions": 50
+            },
+            {
+              "subject": "Quant",
+              "questions": 50
+            },
+            {
+              "subject": "English",
+              "questions": 50
+            }
+          ],
+          "totals": {
+            "questions": 200,
+            "marks": 200,
+            "minutes": 120
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "paper2",
+          "name": "Paper 2",
+          "rows": [
+            {
+              "subject": "English Language & Comprehension",
+              "questions": 200,
+              "marks": 200,
+              "minutes": 120
+            }
+          ],
+          "negativeMarking": 0.25
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (ST 162.5)",
+            "women": "157 cm (ST 154)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "100 m race",
+            "men": "16 s",
+            "women": "18 s"
+          },
+          {
+            "test": "Long distance",
+            "men": "1.6 km in 6.5 min",
+            "women": "800 m in 4 min"
+          },
+          {
+            "test": "Long jump",
+            "men": "3.65 m",
+            "women": "2.7 m"
+          },
+          {
+            "test": "High jump",
+            "men": "1.2 m",
+            "women": "0.9 m"
+          },
+          {
+            "test": "Shot put (16 lbs)",
+            "men": "4.5 m"
+          }
+        ]
+      },
+      "salary": {
+        "payLevel": 6,
+        "basic": 35400,
+        "grossMin": 63000,
+        "grossMax": 73000,
+        "certainty": "estimate"
+      },
+      "career": {
+        "profile": "Investigating officer in Delhi Police; platoon commander in CAPFs.",
+        "promotion": "SI → Inspector → Assistant Commandant / ACP."
+      },
+      "tips": [
+        "Paper 2 is 200 English questions, so English carries heavy weight in final merit.",
+        "Train for the 100 m sprint and long jump, not only endurance."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "delhi-police-constable",
+      "groupId": "ssc",
+      "guideRef": "1.6",
+      "siteCategories": [
+        "ssc",
+        "police"
+      ],
+      "name": "SSC Delhi Police Constable (Executive)",
+      "shortName": "Delhi Police Constable",
+      "overview": "The 12th-pass SSC exam for Constable (Executive) in Delhi Police, at Level 3.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "highVacancy",
+        "womenReservation"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th pass (11th pass allowed for wards of Delhi Police personnel)",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "extraRequirement": "Men: valid LMV licence by the PET date",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CBT",
+        "Physical Endurance & Measurement Test",
+        "Document verification and medical"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "General Knowledge / Current Affairs",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 25,
+              "marks": 25
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 15,
+              "marks": 15
+            },
+            {
+              "subject": "Computer Fundamentals",
+              "questions": 10,
+              "marks": 10
+            }
+          ],
+          "totals": {
+            "minutes": 90
+          },
+          "negativeMarking": 0.25
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Race",
+            "men": "1,600 m in 6 min",
+            "women": "1,600 m in 8 min"
+          },
+          {
+            "test": "Long jump",
+            "men": "14 ft",
+            "women": "10 ft"
+          },
+          {
+            "test": "High jump",
+            "men": "3 ft 9 in",
+            "women": "3 ft"
+          },
+          {
+            "test": "Height",
+            "men": "170 cm",
+            "women": "157 cm"
+          },
+          {
+            "test": "Chest",
+            "men": "81 + 4 cm"
+          }
+        ],
+        "note": "Standards shown for men up to 30 years and women up to 25 years."
+      },
+      "salary": {
+        "payLevel": 3,
+        "grossMin": 40000,
+        "grossMax": 47000,
+        "certainty": "estimate"
+      },
+      "tips": [
+        "GK carries half the marks — focus on current affairs and Delhi-specific GK."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "delhi-police-head-constable",
+      "groupId": "ssc",
+      "guideRef": "1.7",
+      "siteCategories": [
+        "ssc",
+        "police"
+      ],
+      "name": "SSC Delhi Police Head Constable (Ministerial and AWO/TPO)",
+      "shortName": "Delhi Police HC",
+      "overview": "SSC exam for Delhi Police Head Constable posts in office work (Ministerial) and wireless (AWO/TPO), at Level 4.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "womenReservation"
+      ],
+      "posts": [
+        {
+          "name": "HC (Ministerial): office and record work",
+          "department": "Delhi Police",
+          "payLevel": 4,
+          "qualification": "12th pass",
+          "ageMin": 18,
+          "ageMax": 25
+        },
+        {
+          "name": "HC (AWO / TPO): Assistant Wireless Operator / Tele-Printer Operator",
+          "department": "Delhi Police",
+          "payLevel": 4,
+          "qualification": "12th with Science & Maths, or relevant ITI",
+          "ageMin": 18,
+          "ageMax": 27
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "iti"
+        ],
+        "qualification": "12th pass (AWO/TPO: 12th with Science & Maths, or ITI)",
+        "ageMin": 18,
+        "ageMax": 27,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "qualificationByPost": [
+          {
+            "post": "Head Constable (Ministerial)",
+            "qualification": "12th pass",
+            "extraRequirement": "Typing skill"
+          },
+          {
+            "post": "Head Constable (AWO/TPO)",
+            "qualification": "12th with Science & Maths, or ITI (mechanic-cum-operator electronic communication)"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Head Constable (Ministerial)",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          },
+          {
+            "post": "Head Constable (AWO/TPO)",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Computer-based exam",
+        "Physical test",
+        "Skill test"
+      ],
+      "stages": [
+        {
+          "id": "cbtMinisterial",
+          "name": "Exam — HC (Ministerial)",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 20
+            },
+            {
+              "subject": "GA",
+              "questions": 20
+            },
+            {
+              "subject": "Quant",
+              "questions": 20
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 25
+            },
+            {
+              "subject": "Computer",
+              "questions": 15
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 90
+          }
+        },
+        {
+          "id": "cbtAwoTpo",
+          "name": "Exam — HC (AWO / TPO)",
+          "rows": [
+            {
+              "subject": "GA",
+              "questions": 20
+            },
+            {
+              "subject": "Maths",
+              "questions": 20
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 20
+            },
+            {
+              "subject": "Science",
+              "questions": 20
+            },
+            {
+              "subject": "Computer",
+              "questions": 20
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 90
+          }
+        },
+        {
+          "id": "skillMinisterial",
+          "name": "Skill test — HC (Ministerial)",
+          "rows": [
+            {
+              "subject": "Typing 30 wpm English / 25 wpm Hindi"
+            }
+          ]
+        },
+        {
+          "id": "skillAwoTpo",
+          "name": "Skill test — HC (AWO / TPO)",
+          "rows": [
+            {
+              "subject": "Computer typing"
+            }
+          ],
+          "qualifyingOnly": true
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Race",
+            "men": "1,600 m in 7 min",
+            "women": "1,600 m in 10 min"
+          },
+          {
+            "test": "Height",
+            "men": "165 cm",
+            "women": "157 cm"
+          }
+        ],
+        "note": "Same standards for HC (Ministerial) and HC (AWO / TPO)."
+      },
+      "salary": {
+        "payLevel": 4,
+        "certainty": "estimate",
+        "note": "Level 4 for both HC (Ministerial) and HC (AWO / TPO)."
+      },
+      "tips": [],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "ssc-stenographer",
+      "groupId": "ssc",
+      "guideRef": "1.8",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC Stenographer Grade C & D",
+      "shortName": "Stenographer",
+      "overview": "The 12th-pass SSC exam for Stenographer Grade C (Level 6) and Grade D (Level 4) posts.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Stenographer Grade C (Group B)",
+          "payLevel": 6,
+          "qualification": "12th pass",
+          "ageMin": 18,
+          "ageMax": 30
+        },
+        {
+          "name": "Stenographer Grade D (Group C)",
+          "payLevel": 4,
+          "qualification": "12th pass",
+          "ageMin": 18,
+          "ageMax": 27
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th pass",
+        "ageMin": 18,
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "extraRequirement": "Shorthand skill",
+        "ageLimits": [
+          {
+            "post": "Grade C",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          },
+          {
+            "post": "Grade D",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbd": {
+              "ur": 37,
+              "obc": 40,
+              "scSt": 42
+            }
+          }
+        ]
+      },
+      "selectionSteps": [
+        "CBT",
+        "Skill Test (qualifying)",
+        "Document verification"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "marks": 50
+            },
+            {
+              "subject": "General Awareness",
+              "marks": 50
+            },
+            {
+              "subject": "English",
+              "marks": 100
+            }
+          ],
+          "totals": {
+            "marks": 200,
+            "minutes": 120
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "skillTest",
+          "name": "Skill test (shorthand)",
+          "rows": [
+            {
+              "subject": "Grade C: dictation 100 wpm for 10 min; transcription 40 min (English) / 55 min (Hindi)"
+            },
+            {
+              "subject": "Grade D: dictation 80 wpm for 10 min; transcription 50 min (English) / 65 min (Hindi)"
+            }
+          ],
+          "qualifyingOnly": true
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 46000,
+        "grossMax": 73000,
+        "certainty": "estimate",
+        "note": "Grade C: Level 6, approx. gross ₹63,000 – 73,000 a month. Grade D: Level 4, approx. gross ₹46,000 – 54,000 a month."
+      },
+      "tips": [
+        "Shorthand needs 6–12 months of daily practice."
+      ],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    },
+    {
+      "id": "ssc-je",
+      "groupId": "ssc",
+      "guideRef": "1.9",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC JE (Junior Engineer)",
+      "shortName": "JE",
+      "overview": "Recruits Civil, Mechanical and Electrical Junior Engineers for central departments at Level 6.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Junior Engineer (Civil)",
+          "department": "CPWD, MES, BRO, CWC, Farakka Barrage and others",
+          "payLevel": 6
+        },
+        {
+          "name": "Junior Engineer (Mechanical)",
+          "department": "CPWD, MES, BRO, CWC, Farakka Barrage and others",
+          "payLevel": 6
+        },
+        {
+          "name": "Junior Engineer (Electrical)",
+          "department": "CPWD, MES, BRO, CWC, Farakka Barrage and others",
+          "payLevel": 6
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "Diploma or degree in Civil / Mechanical / Electrical engineering",
+        "ageMax": 32,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "extraRequirement": "Some departments (MES, BRO): diploma + 2 years' experience, or degree",
+        "ageLimits": [
+          {
+            "post": "Most departments",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "note": "PwBD limits apply to posts identified for PwBD."
+          },
+          {
+            "post": "CPWD, CWC",
+            "lower": 18,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            },
+            "note": "PwBD limits apply to posts identified for PwBD."
+          }
+        ],
+        "ageMin": 18
+      },
+      "selectionSteps": [
+        "Paper 1 (CBT)",
+        "Paper 2 (CBT)"
+      ],
+      "stages": [
+        {
+          "id": "paper1",
+          "name": "Paper 1 (CBT)",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 50
+            },
+            {
+              "subject": "GA",
+              "questions": 50
+            },
+            {
+              "subject": "Engineering",
+              "questions": 100
+            }
+          ],
+          "totals": {
+            "minutes": 120
+          }
+        },
+        {
+          "id": "paper2",
+          "name": "Paper 2 (CBT)",
+          "rows": [
+            {
+              "subject": "Engineering",
+              "questions": 100,
+              "marks": 300,
+              "minutes": 120
+            }
+          ]
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "payLevel": 6,
+        "grossMin": 63000,
+        "grossMax": 73000,
+        "certainty": "estimate"
+      },
+      "career": {
+        "promotion": "JE → Assistant Engineer → Executive Engineer."
+      },
+      "tips": [],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9
+    },
+    {
+      "id": "ssc-jht",
+      "groupId": "ssc",
+      "guideRef": "1.10",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC JHT (Junior Hindi Translator)",
+      "shortName": "JHT",
+      "overview": "Recruits Junior Hindi Translators with a Master's in Hindi or English, at Level 6.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "postGraduate"
+        ],
+        "qualification": "Master's in Hindi with English at degree level, or Master's in English with Hindi at degree level",
+        "ageMin": 18,
+        "ageMax": 30,
+        "extraRequirement": "Alternatives with a translation diploma or experience as per the notice",
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Paper 1 (CBT)",
+        "Paper 2 (descriptive)"
+      ],
+      "stages": [
+        {
+          "id": "paper1",
+          "name": "Paper 1 (CBT)",
+          "rows": [
+            {
+              "subject": "General Hindi",
+              "questions": 100
+            },
+            {
+              "subject": "General English",
+              "questions": 100
+            }
+          ]
+        },
+        {
+          "id": "paper2",
+          "name": "Paper 2 (descriptive)",
+          "rows": [
+            {
+              "subject": "Translation and essay"
+            }
+          ],
+          "totals": {
+            "marks": 200
+          }
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "payLevel": 6,
+        "certainty": "estimate"
+      },
+      "tips": [],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10
+    },
+    {
+      "id": "ssc-selection-post",
+      "groupId": "ssc",
+      "guideRef": "1.11",
+      "siteCategories": [
+        "ssc"
+      ],
+      "name": "SSC Selection Post (Phase-wise)",
+      "shortName": "Selection Post",
+      "overview": "Phase-wise SSC recruitment for many separate posts at 10th, 12th and graduate level.",
+      "conductingBody": "Staff Selection Commission (SSC)",
+      "tags": [
+        "tenthPass",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Lab Attendant"
+        },
+        {
+          "name": "Library Clerk"
+        },
+        {
+          "name": "Canteen Attendant"
+        },
+        {
+          "name": "Field Assistant"
+        },
+        {
+          "name": "Junior Engineer"
+        },
+        {
+          "name": "Driver"
+        },
+        {
+          "name": "Nursing Officer"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth",
+          "graduate"
+        ],
+        "qualification": "10th, 12th or graduate (three separate levels)",
+        "ageMin": 18,
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years.",
+        "extraRequirement": "Post-specific: experience, diploma, typing etc.",
+        "ageLimits": [
+          {
+            "post": "18–25 posts",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbd": {
+              "ur": 35,
+              "obc": 38,
+              "scSt": 40
+            }
+          },
+          {
+            "post": "18–27 posts",
+            "lower": 18,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbd": {
+              "ur": 37,
+              "obc": 40,
+              "scSt": 42
+            }
+          },
+          {
+            "post": "18–30 posts",
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            }
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Computer-based test (CBT)"
+      ],
+      "stages": [
+        {
+          "id": "cbt",
+          "name": "Computer-based test (CBT)",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 25
+            },
+            {
+              "subject": "GA",
+              "questions": 25
+            },
+            {
+              "subject": "Quant",
+              "questions": 25
+            },
+            {
+              "subject": "English",
+              "questions": 25
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 200,
+            "minutes": 60
+          },
+          "negativeMarking": 0.5
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "certainty": "estimate",
+        "note": "Level 1 to Level 7 depending on post."
+      },
+      "tips": [],
+      "officialWebsite": "https://ssc.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 11
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "meta": {
+    "title": "Bajr Vijay Veer Army Academy | Sarkari Naukri Coaching + Physical Training"
+  },
+  "brand": {
+    "name": "Bajr Vijay Veer Army Academy",
+    "short": "BVV Army Academy",
+    "tagline": "Padhai · Fitness · Selection"
+  },
+  "common": {
+    "skipToContent": "Main content par jaayein",
+    "openMenu": "Menu kholein",
+    "closeMenu": "Menu band karein",
+    "viewAll": "Sab dekhein",
+    "breadcrumbHome": "Home",
+    "breadcrumbLabel": "Breadcrumb",
+    "clearFilters": "Filters hatayein",
+    "opensNewTab": "(naye tab mein khulega)",
+    "back": "Wapas"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "homeLabel": "Bajr Vijay Veer Army Academy, home",
+    "links": {
+      "home": "Home",
+      "courses": "Courses",
+      "jobs": "Jobs",
+      "blogs": "Blogs",
+      "about": "About Us"
+    },
+    "login": "Login",
+    "enquire": "Enquiry Karein",
+    "search": {
+      "placeholder": "Search karein: NDA, SSC…",
+      "submit": "Search karein",
+      "recommended": "Recommended courses",
+      "matches": "Milte-julte courses",
+      "noResults": "“{{value}}” se koi course nahi mila. Saare courses dekhne ke liye Enter dabayein.",
+      "seeAll": "“{{value}}” ke saare results dekhein"
+    },
+    "courseMenu": {
+      "toggle": "Exam categories dikhayein",
+      "viewAll": "Saare courses dekhein",
+      "examCount": "{{value}} exams",
+      "error": "Exams load nahi ho paaye.",
+      "groups": {
+        "ssc": "SSC",
+        "railway": "Railway",
+        "banking": "Banking & Insurance",
+        "upsc": "UPSC",
+        "state": "State (MP)",
+        "defence": "Defence",
+        "paramilitary": "Paramilitary"
+      },
+      "recruiters": {
+        "ssc": "SSC",
+        "rrb": "RRB",
+        "rpf": "RPF",
+        "rrc": "RRC",
+        "ibps": "IBPS",
+        "sbi": "SBI",
+        "rbi": "RBI",
+        "nabard": "NABARD",
+        "sidbi": "SIDBI",
+        "exim": "EXIM",
+        "lic": "LIC",
+        "niacl": "NIACL",
+        "upsc": "UPSC",
+        "mpesb": "MPESB",
+        "mppsc": "MPPSC",
+        "army": "ARMY",
+        "navy": "NAVY",
+        "iaf": "IAF",
+        "icg": "ICG",
+        "bsf": "BSF",
+        "cisf": "CISF",
+        "itbp": "ITBP",
+        "ar": "AR",
+        "capf": "CAPF"
+      }
+    },
+    "menu": {
+      "title": "Saare programs",
+      "card": "Hi, User"
+    }
+  },
+  "language": {
+    "label": "Bhasha",
+    "select": "Bhasha chunein",
+    "names": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "hinglish": "Hinglish"
+    }
+  },
+  "carousel": {
+    "prev": "Pichhli slide",
+    "next": "Agli slide",
+    "goTo": "Slide {{number}} par jaayein",
+    "slideOf": "{{total}} mein se {{current}}"
+  },
+  "announcement": {
+    "ariaLabel": "Announcements",
+    "label": "NAYA",
+    "dismiss": "Announcements band karein",
+    "items": {
+      "newBatch": "Agniveer aur Police ka naya batch 1 November se shuru",
+      "admissionsOpen": "2026–27 ke admissions shuru, seats limited hain",
+      "freeDemo": "Free demo class book karein, online ya hamare campus mein",
+      "physicalTest": "Har Sunday subah 6 baje free physical fitness test"
+    }
+  },
+  "hero": {
+    "title": {
+      "lead": "Parents ka Bharosa,",
+      "highlight": "Results se Saabit"
+    },
+    "cta": "Abhi enrol karein",
+    "banner": {
+      "alt": "Parents ka bharosa, results se saabit. Hamare Defence (NDA), Railway (RRB NTPC), SSC (SSC CGL) aur Police (UP SI) batches ke selected students."
+    },
+    "carousel": "banners"
+  },
+  "categories": {
+    "title": "Exam Categories",
+    "subtitle": "Apna target exam chunein aur uske liye bane courses dekhein.",
+    "examCount": "{{value}}+ exams",
+    "items": {
+      "defence": "Defence",
+      "police": "Police",
+      "railway": "Railway",
+      "bank": "Bank",
+      "ssc": "SSC",
+      "state": "State Exams"
+    },
+    "pills": {
+      "defence": "Defence Exams",
+      "police": "Police Exams",
+      "railway": "Railway Exams",
+      "bank": "Bank Exams",
+      "ssc": "SSC Exams",
+      "state": "State Exams"
+    }
+  },
+  "modes": {
+    "online": "Online",
+    "offline": "Offline",
+    "hybrid": "Online + Offline"
+  },
+  "courses": {
+    "title": "Popular",
+    "filterLabel": "Category ke hisaab se courses filter karein",
+    "all": "Sabhi",
+    "imageAlt": "{{name}} course",
+    "bestseller": "Bestseller",
+    "duration": "{{months}} mahine",
+    "enrolled": "{{value}} students jude",
+    "price": "Price:",
+    "originalPrice": "Asli price:",
+    "off": "{{value}}% off",
+    "titleHighlight": "Courses",
+    "free": "Free",
+    "freeBadge": "FREE",
+    "filterFree": "Free",
+    "carouselLabel": "Popular courses",
+    "loading": "Courses load ho rahe hain…",
+    "loadError": "Courses load nahi ho sake. Apna internet connection check karein aur dobara try karein.",
+    "retry": "Dobara try karein",
+    "empty": "Abhi koi course publish nahi hua hai.",
+    "enquire": "Enquire Karein",
+    "enquireLabel": "{{name}} ke baare mein WhatsApp par enquire karein",
+    "whatsappAbout": "Namaste, mujhe {{name}} course ke baare mein jaanna hai.",
+    "whatsappAboutPlan": "Namaste, mujhe {{name}} course ({{plan}}) ke baare mein jaanna hai.",
+    "enquireShort": "Enquire",
+    "offerTag": "{{name}}: extra {{value}}% off",
+    "moreTrainers": "+{{value}} aur"
+  },
+  "qualification": {
+    "title": "Qualification ke Hisaab se",
+    "tabsLabel": "Apni qualification chunein",
+    "items": {
+      "tenth": {
+        "name": "10th Pass"
+      },
+      "twelfth": {
+        "name": "12th Pass"
+      },
+      "graduate": {
+        "name": "Graduate"
+      },
+      "ncc": {
+        "name": "NCC Certificate"
+      }
+    },
+    "titleHighlight": "Courses",
+    "carouselLabel": "Aapki qualification ke courses"
+  },
+  "exams": {
+    "agniveerGd": "Agniveer Army GD",
+    "sscGd": "SSC GD Constable",
+    "rrbGroupD": "RRB Group D",
+    "stateConstable": "State Police Constable",
+    "nda": "NDA aur NA",
+    "upPoliceConstable": "UP Police Constable",
+    "rrbNtpcUg": "RRB NTPC (12th level)",
+    "sscChsl": "SSC CHSL",
+    "lekhpal": "UP Lekhpal",
+    "cds": "CDS",
+    "afcat": "AFCAT",
+    "policeSi": "Police Sub-Inspector (SI)",
+    "sscCgl": "SSC CGL",
+    "ibpsPo": "IBPS PO",
+    "sbiClerk": "SBI Clerk",
+    "nccSpecialEntry": "NCC Special Entry (Army)",
+    "afcatNcc": "AFCAT NCC Special Entry",
+    "agniveerNcc": "Agniveer (NCC bonus marks)",
+    "cisfNcc": "CISF Constable (NCC preference)"
+  },
+  "trainers": {
+    "items": {
+      "rajesh": {
+        "name": "Capt. (Retd.) Rajesh Yadav",
+        "specialty": "Defence written exam aur SSB interview",
+        "bio": "Indian Army mein 20+ saal seva di aur saikdon NDA aur CDS aspirants ko SSB interview ki taiyari karwaayi hai."
+      },
+      "vikram": {
+        "name": "Sub. Maj. (Retd.) Vikram Singh",
+        "specialty": "Physical training aur running",
+        "bio": "Former Army PT instructor. Roz subah 5 baje ka ground session lete hain: running, long jump, high jump aur chin-ups."
+      },
+      "sunita": {
+        "name": "Sunita Sharma",
+        "specialty": "Reasoning aur General Knowledge",
+        "bio": "Short tricks se reasoning aasaan banaati hain. Police exams ke liye unke daily current affairs quiz students mein kaafi popular hain."
+      },
+      "amit": {
+        "name": "Amit Verma",
+        "specialty": "Maths",
+        "bio": "Maths bilkul basics se padhaate hain, taaki Hindi medium ke students bhi Railway aur SSC exams ke liye jaldi taiyar ho sakein."
+      },
+      "neha": {
+        "name": "Neha Gupta",
+        "specialty": "Banking English aur Quant",
+        "bio": "Former bank officer jo banking English, quant aur interview round ki taiyari karwaati hain."
+      },
+      "priya": {
+        "name": "Priya Mishra",
+        "specialty": "General Studies aur Current Affairs",
+        "bio": "Monthly magazine aur weekly revision tests ke saath GS aur current affairs padhaati hain."
+      }
+    },
+    "title": "Miliye Hamare",
+    "carouselLabel": "Hamare trainers",
+    "experience": "{{value}}+ saal ka experience",
+    "exService": "Ex-Defence",
+    "photoAlt": "{{name}} ki photo",
+    "titleHighlight": "Trainers se"
+  },
+  "jobs": {
+    "items": {
+      "agniveerGd2026": {
+        "post": "Agniveer General Duty",
+        "dept": "Indian Army"
+      },
+      "upPoliceConstable2026": {
+        "post": "Constable (Civil Police)",
+        "dept": "UP Police Recruitment Board"
+      },
+      "rrbNtpc2026": {
+        "post": "NTPC Graduate Level",
+        "dept": "Railway Recruitment Board"
+      },
+      "ibpsPo2026": {
+        "post": "Probationary Officer",
+        "dept": "IBPS"
+      },
+      "sscGd2026": {
+        "post": "GD Constable (CAPF, NIA, SSF)",
+        "dept": "Staff Selection Commission"
+      },
+      "upLekhpal2026": {
+        "post": "Lekhpal",
+        "dept": "UPSSSC"
+      },
+      "rrbGroupD2026": {
+        "post": "Group D (Level 1)",
+        "dept": "Railway Recruitment Board"
+      },
+      "cisfConstable2026": {
+        "post": "Constable / Fire",
+        "dept": "CISF"
+      }
+    },
+    "title": "Latest",
+    "caption": "Latest sarkari job vacancies",
+    "columns": {
+      "post": "Post",
+      "category": "Category",
+      "posts": "Total posts",
+      "lastDate": "Last date",
+      "action": "Details"
+    },
+    "new": "NAYA",
+    "viewDetails": "Details Dekhein",
+    "viewDetailsLabel": "{{post}} ki details official website par dekhein (naye tab mein khulega)",
+    "viewAll": "Saari Jobs Dekhein",
+    "daysLeft": "{{value}} din baaki",
+    "lastDay": "Aaj aakhri din",
+    "closed": "Band",
+    "note": "Posts ki sankhya aur dates andaazan hain. Apply karne se pehle official website par zaroor check karein.",
+    "titleHighlight": "Job Openings"
+  },
+  "footer": {
+    "copyright": "© {{year}} Bajr Vijay Veer Army Academy. Sabhi adhikaar surakshit.",
+    "followUs": "Humein follow karein",
+    "comingSoon": "jald aa raha hai",
+    "social": {
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "query": "Koi sawaal hai?",
+    "queryCta": "Callback maangein",
+    "academy": "Academy",
+    "examsTitle": "In exams ki taiyari karwate hain",
+    "groupsLabel": "Exam categories",
+    "coursesTitle": "Hamare courses",
+    "loadError": "Exams load nahi ho paaye.",
+    "about": "Bajr Vijay Veer Army Academy Defence, Police, Railway, Bank, SSC aur State government exams ki taiyari hamare campus mein classroom padhai aur physical training ke saath karwati hai. 10th pass, 12th pass, graduates aur NCC cadets jud sakte hain. Is site par exam ki jaankari official notices se li gayi hai; apply karne se pehle latest notification zaroor check karein."
+  },
+  "ds": {
+    "title": "Design System",
+    "intro": "BVV Army Academy website ka internal reference: har colour, text style, spacing value aur component variant. Yeh page navigation mein nahi dikhta.",
+    "stateHint": "Neeche ke components par hover, click aur Tab key use karke unke hover, active aur focus states dekhein.",
+    "sample": "Apni taiyari aaj se shuru karein",
+    "sections": {
+      "colors": "Colours",
+      "typography": "Typography",
+      "spacing": "Spacing",
+      "radius": "Border radius",
+      "shadows": "Shadows aur elevation",
+      "breakpoints": "Breakpoints",
+      "motion": "Motion",
+      "buttons": "Buttons",
+      "iconButtons": "Icon buttons",
+      "badges": "Badges",
+      "cards": "Cards",
+      "headings": "Section heading",
+      "tabs": "Tabs aur filter chips",
+      "accordion": "Accordion",
+      "carousel": "Carousel",
+      "inputs": "Form inputs",
+      "images": "Image placeholders",
+      "language": "Language switcher",
+      "logo": "Logo",
+      "courseCard": "Course card",
+      "iconTiles": "Icon tiles"
+    },
+    "labels": {
+      "variants": "Variants",
+      "sizes": "Sizes",
+      "states": "States",
+      "disabled": "Disabled",
+      "loading": "Loading",
+      "withIcon": "Icon ke saath",
+      "chip": "Chip",
+      "underline": "Underline",
+      "card": "Card",
+      "dropdown": "Dropdown (desktop)",
+      "list": "List (mobile menu)",
+      "inverted": "Inverted"
+    },
+    "demo": {
+      "button": "Free Demo Book Karein",
+      "cardTitle": "Card title",
+      "cardBody": "Ek card mein ek hi baat hoti hai: ek course, ek exam ya ek trainer.",
+      "headingEyebrow": "Eyebrow",
+      "headingTitle": "Section title",
+      "headingSubtitle": "Title ke neeche ek optional one-line subtitle.",
+      "accordionQ1": "Batch timings kya hain?",
+      "accordionA1": "Morning batches subah 6 se 10 baje tak ground training ke saath chalte hain; evening batches 4 se 8 baje tak.",
+      "accordionQ2": "Kya main online se offline mein shift kar sakta hoon?",
+      "accordionA2": "Haan. Aap kabhi bhi offline batch mein aa sakte hain; fees ka difference hum adjust kar dete hain.",
+      "slide": "Slide {{number}}",
+      "name": "Poora naam",
+      "namePlaceholder": "jaise Rahul Kumar",
+      "phone": "Mobile number",
+      "phoneHint": "Hum 24 ghante ke andar aapko call karenge.",
+      "phoneError": "Sahi 10 digit ka mobile number daalein.",
+      "course": "Kaunsa course chahiye",
+      "coursePlaceholder": "Course chunein",
+      "disabledField": "Disabled field",
+      "imageAlt": "Placeholder image",
+      "headingHighlight": "highlight ke saath"
+    }
+  },
+  "classModes": {
+    "title": "Padhne ka",
+    "popular": "Sabse zyada chuna gaya",
+    "items": {
+      "online": {
+        "title": "Online Classes",
+        "desc": "Live classes aur recordings ke saath ghar se padhai karein. Wahi teachers aur wahi tests jo hamare campus batches mein hote hain.",
+        "features": {
+          "live": "Live interactive classes",
+          "recordings": "Revision ke liye recordings, kabhi bhi",
+          "tests": "Har hafte online mock test",
+          "doubts": "Chat par doubt solving"
+        },
+        "cta": "Online courses dekhein"
+      },
+      "offline": {
+        "title": "Offline Classes",
+        "desc": "Hamare campus mein chhote batches aur personal attention ke saath classroom padhai.",
+        "features": {
+          "batches": "40–50 students ke chhote batches",
+          "library": "Library aur self-study room",
+          "tests": "Har Sunday OMR based test",
+          "mentor": "Har student ke liye personal mentor"
+        },
+        "cta": "Campus visit karein"
+      },
+      "physical": {
+        "title": "Physical Training aur Test Prep",
+        "desc": "Ex-defence instructors ke saath roz ground training, aapke exam ke asli physical test ke hisaab se.",
+        "features": {
+          "running": "1.6 km aur 5 km running practice",
+          "drills": "Long jump, high jump aur chin-ups",
+          "medical": "Medical test guidance (height, chest, eyesight)",
+          "mockPhysical": "Har mahine mock physical test"
+        },
+        "cta": "Free fitness test book karein"
+      }
+    },
+    "titleHighlight": "tareeka chunein"
+  },
+  "why": {
+    "title": "Kyun chunein",
+    "items": {
+      "exDefence": {
+        "title": "Ex-defence trainers",
+        "desc": "Retired Army officers aur PT instructors, jo achhi tarah jaante hain ki selection board kya dekhta hai."
+      },
+      "dailyDrills": {
+        "title": "Roz physical drills",
+        "desc": "Har din subah ground session, aur aapke exam ke physical standards ke hisaab se progress tracking."
+      },
+      "mockTests": {
+        "title": "Regular mock tests",
+        "desc": "Asli exam pattern mein weekly tests, rank aur detailed analysis ke saath."
+      },
+      "doubtSessions": {
+        "title": "Roz doubt sessions",
+        "desc": "Har din fixed doubt hour, class mein bhi aur chat par bhi, taaki koi sawaal kal tak na ruke."
+      },
+      "studyMaterial": {
+        "title": "Hindi + English study material",
+        "desc": "Hindi aur English mein printed notes aur practice books, latest syllabus ke hisaab se."
+      },
+      "hostelLibrary": {
+        "title": "Hostel aur library support",
+        "desc": "Campus ke paas safe hostel dhoondhne mein madad, aur subah jaldi khulne wali shaant library."
+      }
+    },
+    "titleHighlight": "BVV Army Academy"
+  },
+  "results": {
+    "title": "Hamare Selected Students,",
+    "selected": "Selected",
+    "photoAlt": "{{name}} ki photo",
+    "rank": "AIR {{value}}",
+    "items": {
+      "rohit": {
+        "name": "Rohit Yadav",
+        "place": "Etawah"
+      },
+      "pooja": {
+        "name": "Pooja Kumari",
+        "place": "Kanpur"
+      },
+      "aman": {
+        "name": "Aman Singh",
+        "place": "Lucknow"
+      },
+      "kajal": {
+        "name": "Kajal Verma",
+        "place": "Prayagraj"
+      },
+      "sandeep": {
+        "name": "Sandeep Kumar",
+        "place": "Mainpuri"
+      },
+      "arjun": {
+        "name": "Arjun Chauhan",
+        "place": "Meerut"
+      },
+      "neeraj": {
+        "name": "Neeraj Pal",
+        "place": "Agra"
+      },
+      "vivek": {
+        "name": "Vivek Tiwari",
+        "place": "Varanasi"
+      }
+    },
+    "titleHighlight": "Aaj Vardi Mein",
+    "carouselLabel": "Selected students"
+  },
+  "pages": {
+    "courses": {
+      "title": "Saare Courses",
+      "filteredTitle": "{{value}} Courses",
+      "searchLabel": "Courses search karein",
+      "modeLabel": "Class mode",
+      "qualificationLabel": "Qualification",
+      "sortLabel": "Sort karein",
+      "sort": {
+        "popular": "Sabse popular",
+        "priceLow": "Price: kam se zyada",
+        "priceHigh": "Price: zyada se kam",
+        "duration": "Sabse kam duration"
+      },
+      "count": "{{value}} courses",
+      "emptyTitle": "In filters se koi course nahi mila",
+      "emptyBody": "Koi filter hatayein ya kisi aur exam ka naam search karein.",
+      "filtersTitle": "Filters",
+      "categoryLabel": "Exam category",
+      "showResults": "{{value}} courses dekhein",
+      "resultsCount": "{{value}} results",
+      "helpLead": "Samajh nahi aa raha kaunsa course chunein?",
+      "helpCta": "Free counselling lein",
+      "quickFilters": "Quick filters",
+      "moreFilters": "Aur filters",
+      "searchChip": "Search: “{{value}}”",
+      "removeSearch": "Search hatayein"
+    },
+    "jobs": {
+      "title": "Sarkari Jobs",
+      "searchLabel": "Jobs search karein",
+      "searchPlaceholder": "jaise Constable, Railway, IBPS",
+      "statusLabel": "Status",
+      "status": {
+        "all": "Saari openings",
+        "open": "Open",
+        "closingSoon": "7 din mein band",
+        "closed": "Band"
+      },
+      "count": "{{value}} openings",
+      "emptyTitle": "In filters se koi opening nahi mili",
+      "emptyBody": "Koi aur category ya status chunein.",
+      "resultsCount": "{{value}} openings",
+      "helpLead": "Apna exam mil gaya? Hamare saath taiyari shuru karein.",
+      "helpCta": "Free counselling lein",
+      "newOnly": "New",
+      "showResults": "{{value}} openings dekhein",
+      "sort": {
+        "lastDate": "Last date: sabse pehle",
+        "posts": "Sabse zyada posts",
+        "newest": "New pehle"
+      }
+    },
+    "blogs": {
+      "title": "Blogs",
+      "titleLead": "Hamare",
+      "titleHighlight": "Blogs",
+      "filterLabel": "Topic ke hisaab se articles filter karein",
+      "featured": "Featured",
+      "readTime": "{{value}} min read",
+      "by": "Likha: {{name}}",
+      "coverAlt": "Cover image: {{title}}",
+      "back": "Saare blogs par wapas jaayein",
+      "relatedTitle": "Aur",
+      "relatedHighlight": "articles",
+      "categories": {
+        "all": "Sabhi",
+        "preparation": "Exam ki taiyari",
+        "physical": "Physical training",
+        "notifications": "Job notifications",
+        "success": "Success stories"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "story": {
+        "p1": "Bajr Vijay Veer Army Academy ki shuruaat retired defence personnel ne ki, jinhone dekha ki chhote shehron ke kai talented students kabiliyat ki kami se nahi, balki sahi guidance, discipline aur physical taiyari ki kami se sarkari naukri se chook jaate hain.",
+        "p2": "Aaj hum ek hi jagah Defence, Police, Railway, Bank, SSC aur State exams ki taiyari karwaate hain: Hindi aur English mein classroom padhai, saath mein hamare apne ground par roz physical training."
+      },
+      "vision": {
+        "title": "Hamara vision",
+        "body": "North India mein sarkari naukri ki taiyari ka sabse bharosemand naam banna, jiska paimana hamare students ke selections hon."
+      },
+      "stats": {
+        "title": "Yuvaon ko taiyaar karte hain,",
+        "titleHighlight": "bhavishya banate hain",
+        "value": "{{value}}+",
+        "items": {
+          "students": "Students trained",
+          "selections": "Selections",
+          "years": "Saal ka experience",
+          "trainers": "Expert trainers"
+        }
+      },
+      "exams": {
+        "title": "Hum kin",
+        "titleHighlight": "exams ki taiyari karate hain",
+        "count": "{{value}} courses",
+        "explore": "Dekhein"
+      },
+      "values": {
+        "title": "Hamare",
+        "titleHighlight": "values",
+        "items": {
+          "discipline": {
+            "title": "Discipline",
+            "desc": "Padhai aur training ka fixed routine, bilkul forces ki tarah."
+          },
+          "honesty": {
+            "title": "Imaandaari",
+            "desc": "Saaf fees, asli results aur har parent ko seedhi salaah."
+          },
+          "hardWork": {
+            "title": "Mehnat",
+            "desc": "Koi shortcut nahi: roz practice, har hafte test aur sachcha feedback."
+          },
+          "nation": {
+            "title": "Desh ki seva",
+            "desc": "Hum students ko sirf exam pass karne ke liye nahi, desh ki seva ke liye taiyar karte hain."
+          }
+        }
+      },
+      "cta": {
+        "title": "Hamara campus dekhne aayein",
+        "body": "Free demo class aur free fitness test ke liye aayein. Apne parents ko bhi saath laayein.",
+        "button": "Free Demo Book Karein"
+      },
+      "hero": {
+        "headline": "Bharat ke disciplined yuvaon ko sarkari seva ke liye taiyaar karna",
+        "body": "Ek hi chhat ke neeche padhai aur physical training, hamare campus mein.",
+        "noteTitle": "Ex-defence trainers ka ek sandesh",
+        "noteButton": "Aur padhein"
+      },
+      "programs": {
+        "label": "Hamare programs",
+        "items": {
+          "offline": "Campus par classes",
+          "online": "Live online classes",
+          "hybrid": "Hybrid batches",
+          "hostel": "Hostel + khana"
+        }
+      },
+      "road": {
+        "title": "Aapke selection",
+        "titleHighlight": "tak ka safar",
+        "tagline": "Har student ka raasta alag hai. Hamara kaam use clear aur disciplined banana hai.",
+        "steps": {
+          "demo": {
+            "title": "Free demo aur fitness test",
+            "desc": "Free demo class lein aur trainers ke saath apni fitness check karein."
+          },
+          "batch": {
+            "title": "Apna batch chunein",
+            "desc": "Apne exam aur qualification ke hisaab se batch chunein."
+          },
+          "daily": {
+            "title": "Roz ki padhai aur training",
+            "desc": "Classes, doubt sessions aur physical training, roz."
+          },
+          "tests": {
+            "title": "Weekly mock tests",
+            "desc": "Asli exam pattern par tests, rank aur detailed analysis ke saath."
+          },
+          "selection": {
+            "title": "Selection",
+            "desc": "Written test, physical aur medical clear karein, aur jo service chuni hai usme kadam rakhein."
+          }
+        }
+      }
+    },
+    "courseDetail": {
+      "back": "Saare courses",
+      "sections": {
+        "glance": "Exam ek nazar mein",
+        "eligibility": "Eligibility aur age limit",
+        "selection": "Selection process",
+        "pattern": "Exam pattern",
+        "syllabus": "Syllabus",
+        "physical": "Physical standards",
+        "career": "Salary aur career",
+        "tips": "Taiyari ke tips",
+        "includes": "Is course mein kya milega",
+        "posts": "Posts",
+        "relaxation": "Age relaxation ke niyam"
+      },
+      "facts": {
+        "body": "Exam kaun karata hai",
+        "frequency": "Kitni baar hota hai",
+        "qualification": "Qualification",
+        "age": "Age limit",
+        "fee": "Application fee",
+        "salary": "Salary",
+        "negative": "Negative marking"
+      },
+      "ageCategories": {
+        "ur": "General (UR) / EWS",
+        "obc": "OBC (non-creamy layer)",
+        "scSt": "SC / ST",
+        "pwbd": "PwBD (UR / OBC / SC-ST)",
+        "exServicemen": "Ex-servicemen",
+        "mpUrEws": "MP General / EWS",
+        "mpReserved": "MP SC / ST / OBC",
+        "otherState": "Dusre states ke candidates",
+        "mpReservedWomen": "MP reserved categories aur mahilayein",
+        "women": "Mahilayein"
+      },
+      "columns": {
+        "category": "Category",
+        "upper": "Upper age (saal)",
+        "relaxation": "Upper age par extra saal",
+        "men": "Purush",
+        "women": "Mahila",
+        "test": "Test",
+        "standard": "Standard",
+        "subject": "Subject",
+        "questions": "Questions",
+        "marks": "Marks",
+        "time": "Samay",
+        "total": "Total",
+        "post": "Post",
+        "lower": "Minimum age",
+        "ur": "UR / EWS",
+        "obc": "OBC",
+        "scSt": "SC / ST",
+        "pwbd": "PwBD (UR / OBC / SC-ST)",
+        "exServicemen": "Ex-servicemen",
+        "qualification": "Qualification",
+        "extra": "Extra requirement",
+        "department": "Department",
+        "payLevel": "Pay level",
+        "rule": "Niyam",
+        "urMen": "UR / EWS men",
+        "obcMen": "OBC men",
+        "scStMen": "SC / ST men",
+        "otherState": "Doosre states ke candidates"
+      },
+      "ageCaption": "Category ke hisaab se age limit",
+      "physicalCaption": "Physical standards",
+      "patternCaption": "{{stage}}: exam pattern",
+      "minutes": "{{value}} min",
+      "includes": {
+        "liveClasses": "Subject experts ke live aur classroom lectures",
+        "studyMaterial": "Printed aur PDF study material",
+        "mockTests": "All-India ranking ke saath full-length mock tests",
+        "physicalTraining": "Hamare ground par roz physical training",
+        "ssbGuidance": "Ex-service officers se SSB interview guidance",
+        "interviewPrep": "Interview aur personality ki practice",
+        "doubtSessions": "Roz doubt-clearing sessions",
+        "currentAffairs": "Har mahine current-affairs magazine",
+        "typingPractice": "Typing aur computer practice lab",
+        "mpGkNotes": "Madhya Pradesh GK ke special notes"
+      },
+      "pay": {
+        "caption": "Agniveer pay package (₹ per month)",
+        "year": "Saal",
+        "yearValue": "Saal {{value}}",
+        "monthly": "Monthly package",
+        "inHand": "In hand",
+        "corpus": "Corpus fund"
+      },
+      "career": {
+        "salary": "Pay",
+        "profile": "Job profile",
+        "promotion": "Growth aur promotion"
+      },
+      "disclaimerTitle": "Official notice zaroor check karein",
+      "disclaimer": "Yeh details October 2026 tak ke latest notices ke hisaab se hain. Age limit, posts, fees, physical standards aur exam pattern har notification ke saath badalte hain, isliye apply karne se pehle official notice mein confirm karein.",
+      "officialSite": "Official website",
+      "officialSiteLabel": "Official website (naye tab mein khulegi)",
+      "priceTitle": "Course fee",
+      "durationLabel": "Duration",
+      "modeLabel": "Class mode",
+      "trainerLabel": "Trainer",
+      "enrolledLabel": "Students",
+      "relatedTitle": "Milte-julte",
+      "relatedHighlight": "Courses",
+      "imageAlt": "{{name}} course",
+      "ageRange": "{{min}} se {{max}} saal",
+      "ageUpTo": "{{max}} saal tak",
+      "ageFrom": "{{min}} saal se",
+      "notEligible": "Eligible nahi",
+      "extraRequirement": "Extra requirement",
+      "attempts": "Attempt limit",
+      "feeGeneral": "General ₹{{value}}",
+      "feeReserved": "reserved categories ₹{{value}}",
+      "feeExempt": "reserved categories ke liye koi fee nahi",
+      "salaryGross": "Lagbhag {{min}} se {{max}} mahina",
+      "salaryBasic": "Basic pay {{value}}",
+      "payLevelValue": "Level {{value}}",
+      "negativeThird": "Har galat answer par 1/3 mark katta hai",
+      "negativeValue": "Har galat answer par {{value}} mark katta hai",
+      "stageNegative": "Negative marking: {{value}}",
+      "patternMissing": "Guide mein is exam ka pattern abhi nahi diya gaya hai. Official notice check karein.",
+      "loading": "Exam ki details load ho rahi hain…",
+      "loadError": "Exam ki details load nahi ho saki. Apna internet connection check karein aur dobara try karein.",
+      "retry": "Dobara try karein",
+      "examSwitch": "Is course mein shaamil exams",
+      "sources": "Sources",
+      "lastVerified": "Details aakhri baar {{date}} ko check ki gayi.",
+      "relaxationCategories": {
+        "obc": "OBC (Non-Creamy Layer)",
+        "scSt": "SC / ST",
+        "pwbdUr": "PwBD: UR / EWS",
+        "pwbdObc": "PwBD: OBC",
+        "pwbdScSt": "PwBD: SC / ST",
+        "exServicemen": "Ex-servicemen",
+        "widows": "Widows / divorced mahilayein",
+        "exAgniveer": "Ex-Agniveer",
+        "otherState": "Doosre states ke candidates"
+      },
+      "verifyNotice": "Official notice mein verify karein",
+      "navLabel": "Is page par",
+      "nav": {
+        "includes": "Kya milega",
+        "exams": "Exams",
+        "faculty": "Faculty",
+        "overview": "Overview",
+        "subjects": "Subjects",
+        "results": "Results",
+        "faqs": "Sawaal",
+        "reviews": "Reviews",
+        "jobs": "Jobs"
+      },
+      "seeFaculty": "Faculty dekhein",
+      "language": "Hindi + English",
+      "languages": {
+        "hi": "Hindi",
+        "en": "English",
+        "hinglish": "Hinglish"
+      },
+      "includesTitle": "Is Course Mein Kya Milega",
+      "examsTitle": "Covered Exams",
+      "freeClass": {
+        "title": "Free Live Class",
+        "live": "Live",
+        "body": "Judne se pehle is batch ki ek live class mein baithein. Koi fees nahi.",
+        "cta": "Free class book karein"
+      },
+      "facultyTitle": "Faculty ke Baare Mein",
+      "leadTrainer": "Lead trainer",
+      "experience": "{{value}}+ saal ka experience",
+      "exService": "Ex-serviceman",
+      "overviewTitle": "Overview",
+      "examDetailsToggle": "Exam ki poori jaankari: eligibility, age limit, pattern aur salary",
+      "subjectsTitle": "Covered Subjects",
+      "resultsTitle": "Selected Students",
+      "faqTitle": "Aksar Pooche Jaane Wale Sawaal",
+      "reviewsTitle": "Hamare Students Kya Kehte Hain",
+      "rating": "5 mein se {{value}} rating",
+      "supportTitle": "Abhi Bhi Decide Nahi Kar pa Rahe? Help Chahiye?",
+      "supportBody": "Retd. Army trainer",
+      "supportFormBody": "{{name}} ({{role}}) khud aapko call karenge.",
+      "counsellor": "Sandeep Tiwari",
+      "supportWhatsapp": "WhatsApp par baat karein",
+      "supportCallback": "Callback maangein",
+      "plans": {
+        "title": "Padhai ka Tareeka Chunein",
+        "online": "Online",
+        "offline": "Offline",
+        "notOffered": "Available nahi",
+        "selectedBenefits": "{{plan}} mein aapko milega",
+        "benefits": {
+          "liveOnline": "Phone ya laptop se live online classes",
+          "recordings": "Har class ki recording",
+          "pdfNotes": "PDF notes aur online mock tests",
+          "doubtChat": "Chat aur live sessions mein doubt clearing",
+          "classroom": "Hamare trainers ke saath classroom lectures",
+          "groundTraining": "Hamare ground par roz physical training",
+          "library": "Library aur self-study hall",
+          "hostel": "Hostel aur mess extra fees par available"
+        },
+        "includedTitle": "Aapko Kya Milega"
+      },
+      "lead": {
+        "titleFree": "Free live class book karein",
+        "body": "Apna number dein. Hamare counsellor 24 ghante mein call karke confirm karenge.",
+        "submit": "Call maangein",
+        "close": "Band karein",
+        "done": "Shukriya, {{name}}! Hamare counsellor jald hi aapko call karenge.",
+        "error": "Bheja nahi ja saka. Internet check karke dobara try karein."
+      },
+      "faq": {
+        "start": {
+          "q": "{{course}} ka agla batch kab shuru hoga?",
+          "a": "Har mahine naye batch shuru hote hain. Apna number dein, hamare counsellor agli date aur timing batayenge."
+        },
+        "onlineOffline": {
+          "q": "Online aur offline course mein kya fark hai?",
+          "a": "Dono mein syllabus aur tests same hain. Offline mein classroom padhai, hamare ground par roz physical training, library aur hostel bhi milta hai. Online mein aap ghar se live jud sakte hain aur recordings dekh sakte hain."
+        },
+        "demo": {
+          "q": "Kya fees dene se pehle class dekh sakte hain?",
+          "a": "Haan. Is page se free live class book karein aur isi batch ki asli class mein baithein."
+        },
+        "material": {
+          "q": "Kya study material milega?",
+          "a": "Haan. Offline students ko printed notes aur online students ko PDF notes milte hain, saath mein naye pattern par mock tests."
+        },
+        "physical": {
+          "q": "Kya physical training shaamil hai?",
+          "a": "Offline students roz hamare ground par ex-service trainers ke saath training karte hain. Online students ko training plan aur video guidance milti hai."
+        },
+        "hostel": {
+          "q": "Kya hostel hai?",
+          "a": "Haan, offline students ke liye academy ke paas hostel aur mess hai. Yeh course fee mein shaamil nahi hai, iski fees alag se lagti hai; seat aur charges ke liye counsellor se poochein."
+        },
+        "fees": {
+          "q": "Kya fees kishton mein de sakte hain?",
+          "a": "Haan, instalment ka option hai. Seat book karte waqt counsellor poora plan batayenge."
+        },
+        "support": {
+          "q": "Koi problem ho to kisse contact karein?",
+          "a": "WhatsApp par message karein ya is page se callback maangein. Hamari team usi din jawab deti hai."
+        }
+      },
+      "includesShort": {
+        "liveClasses": "Live classes",
+        "studyMaterial": "Study books",
+        "mockTests": "Mock tests",
+        "physicalTraining": "Physical training",
+        "ssbGuidance": "SSB guidance",
+        "interviewPrep": "Interview practice",
+        "doubtSessions": "Doubt sessions",
+        "currentAffairs": "Current-affairs magazines",
+        "typingPractice": "Typing practice",
+        "mpGkNotes": "MP GK notes"
+      },
+      "hours": "{{value}} Hrs",
+      "stats": {
+        "students": "students",
+        "selections": "selections",
+        "trainer": "Personal trainer",
+        "experience": "{{value}}+ saal ka experience"
+      },
+      "ladder": {
+        "parts": {
+          "written": "sirf written exam",
+          "gk": "GK part",
+          "gs": "GS part",
+          "gkHindi": "GK aur Hindi part",
+          "prelims": "sirf Prelims",
+          "trade": "trade part",
+          "typing": "typing test",
+          "technical": "Technical entry"
+        }
+      },
+      "about": {
+        "and": "aur",
+        "seeMore": "Aur dekhein",
+        "seeLess": "Kam dekhein",
+        "headline": "{{name}}: ek hi course mein poori taiyari.",
+        "intro": "{{name}} BVV Army Academy ka {{months}} mahine ka course hai, un students ke liye jo {{exams}} ki taiyari kar rahe hain. Ismein {{includes}} ek hi jagah milte hain, taaki aap alag-alag course khareedne ki jagah ek saaf plan se taiyari karein.",
+        "covered": "Isi taiyari se {{exams}} ki taiyari bhi ho jaati hai, kyunki in exams mein wahi subjects aasaan level par poochhe jaate hain.",
+        "subjects": "Class mein {{subjects}} padhaye jaate hain, saath mein naye pattern par full-length mock tests, regular revision aur doubt sessions.",
+        "modeOnline": "Aap phone ya laptop se live padhte hain, aur har class ki recording milti hai taaki kabhi bhi revise kar sakein.",
+        "modeOffline": "Aap hamare classrooms mein hamare trainers ke saath padhte hain; hostel aur mess extra fees par available hain.",
+        "modeHybrid": "Live online classes ya hamari academy mein classroom padhai chunein: dono mein syllabus, tests aur trainers same hain.",
+        "physical": "Physical training course ka hissa hai, ex-service trainers ke saath roz running aur ground practice, taaki aap physical test ke liye bhi taiyar rahein.",
+        "trust": "{{students}} students is course se jud chuke hain."
+      },
+      "jobsTitle": "Recent Job Openings",
+      "jobsViewAll": "Saari jobs dekhein",
+      "subjectQuestions": "{{value}} questions",
+      "subjectMarks": "{{value}} marks",
+      "supportCall": "Call karein",
+      "needHelp": "Need Help?",
+      "pricingOptions": "Pricing Options",
+      "supportWhatsappShort": "WhatsApp",
+      "perMonth": "{{value}}/m"
+    }
+  },
+  "blog": {
+    "posts": {
+      "agniveer-6-month-plan": {
+        "title": "6 mahine mein Agniveer GD kaise crack karein: month-by-month plan",
+        "excerpt": "Ek simple plan jo aapke 6 mahine written exam, physical test aur revision mein baant deta hai.",
+        "p1": "Agniveer GD mein teen padaav hain: written exam, physical fitness test aur medical. Zyaadatar students isliye chook jaate hain kyunki woh inmein se sirf ek ki taiyari karte hain. Pehle din se hi har din ko padhai aur ground ke hisson mein baantein.",
+        "p2": "Pehle aur doosre mahine mein GK aur maths ke basics poore karein aur aasaan 3 km runs se apna running base banayein. Teesre aur chauthe mahine mein har hafte do mock tests dein aur 1.6 km ke time par kaam karein. Paanchve aur chhathe mahine mein sirf apne notes aur mock test ki galtiyon se revision karein.",
+        "p3": "Saat ghante soyein, saada khana khaayein aur apni run timing ek notebook mein likhein. Consistency zor se behtar hai: 6 hafte ki kadi mehnat se 6 mahine ka steady plan behtar hai."
+      },
+      "police-run-tips": {
+        "title": "Police physical test: lambi daud clear karne ke tips",
+        "excerpt": "Pacing, shoes, breathing aur woh weekly schedule jo hamare PT instructors har batch ke saath follow karte hain.",
+        "p1": "Police physical test ki daud official notification mein diye time ke andar poori karni hoti hai, isliye pehle use padhein aur hisaab lagayein ki per km kitni pace chahiye. Shuruaat us pace se thoda dheere karein aur sirf aakhri km mein speed badhayein.",
+        "p2": "Hafte mein chaar din training karein: ek lambi slow run, ek interval session (400 m repeats), ek chadhai ya seedhiyon ka session aur ek aasaan recovery run. Pairon ki taakat ke liye hafte mein do baar skipping aur squats jodein.",
+        "p3": "Halke, sahi naap ke shoes mein daudein jinmein aap pehle se practice kar chuke hon. Test se pehle wale hafte mein naye shoes, naya khana ya naya route kabhi try na karein. Ek rhythm mein saans lein aur kandhe dheele rakhein."
+      },
+      "ssc-gd-2026": {
+        "title": "SSC GD Constable: posts, eligibility aur apply kaise karein",
+        "excerpt": "SSC GD Constable ka form bharne se pehle 10th pass student ko kya jaanna chahiye.",
+        "p1": "SSC GD Constable ke zariye BSF, CISF, CRPF, ITBP aur SSB jaise central armed police forces mein bharti hoti hai. 10th pass aur age limit ke andar wale candidates SSC website par online apply kar sakte hain.",
+        "p2": "Selection ke kai stages hote hain: computer based test, physical efficiency test, physical standard test aur medical. Written test mein reasoning, GK, maths aur Hindi ya English aati hai.",
+        "p3": "Apply karne se pehle apne documents ready rakhein: 10th marksheet, photo, signature aur agar ho to caste ya NCC certificate. Dates aur vacancies hamesha SSC ke official notice mein check karein; hamari site par diye figures andaazan hain."
+      },
+      "nda-maths-strategy": {
+        "title": "NDA maths: in chapters se shuruaat karein",
+        "excerpt": "Agar NDA maths ke liye sirf teen mahine hain, to pehle apna time kahaan lagayein.",
+        "p1": "NDA maths paper mein negative marking hoti hai, isliye har chapter cover karne se zyada zaroori speed aur accuracy hai.",
+        "p2": "Algebra, trigonometry, calculus aur matrices se aam taur par sabse zyada questions aate hain. Inhi se shuruaat karein, phir coordinate geometry, statistics aur probability par jaayein.",
+        "p3": "Exam timing mein kam se kam paanch previous year papers solve karein. Har galat question mark karein aur ek hafte baad use dobara solve karein. Hamara NDA batch har Sunday maths ka timed test leta hai."
+      },
+      "budget-diet-plan": {
+        "title": "Defence aspirants ke liye simple aur sasta diet plan",
+        "excerpt": "Ghar ka khana jo mehenge supplements ke bina subah ki run ke liye energy deta hai.",
+        "p1": "Physical test clear karne ke liye protein powder zaroori nahi hai. Dal, chana, ande, doodh, dahi, mausami phal aur roti se zyaadatar students ko zaroori protein aur energy mil jaati hai.",
+        "p2": "Subah ki run se 30 minute pehle kela ya bheega chana jaisa halka snack lein aur run ke baad poora nashta karein. Sirf training ke baad nahi, din bhar paani peete rahein.",
+        "p3": "Fried snacks, cold drinks aur der raat ka khana kam karein. Neend bhi diet ka hissa hai: saat ghante ki neend ke bina body training se recover nahi kar paati."
+      },
+      "success-rohit": {
+        "title": "Etawah ke ek gaon se Agniveer tak: Rohit ki kahani",
+        "excerpt": "Kaise ek kisaan ke bete ne kheti, padhai aur running ke beech balance banaya aur pehle hi attempt mein Agniveer GD clear kiya.",
+        "p1": "Rohit Yadav 10th ke baad hamare offline batch mein aaye. Unhone pehle kabhi coaching nahi li thi aur 1.6 km mein unka time kaafi slow tha. Woh har subah class se pehle family ke khet mein haath bantaate the.",
+        "p2": "Unhone batch plan ko strictly follow kiya: subah 5 baje ground training, dopahar tak classes aur shaam tak library mein self-study. Chaar mahine mein unki run timing do minute se zyada sudhar gayi.",
+        "p3": "Unhone pehle hi attempt mein Agniveer GD clear kiya. Naye students ko unki salaah: apne roz ke targets kaagaz par likhein aur baarish ke din bhi ground na chhodein."
+      }
+    }
+  },
+  "facilities": {
+    "title": "Jo Bhi Chahiye,",
+    "titleHighlight": "Sab ek hi Jagah",
+    "items": {
+      "classes": {
+        "title": "Online + Offline Classes",
+        "desc": "Live online aur classroom batches.",
+        "imageAlt": "Laptop par online class, table par notes aur kitaabein"
+      },
+      "classroom": {
+        "title": "Offline Classes",
+        "desc": "Expert teachers ke saath roz classroom lectures.",
+        "imageAlt": "Whiteboard par General Studies ki class lete teacher, desk par baithe students"
+      },
+      "hostel": {
+        "title": "Hostel + Khana",
+        "desc": "Surakshit hostel, roz 3 time healthy khana.",
+        "imageAlt": "Academy hostel ka kamra"
+      },
+      "physical": {
+        "title": "Physical Training",
+        "desc": "Ex-defence instructors se roz training.",
+        "imageAlt": "Academy ground par warm-up drills karte students"
+      }
+    }
+  },
+  "enquiry": {
+    "title": "Callback Request Karein",
+    "subtitle": "Apni details dein, hamare student advisor aapko call karenge.",
+    "progressLabel": "Form progress",
+    "step": "{{current}}/{{total}}",
+    "name": {
+      "label": "Poora naam",
+      "placeholder": "jaise Rohit Sharma"
+    },
+    "phone": {
+      "label": "Mobile number",
+      "placeholder": "jaise 9876543210",
+      "error": "Sahi 10-digit mobile number daalein."
+    },
+    "mode": {
+      "label": "Course mode",
+      "online": "Online",
+      "classroom": "Classroom",
+      "both": "Dono"
+    },
+    "next": "Shuru karein",
+    "step2Title": "Thodi aur details (optional)",
+    "step2Hint": "Isse advisor aapko sahi course bata payenge.",
+    "exam": {
+      "label": "Kaun se exams?",
+      "placeholder": "Category chunein",
+      "notSure": "Abhi pakka nahi"
+    },
+    "qualification": {
+      "label": "Aapki qualification",
+      "placeholder": "Qualification chunein"
+    },
+    "city": {
+      "label": "Shehar",
+      "placeholder": "jaise Bhopal"
+    },
+    "back": "Peeche",
+    "submit": "Callback maangein",
+    "error": "Aapki request nahi ja saki. Internet check karke dobara try karein, ya hamein WhatsApp par message karein.",
+    "doneTitle": "Shukriya, {{name}}!",
+    "doneBody": "Hamare student advisor 24 ghante ke andar aapko call karenge.",
+    "or": "ya",
+    "whatsapp": "WhatsApp par baat karein",
+    "whatsappMessage": "Namaste, mujhe aapke courses ke baare mein jaanna hai.",
+    "whatsappMessageNamed": "Namaste, main {{name}} hoon. Mujhe aapke courses ke baare mein jaanna hai.",
+    "whatsappFromHome": "Namaste, maine BVV Army Academy ki website dekhi. Mujhe courses aur admission ke baare mein jaanna hai."
+  },
+  "testimonials": {
+    "items": {
+      "deepak": {
+        "name": "Deepak Singh",
+        "place": "Bhind",
+        "course": "Agniveer Army GD",
+        "quote": "Ground par roz ki training se running test aasaan ho gaya. Teachers har topic simple Hindi mein samjhate the."
+      },
+      "anjali": {
+        "name": "Anjali Patel",
+        "place": "Gwalior",
+        "course": "MP Police Constable",
+        "quote": "Har hafte ke mock tests se pata chala ki main kahan weak hoon. Pehli baar mein hi written exam clear kiya."
+      },
+      "harsh": {
+        "name": "Harsh Vardhan",
+        "place": "Bhopal",
+        "course": "SSC CGL",
+        "quote": "Clear notes aur regular doubt sessions. Online classes mere college ke time ke saath fit ho gayi."
+      },
+      "sneha": {
+        "name": "Sneha Jain",
+        "place": "Indore",
+        "course": "IBPS PO",
+        "quote": "Interview practice se asli confidence mila. Counsellors WhatsApp par hamesha available rahe."
+      },
+      "manish": {
+        "name": "Manish Kumar",
+        "place": "Jabalpur",
+        "course": "RRB NTPC",
+        "quote": "Maths aur reasoning ke achhe teachers, aur hostel mein rehkar padhai par focus bana raha."
+      },
+      "ritu": {
+        "name": "Ritu Sharma",
+        "place": "Sagar",
+        "course": "MP Patwari",
+        "quote": "MP GK notes mein wahi tha jo exam mein aaya. Main yeh batch zaroor suggest karungi."
+      }
+    }
+  },
+  "liveClass": {
+    "badge": "LIVE",
+    "join": "Abhi Join Karein",
+    "label": "YouTube par live class: {{title}}. Naye tab mein khulegi."
+  }
+}

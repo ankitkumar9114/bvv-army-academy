@@ -1,0 +1,176 @@
+[
+  {
+    "id": "deepak",
+    "name": {
+      "en": "Deepak Singh",
+      "hi": "दीपक सिंह",
+      "hinglish": "Deepak Singh"
+    },
+    "place": {
+      "en": "Bhind",
+      "hi": "भिंड",
+      "hinglish": "Bhind"
+    },
+    "course": {
+      "en": "Agniveer Army GD",
+      "hi": "अग्निवीर आर्मी जीडी",
+      "hinglish": "Agniveer Army GD"
+    },
+    "quote": {
+      "en": "The daily ground training made the running test easy for me. The teachers explained every topic in simple Hindi.",
+      "hi": "ग्राउंड पर रोज़ की ट्रेनिंग से दौड़ का टेस्ट आसान हो गया। टीचर्स हर टॉपिक सरल हिंदी में समझाते थे।",
+      "hinglish": "Ground par roz ki training se running test aasaan ho gaya. Teachers har topic simple Hindi mein samjhate the."
+    },
+    "rating": 5,
+    "year": 2025,
+    "categoryId": "defence",
+    "status": "published",
+    "order": 1,
+    "mock": true
+  },
+  {
+    "id": "anjali",
+    "name": {
+      "en": "Anjali Patel",
+      "hi": "अंजलि पटेल",
+      "hinglish": "Anjali Patel"
+    },
+    "place": {
+      "en": "Gwalior",
+      "hi": "ग्वालियर",
+      "hinglish": "Gwalior"
+    },
+    "course": {
+      "en": "MP Police Constable",
+      "hi": "एमपी पुलिस कांस्टेबल",
+      "hinglish": "MP Police Constable"
+    },
+    "quote": {
+      "en": "Mock tests every week showed me where I was weak. I cleared the written exam on my first attempt.",
+      "hi": "हर हफ़्ते के मॉक टेस्ट से पता चला कि मैं कहाँ कमज़ोर हूँ। पहली बार में ही लिखित परीक्षा पास की।",
+      "hinglish": "Har hafte ke mock tests se pata chala ki main kahan weak hoon. Pehli baar mein hi written exam clear kiya."
+    },
+    "rating": 5,
+    "year": 2025,
+    "categoryId": "police",
+    "status": "published",
+    "order": 2,
+    "mock": true
+  },
+  {
+    "id": "harsh",
+    "name": {
+      "en": "Harsh Vardhan",
+      "hi": "हर्ष वर्धन",
+      "hinglish": "Harsh Vardhan"
+    },
+    "place": {
+      "en": "Bhopal",
+      "hi": "भोपाल",
+      "hinglish": "Bhopal"
+    },
+    "course": {
+      "en": "SSC CGL",
+      "hi": "एसएससी सीजीएल",
+      "hinglish": "SSC CGL"
+    },
+    "quote": {
+      "en": "Clear notes and regular doubt sessions. The online classes fit around my college timetable.",
+      "hi": "साफ़ नोट्स और नियमित डाउट सेशन। ऑनलाइन क्लास मेरे कॉलेज के समय के साथ फिट हो गईं।",
+      "hinglish": "Clear notes aur regular doubt sessions. Online classes mere college ke time ke saath fit ho gayi."
+    },
+    "rating": 4,
+    "year": 2024,
+    "categoryId": "ssc",
+    "status": "published",
+    "order": 3,
+    "mock": true
+  },
+  {
+    "id": "sneha",
+    "name": {
+      "en": "Sneha Jain",
+      "hi": "स्नेहा जैन",
+      "hinglish": "Sneha Jain"
+    },
+    "place": {
+      "en": "Indore",
+      "hi": "इंदौर",
+      "hinglish": "Indore"
+    },
+    "course": {
+      "en": "IBPS PO",
+      "hi": "आईबीपीएस पीओ",
+      "hinglish": "IBPS PO"
+    },
+    "quote": {
+      "en": "The interview practice gave me real confidence. The counsellors were always available on WhatsApp.",
+      "hi": "इंटरव्यू प्रैक्टिस से असली आत्मविश्वास मिला। काउंसलर व्हाट्सऐप पर हमेशा उपलब्ध रहे।",
+      "hinglish": "Interview practice se asli confidence mila. Counsellors WhatsApp par hamesha available rahe."
+    },
+    "rating": 5,
+    "year": 2025,
+    "categoryId": "bank",
+    "status": "published",
+    "order": 4,
+    "mock": true
+  },
+  {
+    "id": "manish",
+    "name": {
+      "en": "Manish Kumar",
+      "hi": "मनीष कुमार",
+      "hinglish": "Manish Kumar"
+    },
+    "place": {
+      "en": "Jabalpur",
+      "hi": "जबलपुर",
+      "hinglish": "Jabalpur"
+    },
+    "course": {
+      "en": "RRB NTPC",
+      "hi": "आरआरबी एनटीपीसी",
+      "hinglish": "RRB NTPC"
+    },
+    "quote": {
+      "en": "Good teachers for maths and reasoning, and the hostel kept me focused on studying.",
+      "hi": "गणित और रीज़निंग के अच्छे टीचर्स, और हॉस्टल में रहकर पढ़ाई पर ध्यान बना रहा।",
+      "hinglish": "Maths aur reasoning ke achhe teachers, aur hostel mein rehkar padhai par focus bana raha."
+    },
+    "rating": 5,
+    "year": 2024,
+    "categoryId": "railway",
+    "status": "published",
+    "order": 5,
+    "mock": true
+  },
+  {
+    "id": "ritu",
+    "name": {
+      "en": "Ritu Sharma",
+      "hi": "रितु शर्मा",
+      "hinglish": "Ritu Sharma"
+    },
+    "place": {
+      "en": "Sagar",
+      "hi": "सागर",
+      "hinglish": "Sagar"
+    },
+    "course": {
+      "en": "MP Patwari",
+      "hi": "एमपी पटवारी",
+      "hinglish": "MP Patwari"
+    },
+    "quote": {
+      "en": "The MP GK notes covered exactly what came in the exam. I recommend this batch.",
+      "hi": "एमपी जीके नोट्स में वही था जो परीक्षा में आया। मैं यह बैच ज़रूर सुझाऊँगी।",
+      "hinglish": "MP GK notes mein wahi tha jo exam mein aaya. Main yeh batch zaroor suggest karungi."
+    },
+    "rating": 4,
+    "year": 2025,
+    "categoryId": "state",
+    "status": "published",
+    "order": 6,
+    "mock": true
+  }
+]

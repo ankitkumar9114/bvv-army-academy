@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{db}/documents {
+    function isAdmin() { return request.auth != null && request.auth.token.admin == true; }
+
+    // Site content: anyone reads published docs; only admins (CMS) read drafts and write.
+    // media = images uploaded in the CMS (course thumbnails, trainer / student photos), stored as data URLs.
+    // offers = site-wide sales (e.g. Navratri 50%); the site applies the one running today to course prices.
+    // liveClasses = YouTube live classes; a live one shows as a banner under the header.
+    // heroSlides = home page hero banners (pictures are `media` docs); live ones rotate every 12 s.
+    match /{col}/{id} {
+      allow read: if col in ['examGroups', 'exams', 'courses', 'trainers', 'results', 'testimonials', 'subjects', 'media', 'offers', 'liveClasses', 'heroSlides']
+                  && (resource.data.status == 'published' || isAdmin());
+      allow write: if isAdmin();
+    }
+
+    // Callback requests from the enquiry form. Visitors may only create a well-formed request;
+    // nobody but admins can read, change or delete them.
+    match /enquiries/{id} {
+      function optionalText(field, max) {
+        return !(field in request.resource.data)
+          || (request.resource.data[field] is string && request.resource.data[field].size() <= max);
+      }
+      allow create: if request.resource.data.keys().hasOnly(
+                         ['name', 'phone', 'mode', 'examInterest', 'qualification', 'city', 'language', 'source', 'status', 'createdAt'])
+                    && request.resource.data.name is string
+                    && request.resource.data.name.size() >= 2 && request.resource.data.name.size() <= 80
+                    && request.resource.data.phone is string
+                    && request.resource.data.phone.matches('^[6-9][0-9]{9}$')
+                    && request.resource.data.mode in ['online', 'classroom', 'both']
+                    && request.resource.data.status == 'new'
+                    && request.resource.data.createdAt == request.time
+                    && optionalText('examInterest', 40)
+                    && optionalText('qualification', 40)
+                    && optionalText('city', 60)
+                    && optionalText('language', 10)
+                    && optionalText('source', 40);
+      allow read, update, delete: if isAdmin();
+    }
+  }
+}

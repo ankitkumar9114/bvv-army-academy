@@ -1,0 +1,31 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# Third-party files downloaded for reference only (State Emblem / trademarks): never commit or ship
+reference/
+
+# local, not for the repo: pending Firestore updates (photos of students) and one-off admin scripts
+pending-firebase/
+.*.tmp.mjs
+
+# Environment files (Firebase web config is set as GitHub Actions variables for the deploy build)
+.env
+.env.*
+!.env.example
+
+# Firebase service-account keys must never be in the project (scripts read ~/.config/bvv-army-academy/)
+*firebase-admin*.json
+*serviceAccount*.json
+
+# Data backups written by one-off admin scripts (restore copies, may hold hidden content): keep local
+docs/*-before-*.json
+docs/hidden-*.json
+
+# Local Claude Code settings and skills
+.claude/

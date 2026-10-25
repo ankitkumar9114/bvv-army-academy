@@ -1,0 +1,2297 @@
+{
+  "group": {
+    "id": "banking",
+    "name": "Banking & Insurance",
+    "intro": "Bank pay follows the bank wage settlement, so salaries are approximate starting gross amounts. Negative marking is 0.25 of the question's marks. Age relaxation: OBC 3, SC/ST 5, PwBD 10 (+3 OBC, +5 SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+    "officialWebsite": "https://ibps.in",
+    "status": "published",
+    "order": 3,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "+3 years"
+        },
+        {
+          "category": "scSt",
+          "rule": "+5 years"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "+10 years"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "+13 years"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "+15 years"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "+5 years"
+        },
+        {
+          "category": "widows",
+          "rule": "As per the notice"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "EWS gets reservation but no age relaxation in bank exams.",
+        "Persons affected by the 1984 riots: +5 years.",
+        "Widows, divorced women and judicially separated women: up to 35 (UR), 38 (OBC), 40 (SC/ST) in many clerk notices.",
+        "Attempt limits: SBI PO allows 4 attempts for General, 7 for OBC and unlimited for SC/ST. RBI Grade B allows 6 attempts for General / EWS."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "ibps-po",
+      "groupId": "banking",
+      "guideRef": "3.1",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS PO (Probationary Officer)",
+      "shortName": "IBPS PO",
+      "overview": "Selects probationary officers for 11 public sector banks.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree in any discipline",
+        "ageMin": 20,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Computer literacy",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "fee": {
+        "general": 850,
+        "reserved": 175,
+        "note": "₹175 for SC/ST/PwBD."
+      },
+      "selectionSteps": [
+        "Prelims (qualifying, sectional cut-offs)",
+        "Mains (objective + descriptive)",
+        "Interview (in recent cycles: 100 marks, qualifying 40%, 35% for reserved)",
+        "Final merit in recent cycles = Mains 80% + Interview 20% (confirm the weightage in the current notice)",
+        "Provisional allotment to a bank"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 60
+          },
+          "qualifyingOnly": true,
+          "negativeMarking": 0.25,
+          "note": "Sectional cut-offs apply."
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning & Computer Aptitude",
+              "questions": 45,
+              "marks": 60,
+              "minutes": 60
+            },
+            {
+              "subject": "General / Economy / Banking Awareness",
+              "questions": 40,
+              "marks": 40,
+              "minutes": 35
+            },
+            {
+              "subject": "English Language",
+              "questions": 35,
+              "marks": 40,
+              "minutes": 40
+            },
+            {
+              "subject": "Data Analysis & Interpretation",
+              "questions": 35,
+              "marks": 60,
+              "minutes": 45
+            },
+            {
+              "subject": "Descriptive (Letter + Essay)",
+              "questions": 2,
+              "marks": 25,
+              "minutes": 30
+            }
+          ],
+          "totals": {
+            "questions": 157,
+            "marks": 225,
+            "minutes": 210
+          },
+          "qualifyingOnly": false,
+          "negativeMarking": 0.25,
+          "note": "Pattern of recent cycles. Negative marking applies to the objective sections."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 100
+          },
+          "note": "In recent cycles: qualifying 40%, 35% for reserved categories. Final merit = Mains 80% + Interview 20%."
+        }
+      ],
+      "syllabus": [
+        {
+          "subject": "All sections",
+          "topics": "Puzzles, seating arrangement, syllogism, inequality, data interpretation, arithmetic, reading comprehension, cloze test, RBI and banking terms, current affairs, computer basics"
+        }
+      ],
+      "salary": {
+        "grossMin": 85000,
+        "grossMax": 95000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "career": {
+        "promotion": "Scale I → Manager → Senior Manager → Chief Manager → AGM → GM"
+      },
+      "tips": [
+        "Puzzles and DI carry heavy weight in Mains; read a newspaper daily for banking awareness."
+      ],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "ibps-clerk",
+      "groupId": "banking",
+      "guideRef": "3.2",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS Clerk",
+      "shortName": "IBPS Clerk",
+      "overview": "Clerical recruitment for public sector banks, with a language test and no interview.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree in any discipline",
+        "ageMin": 20,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Read, write and speak the official language of the state applied for",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "fee": {
+        "general": 850,
+        "reserved": 175,
+        "note": "₹175 for SC/ST/PwBD/ExSM."
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Language Proficiency Test",
+        "Allotment (final merit on Mains only, no interview)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 60
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "General / Financial Awareness",
+              "questions": 50
+            },
+            {
+              "subject": "English",
+              "questions": 40
+            },
+            {
+              "subject": "Reasoning & Computer",
+              "questions": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 50
+            }
+          ],
+          "totals": {
+            "questions": 190,
+            "minutes": 160
+          },
+          "negativeMarking": 0.25,
+          "note": "Final merit is on Mains only."
+        },
+        {
+          "id": "lpt",
+          "name": "Language Proficiency Test",
+          "rows": [],
+          "qualifyingOnly": true
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 40000,
+        "grossMax": 48000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [
+        "Apply in your home state: the language test and local posting make it easier."
+      ],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "ibps-so",
+      "groupId": "banking",
+      "guideRef": "3.3",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS SO (Specialist Officer)",
+      "shortName": "IBPS SO",
+      "overview": "Recruits specialist officers (IT, agriculture, law, HR, marketing, Rajbhasha) for public sector banks.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "IT Officer"
+        },
+        {
+          "name": "Agriculture Field Officer"
+        },
+        {
+          "name": "Rajbhasha Adhikari"
+        },
+        {
+          "name": "Law Officer"
+        },
+        {
+          "name": "HR / Personnel Officer"
+        },
+        {
+          "name": "Marketing Officer"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate",
+          "professional"
+        ],
+        "qualification": "Post-wise degree (see posts)",
+        "ageMin": 20,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "qualificationByPost": [
+          {
+            "post": "IT Officer",
+            "qualification": "B.Tech / MCA / PG in CS, IT, Electronics; or graduate with DOEACC 'B' level"
+          },
+          {
+            "post": "Agriculture Field Officer",
+            "qualification": "4-year degree in Agriculture, Horticulture, Animal Husbandry, Veterinary, Dairy, Fisheries, Agri-Engineering etc."
+          },
+          {
+            "post": "Rajbhasha Adhikari",
+            "qualification": "PG in Hindi with English at graduation, or PG in English with Hindi at graduation"
+          },
+          {
+            "post": "Law Officer",
+            "qualification": "LLB",
+            "extraRequirement": "Enrolled with the Bar Council"
+          },
+          {
+            "post": "HR / Marketing Officer",
+            "qualification": "Graduate + PG / MBA in HR, Personnel, Labour Law or Marketing"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains (professional knowledge)",
+        "Interview (final merit Mains 80 : Interview 20)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude (Banking General Awareness for Law and Rajbhasha)"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Professional knowledge",
+              "questions": 60
+            }
+          ],
+          "totals": {
+            "questions": 60
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "note": "Final merit: Mains 80 : Interview 20."
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 85000,
+        "grossMax": 95000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "ibps-rrb-office-assistant",
+      "groupId": "banking",
+      "guideRef": "3.4",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS RRB Office Assistant",
+      "shortName": "RRB Assistant",
+      "overview": "Office Assistant (clerk) posts in Regional Rural Banks, with no interview.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 18,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Local language; computer knowledge preferred",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "No interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 40
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 40
+            }
+          ],
+          "totals": {
+            "questions": 80,
+            "minutes": 45
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "English or Hindi"
+            },
+            {
+              "subject": "Computer"
+            }
+          ],
+          "negativeMarking": 0.25
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 35000,
+        "grossMax": 42000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [
+        "Papers are available in Hindi, a strong option for Hindi-medium students from MP, UP, Rajasthan and Bihar."
+      ],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "ibps-rrb-officer-scale-1",
+      "groupId": "banking",
+      "guideRef": "3.4",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS RRB Officer Scale I",
+      "shortName": "RRB Officer Scale I",
+      "overview": "Entry-level officer posts in Regional Rural Banks.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree (preference for Agriculture, Economics, IT, Law, Management, Accountancy etc.)",
+        "ageMin": 18,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Local language",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "English or Hindi"
+            },
+            {
+              "subject": "Computer"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 75000,
+        "grossMax": 85000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [
+        "Papers are available in Hindi, a strong option for Hindi-medium students from MP, UP, Rajasthan and Bihar."
+      ],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "ibps-rrb-officer-scale-2-3",
+      "groupId": "banking",
+      "guideRef": "3.4",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "IBPS RRB Officer Scale II / III",
+      "shortName": "RRB Scale II / III",
+      "overview": "Experienced-officer posts (Scale II and III) in Regional Rural Banks.",
+      "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Officer Scale II",
+          "ageMin": 21,
+          "ageMax": 32
+        },
+        {
+          "name": "Officer Scale III",
+          "ageMin": 21,
+          "ageMax": 40
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "professional"
+        ],
+        "qualification": "Scale II (General) and Scale III: bachelor's degree with 50%. Scale II (Specialist): degree in IT, CA, Law, MBA, Agriculture etc. as per post",
+        "ageMin": 21,
+        "ageNote": "Upper age (UR): Scale II 32, Scale III 40. Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "qualificationByPost": [
+          {
+            "post": "Scale II (General)",
+            "qualification": "Bachelor's degree with 50%",
+            "extraRequirement": "2 years as a bank officer"
+          },
+          {
+            "post": "Scale II (Specialist)",
+            "qualification": "Degree in IT, CA, Law, MBA, Agriculture etc. as per post",
+            "extraRequirement": "1–2 years' experience"
+          },
+          {
+            "post": "Scale III",
+            "qualification": "Bachelor's degree with 50%",
+            "extraRequirement": "5 years as a bank officer"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Scale II",
+            "lower": 21,
+            "ur": 32,
+            "obc": 35,
+            "scSt": 37,
+            "pwbd": {
+              "ur": 42,
+              "obc": 45,
+              "scSt": 47
+            },
+            "exServicemen": 37
+          },
+          {
+            "post": "Scale III",
+            "lower": 21,
+            "ur": 40,
+            "obc": 43,
+            "scSt": 45,
+            "pwbd": {
+              "ur": 50,
+              "obc": 53,
+              "scSt": 55
+            },
+            "exServicemen": 45
+          }
+        ],
+        "ageMax": 40
+      },
+      "selectionSteps": [
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        },
+        {
+          "id": "online-exam",
+          "name": "Single online exam",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Financial Awareness",
+              "questions": 40,
+              "marks": 40
+            },
+            {
+              "subject": "English / Hindi Language",
+              "questions": 40,
+              "marks": 40
+            },
+            {
+              "subject": "Computer Knowledge",
+              "questions": 40,
+              "marks": 20
+            },
+            {
+              "subject": "Professional Knowledge (specialist posts)",
+              "questions": 40,
+              "marks": 40
+            }
+          ]
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 90000,
+        "grossMax": 110000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [
+        "Papers are available in Hindi, a strong option for Hindi-medium students from MP, UP, Rajasthan and Bihar."
+      ],
+      "officialWebsite": "https://ibps.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "sbi-po",
+      "groupId": "banking",
+      "guideRef": "3.5",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "SBI PO (Probationary Officer)",
+      "shortName": "SBI PO",
+      "overview": "Probationary officer recruitment for State Bank of India.",
+      "conductingBody": "State Bank of India (SBI)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree in any discipline",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Recent SBI PO notices have required an indemnity bond on joining; check the amount and period in the current notice. Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "attempts": "4 attempts for General, 7 for OBC, unlimited for SC/ST",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "fee": {
+        "general": 750,
+        "reserved": 0,
+        "note": "SC/ST/PwBD exempt."
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Psychometric Test + Group Exercise + Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 60
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning & Computer",
+              "questions": 40
+            },
+            {
+              "subject": "Data Analysis",
+              "questions": 30
+            },
+            {
+              "subject": "Banking Awareness",
+              "questions": 50
+            },
+            {
+              "subject": "English",
+              "questions": 35
+            },
+            {
+              "subject": "Descriptive (letter + essay)"
+            }
+          ],
+          "negativeMarking": 0.25,
+          "note": "Negative marking applies to the objective sections."
+        },
+        {
+          "id": "interview",
+          "name": "Psychometric Test + Group Exercise + Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "basic": 48480,
+        "grossMin": 95000,
+        "grossMax": 105000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement. Basic ₹48,480 + 4 advance increments."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "sbi-clerk",
+      "groupId": "banking",
+      "guideRef": "3.6",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "SBI Clerk (Junior Associate)",
+      "shortName": "SBI Clerk",
+      "overview": "Junior Associate (clerk) recruitment for State Bank of India, with no interview.",
+      "conductingBody": "State Bank of India (SBI)",
+      "tags": [
+        "highVacancy",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree in any discipline",
+        "ageMin": 20,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Local language",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Local Language Test (no interview)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 35
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "minutes": 60
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "General Awareness",
+              "questions": 50
+            },
+            {
+              "subject": "English",
+              "questions": 40
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 50
+            },
+            {
+              "subject": "Reasoning & Computer",
+              "questions": 50
+            }
+          ],
+          "totals": {
+            "questions": 190,
+            "minutes": 160
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "llt",
+          "name": "Local Language Test",
+          "rows": [],
+          "note": "Waived if the language was studied in 10th/12th."
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 42000,
+        "grossMax": 50000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    },
+    {
+      "id": "sbi-so",
+      "groupId": "banking",
+      "guideRef": "3.7",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "SBI SO (Specialist Officer)",
+      "shortName": "SBI SO",
+      "overview": "Specialist officer posts at State Bank of India, from Assistant Manager to Manager.",
+      "conductingBody": "State Bank of India (SBI)",
+      "tags": [
+        "highSalary",
+        "noWrittenExam",
+        "noPhysicalTest"
+      ],
+      "posts": [
+        {
+          "name": "Assistant Manager (Systems)"
+        },
+        {
+          "name": "Assistant Manager (Engineer)"
+        },
+        {
+          "name": "Assistant Manager (Security)"
+        },
+        {
+          "name": "Deputy Manager"
+        },
+        {
+          "name": "Manager (Credit)"
+        },
+        {
+          "name": "Manager (Risk)"
+        }
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate",
+          "professional"
+        ],
+        "qualification": "Post-wise: B.Tech / MCA / MBA / CA / CFA",
+        "ageNote": "Age limits are post-wise. No Written Exam applies to some posts only (experienced and contract posts). Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5. Recent IBPS and SBI notices have included a credit-history (CIBIL) condition at the time of joining; the exact rule differs by notice, so read it in yours.",
+        "extraRequirement": "Post-qualification experience for many posts",
+        "ageLimits": [
+          {
+            "note": "Age limits are post-wise (often 30–35 for entry posts). Relaxation: OBC +3, SC/ST +5, PwBD +10 / +13 / +15, ex-servicemen +5 years."
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Entry posts: online test + interview",
+        "Experienced and contract posts: shortlisting + interview only"
+      ],
+      "stages": [
+        {
+          "id": "online-test",
+          "name": "Online test",
+          "rows": [
+            {
+              "subject": "Professional Knowledge"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "English Language"
+            },
+            {
+              "subject": "General Awareness (Banking)"
+            }
+          ],
+          "negativeMarking": 0.25,
+          "note": "Entry posts only."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 85000,
+        "grossMax": 150000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9
+    },
+    {
+      "id": "rbi-grade-b",
+      "groupId": "banking",
+      "guideRef": "3.8",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "RBI Grade B",
+      "shortName": "RBI Grade B",
+      "overview": "Officer recruitment at the Reserve Bank of India, one of the highest-paying graduate exams.",
+      "conductingBody": "Reserve Bank of India (RBI)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "Graduate with 60% (50% SC/ST/PwBD), or PG with 55% (pass marks SC/ST/PwBD)",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "attempts": "6 attempts for General / EWS",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35,
+            "note": "UR / EWS: 32 with M.Phil, 34 with PhD."
+          }
+        ]
+      },
+      "fee": {
+        "general": 850,
+        "reserved": 100,
+        "note": "₹100 for SC/ST/PwBD."
+      },
+      "selectionSteps": [
+        "Phase 1",
+        "Phase 2",
+        "Interview (75 marks)"
+      ],
+      "stages": [
+        {
+          "id": "phase1",
+          "name": "Phase 1",
+          "rows": [
+            {
+              "subject": "General Awareness",
+              "questions": 80
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 60
+            },
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 30
+            }
+          ],
+          "totals": {
+            "questions": 200,
+            "minutes": 120
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "phase2",
+          "name": "Phase 2",
+          "rows": [
+            {
+              "subject": "Economic & Social Issues",
+              "marks": 100
+            },
+            {
+              "subject": "English Writing",
+              "marks": 100
+            },
+            {
+              "subject": "Finance & Management",
+              "marks": 100
+            }
+          ],
+          "totals": {
+            "marks": 300
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 75
+          }
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 150000,
+        "grossMax": 160000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "career": {
+        "profile": "Bank regulation, supervision, currency management, monetary policy.",
+        "promotion": "Grade B → C → D → E → Executive Director"
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10
+    },
+    {
+      "id": "rbi-assistant",
+      "groupId": "banking",
+      "guideRef": "3.9",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "RBI Assistant",
+      "shortName": "RBI Assistant",
+      "overview": "Assistant posts at the Reserve Bank of India, with a language test and no interview.",
+      "conductingBody": "Reserve Bank of India (RBI)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Graduate with 50% (pass class for SC/ST/PwBD)",
+        "ageMin": 20,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "extraRequirement": "Local language; PC word processing",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Language Proficiency Test (no interview)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Numerical Ability"
+            },
+            {
+              "subject": "Reasoning"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Numerical Ability"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "Computer"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "lpt",
+          "name": "Language Proficiency Test",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 50000,
+        "grossMax": 55000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 11
+    },
+    {
+      "id": "rbi-office-attendant",
+      "groupId": "banking",
+      "guideRef": "3.9",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "RBI Office Attendant",
+      "shortName": "RBI Attendant",
+      "overview": "10th-pass Office Attendant posts at the Reserve Bank of India.",
+      "conductingBody": "Reserve Bank of India (RBI)",
+      "tags": [
+        "tenthPass",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass from the state of the RBI office",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Candidates must be from the state of the RBI office. Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "extraRequirement": "Graduates are not eligible",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbd": {
+              "ur": 35,
+              "obc": 38,
+              "scSt": 40
+            },
+            "exServicemen": 30
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Online test",
+        "Language Proficiency Test"
+      ],
+      "stages": [
+        {
+          "id": "online-test",
+          "name": "Online test",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 30
+            },
+            {
+              "subject": "English",
+              "questions": 30
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 30
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 30
+            }
+          ],
+          "totals": {
+            "questions": 120
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "lpt",
+          "name": "Language Proficiency Test",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 33000,
+        "grossMax": 37000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 12
+    },
+    {
+      "id": "nabard-grade-a",
+      "groupId": "banking",
+      "guideRef": "3.10",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "NABARD Grade A",
+      "shortName": "NABARD Grade A",
+      "overview": "Officer recruitment at NABARD, with papers on agriculture and rural development.",
+      "conductingBody": "National Bank for Agriculture and Rural Development (NABARD)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "postGraduate"
+        ],
+        "qualification": "Graduate with 60% (55% SC/ST/PwBD) or PG with 55% (50%); specialist posts need the relevant degree",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Phase 1",
+        "Phase 2",
+        "Interview (50 marks)"
+      ],
+      "stages": [
+        {
+          "id": "phase1",
+          "name": "Phase 1",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Computer"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "Decision Making"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "Economic & Social Issues (ESI)",
+              "questions": 40
+            },
+            {
+              "subject": "Agriculture & Rural Development (ARD)",
+              "questions": 40
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "phase2",
+          "name": "Phase 2",
+          "rows": [
+            {
+              "subject": "English (descriptive)"
+            },
+            {
+              "subject": "Agriculture & Rural Development / Economic & Social Issues"
+            }
+          ]
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [],
+          "totals": {
+            "marks": 50
+          }
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 100000,
+        "grossMax": 115000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 13
+    },
+    {
+      "id": "sidbi-grade-a",
+      "groupId": "banking",
+      "guideRef": "3.10",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "SIDBI Grade A",
+      "shortName": "SIDBI Grade A",
+      "overview": "Grade A officer recruitment at SIDBI through an online exam and interview.",
+      "conductingBody": "Small Industries Development Bank of India (SIDBI)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "professional"
+        ],
+        "qualification": "Graduate / LLB / B.Tech / CA / CS / CMA / MBA with 60% (stream-wise)",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Online exam",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "online-exam",
+          "name": "Online exam",
+          "rows": [
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "Professional Knowledge"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 100000,
+        "grossMax": 115000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 14
+    },
+    {
+      "id": "exim-bank-mt",
+      "groupId": "banking",
+      "guideRef": "3.10",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "EXIM Bank Management Trainee",
+      "shortName": "EXIM Bank MT",
+      "overview": "Management Trainee recruitment at EXIM Bank for MBA and CA candidates.",
+      "conductingBody": "Export-Import Bank of India (EXIM Bank)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "postGraduate",
+          "professional"
+        ],
+        "qualification": "MBA / PGDBA (Finance, International Business, Foreign Trade) or CA, with 60%",
+        "ageMin": 21,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Online test",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "online-test",
+          "name": "Online test",
+          "rows": [
+            {
+              "subject": "English Language"
+            },
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "General / Economy / Banking Awareness"
+            },
+            {
+              "subject": "Professional Knowledge"
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 100000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross of ₹1,00,000 +; bank pay follows the bank wage settlement."
+      },
+      "career": {
+        "promotion": "Deputy Manager after 1-year training."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 15
+    },
+    {
+      "id": "lic-aao",
+      "groupId": "banking",
+      "guideRef": "3.11",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "LIC AAO (Assistant Administrative Officer)",
+      "shortName": "LIC AAO",
+      "overview": "Assistant Administrative Officer recruitment at LIC.",
+      "conductingBody": "Life Insurance Corporation of India (LIC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree (Generalist)",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "extraRequirement": "Specialist posts: IT, CA, Actuarial, Legal degrees",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview",
+        "Medical"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 35
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 35
+            },
+            {
+              "subject": "English",
+              "questions": 30
+            }
+          ],
+          "totals": {
+            "questions": 100
+          },
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Data Analysis"
+            },
+            {
+              "subject": "Insurance & Financial Market Awareness"
+            },
+            {
+              "subject": "Descriptive English"
+            }
+          ],
+          "negativeMarking": 0.25,
+          "note": "Negative marking applies to the objective sections."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "basic": 88635,
+        "grossMin": 110000,
+        "grossMax": 125000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement. Basic ₹88,635."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 16
+    },
+    {
+      "id": "lic-ado",
+      "groupId": "banking",
+      "guideRef": "3.11",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "LIC ADO (Apprentice Development Officer)",
+      "shortName": "LIC ADO",
+      "overview": "Field job at LIC guiding agents to meet business targets.",
+      "conductingBody": "Life Insurance Corporation of India (LIC)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 35,
+              "marks": 35
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 35,
+              "marks": 35
+            },
+            {
+              "subject": "English Language",
+              "questions": 30,
+              "marks": 30
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "General Knowledge & Current Affairs",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Insurance & Marketing Awareness",
+              "questions": 40,
+              "marks": 50
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 45000,
+        "grossMax": 55000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement. Plus incentives."
+      },
+      "career": {
+        "profile": "Field job guiding LIC agents to meet business targets; confirmation depends on meeting targets."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 17
+    },
+    {
+      "id": "lic-assistant",
+      "groupId": "banking",
+      "guideRef": "3.11",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "LIC Assistant",
+      "shortName": "LIC Assistant",
+      "overview": "Assistant (clerical) posts at LIC, with a language test and no interview.",
+      "conductingBody": "Life Insurance Corporation of India (LIC)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 20,
+        "ageMax": 28,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "extraRequirement": "Local language",
+        "ageLimits": [
+          {
+            "lower": 20,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbd": {
+              "ur": 38,
+              "obc": 41,
+              "scSt": 43
+            },
+            "exServicemen": 33
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Language Test (no interview)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English / Hindi Language",
+              "questions": 30,
+              "marks": 30
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35,
+              "marks": 35
+            },
+            {
+              "subject": "Numerical Ability",
+              "questions": 35,
+              "marks": 35
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "General & Financial Awareness",
+              "questions": 50,
+              "marks": 50
+            },
+            {
+              "subject": "General English",
+              "questions": 40,
+              "marks": 40
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 40,
+              "marks": 50
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "lpt",
+          "name": "Language Test",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 40000,
+        "grossMax": 45000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 18
+    },
+    {
+      "id": "niacl-nicl-uiic-ao",
+      "groupId": "banking",
+      "guideRef": "3.11",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "NIACL / NICL / UIIC AO (Administrative Officer)",
+      "shortName": "Insurance AO",
+      "overview": "Administrative Officer recruitment at the public sector general insurance companies.",
+      "conductingBody": "New India Assurance (NIACL), National Insurance (NICL), United India Insurance (UIIC)",
+      "tags": [
+        "highSalary",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate",
+          "professional"
+        ],
+        "qualification": "Graduate with 60% (55% SC/ST); specialists need the relevant degree",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Interview"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning"
+            },
+            {
+              "subject": "English"
+            },
+            {
+              "subject": "General Awareness"
+            },
+            {
+              "subject": "Quantitative Aptitude"
+            },
+            {
+              "subject": "Descriptive"
+            }
+          ],
+          "negativeMarking": 0.25,
+          "note": "Negative marking applies to the objective sections."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "basic": 50925,
+        "grossMin": 85000,
+        "grossMax": 95000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement. Basic ₹50,925."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 19
+    },
+    {
+      "id": "niacl-assistant",
+      "groupId": "banking",
+      "guideRef": "3.11",
+      "siteCategories": [
+        "bank"
+      ],
+      "name": "NIACL Assistant",
+      "shortName": "NIACL Assistant",
+      "overview": "Assistant posts at New India Assurance, with a regional language test and no interview.",
+      "conductingBody": "New India Assurance (NIACL)",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "graduate"
+        ],
+        "qualification": "Bachelor's degree",
+        "ageMin": 21,
+        "ageMax": 30,
+        "ageNote": "Age relaxation: OBC 3 years, SC/ST 5, PwBD 10 (+3 for OBC, +5 for SC/ST), ex-servicemen 5.",
+        "extraRequirement": "State language",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbd": {
+              "ur": 40,
+              "obc": 43,
+              "scSt": 45
+            },
+            "exServicemen": 35
+          }
+        ]
+      },
+      "selectionSteps": [
+        "Prelims",
+        "Mains",
+        "Regional Language Test (no interview)"
+      ],
+      "stages": [
+        {
+          "id": "prelims",
+          "name": "Prelims",
+          "rows": [
+            {
+              "subject": "English Language",
+              "questions": 30,
+              "marks": 30
+            },
+            {
+              "subject": "Reasoning",
+              "questions": 35,
+              "marks": 35
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 35,
+              "marks": 35
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "mains",
+          "name": "Mains",
+          "rows": [
+            {
+              "subject": "Reasoning",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "English Language",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "General Awareness",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Computer Knowledge",
+              "questions": 40,
+              "marks": 50
+            },
+            {
+              "subject": "Quantitative Aptitude",
+              "questions": 40,
+              "marks": 50
+            }
+          ],
+          "negativeMarking": 0.25
+        },
+        {
+          "id": "lpt",
+          "name": "Regional Language Test",
+          "rows": []
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "grossMin": 40000,
+        "grossMax": 45000,
+        "certainty": "estimate",
+        "note": "Approximate starting gross; bank pay follows the bank wage settlement."
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 20
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "meta": {
+    "title": "Bajr Vijay Veer Army Academy | Government Job Coaching + Physical Training"
+  },
+  "brand": {
+    "name": "Bajr Vijay Veer Army Academy",
+    "short": "BVV Army Academy",
+    "tagline": "Study · Fitness · Selection"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "viewAll": "View all",
+    "breadcrumbHome": "Home",
+    "breadcrumbLabel": "Breadcrumb",
+    "clearFilters": "Clear filters",
+    "opensNewTab": "(opens in a new tab)",
+    "back": "Back"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "homeLabel": "Bajr Vijay Veer Army Academy, home",
+    "links": {
+      "home": "Home",
+      "courses": "Courses",
+      "jobs": "Jobs",
+      "blogs": "Blogs",
+      "about": "About Us"
+    },
+    "login": "Login",
+    "enquire": "Enquire Now",
+    "search": {
+      "placeholder": "Search NDA, SSC GD…",
+      "submit": "Search",
+      "recommended": "Recommended courses",
+      "matches": "Matching courses",
+      "noResults": "No course matches “{{value}}”. Press Enter to see all courses.",
+      "seeAll": "See all results for “{{value}}”"
+    },
+    "courseMenu": {
+      "toggle": "Show exam categories",
+      "viewAll": "View all courses",
+      "examCount": "{{value}} exams",
+      "error": "Couldn’t load the exams.",
+      "groups": {
+        "ssc": "SSC",
+        "railway": "Railway",
+        "banking": "Banking & Insurance",
+        "upsc": "UPSC",
+        "state": "State (MP)",
+        "defence": "Defence",
+        "paramilitary": "Paramilitary"
+      },
+      "recruiters": {
+        "ssc": "SSC",
+        "rrb": "RRB",
+        "rpf": "RPF",
+        "rrc": "RRC",
+        "ibps": "IBPS",
+        "sbi": "SBI",
+        "rbi": "RBI",
+        "nabard": "NABARD",
+        "sidbi": "SIDBI",
+        "exim": "EXIM",
+        "lic": "LIC",
+        "niacl": "NIACL",
+        "upsc": "UPSC",
+        "mpesb": "MPESB",
+        "mppsc": "MPPSC",
+        "army": "ARMY",
+        "navy": "NAVY",
+        "iaf": "IAF",
+        "icg": "ICG",
+        "bsf": "BSF",
+        "cisf": "CISF",
+        "itbp": "ITBP",
+        "ar": "AR",
+        "capf": "CAPF"
+      }
+    },
+    "menu": {
+      "title": "All programs",
+      "card": "Hi, User"
+    }
+  },
+  "language": {
+    "label": "Language",
+    "select": "Choose language",
+    "names": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "hinglish": "Hinglish"
+    }
+  },
+  "carousel": {
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "goTo": "Go to slide {{number}}",
+    "slideOf": "{{current}} of {{total}}"
+  },
+  "announcement": {
+    "ariaLabel": "Announcements",
+    "label": "NEW",
+    "dismiss": "Dismiss announcements",
+    "items": {
+      "newBatch": "New Agniveer & Police batch starts 1 November",
+      "admissionsOpen": "Admissions open for 2026–27, limited seats",
+      "freeDemo": "Book a free demo class, online or at our campus",
+      "physicalTest": "Free physical fitness test every Sunday at 6 AM"
+    }
+  },
+  "hero": {
+    "title": {
+      "lead": "Trusted by Parents,",
+      "highlight": "Proven by Results"
+    },
+    "cta": "Enrol now",
+    "banner": {
+      "alt": "Trusted by parents, proven by results. Selected students from our Defence (NDA), Railway (RRB NTPC), SSC (SSC CGL) and Police (UP SI) batches."
+    },
+    "carousel": "banners"
+  },
+  "categories": {
+    "title": "Exam Categories",
+    "subtitle": "Pick your target exam and see the courses built for it.",
+    "examCount": "{{value}}+ exams",
+    "items": {
+      "defence": "Defence",
+      "police": "Police",
+      "railway": "Railway",
+      "bank": "Bank",
+      "ssc": "SSC",
+      "state": "State Exams"
+    },
+    "pills": {
+      "defence": "Defence Exams",
+      "police": "Police Exams",
+      "railway": "Railway Exams",
+      "bank": "Bank Exams",
+      "ssc": "SSC Exams",
+      "state": "State Exams"
+    }
+  },
+  "modes": {
+    "online": "Online",
+    "offline": "Offline",
+    "hybrid": "Online + Offline"
+  },
+  "courses": {
+    "title": "Popular",
+    "filterLabel": "Filter courses by category",
+    "all": "All",
+    "imageAlt": "{{name}} course",
+    "bestseller": "Bestseller",
+    "duration": "{{months}} months",
+    "enrolled": "{{value}} students enrolled",
+    "price": "Price:",
+    "originalPrice": "Original price:",
+    "off": "{{value}}% off",
+    "titleHighlight": "Courses",
+    "free": "Free",
+    "freeBadge": "FREE",
+    "filterFree": "Free",
+    "carouselLabel": "Popular courses",
+    "loading": "Loading courses…",
+    "loadError": "Couldn't load the courses. Check your internet connection and try again.",
+    "retry": "Try again",
+    "empty": "No courses are published yet.",
+    "enquire": "Enquire Now",
+    "enquireLabel": "Enquire about {{name}} on WhatsApp",
+    "whatsappAbout": "Hi, I want to know about the {{name}} course.",
+    "whatsappAboutPlan": "Hi, I want to know about the {{name}} course ({{plan}}).",
+    "enquireShort": "Enquire",
+    "offerTag": "{{name}}: extra {{value}}% off",
+    "moreTrainers": "+{{value}} more"
+  },
+  "qualification": {
+    "title": "Courses by",
+    "tabsLabel": "Choose your qualification",
+    "items": {
+      "tenth": {
+        "name": "10th Pass"
+      },
+      "twelfth": {
+        "name": "12th Pass"
+      },
+      "graduate": {
+        "name": "Graduate"
+      },
+      "ncc": {
+        "name": "NCC Certificate"
+      }
+    },
+    "titleHighlight": "Qualification",
+    "carouselLabel": "Courses for your qualification"
+  },
+  "exams": {
+    "agniveerGd": "Agniveer Army GD",
+    "sscGd": "SSC GD Constable",
+    "rrbGroupD": "RRB Group D",
+    "stateConstable": "State Police Constable",
+    "nda": "NDA & NA",
+    "upPoliceConstable": "UP Police Constable",
+    "rrbNtpcUg": "RRB NTPC (12th level)",
+    "sscChsl": "SSC CHSL",
+    "lekhpal": "UP Lekhpal",
+    "cds": "CDS",
+    "afcat": "AFCAT",
+    "policeSi": "Police Sub-Inspector (SI)",
+    "sscCgl": "SSC CGL",
+    "ibpsPo": "IBPS PO",
+    "sbiClerk": "SBI Clerk",
+    "nccSpecialEntry": "NCC Special Entry (Army)",
+    "afcatNcc": "AFCAT NCC Special Entry",
+    "agniveerNcc": "Agniveer (NCC bonus marks)",
+    "cisfNcc": "CISF Constable (NCC preference)"
+  },
+  "trainers": {
+    "items": {
+      "rajesh": {
+        "name": "Capt. (Retd.) Rajesh Yadav",
+        "specialty": "Defence written exams & SSB interview",
+        "bio": "Served 20+ years in the Indian Army and has guided hundreds of NDA and CDS aspirants through the SSB interview."
+      },
+      "vikram": {
+        "name": "Sub. Maj. (Retd.) Vikram Singh",
+        "specialty": "Physical training & running",
+        "bio": "Former Army PT instructor. Runs the daily 5 AM ground session: running, long jump, high jump and chin-ups."
+      },
+      "sunita": {
+        "name": "Sunita Sharma",
+        "specialty": "Reasoning & General Knowledge",
+        "bio": "Makes reasoning simple with short tricks. Her daily current-affairs quizzes for police exams are a student favourite."
+      },
+      "amit": {
+        "name": "Amit Verma",
+        "specialty": "Mathematics",
+        "bio": "Teaches maths from the basics, so students from Hindi-medium schools catch up fast for Railway and SSC exams."
+      },
+      "neha": {
+        "name": "Neha Gupta",
+        "specialty": "Banking English & Quant",
+        "bio": "Former bank officer who coaches banking English, quant and the interview round."
+      },
+      "priya": {
+        "name": "Priya Mishra",
+        "specialty": "General Studies & Current Affairs",
+        "bio": "Covers GS and current affairs with a monthly magazine and weekly revision tests."
+      }
+    },
+    "title": "Meet Our",
+    "carouselLabel": "Our trainers",
+    "experience": "{{value}}+ years experience",
+    "exService": "Ex-Defence",
+    "photoAlt": "Photo of {{name}}",
+    "titleHighlight": "Trainers"
+  },
+  "jobs": {
+    "items": {
+      "agniveerGd2026": {
+        "post": "Agniveer General Duty",
+        "dept": "Indian Army"
+      },
+      "upPoliceConstable2026": {
+        "post": "Constable (Civil Police)",
+        "dept": "UP Police Recruitment Board"
+      },
+      "rrbNtpc2026": {
+        "post": "NTPC Graduate Level",
+        "dept": "Railway Recruitment Board"
+      },
+      "ibpsPo2026": {
+        "post": "Probationary Officer",
+        "dept": "IBPS"
+      },
+      "sscGd2026": {
+        "post": "GD Constable (CAPF, NIA, SSF)",
+        "dept": "Staff Selection Commission"
+      },
+      "upLekhpal2026": {
+        "post": "Lekhpal",
+        "dept": "UPSSSC"
+      },
+      "rrbGroupD2026": {
+        "post": "Group D (Level 1)",
+        "dept": "Railway Recruitment Board"
+      },
+      "cisfConstable2026": {
+        "post": "Constable / Fire",
+        "dept": "CISF"
+      }
+    },
+    "title": "Latest",
+    "caption": "Latest government job vacancies",
+    "columns": {
+      "post": "Post",
+      "category": "Category",
+      "posts": "Total posts",
+      "lastDate": "Last date",
+      "action": "Details"
+    },
+    "new": "NEW",
+    "viewDetails": "View Details",
+    "viewDetailsLabel": "View details for {{post}} on the official website (opens in a new tab)",
+    "viewAll": "View All Jobs",
+    "daysLeft": "{{value}} days left",
+    "lastDay": "Last day today",
+    "closed": "Closed",
+    "note": "Vacancy numbers and dates are indicative. Always confirm on the official website before applying.",
+    "titleHighlight": "Job Openings"
+  },
+  "footer": {
+    "copyright": "© {{year}} Bajr Vijay Veer Army Academy. All rights reserved.",
+    "followUs": "Follow us on",
+    "comingSoon": "coming soon",
+    "social": {
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "query": "Have a query?",
+    "queryCta": "Request a callback",
+    "academy": "Academy",
+    "examsTitle": "Exams we prepare you for",
+    "groupsLabel": "Exam categories",
+    "coursesTitle": "Our courses",
+    "loadError": "Couldn’t load the exams.",
+    "about": "Bajr Vijay Veer Army Academy prepares students for Defence, Police, Railway, Bank, SSC and State government exams with classroom study and physical training on our campus. 10th pass, 12th pass, graduates and NCC cadets can join. Exam facts on this site come from official notices; always check the latest notification before you apply."
+  },
+  "ds": {
+    "title": "Design System",
+    "intro": "Internal reference for the BVV Army Academy website: every colour, text style, spacing value and component variant. This page is not linked from the navigation.",
+    "stateHint": "Hover, click and use the Tab key on the components below to see their hover, active and focus states.",
+    "sample": "Start your preparation today",
+    "sections": {
+      "colors": "Colours",
+      "typography": "Typography",
+      "spacing": "Spacing",
+      "radius": "Border radius",
+      "shadows": "Shadows & elevation",
+      "breakpoints": "Breakpoints",
+      "motion": "Motion",
+      "buttons": "Buttons",
+      "iconButtons": "Icon buttons",
+      "badges": "Badges",
+      "cards": "Cards",
+      "headings": "Section heading",
+      "tabs": "Tabs & filter chips",
+      "accordion": "Accordion",
+      "carousel": "Carousel",
+      "inputs": "Form inputs",
+      "images": "Image placeholders",
+      "language": "Language switcher",
+      "logo": "Logo",
+      "courseCard": "Course card",
+      "iconTiles": "Icon tiles"
+    },
+    "labels": {
+      "variants": "Variants",
+      "sizes": "Sizes",
+      "states": "States",
+      "disabled": "Disabled",
+      "loading": "Loading",
+      "withIcon": "With icon",
+      "chip": "Chip",
+      "underline": "Underline",
+      "card": "Card",
+      "dropdown": "Dropdown (desktop)",
+      "list": "List (mobile menu)",
+      "inverted": "Inverted"
+    },
+    "demo": {
+      "button": "Book Free Demo",
+      "cardTitle": "Card title",
+      "cardBody": "A card holds one idea: a course, an exam or a trainer.",
+      "headingEyebrow": "Eyebrow",
+      "headingTitle": "Section title",
+      "headingSubtitle": "An optional one-line subtitle under the title.",
+      "accordionQ1": "What are the batch timings?",
+      "accordionA1": "Morning batches run 6–10 AM including ground training; evening batches run 4–8 PM.",
+      "accordionQ2": "Can I switch from online to offline?",
+      "accordionA2": "Yes. You can move to an offline batch any time; we adjust the fee difference.",
+      "slide": "Slide {{number}}",
+      "name": "Full name",
+      "namePlaceholder": "e.g. Rahul Kumar",
+      "phone": "Mobile number",
+      "phoneHint": "We will call you back within 24 hours.",
+      "phoneError": "Enter a valid 10-digit mobile number.",
+      "course": "Course interest",
+      "coursePlaceholder": "Select a course",
+      "disabledField": "Disabled field",
+      "imageAlt": "Placeholder image",
+      "headingHighlight": "with a highlight"
+    }
+  },
+  "classModes": {
+    "title": "Choose how you",
+    "popular": "Most chosen",
+    "items": {
+      "online": {
+        "title": "Online Classes",
+        "desc": "Study from home with live classes and recordings. Same teachers and same tests as our campus batches.",
+        "features": {
+          "live": "Live interactive classes",
+          "recordings": "Recordings to revise anytime",
+          "tests": "Weekly online mock tests",
+          "doubts": "Doubt solving on chat"
+        },
+        "cta": "Explore online courses"
+      },
+      "offline": {
+        "title": "Offline Classes",
+        "desc": "Classroom batches at our campus, with small batch sizes and personal attention.",
+        "features": {
+          "batches": "Small batches of 40–50 students",
+          "library": "Library and self-study room",
+          "tests": "OMR-based test every Sunday",
+          "mentor": "A personal mentor for every student"
+        },
+        "cta": "Visit our campus"
+      },
+      "physical": {
+        "title": "Physical Training & Test Prep",
+        "desc": "Daily ground training by ex-defence instructors, built around the actual physical test of your exam.",
+        "features": {
+          "running": "1.6 km and 5 km running practice",
+          "drills": "Long jump, high jump and chin-ups",
+          "medical": "Medical test guidance (height, chest, eyesight)",
+          "mockPhysical": "Mock physical test every month"
+        },
+        "cta": "Book a free fitness test"
+      }
+    },
+    "titleHighlight": "want to learn"
+  },
+  "why": {
+    "title": "Why choose",
+    "items": {
+      "exDefence": {
+        "title": "Ex-defence trainers",
+        "desc": "Retired Army officers and PT instructors who know exactly what selection boards look for."
+      },
+      "dailyDrills": {
+        "title": "Daily physical drills",
+        "desc": "Morning ground sessions every day, with progress tracked against your exam's physical standards."
+      },
+      "mockTests": {
+        "title": "Regular mock tests",
+        "desc": "Weekly tests in the real exam pattern, with ranks and detailed analysis."
+      },
+      "doubtSessions": {
+        "title": "Daily doubt sessions",
+        "desc": "A fixed doubt hour every day, in class and on chat, so no question waits till tomorrow."
+      },
+      "studyMaterial": {
+        "title": "Bilingual study material",
+        "desc": "Printed notes and practice books in Hindi and English, updated for the latest syllabus."
+      },
+      "hostelLibrary": {
+        "title": "Hostel & library support",
+        "desc": "Help finding safe hostels near the campus, plus a quiet library that opens early in the morning."
+      }
+    },
+    "titleHighlight": "BVV Army Academy"
+  },
+  "results": {
+    "title": "Our Selected Students,",
+    "selected": "Selected",
+    "photoAlt": "Photo of {{name}}",
+    "rank": "AIR {{value}}",
+    "items": {
+      "rohit": {
+        "name": "Rohit Yadav",
+        "place": "Etawah"
+      },
+      "pooja": {
+        "name": "Pooja Kumari",
+        "place": "Kanpur"
+      },
+      "aman": {
+        "name": "Aman Singh",
+        "place": "Lucknow"
+      },
+      "kajal": {
+        "name": "Kajal Verma",
+        "place": "Prayagraj"
+      },
+      "sandeep": {
+        "name": "Sandeep Kumar",
+        "place": "Mainpuri"
+      },
+      "arjun": {
+        "name": "Arjun Chauhan",
+        "place": "Meerut"
+      },
+      "neeraj": {
+        "name": "Neeraj Pal",
+        "place": "Agra"
+      },
+      "vivek": {
+        "name": "Vivek Tiwari",
+        "place": "Varanasi"
+      }
+    },
+    "titleHighlight": "in Uniform Today",
+    "carouselLabel": "Selected students"
+  },
+  "pages": {
+    "courses": {
+      "title": "All Courses",
+      "filteredTitle": "{{value}} Courses",
+      "searchLabel": "Search courses",
+      "modeLabel": "Class mode",
+      "qualificationLabel": "Qualification",
+      "sortLabel": "Sort by",
+      "sort": {
+        "popular": "Most popular",
+        "priceLow": "Price: low to high",
+        "priceHigh": "Price: high to low",
+        "duration": "Shortest duration"
+      },
+      "count": "{{value}} courses",
+      "emptyTitle": "No courses match these filters",
+      "emptyBody": "Try removing a filter or searching for another exam.",
+      "filtersTitle": "Filters",
+      "categoryLabel": "Exam category",
+      "showResults": "Show {{value}} courses",
+      "resultsCount": "{{value}} results",
+      "helpLead": "Not sure which course is right for you?",
+      "helpCta": "Get free counselling",
+      "quickFilters": "Quick filters",
+      "moreFilters": "More filters",
+      "searchChip": "Search: “{{value}}”",
+      "removeSearch": "Remove search"
+    },
+    "jobs": {
+      "title": "Government Jobs",
+      "searchLabel": "Search jobs",
+      "searchPlaceholder": "e.g. Constable, Railway, IBPS",
+      "statusLabel": "Status",
+      "status": {
+        "all": "All openings",
+        "open": "Open",
+        "closingSoon": "Closing in 7 days",
+        "closed": "Closed"
+      },
+      "count": "{{value}} openings",
+      "emptyTitle": "No openings match these filters",
+      "emptyBody": "Try another category or status.",
+      "resultsCount": "{{value}} openings",
+      "helpLead": "Found your exam? Start preparing with us.",
+      "helpCta": "Get free counselling",
+      "newOnly": "New",
+      "showResults": "Show {{value}} openings",
+      "sort": {
+        "lastDate": "Last date: soonest",
+        "posts": "Most posts",
+        "newest": "New first"
+      }
+    },
+    "blogs": {
+      "title": "Blogs",
+      "titleLead": "Our",
+      "titleHighlight": "Blogs",
+      "filterLabel": "Filter articles by topic",
+      "featured": "Featured",
+      "readTime": "{{value}} min read",
+      "by": "By {{name}}",
+      "coverAlt": "Cover image: {{title}}",
+      "back": "Back to all blogs",
+      "relatedTitle": "More",
+      "relatedHighlight": "articles",
+      "categories": {
+        "all": "All",
+        "preparation": "Exam preparation",
+        "physical": "Physical training",
+        "notifications": "Job notifications",
+        "success": "Success stories"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "story": {
+        "p1": "Bajr Vijay Veer Army Academy was started by retired defence personnel who saw that many talented students from small towns missed out on government jobs, not for lack of ability but for lack of guidance, discipline and physical preparation.",
+        "p2": "Today we prepare students for Defence, Police, Railway, Bank, SSC and State exams under one roof: classroom study in Hindi and English, plus daily physical training on our own ground."
+      },
+      "vision": {
+        "title": "Our vision",
+        "body": "To be the most trusted name for government-job preparation in North India, measured by our students’ selections."
+      },
+      "stats": {
+        "title": "Preparing youth.",
+        "titleHighlight": "Building futures.",
+        "value": "{{value}}+",
+        "items": {
+          "students": "Students trained",
+          "selections": "Selections",
+          "years": "Years of experience",
+          "trainers": "Expert trainers"
+        }
+      },
+      "exams": {
+        "title": "Exams we",
+        "titleHighlight": "prepare you for",
+        "count": "{{value}} courses",
+        "explore": "Explore"
+      },
+      "values": {
+        "title": "What we",
+        "titleHighlight": "stand for",
+        "items": {
+          "discipline": {
+            "title": "Discipline",
+            "desc": "Fixed routines for study and training, the way the forces work."
+          },
+          "honesty": {
+            "title": "Honesty",
+            "desc": "Clear fees, real results and straight advice to every parent."
+          },
+          "hardWork": {
+            "title": "Hard work",
+            "desc": "No shortcuts: daily practice, weekly tests and honest feedback."
+          },
+          "nation": {
+            "title": "Service to the nation",
+            "desc": "We prepare students to serve the country, not only to pass an exam."
+          }
+        }
+      },
+      "cta": {
+        "title": "Visit our campus",
+        "body": "Come for a free demo class and a free fitness test. Bring your parents along.",
+        "button": "Book Free Demo"
+      },
+      "hero": {
+        "headline": "Building Bharat's disciplined youth for government service",
+        "body": "Study and physical training under one roof, on our campus.",
+        "noteTitle": "A note from our ex-defence trainers",
+        "noteButton": "Read more"
+      },
+      "programs": {
+        "label": "Our programs",
+        "items": {
+          "offline": "On-campus classes",
+          "online": "Live online classes",
+          "hybrid": "Hybrid batches",
+          "hostel": "Hostel + food"
+        }
+      },
+      "road": {
+        "title": "The road to your",
+        "titleHighlight": "selection",
+        "tagline": "Every student's road is different. Our job is to make it clear and disciplined.",
+        "steps": {
+          "demo": {
+            "title": "Free demo and fitness test",
+            "desc": "Attend a free demo class and check your fitness with our trainers."
+          },
+          "batch": {
+            "title": "Choose your batch",
+            "desc": "Pick the batch that fits your exam and your qualification."
+          },
+          "daily": {
+            "title": "Daily study and training",
+            "desc": "Classes, doubt sessions and physical training, every day."
+          },
+          "tests": {
+            "title": "Weekly mock tests",
+            "desc": "Tests in the real exam pattern, with rank and detailed analysis."
+          },
+          "selection": {
+            "title": "Selection",
+            "desc": "Clear the written test, physical and medical, and step into the service you chose."
+          }
+        }
+      }
+    },
+    "courseDetail": {
+      "back": "All courses",
+      "sections": {
+        "glance": "Exam at a glance",
+        "eligibility": "Eligibility and age limit",
+        "selection": "Selection process",
+        "pattern": "Exam pattern",
+        "syllabus": "Syllabus",
+        "physical": "Physical standards",
+        "career": "Salary and career",
+        "tips": "Preparation tips",
+        "includes": "What this course includes",
+        "posts": "Posts",
+        "relaxation": "Age relaxation rules"
+      },
+      "facts": {
+        "body": "Conducting body",
+        "frequency": "How often",
+        "qualification": "Qualification",
+        "age": "Age limit",
+        "fee": "Application fee",
+        "salary": "Salary",
+        "negative": "Negative marking"
+      },
+      "ageCategories": {
+        "ur": "General (UR) / EWS",
+        "obc": "OBC (non-creamy layer)",
+        "scSt": "SC / ST",
+        "pwbd": "PwBD (UR / OBC / SC-ST)",
+        "exServicemen": "Ex-servicemen",
+        "mpUrEws": "MP General / EWS",
+        "mpReserved": "MP SC / ST / OBC",
+        "otherState": "Candidates from other states",
+        "mpReservedWomen": "MP reserved categories and women",
+        "women": "Women"
+      },
+      "columns": {
+        "category": "Category",
+        "upper": "Upper age (years)",
+        "relaxation": "Extra years on the upper age",
+        "men": "Men",
+        "women": "Women",
+        "test": "Test",
+        "standard": "Standard",
+        "subject": "Subject",
+        "questions": "Questions",
+        "marks": "Marks",
+        "time": "Time",
+        "total": "Total",
+        "post": "Post",
+        "lower": "Lower age",
+        "ur": "UR / EWS",
+        "obc": "OBC",
+        "scSt": "SC / ST",
+        "pwbd": "PwBD (UR / OBC / SC-ST)",
+        "exServicemen": "Ex-servicemen",
+        "qualification": "Qualification",
+        "extra": "Extra requirement",
+        "department": "Department",
+        "payLevel": "Pay level",
+        "rule": "Rule",
+        "urMen": "UR / EWS men",
+        "obcMen": "OBC men",
+        "scStMen": "SC / ST men",
+        "otherState": "Other-state candidates"
+      },
+      "ageCaption": "Age limit by category",
+      "physicalCaption": "Physical standards",
+      "patternCaption": "{{stage}}: exam pattern",
+      "minutes": "{{value}} min",
+      "includes": {
+        "liveClasses": "Live and classroom lectures by subject experts",
+        "studyMaterial": "Printed and PDF study material",
+        "mockTests": "Full-length mock tests with all-India ranking",
+        "physicalTraining": "Daily physical training at our ground",
+        "ssbGuidance": "SSB interview guidance by ex-service officers",
+        "interviewPrep": "Interview and personality practice",
+        "doubtSessions": "Daily doubt-clearing sessions",
+        "currentAffairs": "Monthly current-affairs magazine",
+        "typingPractice": "Typing and computer practice lab",
+        "mpGkNotes": "Special Madhya Pradesh GK notes"
+      },
+      "pay": {
+        "caption": "Agniveer pay package (₹ per month)",
+        "year": "Year",
+        "yearValue": "Year {{value}}",
+        "monthly": "Monthly package",
+        "inHand": "In hand",
+        "corpus": "Corpus fund"
+      },
+      "career": {
+        "salary": "Pay",
+        "profile": "Job profile",
+        "promotion": "Growth and promotion"
+      },
+      "disclaimerTitle": "Always check the official notice",
+      "disclaimer": "These details follow the latest notices as of October 2026. Age limits, posts, fees, physical standards and exam patterns change with each notification, so confirm them in the official notice before you apply.",
+      "officialSite": "Official website",
+      "officialSiteLabel": "Official website (opens in a new tab)",
+      "priceTitle": "Course fee",
+      "durationLabel": "Duration",
+      "modeLabel": "Class mode",
+      "trainerLabel": "Trainer",
+      "enrolledLabel": "Students",
+      "relatedTitle": "Similar",
+      "relatedHighlight": "Courses",
+      "imageAlt": "{{name}} course",
+      "ageRange": "{{min}} to {{max}} years",
+      "ageUpTo": "Up to {{max}} years",
+      "ageFrom": "From {{min}} years",
+      "notEligible": "Not eligible",
+      "extraRequirement": "Extra requirement",
+      "attempts": "Attempt limits",
+      "feeGeneral": "General ₹{{value}}",
+      "feeReserved": "reserved categories ₹{{value}}",
+      "feeExempt": "reserved categories pay nothing",
+      "salaryGross": "About {{min}} to {{max}} a month",
+      "salaryBasic": "Basic pay {{value}}",
+      "payLevelValue": "Level {{value}}",
+      "negativeThird": "One third of a mark per wrong answer",
+      "negativeValue": "{{value}} mark per wrong answer",
+      "stageNegative": "Negative marking: {{value}}",
+      "patternMissing": "The guide doesn't list this exam's pattern yet. Check the official notice.",
+      "loading": "Loading exam details…",
+      "loadError": "Couldn't load the exam details. Check your internet connection and try again.",
+      "retry": "Try again",
+      "examSwitch": "Exams covered by this course",
+      "sources": "Sources",
+      "lastVerified": "Details last checked on {{date}}.",
+      "relaxationCategories": {
+        "obc": "OBC (Non-Creamy Layer)",
+        "scSt": "SC / ST",
+        "pwbdUr": "PwBD: UR / EWS",
+        "pwbdObc": "PwBD: OBC",
+        "pwbdScSt": "PwBD: SC / ST",
+        "exServicemen": "Ex-servicemen",
+        "widows": "Widows / divorced women",
+        "exAgniveer": "Ex-Agniveer",
+        "otherState": "Other-state candidates"
+      },
+      "verifyNotice": "Verify in the official notice",
+      "navLabel": "On this page",
+      "nav": {
+        "includes": "Includes",
+        "exams": "Exams",
+        "faculty": "Faculty",
+        "overview": "Overview",
+        "subjects": "Subjects",
+        "results": "Results",
+        "faqs": "FAQs",
+        "reviews": "Reviews",
+        "jobs": "Jobs"
+      },
+      "seeFaculty": "See the faculty",
+      "language": "Hindi + English",
+      "languages": {
+        "hi": "Hindi",
+        "en": "English",
+        "hinglish": "Hinglish"
+      },
+      "includesTitle": "This Course Includes",
+      "examsTitle": "Exams Covered",
+      "freeClass": {
+        "title": "Free Live Class",
+        "live": "Live",
+        "body": "Sit in a live class from this batch before you join. No fee.",
+        "cta": "Book a free class"
+      },
+      "facultyTitle": "About The Faculty",
+      "leadTrainer": "Lead trainer",
+      "experience": "{{value}}+ years of experience",
+      "exService": "Ex-serviceman",
+      "overviewTitle": "Overview",
+      "examDetailsToggle": "Full exam details: eligibility, age limit, pattern and salary",
+      "subjectsTitle": "Subjects Covered",
+      "resultsTitle": "Students Selected",
+      "faqTitle": "Frequently Asked Questions",
+      "reviewsTitle": "What Our Students Say",
+      "rating": "Rated {{value}} out of 5",
+      "supportTitle": "Still Not Sure? Need Help?",
+      "supportBody": "Retd. Army trainer",
+      "supportFormBody": "{{name}} ({{role}}) will call you personally.",
+      "counsellor": "Sandeep Tiwari",
+      "supportWhatsapp": "Chat on WhatsApp",
+      "supportCallback": "Request a callback",
+      "plans": {
+        "title": "Choose How You Want to Study",
+        "online": "Online",
+        "offline": "Offline",
+        "notOffered": "Not offered",
+        "selectedBenefits": "With {{plan}} you get",
+        "benefits": {
+          "liveOnline": "Live online classes from your phone or laptop",
+          "recordings": "Recordings of every class",
+          "pdfNotes": "PDF notes and online mock tests",
+          "doubtChat": "Doubt clearing on chat and live sessions",
+          "classroom": "Classroom lectures with our trainers",
+          "groundTraining": "Daily physical training on our ground",
+          "library": "Library and self-study hall",
+          "hostel": "Hostel and mess available at extra cost"
+        },
+        "includedTitle": "What You Get"
+      },
+      "lead": {
+        "titleFree": "Book a free live class",
+        "body": "Leave your number. Our counsellor will call you within 24 hours to confirm.",
+        "submit": "Request a call",
+        "close": "Close",
+        "done": "Thank you, {{name}}! Our counsellor will call you soon.",
+        "error": "Could not send. Check your connection and try again."
+      },
+      "faq": {
+        "start": {
+          "q": "When does the next {{course}} batch start?",
+          "a": "New batches start every month. Leave your number and our counsellor will tell you the next start date and timings."
+        },
+        "onlineOffline": {
+          "q": "What is the difference between the online and offline course?",
+          "a": "Both follow the same syllabus and tests. Offline adds classroom teaching, daily physical training on our ground, the library and a hostel option. Online lets you attend live from home and watch recordings."
+        },
+        "demo": {
+          "q": "Can I attend a class before paying?",
+          "a": "Yes. Book a free live class from this page and sit in a real class from this batch."
+        },
+        "material": {
+          "q": "Will I get study material?",
+          "a": "Yes. You get printed notes for offline students and PDF notes for online students, plus mock tests based on the latest exam pattern."
+        },
+        "physical": {
+          "q": "Is physical training included?",
+          "a": "Offline students train daily on our ground with ex-service trainers. Online students get a training plan and video guidance."
+        },
+        "hostel": {
+          "q": "Do you have a hostel?",
+          "a": "Yes, there is a hostel and mess near the academy for offline students. It is not included in the course fee and is charged separately; ask our counsellor about seats and charges."
+        },
+        "fees": {
+          "q": "Can I pay the fee in parts?",
+          "a": "Yes, instalment options are available. Our counsellor will explain the plan when you book your seat."
+        },
+        "support": {
+          "q": "Whom do I contact if I have a problem?",
+          "a": "Message us on WhatsApp or request a callback from this page. Our team replies the same day."
+        }
+      },
+      "includesShort": {
+        "liveClasses": "Live classes",
+        "studyMaterial": "Study books",
+        "mockTests": "Mock tests",
+        "physicalTraining": "Physical training",
+        "ssbGuidance": "SSB guidance",
+        "interviewPrep": "Interview practice",
+        "doubtSessions": "Doubt sessions",
+        "currentAffairs": "Current-affairs magazines",
+        "typingPractice": "Typing practice",
+        "mpGkNotes": "MP GK notes"
+      },
+      "hours": "{{value}} Hrs",
+      "stats": {
+        "students": "students",
+        "selections": "selections",
+        "trainer": "Personal trainer",
+        "experience": "{{value}}+ yrs experience"
+      },
+      "ladder": {
+        "parts": {
+          "written": "written exam only",
+          "gk": "GK part",
+          "gs": "GS part",
+          "gkHindi": "GK and Hindi part",
+          "prelims": "Prelims only",
+          "trade": "trade part",
+          "typing": "typing test",
+          "technical": "Technical entry"
+        }
+      },
+      "about": {
+        "and": "and",
+        "seeMore": "See more",
+        "seeLess": "See less",
+        "headline": "{{name}}: complete preparation in one course.",
+        "intro": "{{name}} is a {{months}}-month course by BVV Army Academy for students preparing for {{exams}}. It brings {{includes}} together in one place, so you follow one clear plan instead of buying separate courses.",
+        "covered": "The same preparation also gets you ready for {{exams}}, because these exams test the same subjects at an easier level.",
+        "subjects": "Classes cover {{subjects}}, with full-length mock tests on the latest pattern, regular revision and doubt-clearing sessions.",
+        "modeOnline": "You study live from your phone or laptop, and every class is recorded so you can revise any time.",
+        "modeOffline": "You study in our classrooms with our trainers; a hostel and mess are available at extra cost.",
+        "modeHybrid": "Choose live online classes or classroom study at our academy: the syllabus, tests and trainers are the same either way.",
+        "physical": "Physical training is part of the course, with daily running and ground practice under ex-service trainers, so you are ready for the physical test too.",
+        "trust": "{{students}} students have joined this course."
+      },
+      "jobsTitle": "Recent Job Openings",
+      "jobsViewAll": "View all jobs",
+      "subjectQuestions": "{{value}} questions",
+      "subjectMarks": "{{value}} marks",
+      "supportCall": "Call",
+      "needHelp": "Need Help?",
+      "pricingOptions": "Pricing Options",
+      "supportWhatsappShort": "WhatsApp",
+      "perMonth": "{{value}}/m"
+    }
+  },
+  "blog": {
+    "posts": {
+      "agniveer-6-month-plan": {
+        "title": "How to crack Agniveer GD in 6 months: a month-by-month plan",
+        "excerpt": "A simple plan that splits your six months between the written exam, the physical test and revision.",
+        "p1": "Agniveer GD has three hurdles: the written exam, the physical fitness test and the medical. Most students lose out because they prepare for only one of them. From day one, split every day into a study block and a ground block.",
+        "p2": "In months one and two, finish the GK and maths basics and build your running base with easy 3 km runs. In months three and four, take two mock tests a week and work on your 1.6 km time. In months five and six, revise only from your own notes and your mock-test mistakes.",
+        "p3": "Sleep seven hours, eat simple food and record your run times in a notebook. Consistency beats intensity: a steady plan for six months is better than a hard push for six weeks."
+      },
+      "police-run-tips": {
+        "title": "Police physical test: tips to clear the long-distance run",
+        "excerpt": "Pacing, shoes, breathing and the weekly schedule our PT instructors use with every batch.",
+        "p1": "The run in a police physical test must be finished within the time set in the official notification, so read it first and work out the pace per kilometre you need. Start a little slower than that pace and speed up only in the last kilometre.",
+        "p2": "Train four days a week: one long slow run, one interval session (400 m repeats), one hill or stair session and one easy recovery run. Add skipping and squats twice a week for leg strength.",
+        "p3": "Run in light, well-fitting shoes you have already trained in. Never try new shoes, new food or a new route in the week before the test. Breathe in a steady rhythm and keep your shoulders relaxed."
+      },
+      "ssc-gd-2026": {
+        "title": "SSC GD Constable: posts, eligibility and how to apply",
+        "excerpt": "What a 10th-pass student needs to know before filling the SSC GD Constable form.",
+        "p1": "SSC GD Constable recruits for central armed police forces such as BSF, CISF, CRPF, ITBP and SSB. Candidates who have passed 10th and are within the age limit can apply online on the SSC website.",
+        "p2": "Selection has several stages: a computer-based test, a physical efficiency test, a physical standard test and a medical examination. The written test covers reasoning, general knowledge, maths and Hindi or English.",
+        "p3": "Keep your documents ready before you apply: 10th marksheet, photo, signature and caste or NCC certificate if any. Always confirm dates and vacancies on the official SSC notice; figures on our site are indicative."
+      },
+      "nda-maths-strategy": {
+        "title": "NDA maths: the chapters to start with",
+        "excerpt": "Where to spend your time first if you have only three months for the NDA maths paper.",
+        "p1": "The NDA maths paper has negative marking, so speed and accuracy matter more than covering every chapter.",
+        "p2": "Algebra, trigonometry, calculus and matrices usually carry the most questions. Start with these, then move to coordinate geometry, statistics and probability.",
+        "p3": "Solve at least five previous-year papers in exam timing. Mark every question you got wrong and redo it a week later. Our NDA batch runs a timed maths test every Sunday."
+      },
+      "budget-diet-plan": {
+        "title": "A simple, budget diet plan for defence aspirants",
+        "excerpt": "Home-cooked meals that give you energy for morning runs without costly supplements.",
+        "p1": "You do not need protein powders to clear a physical test. Dal, chana, eggs, milk, curd, seasonal fruit and rotis give most students the protein and energy they need.",
+        "p2": "Eat a light snack such as a banana or soaked chana 30 minutes before a morning run, and a full breakfast after it. Drink water through the day, not only after training.",
+        "p3": "Cut down on fried snacks, cold drinks and late-night meals. Sleep is part of your diet: without seven hours of sleep your body cannot recover from training."
+      },
+      "success-rohit": {
+        "title": "From a village in Etawah to Agniveer: Rohit’s story",
+        "excerpt": "How a farmer’s son balanced farm work, study and running, and cleared Agniveer GD in his first attempt.",
+        "p1": "Rohit Yadav joined our offline batch after 10th, with no coaching background and a slow 1.6 km time. He helped on the family farm every morning before class.",
+        "p2": "He followed the batch plan strictly: ground training at 5 AM, classes till noon and self-study in the library till evening. In four months his run time improved by more than two minutes.",
+        "p3": "He cleared Agniveer GD in his first attempt. His advice to new students: write your daily targets on paper and do not skip the ground even on rainy days."
+      }
+    }
+  },
+  "facilities": {
+    "title": "Everything You Need,",
+    "titleHighlight": "Under One Roof",
+    "items": {
+      "classes": {
+        "title": "Online + Offline Classes",
+        "desc": "Live online and classroom batches.",
+        "imageAlt": "An online class on a laptop, with notes and books on the desk"
+      },
+      "classroom": {
+        "title": "Offline Classes",
+        "desc": "Daily classroom lectures with expert teachers.",
+        "imageAlt": "A teacher taking a General Studies class at the whiteboard, students at their desks"
+      },
+      "hostel": {
+        "title": "Hostel + Food",
+        "desc": "Safe hostel, 3 healthy meals a day.",
+        "imageAlt": "Academy hostel room"
+      },
+      "physical": {
+        "title": "Physical Training",
+        "desc": "Daily training by ex-defence instructors.",
+        "imageAlt": "Students doing warm-up drills on the academy ground"
+      }
+    }
+  },
+  "enquiry": {
+    "title": "Request a Callback",
+    "subtitle": "Share your details and our student advisor will call you back.",
+    "progressLabel": "Form progress",
+    "step": "{{current}}/{{total}}",
+    "name": {
+      "label": "Full name",
+      "placeholder": "e.g. Rohit Sharma"
+    },
+    "phone": {
+      "label": "Mobile number",
+      "placeholder": "e.g. 9876543210",
+      "error": "Enter a valid 10-digit mobile number."
+    },
+    "mode": {
+      "label": "Course mode",
+      "online": "Online",
+      "classroom": "Classroom",
+      "both": "Both"
+    },
+    "next": "Let's get started",
+    "step2Title": "A few more details (optional)",
+    "step2Hint": "This helps our advisor suggest the right course.",
+    "exam": {
+      "label": "Which exams?",
+      "placeholder": "Choose a category",
+      "notSure": "Not sure yet"
+    },
+    "qualification": {
+      "label": "Your qualification",
+      "placeholder": "Choose your qualification"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "e.g. Bhopal"
+    },
+    "back": "Back",
+    "submit": "Request callback",
+    "error": "Couldn't send your request. Check your internet and try again, or message us on WhatsApp.",
+    "doneTitle": "Thank You, {{name}}!",
+    "doneBody": "Our student advisor will call you within 24 hours.",
+    "or": "or",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappMessage": "Hi, I want to know about your courses.",
+    "whatsappMessageNamed": "Hi, I'm {{name}}. I want to know about your courses.",
+    "whatsappFromHome": "Hello, I visited the BVV Army Academy website and want to know about your courses and admission."
+  },
+  "testimonials": {
+    "items": {
+      "deepak": {
+        "name": "Deepak Singh",
+        "place": "Bhind",
+        "course": "Agniveer Army GD",
+        "quote": "The daily ground training made the running test easy for me. The teachers explained every topic in simple Hindi."
+      },
+      "anjali": {
+        "name": "Anjali Patel",
+        "place": "Gwalior",
+        "course": "MP Police Constable",
+        "quote": "Mock tests every week showed me where I was weak. I cleared the written exam on my first attempt."
+      },
+      "harsh": {
+        "name": "Harsh Vardhan",
+        "place": "Bhopal",
+        "course": "SSC CGL",
+        "quote": "Clear notes and regular doubt sessions. The online classes fit around my college timetable."
+      },
+      "sneha": {
+        "name": "Sneha Jain",
+        "place": "Indore",
+        "course": "IBPS PO",
+        "quote": "The interview practice gave me real confidence. The counsellors were always available on WhatsApp."
+      },
+      "manish": {
+        "name": "Manish Kumar",
+        "place": "Jabalpur",
+        "course": "RRB NTPC",
+        "quote": "Good teachers for maths and reasoning, and the hostel kept me focused on studying."
+      },
+      "ritu": {
+        "name": "Ritu Sharma",
+        "place": "Sagar",
+        "course": "MP Patwari",
+        "quote": "The MP GK notes covered exactly what came in the exam. I recommend this batch."
+      }
+    }
+  },
+  "liveClass": {
+    "badge": "LIVE",
+    "join": "Join now",
+    "label": "Live class on YouTube: {{title}}. Opens in a new tab."
+  }
+}

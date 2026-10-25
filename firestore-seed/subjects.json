@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "general-awareness",
+    "name": {
+      "en": "General Awareness",
+      "hi": "सामान्य जागरूकता",
+      "hinglish": "General Awareness"
+    },
+    "topics": {
+      "en": "Current affairs, sports, art & culture, general science (up to 10th CBSE), history, geography, polity, economy, government schemes, computers",
+      "hi": "करंट अफ़ेयर्स, खेल, कला और संस्कृति, सामान्य विज्ञान (10वीं CBSE स्तर तक), इतिहास, भूगोल, राजव्यवस्था, अर्थव्यवस्था, सरकारी योजनाएँ, कंप्यूटर",
+      "hinglish": "Current affairs, sports, art & culture, general science (10th CBSE level tak), history, geography, polity, economy, sarkari yojanayein, computers"
+    },
+    "status": "published",
+    "order": 1
+  },
+  {
+    "id": "verbal-ability",
+    "name": {
+      "en": "Verbal Ability",
+      "hi": "वर्बल एबिलिटी",
+      "hinglish": "Verbal Ability"
+    },
+    "status": "published",
+    "order": 2
+  },
+  {
+    "id": "numerical-ability",
+    "name": {
+      "en": "Numerical Ability",
+      "hi": "संख्यात्मक योग्यता",
+      "hinglish": "Numerical Ability"
+    },
+    "status": "published",
+    "order": 3
+  },
+  {
+    "id": "reasoning-and-military-aptitude",
+    "name": {
+      "en": "Reasoning & Military Aptitude",
+      "hi": "रीज़निंग और मिलिट्री एप्टीट्यूड",
+      "hinglish": "Reasoning & Military Aptitude"
+    },
+    "status": "published",
+    "order": 4
+  },
+  {
+    "id": "general-duty",
+    "name": {
+      "en": "General Duty",
+      "hi": "जनरल ड्यूटी",
+      "hinglish": "General Duty"
+    },
+    "topics": {
+      "en": "GK, General Science, Maths, Reasoning (10th level)",
+      "hi": "सामान्य ज्ञान, सामान्य विज्ञान, गणित, रीज़निंग (10वीं स्तर)",
+      "hinglish": "GK, General Science, Maths, Reasoning (10th level)"
+    },
+    "status": "published",
+    "order": 5
+  },
+  {
+    "id": "technical",
+    "name": {
+      "en": "Technical",
+      "hi": "टेक्निकल",
+      "hinglish": "Technical"
+    },
+    "topics": {
+      "en": "Physics, Chemistry, Maths, GK",
+      "hi": "भौतिकी, रसायन, गणित, सामान्य ज्ञान",
+      "hinglish": "Physics, Chemistry, Maths, GK"
+    },
+    "status": "published",
+    "order": 6
+  },
+  {
+    "id": "clerk",
+    "name": {
+      "en": "Clerk",
+      "hi": "क्लर्क",
+      "hinglish": "Clerk"
+    },
+    "topics": {
+      "en": "GK, Science, Maths, Computer, English",
+      "hi": "सामान्य ज्ञान, विज्ञान, गणित, कंप्यूटर, अंग्रेज़ी",
+      "hinglish": "GK, Science, Maths, Computer, English"
+    },
+    "status": "published",
+    "order": 7
+  },
+  {
+    "id": "physics",
+    "name": {
+      "en": "Physics",
+      "hi": "भौतिकी",
+      "hinglish": "Physics"
+    },
+    "status": "published",
+    "order": 8
+  },
+  {
+    "id": "maths",
+    "name": {
+      "en": "Maths",
+      "hi": "गणित",
+      "hinglish": "Maths"
+    },
+    "topics": {
+      "en": "Number system, decimals, fractions, LCM/HCF, ratio, percentage, mensuration, time & work, time & distance, interest, profit & loss, algebra, geometry, trigonometry, elementary statistics",
+      "hi": "संख्या पद्धति, दशमलव, भिन्न, LCM/HCF, अनुपात, प्रतिशत, क्षेत्रमिति, समय और कार्य, समय और दूरी, ब्याज, लाभ और हानि, बीजगणित, ज्यामिति, त्रिकोणमिति, प्रारंभिक सांख्यिकी",
+      "hinglish": "Number system, decimals, fractions, LCM/HCF, ratio, percentage, mensuration, time & work, time & distance, interest, profit & loss, algebra, geometry, trigonometry, elementary statistics"
+    },
+    "status": "published",
+    "order": 9
+  },
+  {
+    "id": "english",
+    "name": {
+      "en": "English",
+      "hi": "अंग्रेज़ी",
+      "hinglish": "English"
+    },
+    "status": "published",
+    "order": 10
+  },
+  {
+    "id": "reasoning-and-ga",
+    "name": {
+      "en": "Reasoning & GA",
+      "hi": "रीज़निंग और सामान्य जागरूकता",
+      "hinglish": "Reasoning aur GA"
+    },
+    "status": "published",
+    "order": 11
+  },
+  {
+    "id": "screening-oir-test-ppdt",
+    "name": {
+      "en": "Screening: OIR test + PPDT",
+      "hi": "स्क्रीनिंग: ओआईआर टेस्ट + पीपीडीटी",
+      "hinglish": "Screening: OIR test + PPDT"
+    },
+    "status": "published",
+    "order": 12
+  },
+  {
+    "id": "psychology-tests-tat-wat-srt-self-description",
+    "name": {
+      "en": "Psychology tests: TAT, WAT, SRT, Self Description",
+      "hi": "मनोवैज्ञानिक टेस्ट: टीएटी, डब्ल्यूएटी, एसआरटी, सेल्फ डिस्क्रिप्शन",
+      "hinglish": "Psychology tests: TAT, WAT, SRT, Self Description"
+    },
+    "status": "published",
+    "order": 13
+  },
+  {
+    "id": "group-testing-gto-tasks",
+    "name": {
+      "en": "Group Testing (GTO) tasks",
+      "hi": "ग्रुप टेस्टिंग (जीटीओ) टास्क",
+      "hinglish": "Group Testing (GTO) tasks"
+    },
+    "status": "published",
+    "order": 14
+  },
+  {
+    "id": "personal-interview",
+    "name": {
+      "en": "Personal interview",
+      "hi": "व्यक्तिगत इंटरव्यू",
+      "hinglish": "Personal interview"
+    },
+    "status": "published",
+    "order": 15
+  },
+  {
+    "id": "conference",
+    "name": {
+      "en": "Conference",
+      "hi": "कॉन्फ़्रेंस",
+      "hinglish": "Conference"
+    },
+    "status": "published",
+    "order": 16
+  },
+  {
+    "id": "general-intelligence",
+    "name": {
+      "en": "General Intelligence",
+      "hi": "सामान्य बुद्धि",
+      "hinglish": "General Intelligence"
+    },
+    "status": "published",
+    "order": 17
+  },
+  {
+    "id": "general-knowledge",
+    "name": {
+      "en": "General Knowledge",
+      "hi": "सामान्य ज्ञान",
+      "hinglish": "General Knowledge"
+    },
+    "status": "published",
+    "order": 18
+  },
+  {
+    "id": "elementary-maths",
+    "name": {
+      "en": "Elementary Maths",
+      "hi": "प्रारंभिक गणित",
+      "hinglish": "Elementary Maths"
+    },
+    "status": "published",
+    "order": 19
+  },
+  {
+    "id": "hindi-or-english",
+    "name": {
+      "en": "Hindi or English",
+      "hi": "हिंदी या अंग्रेज़ी",
+      "hinglish": "Hindi ya English"
+    },
+    "status": "published",
+    "order": 20
+  },
+  {
+    "id": "medical-subjects-mbbs-level-revision",
+    "name": {
+      "en": "Medical subjects (MBBS level) revision",
+      "hi": "मेडिकल विषय (एमबीबीएस स्तर) का रिवीज़न",
+      "hinglish": "Medical subjects (MBBS level) revision"
+    },
+    "status": "published",
+    "order": 21
+  },
+  {
+    "id": "interview-and-personality",
+    "name": {
+      "en": "Interview & personality",
+      "hi": "इंटरव्यू और व्यक्तित्व",
+      "hinglish": "Interview aur personality"
+    },
+    "status": "published",
+    "order": 22
+  },
+  {
+    "id": "current-affairs-and-health-policy",
+    "name": {
+      "en": "Current affairs & health policy",
+      "hi": "करेंट अफ़ेयर्स और स्वास्थ्य नीति",
+      "hinglish": "Current affairs aur health policy"
+    },
+    "status": "published",
+    "order": 23
+  },
+  {
+    "id": "reasoning-and-numerical-ability",
+    "name": {
+      "en": "Reasoning & Numerical Ability",
+      "hi": "रीज़निंग और न्यूमेरिकल एबिलिटी",
+      "hinglish": "Reasoning aur Numerical Ability"
+    },
+    "status": "published",
+    "order": 24
+  },
+  {
+    "id": "general-science-and-mathematics",
+    "name": {
+      "en": "General Science & Mathematics",
+      "hi": "सामान्य विज्ञान और गणित",
+      "hinglish": "General Science aur Mathematics"
+    },
+    "status": "published",
+    "order": 25
+  },
+  {
+    "id": "mathematics",
+    "name": {
+      "en": "Mathematics",
+      "hi": "गणित",
+      "hinglish": "Mathematics"
+    },
+    "topics": {
+      "hinglish": "Algebra, matrices, trigonometry, analytical geometry, calculus, vectors, statistics & probability",
+      "en": "Algebra, matrices, trigonometry, analytical geometry, calculus, vectors, statistics & probability",
+      "hi": "बीजगणित, मैट्रिक्स, त्रिकोणमिति, विश्लेषणात्मक ज्यामिति, कैलकुलस, वेक्टर, सांख्यिकी और प्रायिकता"
+    },
+    "status": "published",
+    "order": 26
+  },
+  {
+    "id": "general-science",
+    "name": {
+      "en": "General Science",
+      "hi": "सामान्य विज्ञान",
+      "hinglish": "General Science"
+    },
+    "status": "published",
+    "order": 27
+  },
+  {
+    "id": "reasoning",
+    "name": {
+      "en": "Reasoning",
+      "hi": "रीज़निंग",
+      "hinglish": "Reasoning"
+    },
+    "topics": {
+      "en": "Analogies, series, coding-decoding, mathematical operations, relationships, syllogism, Venn diagram, data sufficiency, puzzles, statement-conclusion, decision making",
+      "hi": "सादृश्यता (एनालॉजी), सीरीज़, कोडिंग-डिकोडिंग, गणितीय संक्रियाएँ, संबंध, न्याय निगमन (सिलोजिज़्म), वेन आरेख, डेटा पर्याप्तता, पज़ल, कथन-निष्कर्ष, निर्णय लेना",
+      "hinglish": "Analogies, series, coding-decoding, mathematical operations, relationships, syllogism, Venn diagram, data sufficiency, puzzles, statement-conclusion, decision making"
+    },
+    "status": "published",
+    "order": 28
+  },
+  {
+    "id": "maths-and-physics-navik-gd-section-ii",
+    "name": {
+      "en": "Maths & Physics (Navik GD, Section II)",
+      "hi": "गणित और भौतिकी (नाविक जीडी, सेक्शन II)",
+      "hinglish": "Maths aur Physics (Navik GD, Section II)"
+    },
+    "status": "published",
+    "order": 29
+  },
+  {
+    "id": "electrical-mechanical-electronics-engineering-yantrik",
+    "name": {
+      "en": "Electrical / Mechanical / Electronics engineering (Yantrik)",
+      "hi": "इलेक्ट्रिकल / मैकेनिकल / इलेक्ट्रॉनिक्स इंजीनियरिंग (यांत्रिक)",
+      "hinglish": "Electrical / Mechanical / Electronics engineering (Yantrik)"
+    },
+    "status": "published",
+    "order": 30
+  },
+  {
+    "id": "general-knowledge-current-affairs",
+    "name": {
+      "en": "General Knowledge / Current Affairs",
+      "hi": "सामान्य ज्ञान / करंट अफेयर्स",
+      "hinglish": "General Knowledge / Current Affairs"
+    },
+    "status": "published",
+    "order": 31
+  },
+  {
+    "id": "computer-fundamentals",
+    "name": {
+      "en": "Computer Fundamentals",
+      "hi": "कंप्यूटर की मूल बातें",
+      "hinglish": "Computer Fundamentals"
+    },
+    "status": "published",
+    "order": 32
+  },
+  {
+    "id": "ga",
+    "name": {
+      "en": "GA",
+      "hi": "सामान्य जागरूकता",
+      "hinglish": "GA"
+    },
+    "topics": {
+      "en": "History, geography, polity, economy, science, culture, sports, current affairs",
+      "hi": "इतिहास, भूगोल, राजव्यवस्था, अर्थव्यवस्था, विज्ञान, संस्कृति, खेल, करंट अफेयर्स",
+      "hinglish": "History, geography, polity, economy, science, culture, sports, current affairs"
+    },
+    "status": "published",
+    "order": 33
+  },
+  {
+    "id": "quant",
+    "name": {
+      "en": "Quant",
+      "hi": "क्वांट",
+      "hinglish": "Quant"
+    },
+    "status": "published",
+    "order": 34
+  },
+  {
+    "id": "computer",
+    "name": {
+      "en": "Computer",
+      "hi": "कंप्यूटर",
+      "hinglish": "Computer"
+    },
+    "status": "published",
+    "order": 35
+  },
+  {
+    "id": "science",
+    "name": {
+      "en": "Science",
+      "hi": "विज्ञान",
+      "hinglish": "Science"
+    },
+    "status": "published",
+    "order": 36
+  },
+  {
+    "id": "english-language",
+    "name": {
+      "en": "English Language",
+      "hi": "अंग्रेज़ी भाषा",
+      "hinglish": "English Language"
+    },
+    "topics": {
+      "en": "Spotting errors, fill in the blanks, synonyms, antonyms, idioms, one-word substitution, active/passive, narration, cloze, comprehension",
+      "hi": "त्रुटि पहचान, रिक्त स्थान भरें, समानार्थी, विलोम, मुहावरे, वन-वर्ड सब्स्टिट्यूशन, एक्टिव/पैसिव, नैरेशन, क्लोज़ टेस्ट, कॉम्प्रिहेंशन",
+      "hinglish": "Spotting errors, fill in the blanks, synonyms, antonyms, idioms, one-word substitution, active/passive, narration, cloze, comprehension"
+    },
+    "status": "published",
+    "order": 37
+  },
+  {
+    "id": "quantitative-aptitude",
+    "name": {
+      "en": "Quantitative Aptitude",
+      "hi": "मात्रात्मक योग्यता (क्वांट)",
+      "hinglish": "Quantitative Aptitude"
+    },
+    "topics": {
+      "en": "Number system, percentage, ratio, average, interest, profit & loss, time & work, speed & distance, mensuration, algebra, geometry, trigonometry, data interpretation, statistics",
+      "hi": "संख्या पद्धति, प्रतिशत, अनुपात, औसत, ब्याज, लाभ और हानि, समय और कार्य, चाल और दूरी, क्षेत्रमिति, बीजगणित, ज्यामिति, त्रिकोणमिति, डेटा इंटरप्रिटेशन, सांख्यिकी",
+      "hinglish": "Number system, percentage, ratio, average, interest, profit & loss, time & work, speed & distance, mensuration, algebra, geometry, trigonometry, data interpretation, statistics"
+    },
+    "status": "published",
+    "order": 38
+  },
+  {
+    "id": "general-economy-banking-awareness",
+    "name": {
+      "en": "General / Economy / Banking Awareness",
+      "hi": "सामान्य / अर्थव्यवस्था / बैंकिंग जागरूकता",
+      "hinglish": "General / Economy / Banking Awareness"
+    },
+    "status": "published",
+    "order": 39
+  },
+  {
+    "id": "professional-knowledge",
+    "name": {
+      "en": "Professional Knowledge",
+      "hi": "प्रोफ़ेशनल नॉलेज",
+      "hinglish": "Professional Knowledge"
+    },
+    "status": "published",
+    "order": 40
+  },
+  {
+    "id": "general-financial-awareness",
+    "name": {
+      "en": "General / Financial Awareness",
+      "hi": "सामान्य / वित्तीय जागरूकता",
+      "hinglish": "General / Financial Awareness"
+    },
+    "status": "published",
+    "order": 41
+  },
+  {
+    "id": "data-analysis-and-interpretation",
+    "name": {
+      "en": "Data Analysis & Interpretation",
+      "hi": "डेटा एनालिसिस और इंटरप्रिटेशन",
+      "hinglish": "Data Analysis aur Interpretation"
+    },
+    "status": "published",
+    "order": 42
+  },
+  {
+    "id": "descriptive-letter-essay",
+    "name": {
+      "en": "Descriptive (Letter + Essay)",
+      "hi": "डिस्क्रिप्टिव (पत्र + निबंध)",
+      "hinglish": "Descriptive (Letter + Essay)"
+    },
+    "status": "published",
+    "order": 43
+  },
+  {
+    "id": "english-or-hindi",
+    "name": {
+      "en": "English or Hindi",
+      "hi": "अंग्रेज़ी या हिंदी",
+      "hinglish": "English ya Hindi"
+    },
+    "status": "published",
+    "order": 44
+  },
+  {
+    "id": "financial-awareness",
+    "name": {
+      "en": "Financial Awareness",
+      "hi": "फ़ाइनेंशियल अवेयरनेस",
+      "hinglish": "Financial Awareness"
+    },
+    "status": "published",
+    "order": 45
+  },
+  {
+    "id": "english-hindi-language",
+    "name": {
+      "en": "English / Hindi Language",
+      "hi": "अंग्रेज़ी / हिंदी भाषा",
+      "hinglish": "English / Hindi Language"
+    },
+    "status": "published",
+    "order": 46
+  },
+  {
+    "id": "computer-knowledge",
+    "name": {
+      "en": "Computer Knowledge",
+      "hi": "कंप्यूटर ज्ञान",
+      "hinglish": "Computer Knowledge"
+    },
+    "status": "published",
+    "order": 47
+  },
+  {
+    "id": "professional-knowledge-specialist-posts",
+    "name": {
+      "en": "Professional Knowledge (specialist posts)",
+      "hi": "प्रोफ़ेशनल नॉलेज (स्पेशलिस्ट पद)",
+      "hinglish": "Professional Knowledge (specialist posts)"
+    },
+    "status": "published",
+    "order": 48
+  },
+  {
+    "id": "quantitative-aptitude-banking-general-awareness-for-law-and-",
+    "name": {
+      "en": "Quantitative Aptitude (Banking General Awareness for Law and Rajbhasha)",
+      "hi": "क्वांटिटेटिव एप्टीट्यूड (लॉ और राजभाषा के लिए बैंकिंग सामान्य जागरूकता)",
+      "hinglish": "Quantitative Aptitude (Law aur Rajbhasha ke liye Banking General Awareness)"
+    },
+    "status": "published",
+    "order": 49
+  },
+  {
+    "id": "data-analysis",
+    "name": {
+      "en": "Data Analysis",
+      "hi": "डेटा एनालिसिस",
+      "hinglish": "Data Analysis"
+    },
+    "status": "published",
+    "order": 50
+  },
+  {
+    "id": "insurance-and-financial-market-awareness",
+    "name": {
+      "en": "Insurance & Financial Market Awareness",
+      "hi": "इंश्योरेंस और फाइनेंशियल मार्केट जागरूकता",
+      "hinglish": "Insurance aur Financial Market Awareness"
+    },
+    "status": "published",
+    "order": 51
+  },
+  {
+    "id": "descriptive-english",
+    "name": {
+      "en": "Descriptive English",
+      "hi": "डिस्क्रिप्टिव अंग्रेज़ी",
+      "hinglish": "Descriptive English"
+    },
+    "status": "published",
+    "order": 52
+  },
+  {
+    "id": "general-knowledge-and-current-affairs",
+    "name": {
+      "en": "General Knowledge & Current Affairs",
+      "hi": "सामान्य ज्ञान और करेंट अफ़ेयर्स",
+      "hinglish": "General Knowledge aur Current Affairs"
+    },
+    "status": "published",
+    "order": 53
+  },
+  {
+    "id": "insurance-and-marketing-awareness",
+    "name": {
+      "en": "Insurance & Marketing Awareness",
+      "hi": "बीमा और मार्केटिंग जागरूकता",
+      "hinglish": "Insurance aur Marketing Awareness"
+    },
+    "status": "published",
+    "order": 54
+  },
+  {
+    "id": "general-and-financial-awareness",
+    "name": {
+      "en": "General & Financial Awareness",
+      "hi": "सामान्य और वित्तीय जागरूकता",
+      "hinglish": "General aur Financial Awareness"
+    },
+    "status": "published",
+    "order": 55
+  },
+  {
+    "id": "general-english",
+    "name": {
+      "en": "General English",
+      "hi": "सामान्य अंग्रेज़ी",
+      "hinglish": "General English"
+    },
+    "status": "published",
+    "order": 56
+  },
+  {
+    "id": "gk",
+    "name": {
+      "en": "GK",
+      "hi": "GK",
+      "hinglish": "GK"
+    },
+    "topics": {
+      "en": "India and neighbours, history, culture, geography, economy, polity, sports, science, current affairs",
+      "hi": "भारत और पड़ोसी देश, इतिहास, संस्कृति, भूगोल, अर्थव्यवस्था, राजव्यवस्था, खेल, विज्ञान, करंट अफेयर्स",
+      "hinglish": "India aur padosi desh, history, culture, geography, economy, polity, sports, science, current affairs"
+    },
+    "status": "published",
+    "order": 57
+  },
+  {
+    "id": "hindi",
+    "name": {
+      "en": "Hindi",
+      "hi": "हिंदी",
+      "hinglish": "Hindi"
+    },
+    "status": "published",
+    "order": 58
+  },
+  {
+    "id": "women-and-child-development-topics",
+    "name": {
+      "en": "Women & child development topics",
+      "hi": "महिला एवं बाल विकास से जुड़े विषय",
+      "hinglish": "Women & child development topics"
+    },
+    "status": "published",
+    "order": 59
+  },
+  {
+    "id": "mp-gk",
+    "name": {
+      "en": "MP GK",
+      "hi": "मप्र सामान्य ज्ञान",
+      "hinglish": "MP GK"
+    },
+    "topics": {
+      "en": "MP GK",
+      "hi": "मप्र सामान्य ज्ञान",
+      "hinglish": "MP GK"
+    },
+    "status": "published",
+    "order": 60
+  },
+  {
+    "id": "general-knowledge-and-reasoning",
+    "name": {
+      "en": "General Knowledge & Reasoning",
+      "hi": "सामान्य ज्ञान और रीज़निंग",
+      "hinglish": "General Knowledge & Reasoning"
+    },
+    "topics": {
+      "en": "MP history, geography, culture, tribes, rivers, national parks, MP government schemes, polity, current affairs",
+      "hi": "मप्र का इतिहास, भूगोल, संस्कृति, जनजातियाँ, नदियाँ, राष्ट्रीय उद्यान, मप्र सरकार की योजनाएँ, राजव्यवस्था, करेंट अफेयर्स",
+      "hinglish": "MP ka history, geography, culture, janjatiyan, nadiyan, national parks, MP sarkar ki schemes, polity, current affairs"
+    },
+    "status": "published",
+    "order": 61
+  },
+  {
+    "id": "intelligence-test",
+    "name": {
+      "en": "Intelligence Test",
+      "hi": "बुद्धि परीक्षण",
+      "hinglish": "Intelligence Test"
+    },
+    "status": "published",
+    "order": 62
+  },
+  {
+    "id": "science-and-simple-arithmetic",
+    "name": {
+      "en": "Science & Simple Arithmetic",
+      "hi": "विज्ञान और सरल अंकगणित",
+      "hinglish": "Science & Simple Arithmetic"
+    },
+    "status": "published",
+    "order": 63
+  },
+  {
+    "id": "science-and-maths",
+    "name": {
+      "en": "Science & Maths",
+      "hi": "विज्ञान और गणित",
+      "hinglish": "Science & Maths"
+    },
+    "topics": {
+      "en": "10th-level science and maths",
+      "hi": "10वीं स्तर का विज्ञान और गणित",
+      "hinglish": "10th level ka science aur maths"
+    },
+    "status": "published",
+    "order": 64
+  },
+  {
+    "id": "child-development-and-pedagogy",
+    "name": {
+      "en": "Child development & pedagogy",
+      "hi": "बाल विकास और शिक्षाशास्त्र",
+      "hinglish": "Child development & pedagogy"
+    },
+    "topics": {
+      "en": "Child development & pedagogy",
+      "hi": "बाल विकास और शिक्षाशास्त्र",
+      "hinglish": "Child development & pedagogy"
+    },
+    "status": "published",
+    "order": 65
+  },
+  {
+    "id": "languages",
+    "name": {
+      "en": "Languages",
+      "hi": "भाषाएँ",
+      "hinglish": "Languages"
+    },
+    "topics": {
+      "en": "Languages",
+      "hi": "भाषाएँ",
+      "hinglish": "Languages"
+    },
+    "status": "published",
+    "order": 66
+  },
+  {
+    "id": "general-knowledge-and-mp-gk",
+    "name": {
+      "en": "General Knowledge & MP GK",
+      "hi": "सामान्य ज्ञान और एमपी जीके",
+      "hinglish": "General Knowledge aur MP GK"
+    },
+    "status": "published",
+    "order": 67
+  },
+  {
+    "id": "general-hindi",
+    "name": {
+      "en": "General Hindi",
+      "hi": "सामान्य हिंदी",
+      "hinglish": "General Hindi"
+    },
+    "status": "published",
+    "order": 68
+  },
+  {
+    "id": "general-studies",
+    "name": {
+      "en": "General Studies",
+      "hi": "सामान्य अध्ययन",
+      "hinglish": "General Studies"
+    },
+    "status": "published",
+    "order": 69
+  },
+  {
+    "id": "general-aptitude-test-qualifying-at-40",
+    "name": {
+      "en": "General Aptitude Test (qualifying at 40%)",
+      "hi": "सामान्य अभिरुचि परीक्षण (40% पर क्वालिफाइंग)",
+      "hinglish": "General Aptitude Test (40% par qualifying)"
+    },
+    "status": "published",
+    "order": 70
+  },
+  {
+    "id": "history-culture-and-geography",
+    "name": {
+      "en": "History, culture & geography",
+      "hi": "इतिहास, संस्कृति और भूगोल",
+      "hinglish": "History, culture aur geography"
+    },
+    "status": "published",
+    "order": 71
+  },
+  {
+    "id": "constitution-governance-and-economy",
+    "name": {
+      "en": "Constitution, governance & economy",
+      "hi": "संविधान, शासन और अर्थव्यवस्था",
+      "hinglish": "Constitution, governance aur economy"
+    },
+    "status": "published",
+    "order": 72
+  },
+  {
+    "id": "science-and-environment",
+    "name": {
+      "en": "Science & environment",
+      "hi": "विज्ञान और पर्यावरण",
+      "hinglish": "Science aur environment"
+    },
+    "status": "published",
+    "order": 73
+  },
+  {
+    "id": "philosophy-psychology-and-ethics",
+    "name": {
+      "en": "Philosophy, psychology & ethics",
+      "hi": "दर्शनशास्त्र, मनोविज्ञान और नीतिशास्त्र",
+      "hinglish": "Philosophy, psychology aur ethics"
+    },
+    "status": "published",
+    "order": 74
+  },
+  {
+    "id": "hindi-essay-and-drafting",
+    "name": {
+      "en": "Hindi essay & drafting",
+      "hi": "हिंदी निबंध और प्रारूप लेखन",
+      "hinglish": "Hindi essay aur drafting"
+    },
+    "status": "published",
+    "order": 75
+  },
+  {
+    "id": "decision-making",
+    "name": {
+      "en": "Decision Making",
+      "hi": "डिसीज़न मेकिंग",
+      "hinglish": "Decision Making"
+    },
+    "status": "published",
+    "order": 76
+  },
+  {
+    "id": "economic-and-social-issues-esi",
+    "name": {
+      "en": "Economic & Social Issues (ESI)",
+      "hi": "आर्थिक और सामाजिक मुद्दे (ESI)",
+      "hinglish": "Economic aur Social Issues (ESI)"
+    },
+    "status": "published",
+    "order": 77
+  },
+  {
+    "id": "agriculture-and-rural-development-ard",
+    "name": {
+      "en": "Agriculture & Rural Development (ARD)",
+      "hi": "कृषि और ग्रामीण विकास (ARD)",
+      "hinglish": "Agriculture aur Rural Development (ARD)"
+    },
+    "status": "published",
+    "order": 78
+  },
+  {
+    "id": "agriculture-and-rural-development-economic-and-social-issues",
+    "name": {
+      "en": "Agriculture & Rural Development / Economic & Social Issues",
+      "hi": "कृषि और ग्रामीण विकास / आर्थिक और सामाजिक मुद्दे",
+      "hinglish": "Agriculture aur Rural Development / Economic aur Social Issues"
+    },
+    "status": "published",
+    "order": 79
+  },
+  {
+    "id": "general-science-and-maths",
+    "name": {
+      "en": "General Science & Maths",
+      "hi": "सामान्य विज्ञान और गणित",
+      "hinglish": "General Science & Maths"
+    },
+    "status": "published",
+    "order": 80
+  },
+  {
+    "id": "general-ability-test-english-200-general-knowledge-400",
+    "name": {
+      "en": "General Ability Test (English 200 + General Knowledge 400)",
+      "hi": "जनरल एबिलिटी टेस्ट (अंग्रेज़ी 200 + सामान्य ज्ञान 400)",
+      "hinglish": "General Ability Test (English 200 + General Knowledge 400)"
+    },
+    "status": "published",
+    "order": 81
+  },
+  {
+    "id": "descriptive",
+    "name": {
+      "en": "Descriptive",
+      "hi": "डिस्क्रिप्टिव",
+      "hinglish": "Descriptive"
+    },
+    "status": "published",
+    "order": 82
+  },
+  {
+    "id": "general-knowledge-and-current-affairs-incl-mp",
+    "name": {
+      "en": "General Knowledge & Current Affairs (incl. MP)",
+      "hi": "सामान्य ज्ञान और करेंट अफ़ेयर्स (एमपी सहित)",
+      "hinglish": "General Knowledge aur Current Affairs (MP sahit)"
+    },
+    "status": "published",
+    "order": 83
+  },
+  {
+    "id": "economic-and-social-issues",
+    "name": {
+      "en": "Economic & Social Issues",
+      "hi": "आर्थिक और सामाजिक मुद्दे",
+      "hinglish": "Economic aur Social Issues"
+    },
+    "status": "published",
+    "order": 84
+  },
+  {
+    "id": "finance-and-management",
+    "name": {
+      "en": "Finance & Management",
+      "hi": "फाइनेंस और मैनेजमेंट",
+      "hinglish": "Finance aur Management"
+    },
+    "status": "published",
+    "order": 85
+  },
+  {
+    "id": "arithmetic",
+    "name": {
+      "en": "Arithmetic",
+      "hi": "अंकगणित",
+      "hinglish": "Arithmetic"
+    },
+    "status": "published",
+    "order": 86
+  },
+  {
+    "id": "general-intelligence-and-reasoning",
+    "name": {
+      "en": "General Intelligence & Reasoning",
+      "hi": "सामान्य बुद्धि और तर्कशक्ति (रीज़निंग)",
+      "hinglish": "General Intelligence & Reasoning"
+    },
+    "topics": {
+      "en": "Analogy, classification, series, coding-decoding, blood relations, direction, syllogism, Venn diagram, matrix, paper folding, embedded figures, puzzles",
+      "hi": "सादृश्यता (एनालॉजी), वर्गीकरण, श्रृंखला, कोडिंग-डिकोडिंग, रक्त संबंध, दिशा, न्याय निगमन (सिलॉजिज़्म), वेन आरेख, मैट्रिक्स, पेपर फोल्डिंग, अंतर्निहित आकृतियां, पज़ल",
+      "hinglish": "Analogy, classification, series, coding-decoding, blood relations, direction, syllogism, Venn diagram, matrix, paper folding, embedded figures, puzzles"
+    },
+    "status": "published",
+    "order": 87
+  },
+  {
+    "id": "basic-science-and-engineering",
+    "name": {
+      "en": "Basic Science & Engineering",
+      "hi": "बेसिक साइंस और इंजीनियरिंग",
+      "hinglish": "Basic Science & Engineering"
+    },
+    "status": "published",
+    "order": 88
+  },
+  {
+    "id": "relevant-iti-trade",
+    "name": {
+      "en": "Relevant ITI trade",
+      "hi": "संबंधित ITI ट्रेड",
+      "hinglish": "Sambandhit ITI trade"
+    },
+    "status": "published",
+    "order": 89
+  },
+  {
+    "id": "general-science-10th-level",
+    "name": {
+      "en": "General Science (10th level)",
+      "hi": "सामान्य विज्ञान (10वीं स्तर)",
+      "hinglish": "General Science (10th level)"
+    },
+    "status": "published",
+    "order": 90
+  },
+  {
+    "id": "general-awareness-and-current-affairs",
+    "name": {
+      "en": "General Awareness & Current Affairs",
+      "hi": "सामान्य जागरूकता और करंट अफ़ेयर्स",
+      "hinglish": "General Awareness & Current Affairs"
+    },
+    "status": "published",
+    "order": 91
+  },
+  {
+    "id": "physics-and-chemistry",
+    "name": {
+      "en": "Physics & Chemistry",
+      "hi": "फ़िज़िक्स और केमिस्ट्री",
+      "hinglish": "Physics & Chemistry"
+    },
+    "status": "published",
+    "order": 92
+  },
+  {
+    "id": "computers",
+    "name": {
+      "en": "Computers",
+      "hi": "कंप्यूटर",
+      "hinglish": "Computers"
+    },
+    "status": "published",
+    "order": 93
+  },
+  {
+    "id": "environment",
+    "name": {
+      "en": "Environment",
+      "hi": "पर्यावरण",
+      "hinglish": "Environment"
+    },
+    "status": "published",
+    "order": 94
+  },
+  {
+    "id": "professional-ability-post-subject",
+    "name": {
+      "en": "Professional ability (post subject)",
+      "hi": "प्रोफ़ेशनल एबिलिटी (पद का विषय)",
+      "hinglish": "Professional ability (post ka subject)"
+    },
+    "status": "published",
+    "order": 95
+  },
+  {
+    "id": "professional-ability",
+    "name": {
+      "en": "Professional ability",
+      "hi": "प्रोफ़ेशनल योग्यता",
+      "hinglish": "Professional ability"
+    },
+    "status": "published",
+    "order": 96
+  },
+  {
+    "id": "iti-trade-theory",
+    "name": {
+      "en": "ITI trade theory",
+      "hi": "आईटीआई ट्रेड थ्योरी",
+      "hinglish": "ITI trade theory"
+    },
+    "status": "published",
+    "order": 97
+  },
+  {
+    "id": "workshop-calculation-and-science",
+    "name": {
+      "en": "Workshop calculation & science",
+      "hi": "वर्कशॉप कैलकुलेशन और साइंस",
+      "hinglish": "Workshop calculation aur science"
+    },
+    "status": "published",
+    "order": 98
+  },
+  {
+    "id": "engineering-drawing",
+    "name": {
+      "en": "Engineering drawing",
+      "hi": "इंजीनियरिंग ड्रॉइंग",
+      "hinglish": "Engineering drawing"
+    },
+    "status": "published",
+    "order": 99
+  },
+  {
+    "id": "workshop-safety-and-practice",
+    "name": {
+      "en": "Workshop safety & practice",
+      "hi": "वर्कशॉप सुरक्षा और प्रैक्टिस",
+      "hinglish": "Workshop safety aur practice"
+    },
+    "status": "published",
+    "order": 100
+  },
+  {
+    "id": "banking-awareness",
+    "name": {
+      "en": "Banking Awareness",
+      "hi": "बैंकिंग जागरूकता",
+      "hinglish": "Banking Awareness"
+    },
+    "status": "published",
+    "order": 101
+  },
+  {
+    "id": "general-awareness-banking",
+    "name": {
+      "en": "General Awareness (Banking)",
+      "hi": "सामान्य जागरूकता (बैंकिंग)",
+      "hinglish": "General Awareness (Banking)"
+    },
+    "status": "published",
+    "order": 102
+  },
+  {
+    "id": "english-comprehension",
+    "name": {
+      "en": "English Comprehension",
+      "hi": "अंग्रेज़ी कॉम्प्रिहेंशन",
+      "hinglish": "English Comprehension"
+    },
+    "topics": {
+      "en": "Vocabulary, synonyms & antonyms, idioms, one-word substitution, spelling, error spotting, sentence improvement, active/passive, narration, cloze test, reading comprehension",
+      "hi": "शब्दावली, समानार्थी और विलोम शब्द, मुहावरे, वन-वर्ड सब्स्टिट्यूशन, स्पेलिंग, त्रुटि पहचान, वाक्य सुधार, एक्टिव/पैसिव, नैरेशन, क्लोज़ टेस्ट, रीडिंग कॉम्प्रिहेंशन",
+      "hinglish": "Vocabulary, synonyms & antonyms, idioms, one-word substitution, spelling, error spotting, sentence improvement, active/passive, narration, cloze test, reading comprehension"
+    },
+    "status": "published",
+    "order": 103
+  },
+  {
+    "id": "section-i-mathematical-abilities-reasoning-30-30",
+    "name": {
+      "en": "Section I: Mathematical Abilities + Reasoning (30 + 30)",
+      "hi": "सेक्शन I: गणितीय योग्यता + रीज़निंग (30 + 30)",
+      "hinglish": "Section I: Mathematical Abilities + Reasoning (30 + 30)"
+    },
+    "status": "published",
+    "order": 104
+  },
+  {
+    "id": "section-ii-english-general-awareness-45-25",
+    "name": {
+      "en": "Section II: English + General Awareness (45 + 25)",
+      "hi": "सेक्शन II: अंग्रेज़ी + सामान्य जागरूकता (45 + 25)",
+      "hinglish": "Section II: English + General Awareness (45 + 25)"
+    },
+    "status": "published",
+    "order": 105
+  },
+  {
+    "id": "section-iii-computer-knowledge-qualifying",
+    "name": {
+      "en": "Section III: Computer Knowledge (qualifying)",
+      "hi": "सेक्शन III: कंप्यूटर नॉलेज (क्वालिफाइंग)",
+      "hinglish": "Section III: Computer Knowledge (qualifying)"
+    },
+    "topics": {
+      "en": "Computer basics, MS Office, internet, email, networking, cyber security",
+      "hi": "कंप्यूटर की मूल बातें, MS Office, इंटरनेट, ईमेल, नेटवर्किंग, साइबर सुरक्षा",
+      "hinglish": "Computer basics, MS Office, internet, email, networking, cyber security"
+    },
+    "status": "published",
+    "order": 106
+  },
+  {
+    "id": "session-ii-data-entry-speed-test-qualifying-2-000-key-depres",
+    "name": {
+      "en": "Session II: Data Entry Speed Test (qualifying), 2,000 key depressions",
+      "hi": "सेशन II: डेटा एंट्री स्पीड टेस्ट (क्वालिफाइंग), 2,000 की-डिप्रेशन",
+      "hinglish": "Session II: Data Entry Speed Test (qualifying), 2,000 key depressions"
+    },
+    "status": "published",
+    "order": 107
+  },
+  {
+    "id": "statistics",
+    "name": {
+      "en": "Statistics",
+      "hi": "सांख्यिकी (Statistics)",
+      "hinglish": "Statistics"
+    },
+    "topics": {
+      "en": "Collection & presentation of data, central tendency, dispersion, correlation & regression, probability, sampling, index numbers, time series",
+      "hi": "डेटा का संग्रह और प्रस्तुतीकरण, केंद्रीय प्रवृत्ति, अपकिरण (डिस्पर्शन), सहसंबंध और समाश्रयण, प्रायिकता, सैंपलिंग, सूचकांक, काल श्रेणी (टाइम सीरीज़)",
+      "hinglish": "Data ka collection aur presentation, central tendency, dispersion, correlation & regression, probability, sampling, index numbers, time series"
+    },
+    "status": "published",
+    "order": 108
+  },
+  {
+    "id": "general-studies-finance-and-economics",
+    "name": {
+      "en": "General Studies (Finance & Economics)",
+      "hi": "सामान्य अध्ययन (वित्त और अर्थशास्त्र)",
+      "hinglish": "General Studies (Finance & Economics)"
+    },
+    "status": "published",
+    "order": 109
+  },
+  {
+    "id": "section-i-maths-30-reasoning-30",
+    "name": {
+      "en": "Section I: Maths 30 + Reasoning 30",
+      "hi": "सेक्शन I: गणित 30 + रीज़निंग 30",
+      "hinglish": "Section I: Maths 30 + Reasoning 30"
+    },
+    "topics": {
+      "en": "Number system, percentage, ratio, average, interest, profit & loss, time & work, time & distance, mensuration, algebra, geometry, trigonometry, DI",
+      "hi": "संख्या पद्धति, प्रतिशत, अनुपात, औसत, ब्याज, लाभ और हानि, समय और कार्य, समय और दूरी, क्षेत्रमिति, बीजगणित, ज्यामिति, त्रिकोणमिति, DI",
+      "hinglish": "Number system, percentage, ratio, average, interest, profit & loss, time & work, time & distance, mensuration, algebra, geometry, trigonometry, DI"
+    },
+    "status": "published",
+    "order": 110
+  },
+  {
+    "id": "section-ii-english-40-ga-20",
+    "name": {
+      "en": "Section II: English 40 + GA 20",
+      "hi": "सेक्शन II: अंग्रेज़ी 40 + सामान्य जागरूकता 20",
+      "hinglish": "Section II: English 40 + GA 20"
+    },
+    "status": "published",
+    "order": 111
+  },
+  {
+    "id": "session-ii-skill-typing-test-qualifying",
+    "name": {
+      "en": "Session II: Skill / Typing Test (qualifying)",
+      "hi": "सेशन II: स्किल / टाइपिंग टेस्ट (क्वालिफाइंग)",
+      "hinglish": "Session II: Skill / Typing Test (qualifying)"
+    },
+    "status": "published",
+    "order": 112
+  },
+  {
+    "id": "general-knowledge-and-awareness",
+    "name": {
+      "en": "General Knowledge & Awareness",
+      "hi": "सामान्य ज्ञान और जागरूकता",
+      "hinglish": "General Knowledge & Awareness"
+    },
+    "status": "published",
+    "order": 113
+  },
+  {
+    "id": "elementary-mathematics",
+    "name": {
+      "en": "Elementary Mathematics",
+      "hi": "प्रारंभिक गणित",
+      "hinglish": "Elementary Mathematics"
+    },
+    "status": "published",
+    "order": 114
+  },
+  {
+    "id": "english-hindi",
+    "name": {
+      "en": "English / Hindi",
+      "hi": "अंग्रेज़ी / हिंदी",
+      "hinglish": "English / Hindi"
+    },
+    "topics": {
+      "en": "Basic grammar, vocabulary, comprehension",
+      "hi": "बेसिक व्याकरण, शब्दावली, कॉम्प्रिहेंशन",
+      "hinglish": "Basic grammar, vocabulary, comprehension"
+    },
+    "status": "published",
+    "order": 115
+  },
+  {
+    "id": "engineering",
+    "name": {
+      "en": "Engineering",
+      "hi": "इंजीनियरिंग",
+      "hinglish": "Engineering"
+    },
+    "status": "published",
+    "order": 116
+  },
+  {
+    "id": "translation-and-essay",
+    "name": {
+      "en": "Translation and essay",
+      "hi": "अनुवाद और निबंध",
+      "hinglish": "Translation aur essay"
+    },
+    "status": "published",
+    "order": 117
+  },
+  {
+    "id": "numerical-and-mathematical-ability",
+    "name": {
+      "en": "Numerical & Mathematical Ability",
+      "hi": "संख्यात्मक और गणितीय योग्यता",
+      "hinglish": "Numerical & Mathematical Ability"
+    },
+    "status": "published",
+    "order": 118
+  },
+  {
+    "id": "reasoning-and-problem-solving",
+    "name": {
+      "en": "Reasoning & Problem Solving",
+      "hi": "रीज़निंग और समस्या समाधान",
+      "hinglish": "Reasoning & Problem Solving"
+    },
+    "topics": {
+      "en": "Alphanumeric series, analogy, coding-decoding, odd one out, direction, Venn diagram, blood relation, puzzle, mirror image",
+      "hi": "अल्फ़ान्यूमेरिक श्रृंखला, सादृश्यता, कोडिंग-डिकोडिंग, विषम को चुनें, दिशा, वेन आरेख, रक्त संबंध, पज़ल, दर्पण प्रतिबिंब",
+      "hinglish": "Alphanumeric series, analogy, coding-decoding, odd one out, direction, Venn diagram, blood relation, puzzle, mirror image"
+    },
+    "status": "published",
+    "order": 119
+  },
+  {
+    "id": "english-language-and-comprehension",
+    "name": {
+      "en": "English Language & Comprehension",
+      "hi": "अंग्रेज़ी भाषा और कॉम्प्रिहेंशन",
+      "hinglish": "English Language & Comprehension"
+    },
+    "topics": {
+      "en": "Vocabulary, grammar, sentence structure, synonyms, antonyms, comprehension",
+      "hi": "शब्दावली, व्याकरण, वाक्य संरचना, समानार्थी, विलोम, कॉम्प्रिहेंशन",
+      "hinglish": "Vocabulary, grammar, sentence structure, synonyms, antonyms, comprehension"
+    },
+    "status": "published",
+    "order": 120
+  },
+  {
+    "id": "general-ability-and-intelligence",
+    "name": {
+      "en": "General Ability & Intelligence",
+      "hi": "जनरल एबिलिटी और इंटेलिजेंस",
+      "hinglish": "General Ability & Intelligence"
+    },
+    "status": "published",
+    "order": 121
+  },
+  {
+    "id": "general-studies-essay-and-comprehension",
+    "name": {
+      "en": "General Studies, Essay & Comprehension",
+      "hi": "सामान्य अध्ययन, निबंध और कॉम्प्रिहेंशन",
+      "hinglish": "General Studies, Essay & Comprehension"
+    },
+    "status": "published",
+    "order": 122
+  },
+  {
+    "id": "paper-i-general-medicine-and-paediatrics",
+    "name": {
+      "en": "Paper I: General Medicine & Paediatrics",
+      "hi": "पेपर I: जनरल मेडिसिन और पीडियाट्रिक्स",
+      "hinglish": "Paper I: General Medicine & Paediatrics"
+    },
+    "topics": {
+      "en": "General Medicine & Paediatrics",
+      "hi": "जनरल मेडिसिन और पीडियाट्रिक्स",
+      "hinglish": "General Medicine & Paediatrics"
+    },
+    "status": "published",
+    "order": 123
+  },
+  {
+    "id": "paper-ii-surgery-gynaecology-preventive-and-social-medicine",
+    "name": {
+      "en": "Paper II: Surgery, Gynaecology, Preventive & Social Medicine",
+      "hi": "पेपर II: सर्जरी, गायनेकोलॉजी, प्रिवेंटिव और सोशल मेडिसिन",
+      "hinglish": "Paper II: Surgery, Gynaecology, Preventive & Social Medicine"
+    },
+    "topics": {
+      "en": "Surgery, Gynaecology, Preventive & Social Medicine",
+      "hi": "सर्जरी, गायनेकोलॉजी, प्रिवेंटिव और सोशल मेडिसिन",
+      "hinglish": "Surgery, Gynaecology, Preventive & Social Medicine"
+    },
+    "status": "published",
+    "order": 124
+  },
+  {
+    "id": "gs-paper-i",
+    "name": {
+      "en": "GS Paper I",
+      "hi": "GS पेपर I",
+      "hinglish": "GS Paper I"
+    },
+    "status": "published",
+    "order": 125
+  },
+  {
+    "id": "gs-paper-ii-csat",
+    "name": {
+      "en": "GS Paper II (CSAT)",
+      "hi": "GS पेपर II (CSAT)",
+      "hinglish": "GS Paper II (CSAT)"
+    },
+    "status": "published",
+    "order": 126
+  },
+  {
+    "id": "paper-a-indian-language-qualifying",
+    "name": {
+      "en": "Paper A: Indian language (qualifying)",
+      "hi": "पेपर A: भारतीय भाषा (क्वालिफाइंग)",
+      "hinglish": "Paper A: Indian language (qualifying)"
+    },
+    "status": "published",
+    "order": 127
+  },
+  {
+    "id": "paper-b-english-qualifying",
+    "name": {
+      "en": "Paper B: English (qualifying)",
+      "hi": "पेपर B: अंग्रेज़ी (क्वालिफाइंग)",
+      "hinglish": "Paper B: English (qualifying)"
+    },
+    "status": "published",
+    "order": 128
+  },
+  {
+    "id": "paper-i-essay",
+    "name": {
+      "en": "Paper I: Essay",
+      "hi": "पेपर I: निबंध",
+      "hinglish": "Paper I: Essay"
+    },
+    "topics": {
+      "en": "Essay writing",
+      "hi": "निबंध लेखन",
+      "hinglish": "Essay writing"
+    },
+    "status": "published",
+    "order": 129
+  },
+  {
+    "id": "paper-ii-gs-i",
+    "name": {
+      "en": "Paper II: GS I",
+      "hi": "पेपर II: GS I",
+      "hinglish": "Paper II: GS I"
+    },
+    "topics": {
+      "en": "Heritage, culture, history, geography, society",
+      "hi": "विरासत, संस्कृति, इतिहास, भूगोल, समाज",
+      "hinglish": "Heritage, culture, history, geography, samaj"
+    },
+    "status": "published",
+    "order": 130
+  },
+  {
+    "id": "paper-iii-gs-ii",
+    "name": {
+      "en": "Paper III: GS II",
+      "hi": "पेपर III: GS II",
+      "hinglish": "Paper III: GS II"
+    },
+    "topics": {
+      "en": "Polity, governance, constitution, social justice, international relations",
+      "hi": "राजव्यवस्था, शासन, संविधान, सामाजिक न्याय, अंतरराष्ट्रीय संबंध",
+      "hinglish": "Polity, governance, constitution, social justice, international relations"
+    },
+    "status": "published",
+    "order": 131
+  },
+  {
+    "id": "paper-iv-gs-iii",
+    "name": {
+      "en": "Paper IV: GS III",
+      "hi": "पेपर IV: GS III",
+      "hinglish": "Paper IV: GS III"
+    },
+    "topics": {
+      "en": "Economy, technology, environment, security, disaster management",
+      "hi": "अर्थव्यवस्था, टेक्नोलॉजी, पर्यावरण, सुरक्षा, आपदा प्रबंधन",
+      "hinglish": "Economy, technology, environment, security, disaster management"
+    },
+    "status": "published",
+    "order": 132
+  },
+  {
+    "id": "paper-v-gs-iv",
+    "name": {
+      "en": "Paper V: GS IV",
+      "hi": "पेपर V: GS IV",
+      "hinglish": "Paper V: GS IV"
+    },
+    "topics": {
+      "en": "Ethics, integrity and aptitude",
+      "hi": "नीतिशास्त्र, सत्यनिष्ठा और अभिरुचि",
+      "hinglish": "Ethics, integrity aur aptitude"
+    },
+    "status": "published",
+    "order": 133
+  },
+  {
+    "id": "paper-vi-optional-subject",
+    "name": {
+      "en": "Paper VI: Optional subject",
+      "hi": "पेपर VI: वैकल्पिक विषय",
+      "hinglish": "Paper VI: Optional subject"
+    },
+    "status": "published",
+    "order": 134
+  },
+  {
+    "id": "paper-vii-optional-subject",
+    "name": {
+      "en": "Paper VII: Optional subject",
+      "hi": "पेपर VII: वैकल्पिक विषय",
+      "hinglish": "Paper VII: Optional subject"
+    },
+    "status": "published",
+    "order": 135
+  },
+  {
+    "id": "recruitment-test",
+    "name": {
+      "en": "Recruitment Test",
+      "hi": "भर्ती परीक्षा",
+      "hinglish": "Recruitment Test"
+    },
+    "topics": {
+      "en": "English, freedom struggle, current events, polity & economy, accounting, industrial relations & labour laws, general science & computers, quantitative aptitude, social security in India",
+      "hi": "अंग्रेज़ी, स्वतंत्रता संग्राम, करंट इवेंट्स, राजव्यवस्था और अर्थव्यवस्था, अकाउंटिंग, औद्योगिक संबंध और श्रम कानून, सामान्य विज्ञान और कंप्यूटर, क्वांटिटेटिव एप्टीट्यूड, भारत में सामाजिक सुरक्षा",
+      "hinglish": "English, freedom struggle, current events, polity & economy, accounting, industrial relations & labour laws, general science & computers, quantitative aptitude, Bharat mein social security"
+    },
+    "status": "published",
+    "order": 136
+  },
+  {
+    "id": "gs-and-engineering-aptitude",
+    "name": {
+      "en": "GS & Engineering Aptitude",
+      "hi": "GS और इंजीनियरिंग एप्टीट्यूड",
+      "hinglish": "GS & Engineering Aptitude"
+    },
+    "status": "published",
+    "order": 137
+  },
+  {
+    "id": "engineering-discipline",
+    "name": {
+      "en": "Engineering discipline",
+      "hi": "इंजीनियरिंग विषय",
+      "hinglish": "Engineering discipline"
+    },
+    "status": "published",
+    "order": 138
+  },
+  {
+    "id": "engineering-paper-i-descriptive",
+    "name": {
+      "en": "Engineering paper I (descriptive)",
+      "hi": "इंजीनियरिंग पेपर I (वर्णनात्मक)",
+      "hinglish": "Engineering paper I (descriptive)"
+    },
+    "status": "published",
+    "order": 139
+  },
+  {
+    "id": "engineering-paper-ii-descriptive",
+    "name": {
+      "en": "Engineering paper II (descriptive)",
+      "hi": "इंजीनियरिंग पेपर II (वर्णनात्मक)",
+      "hinglish": "Engineering paper II (descriptive)"
+    },
+    "status": "published",
+    "order": 140
+  },
+  {
+    "id": "geology-geophysics-chemistry-hydrogeology",
+    "name": {
+      "en": "Geology / Geophysics / Chemistry / Hydrogeology",
+      "hi": "भूविज्ञान / भूभौतिकी / रसायन / जलभूविज्ञान",
+      "hinglish": "Geology / Geophysics / Chemistry / Hydrogeology"
+    },
+    "status": "published",
+    "order": 141
+  },
+  {
+    "id": "specialist-subject-3-descriptive-papers",
+    "name": {
+      "en": "Specialist subject (3 descriptive papers)",
+      "hi": "विशेषज्ञ विषय (3 वर्णनात्मक पेपर)",
+      "hinglish": "Specialist subject (3 descriptive papers)"
+    },
+    "status": "published",
+    "order": 142
+  },
+  {
+    "id": "economics-ies-statistics-iss-papers",
+    "name": {
+      "en": "Economics (IES) / Statistics (ISS) papers",
+      "hi": "अर्थशास्त्र (आईईएस) / सांख्यिकी (आईएसएस) पेपर",
+      "hinglish": "Economics (IES) / Statistics (ISS) papers"
+    },
+    "status": "published",
+    "order": 143
+  },
+  {
+    "id": "general-studies-paper-i",
+    "name": {
+      "en": "General Studies Paper I",
+      "hi": "सामान्य अध्ययन पेपर I",
+      "hinglish": "General Studies Paper I"
+    },
+    "status": "published",
+    "order": 144
+  },
+  {
+    "id": "csat-paper-ii-qualifying",
+    "name": {
+      "en": "CSAT Paper II (qualifying)",
+      "hi": "सीसैट पेपर II (क्वालिफ़ाइंग)",
+      "hinglish": "CSAT Paper II (qualifying)"
+    },
+    "status": "published",
+    "order": 145
+  },
+  {
+    "id": "optional-subject-1-2-papers",
+    "name": {
+      "en": "Optional subject 1 (2 papers)",
+      "hi": "वैकल्पिक विषय 1 (2 पेपर)",
+      "hinglish": "Optional subject 1 (2 papers)"
+    },
+    "status": "published",
+    "order": 146
+  },
+  {
+    "id": "optional-subject-2-2-papers",
+    "name": {
+      "en": "Optional subject 2 (2 papers)",
+      "hi": "वैकल्पिक विषय 2 (2 पेपर)",
+      "hinglish": "Optional subject 2 (2 papers)"
+    },
+    "status": "published",
+    "order": 147
+  }
+]

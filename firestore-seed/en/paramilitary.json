@@ -1,0 +1,1507 @@
+{
+  "group": {
+    "id": "paramilitary",
+    "name": "Paramilitary (CAPF & Assam Rifles) Direct Recruitments",
+    "intro": "These are specialist posts each force recruits itself; general-duty posts come through SSC GD, SSC CPO and UPSC CAPF AC. Each specialist post has its own notice, and the posts are not interchangeable. The details below are typical of recent notices. Fee is usually ₹100 for UR/OBC/EWS men and nil for women, SC, ST and ex-servicemen. Most have no interview; Medical Officer posts are interview-based. Common constable-level PST: men 170 cm, women 157 cm (UR); ST 162.5 / 150 cm; chest 80 + 5 cm for men. For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions.",
+    "status": "published",
+    "order": 7,
+    "ageRelaxation": {
+      "rows": [
+        {
+          "category": "obc",
+          "rule": "+3 years"
+        },
+        {
+          "category": "scSt",
+          "rule": "+5 years"
+        },
+        {
+          "category": "pwbdUr",
+          "rule": "+10 years"
+        },
+        {
+          "category": "pwbdObc",
+          "rule": "+13 years"
+        },
+        {
+          "category": "pwbdScSt",
+          "rule": "+15 years"
+        },
+        {
+          "category": "exServicemen",
+          "rule": "Age minus military service + 3 years"
+        },
+        {
+          "category": "widows",
+          "rule": "Group C posts: up to 35 (UR), 38 (OBC), 40 (SC/ST)"
+        },
+        {
+          "category": "exAgniveer",
+          "rule": "CAPF and Railway: up to 5 years for the first batch, 3 years after"
+        },
+        {
+          "category": "otherState",
+          "rule": "Same rules as other candidates"
+        }
+      ],
+      "notes": [
+        "Final-year students can usually apply for graduate exams if they will have the degree by the cut-off date in the notice.",
+        "CAPF direct recruitments follow central relaxation: OBC +3, SC / ST +5. Ex-servicemen: age minus service + 3 years. Ex-Agniveers: as per the MHA rules in each notice.",
+        "PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "NSG and SPG take personnel on deputation only, so there is no direct age or qualification rule.",
+        "Departmental candidates in the same force usually get extra relaxation; check the notice."
+      ]
+    }
+  },
+  "exams": [
+    {
+      "id": "bsf-hc-ro-rm",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Head Constable (Radio Operator / Radio Mechanic)",
+      "shortName": "HC RO / RM",
+      "overview": "BSF direct recruitment for Head Constable Radio Operator and Radio Mechanic posts.",
+      "conductingBody": "BSF",
+      "tags": [],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "iti"
+        ],
+        "qualification": "12th PCM (60%), or 10th + 2-year ITI in a listed trade",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "extraRequirement": "Physical standards",
+        "qualificationByPost": [
+          {
+            "post": "Head Constable (Radio Operator)",
+            "qualification": "12th with Physics, Chemistry, Maths (60%); or 10th + 2-year ITI in Radio & TV, Electronics, COPA, Data Entry, General Electronics",
+            "extraRequirement": "Physical standards"
+          },
+          {
+            "post": "Head Constable (Radio Mechanic)",
+            "qualification": "12th PCM (60%); or 10th + 2-year ITI in Radio & TV, Electronics, Fitter, Electrician, IT & ESM etc.",
+            "extraRequirement": "Physical standards"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (head constable posts)",
+            "men": "1.6 km in 6.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice)."
+      },
+      "salary": {
+        "payLevel": 4,
+        "certainty": "official",
+        "note": "Level 4"
+      },
+      "tips": [],
+      "officialWebsite": "https://rectt.bsf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "capf-constable-tradesman",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Constable Tradesman",
+      "shortName": "Tradesman",
+      "overview": "Constable Tradesman posts recruited directly by BSF, CRPF, CISF and SSB.",
+      "conductingBody": "BSF, CRPF, CISF, SSB",
+      "tags": [
+        "tenthPass",
+        "highVacancy"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "iti"
+        ],
+        "qualification": "10th pass + trade skill; ITI or 1-year experience for technical trades",
+        "ageMin": 18,
+        "ageMax": 23,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "extraRequirement": "Trade test, physical standards",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 23,
+            "obc": 26,
+            "scSt": 28,
+            "pwbdEligible": false,
+            "note": "Some forces: 25 (UR / EWS), 28 (OBC), 30 (SC / ST)."
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade test: trade work for tradesmen",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3"
+      },
+      "tips": [],
+      "officialWebsite": "https://rectt.bsf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 2
+    },
+    {
+      "id": "bsf-water-wing",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Water Wing (SI, HC, Constable)",
+      "shortName": "Water Wing",
+      "overview": "BSF Water Wing recruitment for SI, Head Constable and Constable posts.",
+      "conductingBody": "BSF",
+      "tags": [
+        "tenthPass"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth",
+          "iti"
+        ],
+        "qualification": "SI: 12th + Second Class Master / Engine Driver certificate. HC / Constable: 10th + Serang / Engine Driver certificate, ITI, or boat experience",
+        "ageMin": 20,
+        "ageMax": 28,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "qualificationByPost": [
+          {
+            "post": "Water Wing SI",
+            "qualification": "12th + Second Class Master / Engine Driver certificate",
+            "extraRequirement": "Swimming test"
+          },
+          {
+            "post": "Water Wing HC / Constable",
+            "qualification": "10th + Serang / Engine Driver certificate, ITI, or boat experience",
+            "extraRequirement": "Swimming test"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "SI",
+            "lower": 22,
+            "ur": 28,
+            "obc": 31,
+            "scSt": 33,
+            "pwbdEligible": false,
+            "verify": true,
+            "note": "Verify in the official notice: based on recent notices, not the 2026 official PDF."
+          },
+          {
+            "post": "HC / Constable",
+            "lower": 20,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          },
+          {
+            "test": "Running (head constable posts)",
+            "men": "1.6 km in 6.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3 to 6, depending on the post"
+      },
+      "tips": [],
+      "officialWebsite": "https://rectt.bsf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 3
+    },
+    {
+      "id": "bsf-air-wing-works",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Air Wing / SI (Works) / JE",
+      "shortName": "Air Wing / JE",
+      "overview": "BSF technical recruitment for Air Wing, SI (Works) and JE posts.",
+      "conductingBody": "BSF",
+      "tags": [],
+      "eligibility": {
+        "qualificationLevels": [
+          "diploma",
+          "graduate"
+        ],
+        "qualification": "Diploma or B.Tech; AME licence for aircraft posts",
+        "ageMax": 30,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35,
+            "pwbdEligible": false
+          }
+        ],
+        "ageMin": 18
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice)."
+      },
+      "salary": {
+        "payLevel": 5,
+        "certainty": "official",
+        "note": "Level 5 to 6"
+      },
+      "tips": [],
+      "officialWebsite": "https://rectt.bsf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 4
+    },
+    {
+      "id": "capf-hc-ministerial-asi-steno",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Head Constable (Ministerial) & ASI (Stenographer)",
+      "shortName": "HC Ministerial",
+      "overview": "Clerical and stenographer posts in CRPF, CISF, BSF, ITBP and Assam Rifles.",
+      "conductingBody": "CRPF, CISF, BSF, ITBP, Assam Rifles",
+      "tags": [
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th pass",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "qualificationByPost": [
+          {
+            "post": "Head Constable (Ministerial)",
+            "qualification": "12th pass",
+            "extraRequirement": "Typing 35 wpm English / 30 wpm Hindi"
+          },
+          {
+            "post": "ASI (Stenographer)",
+            "qualification": "12th pass",
+            "extraRequirement": "Steno dictation 80 wpm"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "HC (Ministerial) / ASI (Steno)",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest check only; no running test",
+        "Written test",
+        "Skill test: typing (35 wpm English / 30 wpm Hindi) for ministerial posts, dictation for ASI Steno",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          }
+        ],
+        "note": "Height and chest check only; no running or physical efficiency test. Height and chest are the common constable-level PST (usual standards; check each notice)."
+      },
+      "salary": {
+        "payLevel": 4,
+        "certainty": "official",
+        "note": "Level 4 / 5"
+      },
+      "tips": [],
+      "officialWebsite": "https://rect.crpf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 5
+    },
+    {
+      "id": "capf-constable-driver",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Constable Driver",
+      "shortName": "Constable Driver",
+      "overview": "Constable Driver posts in CISF, ITBP and BSF for candidates with a heavy vehicle licence.",
+      "conductingBody": "CISF, ITBP, BSF",
+      "tags": [
+        "tenthPass"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass + valid Heavy Motor Vehicle / Transport licence, LMV and motorcycle licence",
+        "ageMin": 21,
+        "ageMax": 27,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "extraRequirement": "Driving experience",
+        "ageLimits": [
+          {
+            "lower": 21,
+            "ur": 27,
+            "obc": 30,
+            "scSt": 32,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Skill test: driving test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3"
+      },
+      "tips": [],
+      "officialWebsite": "https://cisfrectt.cisf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 6
+    },
+    {
+      "id": "cisf-constable-fireman",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Constable Fireman",
+      "shortName": "Fireman",
+      "overview": "CISF Constable Fireman recruitment, open to men with 12th Science.",
+      "conductingBody": "CISF",
+      "tags": [
+        "highVacancy"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth"
+        ],
+        "qualification": "12th with Science",
+        "ageMin": 18,
+        "ageMax": 23,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "gender": "men",
+        "extraRequirement": "Men only",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 23,
+            "obc": 26,
+            "scSt": 28,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3"
+      },
+      "tips": [],
+      "officialWebsite": "https://cisfrectt.cisf.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 7
+    },
+    {
+      "id": "itbp-pioneer-telecom",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Constable Pioneer / Telecom",
+      "shortName": "Pioneer / Telecom",
+      "overview": "ITBP Constable Pioneer and Telecom posts for 10th + ITI candidates.",
+      "conductingBody": "ITBP",
+      "tags": [],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "iti"
+        ],
+        "qualification": "10th + ITI in the relevant trade",
+        "ageMin": 18,
+        "ageMax": 23,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "qualificationByPost": [
+          {
+            "post": "Constable Pioneer",
+            "qualification": "10th + ITI (Carpenter, Mason, Plumber)"
+          },
+          {
+            "post": "Constable Telecom",
+            "qualification": "10th + ITI in Electronics / Electrician / COPA"
+          }
+        ],
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 23,
+            "obc": 26,
+            "scSt": 28,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3"
+      },
+      "tips": [],
+      "officialWebsite": "https://recruitment.itbpolice.nic.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 8
+    },
+    {
+      "id": "itbp-hc-si-telecom",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Head Constable / SI Telecom",
+      "shortName": "HC / SI Telecom",
+      "overview": "ITBP Head Constable and Sub-Inspector Telecom posts.",
+      "conductingBody": "ITBP",
+      "tags": [],
+      "eligibility": {
+        "qualificationLevels": [
+          "twelfth",
+          "iti",
+          "graduate"
+        ],
+        "qualification": "HC: 12th PCM (45%) or 10th + ITI. SI: B.Sc (PCM) / B.Tech / BCA",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "qualificationByPost": [
+          {
+            "post": "Head Constable Telecom",
+            "qualification": "12th PCM (45%), or 10th + ITI in Electronics / Electrician / COPA"
+          },
+          {
+            "post": "SI Telecom",
+            "qualification": "B.Sc (PCM) / B.Tech / BCA in IT, CS, Electronics"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "HC Telecom",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          },
+          {
+            "post": "SI Telecom",
+            "lower": 20,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (head constable posts)",
+            "men": "1.6 km in 6.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice)."
+      },
+      "salary": {
+        "payLevel": 4,
+        "certainty": "official",
+        "note": "Level 4 (HC) / Level 6 (SI)"
+      },
+      "tips": [],
+      "officialWebsite": "https://recruitment.itbpolice.nic.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 9
+    },
+    {
+      "id": "itbp-animal-transport",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Constable Animal Transport",
+      "shortName": "Animal Transport",
+      "overview": "ITBP Constable Animal Transport posts, open to 10th-pass men.",
+      "conductingBody": "ITBP",
+      "tags": [
+        "tenthPass"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth"
+        ],
+        "qualification": "10th pass (Kitchen Services: 10th + NSQF Level 1 in food production / kitchen)",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. PwBD candidates are not eligible for combat and uniformed CAPF posts.",
+        "gender": "men",
+        "qualificationByPost": [
+          {
+            "post": "Constable Animal Transport",
+            "qualification": "10th pass",
+            "extraRequirement": "Men only"
+          },
+          {
+            "post": "Constable Kitchen Services",
+            "qualification": "10th + NSQF Level 1 in food production / kitchen"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Animal Transport / Kitchen Services",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "pwbdEligible": false
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3"
+      },
+      "tips": [],
+      "officialWebsite": "https://recruitment.itbpolice.nic.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 10
+    },
+    {
+      "id": "capf-paramedical",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Paramedical staff",
+      "shortName": "Paramedical",
+      "overview": "Paramedical posts recruited by all CAPFs, from constable to diploma and degree level.",
+      "conductingBody": "All CAPFs",
+      "tags": [
+        "tenthPass"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth",
+          "diploma"
+        ],
+        "qualification": "Post-wise: 10th, 12th Science + diploma (GNM, D.Pharm, lab / X-ray / physio / dental), or certificate course",
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice.",
+        "qualificationByPost": [
+          {
+            "post": "SI Staff Nurse",
+            "qualification": "12th Science + GNM diploma, registered"
+          },
+          {
+            "post": "ASI Pharmacist",
+            "qualification": "12th Science + D.Pharm, registered"
+          },
+          {
+            "post": "ASI Lab / X-Ray / Physio / Dental Technician",
+            "qualification": "12th Science + diploma in the field"
+          },
+          {
+            "post": "HC (Midwife, Dresser, Jr X-Ray Assistant)",
+            "qualification": "10th / 12th + certificate course"
+          },
+          {
+            "post": "Constable (Ward Boy, Cook, Safai Karamchari, Masalchi)",
+            "qualification": "10th pass"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "SI Staff Nurse",
+            "lower": 21,
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35
+          },
+          {
+            "post": "ASI posts",
+            "lower": 18,
+            "ur": 25,
+            "obc": 28,
+            "scSt": 30,
+            "note": "Lower age 18 or 20 by post."
+          },
+          {
+            "post": "HC / Constable posts",
+            "lower": 18,
+            "ur": 25,
+            "note": "UR / EWS 23–25 by post; OBC +3, SC / ST +5."
+          }
+        ],
+        "ageMin": 18,
+        "ageMax": 30
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          },
+          {
+            "test": "Running (head constable posts)",
+            "men": "1.6 km in 6.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice). For CAPF constable posts, MHA has announced reservation and PET exemption for ex-Agniveers; check each notice for the exact conditions."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3 to 7, depending on the post"
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 11
+    },
+    {
+      "id": "assam-rifles-technical-tradesman",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "Technical & Tradesman Rally",
+      "shortName": "AR Tradesman",
+      "overview": "Assam Rifles rally for technical and tradesman posts.",
+      "conductingBody": "Assam Rifles",
+      "tags": [
+        "tenthPass"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "tenth",
+          "twelfth",
+          "iti",
+          "diploma"
+        ],
+        "qualification": "10th / 12th / ITI / diploma depending on trade",
+        "ageMin": 18,
+        "ageMax": 25,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice.",
+        "extraRequirement": "Rally-based physical tests",
+        "ageLimits": [
+          {
+            "lower": 18,
+            "ur": 25,
+            "note": "UR / EWS 23 or 25 by trade; OBC +3, SC / ST +5."
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "PST (Physical Standard Test): height and chest measurement",
+        "PET (Physical Efficiency Test)",
+        "Written test",
+        "Trade / Skill test",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "written",
+          "name": "Written test",
+          "rows": [
+            {
+              "subject": "General Intelligence"
+            },
+            {
+              "subject": "General Knowledge"
+            },
+            {
+              "subject": "Elementary Maths"
+            },
+            {
+              "subject": "Hindi or English"
+            }
+          ],
+          "totals": {
+            "questions": 100,
+            "marks": 100,
+            "minutes": 120
+          },
+          "note": "Usual pattern: 100 questions, 100 marks, 2 hours. Check each notice."
+        }
+      ],
+      "syllabus": [],
+      "physical": {
+        "rows": [
+          {
+            "test": "Height",
+            "men": "170 cm (UR); 162.5 cm (ST)",
+            "women": "157 cm (UR); 150 cm (ST)"
+          },
+          {
+            "test": "Chest",
+            "men": "80 + 5 cm"
+          },
+          {
+            "test": "Running (constable posts)",
+            "men": "5 km in 24 min",
+            "women": "1.6 km in 8.5 min"
+          },
+          {
+            "test": "Running (head constable posts)",
+            "men": "1.6 km in 6.5 min"
+          }
+        ],
+        "note": "Height and chest are the common constable-level PST (usual standards; check each notice)."
+      },
+      "salary": {
+        "payLevel": 3,
+        "certainty": "official",
+        "note": "Level 3 to 5"
+      },
+      "tips": [],
+      "officialWebsite": "https://assamrifles.gov.in",
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 12
+    },
+    {
+      "id": "capf-medical-officer",
+      "groupId": "paramilitary",
+      "guideRef": "7",
+      "siteCategories": [
+        "police"
+      ],
+      "name": "CAPF Medical Officer",
+      "shortName": "Medical Officer",
+      "overview": "Interview-based recruitment of doctors (MBBS / specialist PG) as CAPF Medical Officers.",
+      "conductingBody": "All CAPFs",
+      "tags": [
+        "highSalary",
+        "noWrittenExam",
+        "noPhysicalTest"
+      ],
+      "eligibility": {
+        "qualificationLevels": [
+          "professional"
+        ],
+        "qualification": "MBBS (Specialist: MD / MS / DNB), registered",
+        "ageMax": 50,
+        "ageNote": "Ex-servicemen: age minus military service + 3 years. Ex-Agniveers: as per the MHA rules in each notice. Age is counted on the closing date or the date in the notice.",
+        "qualificationByPost": [
+          {
+            "post": "Medical Officer",
+            "qualification": "MBBS",
+            "extraRequirement": "Registered"
+          },
+          {
+            "post": "Specialist Medical Officer",
+            "qualification": "MD / MS / DNB",
+            "extraRequirement": "Registered"
+          }
+        ],
+        "ageLimits": [
+          {
+            "post": "Medical Officer",
+            "ur": 30,
+            "obc": 33,
+            "scSt": 35
+          },
+          {
+            "post": "Specialist Medical Officer",
+            "ur": 40,
+            "obc": 43,
+            "scSt": 45
+          },
+          {
+            "post": "Super Specialist Medical Officer",
+            "ur": 50,
+            "note": "OBC and SC / ST limits not given; check the notice."
+          }
+        ]
+      },
+      "fee": {
+        "general": 100,
+        "reserved": 0,
+        "note": "Usually ₹100 for UR/OBC/EWS men; nil for women, SC, ST and ex-servicemen."
+      },
+      "selectionSteps": [
+        "Interview",
+        "Document verification and Detailed Medical Exam"
+      ],
+      "stages": [
+        {
+          "id": "interview",
+          "name": "Interview",
+          "rows": [
+            {
+              "subject": "Medical subjects (MBBS level) revision"
+            },
+            {
+              "subject": "Interview & personality"
+            },
+            {
+              "subject": "Current affairs & health policy"
+            }
+          ],
+          "note": "Medical Officer posts are interview-based; no written exam."
+        }
+      ],
+      "syllabus": [],
+      "salary": {
+        "payLevel": 10,
+        "certainty": "official",
+        "note": "Level 10 to 11"
+      },
+      "tips": [],
+      "sources": [],
+      "lastVerified": "2026-10-22",
+      "status": "published",
+      "order": 13
+    }
+  ]
+}

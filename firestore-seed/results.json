@@ -1,0 +1,188 @@
+[
+  {
+    "id": "rohit",
+    "name": {
+      "en": "Rohit Yadav",
+      "hi": "रोहित यादव",
+      "hinglish": "Rohit Yadav"
+    },
+    "place": {
+      "en": "Etawah",
+      "hi": "इटावा",
+      "hinglish": "Etawah"
+    },
+    "examName": {
+      "en": "Agniveer Army GD",
+      "hi": "अग्निवीर आर्मी जीडी",
+      "hinglish": "Agniveer Army GD"
+    },
+    "categoryId": "defence",
+    "year": 2025,
+    "status": "published",
+    "order": 1,
+    "mock": true
+  },
+  {
+    "id": "pooja",
+    "name": {
+      "en": "Pooja Kumari",
+      "hi": "पूजा कुमारी",
+      "hinglish": "Pooja Kumari"
+    },
+    "place": {
+      "en": "Kanpur",
+      "hi": "कानपुर",
+      "hinglish": "Kanpur"
+    },
+    "examName": {
+      "en": "UP Police Constable",
+      "hi": "यूपी पुलिस कांस्टेबल",
+      "hinglish": "UP Police Constable"
+    },
+    "categoryId": "police",
+    "year": 2025,
+    "status": "published",
+    "order": 2,
+    "mock": true
+  },
+  {
+    "id": "aman",
+    "name": {
+      "en": "Aman Singh",
+      "hi": "अमन सिंह",
+      "hinglish": "Aman Singh"
+    },
+    "place": {
+      "en": "Lucknow",
+      "hi": "लखनऊ",
+      "hinglish": "Lucknow"
+    },
+    "examName": {
+      "en": "NDA & NA",
+      "hi": "एनडीए और एनए",
+      "hinglish": "NDA aur NA"
+    },
+    "categoryId": "defence",
+    "year": 2025,
+    "rank": 214,
+    "status": "published",
+    "order": 3,
+    "mock": true
+  },
+  {
+    "id": "kajal",
+    "name": {
+      "en": "Kajal Verma",
+      "hi": "काजल वर्मा",
+      "hinglish": "Kajal Verma"
+    },
+    "place": {
+      "en": "Prayagraj",
+      "hi": "प्रयागराज",
+      "hinglish": "Prayagraj"
+    },
+    "examName": {
+      "en": "Police Sub-Inspector (SI)",
+      "hi": "पुलिस सब-इंस्पेक्टर (एसआई)",
+      "hinglish": "Police Sub-Inspector (SI)"
+    },
+    "categoryId": "police",
+    "year": 2025,
+    "status": "published",
+    "order": 4,
+    "mock": true
+  },
+  {
+    "id": "sandeep",
+    "name": {
+      "en": "Sandeep Kumar",
+      "hi": "संदीप कुमार",
+      "hinglish": "Sandeep Kumar"
+    },
+    "place": {
+      "en": "Mainpuri",
+      "hi": "मैनपुरी",
+      "hinglish": "Mainpuri"
+    },
+    "examName": {
+      "en": "SSC GD Constable",
+      "hi": "एसएससी जीडी कांस्टेबल",
+      "hinglish": "SSC GD Constable"
+    },
+    "categoryId": "ssc",
+    "year": 2024,
+    "status": "published",
+    "order": 5,
+    "mock": true
+  },
+  {
+    "id": "arjun",
+    "name": {
+      "en": "Arjun Chauhan",
+      "hi": "अर्जुन चौहान",
+      "hinglish": "Arjun Chauhan"
+    },
+    "place": {
+      "en": "Meerut",
+      "hi": "मेरठ",
+      "hinglish": "Meerut"
+    },
+    "examName": {
+      "en": "CDS",
+      "hi": "सीडीएस",
+      "hinglish": "CDS"
+    },
+    "categoryId": "defence",
+    "year": 2025,
+    "rank": 87,
+    "status": "published",
+    "order": 6,
+    "mock": true
+  },
+  {
+    "id": "neeraj",
+    "name": {
+      "en": "Neeraj Pal",
+      "hi": "नीरज पाल",
+      "hinglish": "Neeraj Pal"
+    },
+    "place": {
+      "en": "Agra",
+      "hi": "आगरा",
+      "hinglish": "Agra"
+    },
+    "examName": {
+      "en": "RRB Group D",
+      "hi": "आरआरबी ग्रुप डी",
+      "hinglish": "RRB Group D"
+    },
+    "categoryId": "railway",
+    "year": 2024,
+    "status": "published",
+    "order": 7,
+    "mock": true
+  },
+  {
+    "id": "vivek",
+    "name": {
+      "en": "Vivek Tiwari",
+      "hi": "विवेक तिवारी",
+      "hinglish": "Vivek Tiwari"
+    },
+    "place": {
+      "en": "Varanasi",
+      "hi": "वाराणसी",
+      "hinglish": "Varanasi"
+    },
+    "examName": {
+      "en": "IBPS PO",
+      "hi": "आईबीपीएस पीओ",
+      "hinglish": "IBPS PO"
+    },
+    "categoryId": "bank",
+    "year": 2024,
+    "status": "published",
+    "order": 8,
+    "mock": true
+  }
+]
