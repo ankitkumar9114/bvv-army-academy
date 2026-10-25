@@ -1682,7 +1682,7 @@ export default function CoursePage({ course }: { course: Course }) {
       {/* Phones: price + Buy now always in reach */}
       {selectedPlan && (
         <div className="fixed inset-x-0 bottom-0 z-raised flex items-center justify-between gap-3 border-t border-line bg-surface px-4 py-3 shadow-bottom md:hidden">
-          <div className="min-w-0">
+          <div className="shrink-0">
             {/* plan name only when there is a choice of plans (owner request: no "Offline" words) */}
             {PLAN_IDS.length > 1 && (
               <p className="text-xs text-ink-muted">{t(`${P}.plans.${plan}`)}</p>
@@ -1700,7 +1700,8 @@ export default function CoursePage({ course }: { course: Course }) {
             rel="noopener noreferrer"
             leftIcon={<WhatsAppIcon className="size-8" />}
             aria-label={`${t("courses.enquireLabel", { name })} ${t("common.opensNewTab")}`}
-            className="shrink-0"
+            // may shrink (label ends in "…") rather than run off a small screen with large phone text
+            className="min-w-0"
           >
             {/* short "Enquire" on phones so the monthly price fits beside it at 320px (owner request: per-month price) */}
             <span className="sm:hidden">{t("courses.enquireShort")}</span>

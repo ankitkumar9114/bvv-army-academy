@@ -77,7 +77,8 @@ export default function Navbar() {
     <>
     <header className="sticky top-0 z-header bg-surface shadow-md">
       <Container gutter="narrow" className="flex h-16 items-center gap-4 md:h-17.5 xl:gap-6">
-        <Link to="/" aria-label={t('nav.homeLabel')} className={cn('shrink-0 rounded-lg', focusRing)}>
+        {/* the logo may shrink (name ends in "…") so the icons never leave a small phone with large text */}
+        <Link to="/" aria-label={t('nav.homeLabel')} className={cn('min-w-0 rounded-lg', focusRing)}>
           <Logo />
         </Link>
 

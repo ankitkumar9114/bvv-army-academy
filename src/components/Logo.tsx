@@ -15,7 +15,7 @@ interface LogoProps {
 export function Logo({ inverted, className }: LogoProps) {
   const { t } = useTranslation();
   return (
-    <span className={cn('inline-flex items-center gap-2', className)}>
+    <span className={cn('inline-flex max-w-full items-center gap-2', className)}>
       <img
         src={logo96}
         srcSet={`${logo96} 1x, ${logo192} 2x`}
@@ -26,11 +26,11 @@ export function Logo({ inverted, className }: LogoProps) {
         decoding="async"
         className="size-10 shrink-0 md:size-12"
       />
-      <span className="flex flex-col">
-        <span className={cn('text-sm font-bold leading-4.5 md:text-base md:leading-5', inverted ? 'text-white' : 'text-ink')}>
+      <span className="flex min-w-0 flex-col">
+        <span className={cn('truncate text-sm font-bold leading-4.5 md:text-base md:leading-5', inverted ? 'text-white' : 'text-ink')}>
           {t('brand.short')}
         </span>
-        <span className={cn('text-2xs leading-3.5', inverted ? 'text-navy-200' : 'text-ink-muted')}>{t('brand.tagline')}</span>
+        <span className={cn('truncate text-2xs leading-3.5', inverted ? 'text-navy-200' : 'text-ink-muted')}>{t('brand.tagline')}</span>
       </span>
     </span>
   );

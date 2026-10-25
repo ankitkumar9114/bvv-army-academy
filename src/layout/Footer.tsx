@@ -222,7 +222,8 @@ export default function Footer() {
               </FooterHeading>
               <ul className="flex flex-wrap gap-2.5">
                 {topCourses(courses).map((c) => (
-                  <li key={c.id}>
+                  // max-w-full: a long course name ends in "…" instead of widening the page on small phones
+                  <li key={c.id} className="min-w-0 max-w-full">
                     <Link
                       to={`/courses/${c.id}`}
                       className={cn(
