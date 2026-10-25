@@ -511,6 +511,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "links should not have #", e.g. bvvarmyacademy.in/courses):** **BrowserRouter replaces HashRouter** (supersedes the 21 Oct HashRouter decision). URLs: `/`, `/courses`, `/courses/<id>`, `/about`, `/admin` (CMS), `/design-system`. GitHub Pages fallback: `npm run build` now ends with `scripts/spa-fallback.mjs`, which copies `dist/index.html` to `404.html`, `courses.html`, `about.html`, `admin.html`, `design-system.html` and `courses/<id>.html` for every live course (ids from the Firestore REST API with the public web config; if that fails, e.g. quota 429, course URLs still open through 404.html but with HTTP status 404 until the next deploy). A course made live in the CMS after a deploy works the same way (404 status) until the next push. `main.tsx` rewrites old `/#/…` links to the clean URL. Favicons use absolute paths (`/favicon-32.png`). CMS "View course page" opens `/courses/<id>`. Checked with `vite preview`: all routes, old hash links → clean URLs, header links, no console errors. Not yet live: needs a push.
 
+- **2026-10-25 (owner request: "remove this badge from all the selected students"):** the saffron **"Selected"** badge (trophy icon) on student photos is gone from the home Results row and the course page students row; cards show photo, name, exam + year. Key `results.selected` kept (unused). Checked home and SSC GD: no badge, no console errors.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5

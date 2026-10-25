@@ -1550,14 +1550,7 @@ export default function CoursePage({ course }: { course: Course }) {
                           tone="olive"
                           aspect="square"
                         />
-                        <Badge
-                          variant="new"
-                          size="sm"
-                          icon={<Icon name="emoji_events" size={12} />}
-                          className="absolute left-2 top-2"
-                        >
-                          {t("results.selected")}
-                        </Badge>
+                        {/* no "Selected" badge on the photo (owner request, 25 Oct) */}
                       </div>
                       <figcaption className="flex flex-col gap-0.5">
                         <span

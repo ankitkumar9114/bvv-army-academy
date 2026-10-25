@@ -1,6 +1,5 @@
-import { Icon } from '../components';
 import { useTranslation } from 'react-i18next';
-import { Badge, Marquee, MediaImage, Section, SectionHeading } from '../components';
+import { Marquee, MediaImage, Section, SectionHeading } from '../components';
 import { results } from '../data/results';
 import { useSelectedStudents } from '../lib/catalog';
 import { cn } from '../lib/cn';
@@ -41,9 +40,7 @@ export default function Results() {
             <div className="relative overflow-hidden rounded-2xl">
               {/* photo uploaded in the CMS (`media`), else the bundled one, else an illustration */}
               <MediaImage imageId={student.imageId} alt={t('results.photoAlt', { name: student.name })} src={student.src} icon="person" tone="olive" aspect="square" />
-              <Badge variant="new" size="sm" icon={<Icon name="emoji_events" size={12} />} className="absolute left-2 top-2">
-                {t('results.selected')}
-              </Badge>
+              {/* no "Selected" badge on the photo (owner request, 25 Oct) */}
             </div>
             <figcaption className="flex flex-col gap-0.5">
               <span className={cn(textStyles.h5, 'truncate text-ink')}>{student.name}</span>
