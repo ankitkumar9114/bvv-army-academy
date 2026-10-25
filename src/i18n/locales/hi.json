@@ -857,7 +857,7 @@
       "reviewsTitle": "हमारे छात्र क्या कहते हैं",
       "rating": "5 में से {{value}} रेटिंग",
       "supportTitle": "अभी भी तय नहीं कर पा रहे? मदद चाहिए?",
-      "supportBody": "सेवानिवृत्त सेना ट्रेनर",
+      "supportBody": "सेवानिवृत्त जेसीओ, भारतीय सेना",
       "supportFormBody": "{{name}} ({{role}}) खुद आपको कॉल करेंगे।",
       "counsellor": "संदीप तिवारी",
       "supportWhatsapp": "व्हाट्सऐप पर बात करें",
@@ -975,7 +975,8 @@
       "needHelp": "मदद चाहिए?",
       "pricingOptions": "कीमत के विकल्प",
       "supportWhatsappShort": "व्हाट्सऐप",
-      "perMonth": "{{value}}/माह"
+      "perMonth": "{{value}}/माह",
+      "supportByline": "सेवानिवृत्त जेसीओ संदीप तिवारी"
     }
   },
   "blog": {

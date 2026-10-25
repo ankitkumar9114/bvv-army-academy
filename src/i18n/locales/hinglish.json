@@ -857,7 +857,7 @@
       "reviewsTitle": "Hamare Students Kya Kehte Hain",
       "rating": "5 mein se {{value}} rating",
       "supportTitle": "Abhi Bhi Decide Nahi Kar pa Rahe? Help Chahiye?",
-      "supportBody": "Retd. Army trainer",
+      "supportBody": "Retd. JCO, Indian Army",
       "supportFormBody": "{{name}} ({{role}}) khud aapko call karenge.",
       "counsellor": "Sandeep Tiwari",
       "supportWhatsapp": "WhatsApp par baat karein",
@@ -975,7 +975,8 @@
       "needHelp": "Need Help?",
       "pricingOptions": "Pricing Options",
       "supportWhatsappShort": "WhatsApp",
-      "perMonth": "{{value}}/m"
+      "perMonth": "{{value}}/m",
+      "supportByline": "Retd. JCO Sandeep Tiwari"
     }
   },
   "blog": {

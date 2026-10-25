@@ -519,6 +519,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner request: "add a grey border around the image" in Selected Students, landing + course page):** student photos have a 1px `line` (#DCDCDC) border inside the 16px rounded frame (`border border-line` on the photo wrapper in Results.tsx and CoursePage.tsx), so white-background photos no longer blend into the page. Checked home and SSC GD at 1440.
 
+- **2026-10-25 (owner request: instead of "Retd. Army trainer" write "Retd. JCO Sandeep Tiwari"):** the "Need Help?" card (`SupportMini`: course page sticky column + phone menu) shows **"Retd. JCO Sandeep Tiwari"** / "सेवानिवृत्त जेसीओ संदीप तिवारी" (new key `pages.courseDetail.supportByline`); `supportBody` is now **"Retd. JCO, Indian Army"** / "सेवानिवृत्त जेसीओ, भारतीय सेना", used under the name in the landing phone contact bar and in the callback card ("Sandeep Tiwari (Retd. JCO, Indian Army) khud aapko call karenge."). 802 keys.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
