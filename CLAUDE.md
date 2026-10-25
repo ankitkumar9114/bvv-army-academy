@@ -530,6 +530,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 - **2026-10-25:** Clarity verified on the live site (home + course page send to clarity.ms with project z3b17jua58; /admin loads nothing).
 - **2026-10-25 (owner request: "move this section slightly upward, it should overlap the hero image more"):** exam category cards pulled up over the hero: section margin `-mt-8 sm:-mt-12 md:-mt-20` (was `mt-4 sm:-mt-6 md:-mt-14`). Measured overlap of the first card row on the hero: 32px at 390, 48px at 768, 80px at 1440 (phones had none before); no horizontal overflow.
 
+- **2026-10-25 (owner request: "reduce the hero image on mobile to 400px"):** below 600px the hero banner is **400px tall** (spacing token `hero-mobile` 25rem; `object-cover`, centred crop); from 600px it still follows the picture's shape. CMS phone picture size changed to **1170 × 1200** (390 × 400 at 3x; aspect token `hero-mobile` 1170 / 1200; hint updated). The current phone picture (1170 × 1500) is centre-cropped: its top label "AGNIVEER SELECTIONS" is cut slightly at 390px; headline, button and people stay visible. Measured 320 / 390 / 599 → 400px tall, 768 → 280, 1440 → 525, no overflow.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5

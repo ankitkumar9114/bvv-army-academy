@@ -183,7 +183,7 @@ Firestore are never changed. Public read of published offers.
 ## Hero banners: `heroSlides` collection (25 Oct 2026)
 
 `heroSlides/{id}` = one home page hero banner, edited in the CMS "Hero banners" screen: `name` {en, hi, hinglish} (CMS only),
-`desktopImageId` (1920 × 700, from 1024px), `tabletImageId?` (1280 × 720, 600–1023px), `mobileImageId?` (1170 × 1500, below 600px)
+`desktopImageId` (1920 × 700, from 1024px), `tabletImageId?` (1280 × 720, 600–1023px), `mobileImageId?` (1170 × 1200, shown 400px tall below 600px)
 (all `media` doc ids, `purpose: 'hero'`), `link?` (`/courses/…` site page, `https://…`, or empty = WhatsApp to Sandeep Tiwari), `alt?` {en, hi, hinglish},
 `status`, `order`. Live banners with a desktop picture rotate every 12 s in `order`. Public read of `published` docs.
 

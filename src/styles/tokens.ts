@@ -276,6 +276,7 @@ export const spacing = {
   '73': '18.25rem', // course card width in horizontal scrollers
   '88': '22rem',
   '110': '27.5rem',
+  'hero-mobile': '25rem', // home hero banner height on phones: 400px (owner request, 25 Oct)
 };
 
 /**
@@ -382,7 +383,7 @@ export const aspectRatio = {
   portrait: '3 / 4',
   banner: '5 / 2', // compact course-card media strip
   'hero-desktop': '1920 / 700', // home hero picture from 1024px (CMS crop frame + placeholder)
-  'hero-mobile': '1170 / 1500', // home hero picture on phones (CMS crop frame + placeholder)
+  'hero-mobile': '1170 / 1200', // home hero picture on phones, shown 400px tall (CMS crop frame + placeholder)
 };
 
 /** Accordion open/close animation (grid-template-rows trick). */

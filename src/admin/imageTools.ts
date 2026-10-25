@@ -13,7 +13,7 @@ export const OUTPUT: Record<ImageShape, { width: number; height: number }> = {
   // home hero banners (owner request, 25 Oct): shown 700px tall on desktop and 500px on phones, tablet 16:9
   heroDesktop: { width: 1920, height: 700 },
   heroTablet: { width: 1280, height: 720 },
-  heroMobile: { width: 1170, height: 1500 },
+  heroMobile: { width: 1170, height: 1200 },
 };
 
 /** Hero banners may use most of a Firestore doc (1 MB); the other images stay small. */

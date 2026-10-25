@@ -47,8 +47,9 @@ function imageFor(slide: HeroSlideDoc, screen: Screen) {
   return slide.mobileImageId ?? slide.tabletImageId ?? slide.desktopImageId;
 }
 
-/** Owner request (25 Oct): the picture is never cropped; it fills the width and its height follows its shape. */
-const IMG_CLASS = 'block h-auto w-full';
+/** The picture fills the width. Phones: a fixed 400px banner, cropped to fill from the centre (owner request, 25 Oct);
+ *  from 600px its height follows its shape (never cropped). */
+const IMG_CLASS = 'block h-hero-mobile w-full object-cover sm:h-auto';
 
 const SLIDE_CLASS = cn('relative block w-full', focusRing, 'focus-visible:ring-inset focus-visible:ring-offset-0');
 

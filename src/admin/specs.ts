@@ -629,10 +629,10 @@ export const heroSlideSpec: Spec[] = [
   {
     kind: 'image',
     key: 'mobileImageId',
-    label: 'Phone picture (1170 × 1500 px)',
+    label: 'Phone picture (1170 × 1200 px)',
     shape: 'heroMobile',
     purpose: 'hero',
-    hint: 'Shown on phones (below 600 px), scaled to the screen width, never cut. Make it exactly 1170 × 1500 px. Empty = the tablet, else the desktop picture.',
+    hint: 'Shown 400 px tall on phones (below 600 px). Make it exactly 1170 × 1200 px; on narrow or wide phones a little is cut from the sides or top and bottom, so keep text away from the edges. Empty = the tablet, else the desktop picture.',
   },
   {
     kind: 'string',
