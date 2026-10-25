@@ -5,8 +5,9 @@
  *     including one per live course (courses/<id>.html), so search engines get a normal page;
  *   - 404.html for everything else (a course added in the CMS after the deploy still opens, with status 404,
  *     until the next deploy).
- * Course ids come from Firestore (public read of live courses, the same Firebase web config as the site); if that
- * fails the build still succeeds with the fallback only.
+ * Course ids: every course in firestore-seed/courses.json (always available) plus the live courses in Firestore (public
+ * read, same web config as the site; skipped if it fails, e.g. the daily quota). A page for a hidden course is harmless:
+ * the app sends visitors on to /courses.
  */
 import { copyFileSync, existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -41,7 +42,7 @@ async function liveCourseIds() {
     const rows = await res.json();
     return rows.filter((r) => r.document).map((r) => r.document.name.split('/').pop());
   } catch (error) {
-    console.warn(`spa-fallback: could not list courses (${error.message}); course pages use 404.html.`);
+    console.warn(`spa-fallback: could not list courses (${error.message}); using the course list in firestore-seed/courses.json.`);
     return [];
   }
 }
@@ -52,7 +53,17 @@ function copyTo(file) {
   copyFileSync(index, target);
 }
 
-const courses = await liveCourseIds();
+function seedCourseIds() {
+  try {
+    const data = JSON.parse(readFileSync('firestore-seed/courses.json', 'utf8'));
+    const list = Array.isArray(data) ? data : Array.isArray(data.courses) ? data.courses : Object.values(data);
+    return list.map((c) => c?.id).filter((id) => typeof id === 'string' && /^[A-Za-z0-9-]+$/.test(id));
+  } catch {
+    return [];
+  }
+}
+
+const courses = [...new Set([...seedCourseIds(), ...(await liveCourseIds())])];
 const pages = ['404.html', 'courses.html', 'about.html', 'admin.html', 'design-system.html', ...courses.map((id) => `courses/${id}.html`)];
 pages.forEach(copyTo);
 console.log(`spa-fallback: wrote ${pages.length} pages (${courses.length} courses).`);
