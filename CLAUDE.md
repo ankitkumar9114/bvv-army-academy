@@ -515,6 +515,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner report: on a small phone the course page's bottom bar "Enquire" button goes off the screen):** cause: one footer course pill, "SSC MTS (Multi-Tasking Staff) & Havaldar", was 377px wide and couldn't wrap, so every page laid out at 393px on 360px phones and the browser zoomed out, cutting fixed bars. Fixes: footer course pill `<li>` gets `min-w-0 max-w-full` (long names end in "…"); header logo link can shrink (`min-w-0`, name + tagline `truncate` in `Logo`) so the search / menu icons never push past the edge with large phone text; course page bottom bar: price block `shrink-0`, Enquire button `min-w-0` (label shrinks with "…" instead of overflowing). Measured with mobile emulation: home, courses, about, SSC GD are exactly 360 / 320px wide; the bar button ends inside the screen at 360px with text at 100 / 115 / 130 %. Only remaining overflow: 320px with 130 % text (10px, the course page marquees). Not deployed (owner: code only for now).
 
+- **2026-10-25 (owner request: "remove those black buttons from the chips; the bottom bar should not go out of the screen"):** home exam category cards have **no black arrow circle** (`ChevronCircle` removed from ExamCategories.tsx; the whole card is still the button; component kept for the design-system page). The landing phone contact bar (Sandeep Tiwari + WhatsApp + call) was cut off by the same too-wide footer pill fixed above; measured with mobile emulation it now ends inside the screen (call button right edge 344 / 360px, 304 / 320px; also at 115 % text). Not deployed.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5

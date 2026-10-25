@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Card, ChevronCircle, Container, Illustration } from '../components';
+import { Card, Container, Illustration } from '../components';
 import { categories, type CategoryId } from '../data/categories';
 
 /**
@@ -45,7 +45,7 @@ export default function ExamCategories() {
                 <span className="min-w-0 flex-1 text-sm font-semibold leading-4.5 text-ink md:text-base md:leading-5 lg:text-xl lg:leading-6.5">
                   {t(`categories.pills.${category.id}`)}
                 </span>
-                <ChevronCircle />
+                {/* no arrow circle (owner request, 25 Oct): the whole card is the button */}
               </Card>
             </li>
           ))}
