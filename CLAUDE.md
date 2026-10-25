@@ -29,7 +29,7 @@ Single source of truth for this project. **Read this file and DESIGN.md before e
 | Install | `npm install` |
 | Dev server | `npm run dev` → http://localhost:5173 |
 | Build | `npm run build` (runs `tsc -b`, then `vite build`) |
-| Preview build | `npm run preview` → http://localhost:4173/bvv-army-academy/ |
+| Preview build | `npm run preview` → http://localhost:4173/ |
 | Locale key check | `npm run check:i18n` |
 | Deploy | push to `main`; `.github/workflows/deploy.yml` builds and publishes |
 | Firebase config | `.env.local` (copy `.env.example`); CI uses repo Actions variables `VITE_FIREBASE_*` |
@@ -37,7 +37,7 @@ Single source of truth for this project. **Read this file and DESIGN.md before e
 | CMS (login, live site + local) | `<site>/#/admin` (or http://localhost:5173/#/admin). Give someone access: `node scripts/set-admin.mjs <email>` (asks a password) or `--generate` (random password, printed once); `--remove` takes it away |
 | Firebase admin key (data upload, scripts) | `~/.config/bvv-army-academy/firebase-admin-key.json`, outside the repo, mode 600. **Never copy it into the project or commit it.** |
 
-**Repo name / base path:** `REPO_NAME` in `vite.config.ts` (default `bvv-army-academy`). Override with the `BASE_PATH` env variable (`/` for a custom domain). Dev runs at `/`; build and preview use `/<REPO_NAME>/`.
+**Domain / base path:** live at **https://bvvarmyacademy.in** (GoDaddy domain → GitHub Pages custom domain), so every build uses base `/`. Without the custom domain set the `BASE_PATH` env / repository variable to `/<repo>/`. DNS + Pages steps: README "Deploy".
 
 ## c) Folder structure
 
@@ -504,6 +504,8 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 - **2026-10-25 (owner request: "when anybody gives their name and phone number, save it in the CMS as a lead"):** every name + mobile form already saved to Firestore `enquiries` (home enquiry form `source: website`, course page callback `callback:<courseId>`, free live class `free-class:<courseId>`); the CMS now shows them as **Leads** (sidebar, icon `call`; `leadSpec` in specs.ts). List: newest first, columns Lead · Mobile (tap to call + WhatsApp link) · From ("Course page callback · SSC GD", "Free live class · …", "Home page enquiry form", plus exam / city when given) · Received (date + time) · Status, a **follow-up status dropdown** per row (New / Contacted / Admitted / Not interested; writes only `status`, the site always creates `new`), Edit and Delete (no New, no Duplicate, no Live switch); header "N new · M in total"; Status filter; search by name, mobile or city. Editor: name, mobile, source, exam, qualification, city and language read-only; status + **Notes** (CMS only) editable. No rule change needed (admins could already read / update / delete `enquiries`). **Not yet checked in the browser:** Firestore read quota was exhausted (25 Oct evening); type-check and build pass.
 
 - **2026-10-25 (owner request: "make it ready for deployment, nothing secret revealed, proper way"):** security pass: no keys / passwords / service-account files in the code (Firebase web config only from `VITE_FIREBASE_*` env: `.env.local` locally, GitHub Actions **variables** in CI; admin key stays in `~/.config/`); editor emails removed from this file. `.gitignore` now also covers `.env*` (except `.env.example`), service-account JSON names, `reference/`, `pending-firebase/`, `.*.tmp.mjs`, admin-script backups `docs/*-before-*.json` / `docs/hidden-*.json`, and `.claude/`. `npm audit`: runtime deps **0 vulnerabilities** after `overrides: { "@grpc/grpc-js": "^1.14.6" }` (old copy pulled by @firebase/firestore, Node-only path); 3 moderate remain in Tailwind's build-time `postcss-selector-parser`. Workflow: a "Check Firebase variables" step fails the deploy when the variables are missing; `BASE_PATH` = repo variable or `/<repo name>/` automatically. `index.html` got a meta description. Production build (`BASE_PATH=/bvv-army-academy/`) checked with `vite preview`: home, courses, about, SSC GD, admin sign-in load, no failed requests, no console errors. **Git repo created** (`main`, first commit, nothing pushed; git user ankitkumar9114). README has the step-by-step deploy (push, 7 variables, Pages source, Firebase authorized domain, API-key website restriction). Main JS chunk is 645 KB (226 KB gzip): fine for now; split it if load time matters.
+
+- **2026-10-25 (owner: "bvvarmyacademy.in, bought at GoDaddy"):** the site is built for the **root of bvvarmyacademy.in** (`base: '/'` in vite.config.ts; workflow `BASE_PATH` = repository variable or `/`; `REPO_NAME` removed); `<link rel="canonical" href="https://bvvarmyacademy.in/">`. README "Deploy" lists the GitHub Pages custom-domain steps: verify the domain (TXT), GoDaddy DNS (4 A records 185.199.108–111.153, optional AAAA 2606:50c0:8000–8003::153, CNAME `www` → `<user>.github.io`, remove parking / forwarding), Pages custom domain + Enforce HTTPS, Firebase authorized domains `bvvarmyacademy.in` + `www.`, API key website restriction.
 
 ## i) Changelog
 

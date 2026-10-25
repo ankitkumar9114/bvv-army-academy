@@ -2,17 +2,12 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 /**
- * GitHub Pages serves a project site from https://<user>.github.io/<REPO_NAME>/,
- * so production assets must be requested from /<REPO_NAME>/.
- *
- * To change it: edit REPO_NAME below, OR set the BASE_PATH env variable
- * (e.g. BASE_PATH=/ for a custom domain or a <user>.github.io repo).
+ * The site is served from the root of its own domain, https://bvvarmyacademy.in/ (GitHub Pages custom domain), so
+ * assets are requested from "/". Without a custom domain GitHub Pages serves https://<user>.github.io/<repo>/: then
+ * build with BASE_PATH=/<repo>/ (repository variable BASE_PATH in the deploy workflow).
  */
-const REPO_NAME = 'bvv-army-academy';
-
-export default defineConfig(({ command, isPreview }) => ({
-  // dev server runs at "/"; build and `npm run preview` use the GitHub Pages path.
-  base: process.env.BASE_PATH ?? (command === 'build' || isPreview ? `/${REPO_NAME}/` : '/'),
+export default defineConfig(() => ({
+  base: process.env.BASE_PATH ?? '/',
   plugins: [react()],
   // Firebase modules are imported on demand (catalog, CMS). Pre-bundling them together keeps a single
   // @firebase/app instance in dev; otherwise firebase/auth fails with "Component auth has not been registered yet".

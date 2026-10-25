@@ -45,10 +45,10 @@ jobs:
 
       - run: npm run build
         # Firebase web config from repo Settings → Secrets and variables → Actions → Variables (public values;
-        # the data is protected by firestore.rules). Site path: the BASE_PATH variable if set (e.g. "/" for a custom
-        # domain), else /<repo name>/ for https://<user>.github.io/<repo name>/.
+        # the data is protected by firestore.rules). The site runs at the root of its own domain, https://bvvarmyacademy.in/
+        # (custom domain set in Settings → Pages). Without a custom domain set the BASE_PATH variable to /<repo name>/.
         env:
-          BASE_PATH: ${{ vars.BASE_PATH || format('/{0}/', github.event.repository.name) }}
+          BASE_PATH: ${{ vars.BASE_PATH || '/' }}
           VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
           VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
           VITE_FIREBASE_PROJECT_ID: ${{ vars.VITE_FIREBASE_PROJECT_ID }}

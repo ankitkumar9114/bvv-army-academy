@@ -19,15 +19,15 @@ Other commands:
 
 ```bash
 npm run build        # type-check + production build into dist/
-npm run preview      # serve dist/ at http://localhost:4173/bvv-army-academy/
+npm run preview      # serve dist/ at http://localhost:4173/
 npm run check:i18n   # make sure en/hi/hinglish have the same keys
 ```
 
-## Deploy to GitHub Pages
+## Deploy (GitHub Pages + bvvarmyacademy.in)
 
-The workflow `.github/workflows/deploy.yml` runs on every push to `main`: install → locale check → Firebase settings check →
-type-check + build → publish. The site path is taken from the repo name automatically
-(`https://<username>.github.io/<repo-name>/`); for a custom domain set the repository variable `BASE_PATH` to `/`.
+Live site: **https://bvvarmyacademy.in** (domain bought at GoDaddy, hosted free on GitHub Pages).
+The workflow `.github/workflows/deploy.yml` runs on every push to `main`: install → locale check → Firebase settings
+check → type-check + build → publish.
 
 ### One-time setup
 
@@ -42,11 +42,23 @@ type-check + build → publish. The site path is taken from the repo name automa
    `VITE_FIREBASE_MESSAGING_SENDER_ID`, `VITE_FIREBASE_APP_ID`, `VITE_FIREBASE_MEASUREMENT_ID`.
    These are the public web settings (they ship in every Firebase website); the data is protected by `firestore.rules`.
 3. **Pages** → repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. **Actions** tab → *Deploy to GitHub Pages* → *Run workflow* (or push to `main`). The site URL is shown when it finishes.
-5. **Firebase console** (so the CMS login works on the live site):
-   - Authentication → Settings → **Authorized domains** → add `<username>.github.io` (and your custom domain later).
-   - Recommended: Google Cloud console → APIs & Services → Credentials → the *Browser key* → **Application restrictions:
-     Websites** → `https://<username>.github.io/*`, `http://localhost:5173/*` (stops other sites from using the key).
+4. **Verify the domain** (stops anyone else from claiming it on GitHub): your GitHub profile → **Settings → Pages →
+   Add a domain** → `bvvarmyacademy.in` → GitHub shows a TXT record (`_github-pages-challenge-<username>` = a code);
+   add it in GoDaddy (step 5) and click **Verify**.
+5. **GoDaddy → My Products → bvvarmyacademy.in → DNS → DNS Records**:
+   - Delete the existing **A** record for `@` ("Parked") and any **Forwarding** on the domain.
+   - Add four **A** records, name `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
+   - Optional (IPv6): four **AAAA** records, name `@`: `2606:50c0:8000::153`, `2606:50c0:8001::153`,
+     `2606:50c0:8002::153`, `2606:50c0:8003::153`.
+   - **CNAME** `www` → `<username>.github.io` (edit the existing `www` record if there is one).
+   - The TXT record from step 4.
+6. **Repo → Settings → Pages → Custom domain** → `bvvarmyacademy.in` → **Save**. When the DNS check turns green
+   (minutes to a few hours), tick **Enforce HTTPS** (the certificate can take up to a day).
+7. **Actions** tab → *Deploy to GitHub Pages* → *Run workflow* (or push to `main`).
+8. **Firebase console** (the CMS login only works on listed domains): Authentication → Settings → **Authorized domains**
+   → add `bvvarmyacademy.in` and `www.bvvarmyacademy.in`.
+9. Recommended: Google Cloud console → APIs & Services → Credentials → the *Browser key* → **Application restrictions:
+   Websites** → `https://bvvarmyacademy.in/*`, `https://www.bvvarmyacademy.in/*`, `http://localhost:5173/*`.
 
 ### Never commit
 
@@ -57,11 +69,9 @@ type-check + build → publish. The site path is taken from the repo name automa
 
 Edit `firestore.rules`, then publish with `node scripts/deploy-rules.mjs` (uses the admin key on this computer).
 
-## Change the repo name / base path
+## Base path
 
-The deploy workflow sets the base path from the repo name. For local `npm run preview` the default comes from
-`REPO_NAME` in `vite.config.ts` (`bvv-army-academy`); change it if your repo has another name.
-
-Using a custom domain or a `<username>.github.io` repo (site at the root)? Set the repository variable `BASE_PATH` to `/`.
+The site is built for the root of its domain (`/`). To publish without the custom domain
+(`https://<username>.github.io/<repo>/`), set the repository variable `BASE_PATH` to `/<repo>/`.
 
 Routes use a hash (`/#/courses`), so no extra 404 handling is needed on Pages.
