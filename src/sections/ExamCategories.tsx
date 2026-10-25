@@ -22,7 +22,7 @@ export default function ExamCategories() {
     <section
       id="categories"
       aria-labelledby="categories-title"
-      className="relative z-raised mt-4 scroll-mt-18 pb-8 sm:-mt-6 sm:pb-10 md:-mt-14 md:scroll-mt-20"
+      className="relative z-raised -mt-8 scroll-mt-18 pb-8 sm:-mt-12 sm:pb-10 md:-mt-20 md:scroll-mt-20"
     >
       <Container>
         <h2 id="categories-title" className="sr-only">

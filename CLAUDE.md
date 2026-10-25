@@ -527,6 +527,9 @@ Navbar (one row from 1280px: logo, search, links, language, Login/Enquire; searc
 
 - **2026-10-25 (owner: `npm install @microsoft/clarity`):** **Microsoft Clarity** 1.0.2 added (runtime audit still 0 vulnerabilities). `src/lib/analytics.ts` → `startAnalytics()` (called in main.tsx): loads Clarity on demand only in the production build, only when `VITE_CLARITY_PROJECT_ID` is set (`.env.example`, deploy workflow reads the Actions variable), and **never on /admin** (the CMS Leads screen shows phone numbers). Clarity masks form input by default. Project id `z3b17jua58` set as the Actions variable `VITE_CLARITY_PROJECT_ID` (and in `.env.local`). Note: a cookie / tracking notice is advisable under India's DPDP Act once real tracking runs.
 
+- **2026-10-25:** Clarity verified on the live site (home + course page send to clarity.ms with project z3b17jua58; /admin loads nothing).
+- **2026-10-25 (owner request: "move this section slightly upward, it should overlap the hero image more"):** exam category cards pulled up over the hero: section margin `-mt-8 sm:-mt-12 md:-mt-20` (was `mt-4 sm:-mt-6 md:-mt-14`). Measured overlap of the first card row on the hero: 32px at 390, 48px at 768, 80px at 1440 (phones had none before); no horizontal overflow.
+
 ## i) Changelog
 
 ### 2026-10-21: Session 1: project setup + landing sections 1–5
